@@ -490,3 +490,9 @@ alternative. LLM steps make many calls per upgrade (one per batch of sections, p
 [Evidence collection](docs/evidence-collection.md) · [LLM path](docs/llm-pipeline.md) ·
 [Risk extraction](docs/risk-extraction.md) · [Verification](docs/verification.md) ·
 [Model interface](docs/inference.md) · [Web search](docs/web-search.md)
+## License
+
+The code and documentation are released under the [MIT License](LICENSE). The files in `outputs/` quote short
+excerpts from the upgraded projects' public documentation (Django, React, Kubernetes, PostgreSQL, Next.js and
+Pydantic) as evidence; those excerpts remain under their original projects' licenses and are linked to their
+sources.
