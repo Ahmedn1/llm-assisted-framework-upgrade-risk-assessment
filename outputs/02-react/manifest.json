@@ -1,0 +1,221 @@
+{
+  "generated_at": "2026-10-09T09:16:13.699638+00:00",
+  "input": {
+    "project": "React",
+    "current_version": "17",
+    "target_version": "18"
+  },
+  "configuration": {
+    "offline": false,
+    "refresh": false,
+    "scorer": "heuristic",
+    "web_search": "auto",
+    "evidence_search": "none",
+    "max_documents": 100,
+    "resolver_requests": 100,
+    "collector_requests": 200,
+    "max_urls": 500,
+    "max_depth": 2,
+    "execution_path": "deterministic",
+    "section_relevance": true,
+    "risk_extraction": true,
+    "section_relevance_max_sections": 200,
+    "decision_backend": {
+      "adapter": "OpenD1Client",
+      "model": "LiquidAI/d1-3B@051bcc464b01b9f92942b364d9586b0ef5912432"
+    },
+    "risk_extraction_options": {
+      "max_sections": 150,
+      "structured_mode": "json_schema",
+      "max_output_tokens": 8192,
+      "token_parameter": "max_completion_tokens"
+    },
+    "risk_verification": {
+      "judge": "decision",
+      "max_conditions": 300
+    },
+    "models": {
+      "relevance": {
+        "kind": "d1",
+        "model": "LiquidAI/d1-3B",
+        "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+        "base_url": null,
+        "api_key_set": false,
+        "resolved_from": {
+          "backend": "default",
+          "model": "default",
+          "revision": "default pin",
+          "base_url": null,
+          "api_key": null
+        }
+      },
+      "extraction": {
+        "kind": "llm",
+        "model": "gpt-5.4-mini",
+        "base_url": "https://api.openai.com/v1",
+        "api_key_set": true,
+        "resolved_from": {
+          "model": "LLM_MODEL_NAME",
+          "base_url": "LLM_BASE_URL",
+          "api_key": "LLM_API_KEY"
+        }
+      },
+      "judge": {
+        "kind": "d1",
+        "model": "LiquidAI/d1-3B",
+        "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+        "base_url": null,
+        "api_key_set": false,
+        "resolved_from": {
+          "backend": "default",
+          "model": "default",
+          "revision": "default pin",
+          "base_url": null,
+          "api_key": null
+        }
+      }
+    }
+  },
+  "files": {
+    "resolution": "resolution.json",
+    "evidence": "evidence.json",
+    "source_inventory": "source_inventory.json",
+    "candidate_sections": "candidate_sections.json",
+    "risk_model": "risk_model.json",
+    "extracted_facts": "extracted_facts.json",
+    "grounding_report": "grounding_report.json",
+    "evidence_summary": "evidence_summary.json",
+    "final_output": "final_output.json",
+    "report": "report.html"
+  },
+  "section_relevance": {
+    "section_relevance_decision_calls": 124,
+    "section_relevance_scored": 124,
+    "section_relevance_failed": 0,
+    "section_relevance_not_scored": 0,
+    "section_relevance_labels": {
+      "risk_candidate": 36,
+      "context": 35,
+      "not_relevant": 53
+    }
+  },
+  "risk_extraction": {
+    "risk_paths": 87,
+    "contextual_facts": 159,
+    "overall_confidence": "high",
+    "extraction_llm_calls": 114,
+    "rejected_facts": 7,
+    "extraction_failures": 0
+  },
+  "risk_verification": {
+    "overall_confidence": "medium",
+    "judge": "decision",
+    "high_confidence_risks": 10,
+    "medium_confidence_risks": 53,
+    "low_confidence_or_disputed_risks": 24,
+    "sources_with_disagreements": 24
+  },
+  "summary": {
+    "resolver_status": "resolved",
+    "selected_catalog": "https://api.github.com/repos/react/react/releases",
+    "version_count": 5,
+    "milestones": [
+      "18"
+    ],
+    "resolver_coverage": {
+      "identity": "resolved_by_heuristics",
+      "catalog": "enumerated",
+      "discovery": "bounded_search",
+      "source_selection": "selected",
+      "publication": "catalog_records"
+    },
+    "resolver_warnings": [
+      "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+      "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+      "Non-stable, unsupported, or unavailable version labels were skipped; inspect catalogs[].skipped_labels."
+    ],
+    "resolver_network_requests": 0,
+    "collector_status": "partial",
+    "document_count": 100,
+    "retrieval_failures": 5,
+    "failure_examples": [
+      {
+        "url": "https://18.react.dev/sitemap.xml",
+        "retrieval_url": "https://18.react.dev/sitemap.xml",
+        "error": "Cached HTTP 404 for https://18.react.dev/sitemap.xml"
+      },
+      {
+        "url": "https://reactjs.org/docs/installation.html",
+        "retrieval_url": "https://reactjs.org/docs/installation.html",
+        "error": "Cached HTTP 404 for https://reactjs.org/docs/installation.html"
+      },
+      {
+        "url": "https://reactjs.org/docs/reusable-components.html",
+        "retrieval_url": "https://reactjs.org/docs/reusable-components.html",
+        "error": "Cached HTTP 404 for https://reactjs.org/docs/reusable-components.html"
+      },
+      {
+        "url": "https://reactjs.org/docs/top-level-api.html",
+        "retrieval_url": "https://reactjs.org/docs/top-level-api.html",
+        "error": "Cached HTTP 404 for https://reactjs.org/docs/top-level-api.html"
+      },
+      {
+        "url": "https://reactjs.org/docs/multiple-components.html",
+        "retrieval_url": "https://reactjs.org/docs/multiple-components.html",
+        "error": "Cached HTTP 404 for https://reactjs.org/docs/multiple-components.html"
+      }
+    ],
+    "validation_failures": 0,
+    "inference_failures": 0,
+    "pipeline_status": "completed_partial",
+    "document_types": {
+      "github_release": 5,
+      "supporting_document": 15,
+      "blog_post": 3,
+      "release_notes": 1,
+      "api_documentation": 21,
+      "upgrade_guide": 1,
+      "deprecation_notice": 1,
+      "github_pull_request": 52,
+      "github_issue": 1
+    },
+    "versions_with_candidate_evidence": 5,
+    "versions_with_direct_evidence": 5,
+    "versions_with_direct_release_notes": 5,
+    "versions_without_evidence": [],
+    "versions_with_only_registry_metadata": [],
+    "upgrade_guide_urls": [
+      "https://react.dev/blog/2022/03/08/react-18-upgrade-guide"
+    ],
+    "pending_urls": 47,
+    "skipped_urls": 3634,
+    "collector_network_requests": 9,
+    "collector_warnings": [
+      "GitHub search coverage is incomplete: https://api.github.com/search/issues?q=repo%3Areact%2Freact+%2218%22+%22upgrade%22&per_page=20",
+      "Host deferred because robots.txt could not be checked: https://www.npmjs.com: HTTP 403 for https://www.npmjs.com/robots.txt",
+      "robots.txt unavailable for https://babeljs.io: Cached HTTP 404 for https://babeljs.io/robots.txt"
+    ],
+    "llm_calls": 0,
+    "section_relevance_decision_calls": 124,
+    "section_relevance_scored": 124,
+    "section_relevance_failed": 0,
+    "section_relevance_not_scored": 0,
+    "section_relevance_labels": {
+      "risk_candidate": 36,
+      "context": 35,
+      "not_relevant": 53
+    },
+    "risk_paths": 87,
+    "contextual_facts": 159,
+    "overall_confidence": "high",
+    "extraction_llm_calls": 114,
+    "rejected_facts": 7,
+    "extraction_failures": 0,
+    "verification_overall_confidence": "medium",
+    "verification_judge": "decision",
+    "verification_high_confidence_risks": 10,
+    "verification_medium_confidence_risks": 53,
+    "verification_low_confidence_or_disputed_risks": 24,
+    "verification_sources_with_disagreements": 24
+  }
+}

@@ -1,0 +1,111 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Upgrade risk reports</title><style>
+/* Layout: overview band, then tabs; risks use a filter sidebar beside grouped, collapsible cards. */
+:root{
+  --bg:#f4f6f9;--panel:#ffffff;--sunken:#eef1f5;--fg:#18202c;--muted:#5b6575;--line:#dde2ea;--accent:#2457a6;--accent-soft:#e3ecf9;
+  --critical:#b42318;--high:#c4520c;--medium:#a17a00;--low:#2c7a4b;--unknown:#6b7280;
+  --ok:#2c7a4b;--warn:#a17a00;--bad:#b42318;--quote:#f6f7fa;--mark:#fff3bf;--shadow:0 1px 2px rgba(20,30,50,.06),0 2px 8px rgba(20,30,50,.05);
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  color-scheme:light}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#10141a;--panel:#181d25;--sunken:#1f2530;--fg:#e3e8ef;--muted:#98a2b3;--line:#2a313d;--accent:#7ea8ea;--accent-soft:#1f2c42;
+  --critical:#f0705e;--high:#f0955a;--medium:#dcbb56;--low:#67c18c;--unknown:#98a2b3;--ok:#67c18c;--warn:#dcbb56;--bad:#f0705e;
+  --quote:#1d232c;--mark:#4a4220;--shadow:0 1px 2px rgba(0,0,0,.4);color-scheme:dark}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}  /* layout rules such as display:grid must not reveal hidden tabs */
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 var(--sans)}
+main{max-width:1240px;margin:0 auto;padding:28px 16px 80px}
+a{color:var(--accent);text-underline-offset:2px}
+h1{font-size:1.75rem;line-height:1.2;margin:2px 0 8px;text-wrap:balance}
+h2{font-size:1.05rem;margin:0 0 10px}
+h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:18px 0 8px}
+code,.mono{font-family:var(--mono);font-size:.86em}
+.muted{color:var(--muted)}.small{font-size:.84rem}
+.eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:2px 10px;border-radius:999px;background:var(--sunken);font-size:.8rem;white-space:nowrap}
+.dot{width:9px;height:9px;border-radius:50%;flex:none;background:var(--unknown)}
+.d-critical{background:var(--critical)}.d-high{background:var(--high)}.d-medium{background:var(--medium)}.d-low{background:var(--low)}
+.c-high{background:var(--ok)}.c-medium{background:var(--warn)}.c-low{background:var(--bad)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow)}
+/* overview */
+.overview{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:14px;margin:20px 0}
+.overview .panel{padding:14px 16px}
+.sevbar{display:flex;height:12px;border-radius:6px;overflow:hidden;background:var(--sunken);margin:8px 0}
+.sevbar span{display:block}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:.84rem}
+.legend span{display:inline-flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums}
+.top{list-style:none;margin:6px 0 0;padding:0}
+.top li{display:flex;gap:8px;align-items:baseline;padding:5px 0;border-top:1px solid var(--line)}
+.top li:first-child{border-top:0}
+.top button{all:unset;cursor:pointer;color:var(--fg);flex:1;min-width:0}.top button:hover{color:var(--accent);text-decoration:underline}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.kpi b{display:block;font-size:1.5rem;font-variant-numeric:tabular-nums;line-height:1.1}.kpi span{font-size:.8rem;color:var(--muted)}
+details.fold>summary{cursor:pointer;color:var(--muted);font-size:.86rem;margin-top:10px}
+/* tabs */
+nav.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin:8px 0 18px;overflow-x:auto}
+nav.tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;font:inherit;color:var(--muted);cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected=true]{color:var(--fg);border-bottom-color:var(--accent);font-weight:600}
+nav.tabs .n{font-size:.75rem;background:var(--sunken);border-radius:999px;padding:0 7px;margin-left:6px}
+/* risks layout */
+.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:20px;align-items:start}
+.sidebar{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto;padding:14px}
+.sidebar>summary{font-weight:600;cursor:pointer;list-style:none}
+.sidebar>summary::-webkit-details-marker{display:none}
+.field{margin:12px 0}.field>label:not(.facet),.field .label{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:6px}
+input[type=search],select{width:100%;font:inherit;padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--fg)}
+.facet{display:flex;align-items:center;gap:8px;padding:3px 4px;border-radius:6px;cursor:pointer;font-size:.88rem}
+.facet:hover{background:var(--sunken)}.facet input{margin:0}.facet .count{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+.btn{font:inherit;font-size:.84rem;padding:5px 10px;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--fg);cursor:pointer}
+.btn:hover{border-color:var(--accent)}.btn.link{border:0;background:none;color:var(--accent);padding:2px 4px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:10px}
+/* groups and cards */
+details.group{margin:0 0 14px}
+details.group>summary{display:flex;align-items:center;gap:10px;cursor:pointer;padding:8px 2px;font-weight:600;list-style:none}
+details.group>summary::-webkit-details-marker,details.card>summary::-webkit-details-marker{display:none}
+details.group>summary::before,details.card>summary .caret::before{content:"▸";color:var(--muted);transition:transform .15s;display:inline-block}
+details.group[open]>summary::before,details.card[open]>summary .caret::before{transform:rotate(90deg)}
+details.card{border-left:4px solid var(--unknown);margin:8px 0}
+details.card[data-level=critical]{border-left-color:var(--critical)}details.card[data-level=high]{border-left-color:var(--high)}
+details.card[data-level=medium]{border-left-color:var(--medium)}details.card[data-level=low]{border-left-color:var(--low)}
+details.card>summary{cursor:pointer;list-style:none;padding:12px 14px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px}
+details.card>summary .caret{grid-row:span 3;padding-top:2px}
+.card-title{font-weight:600}
+.preview{color:var(--muted);font-size:.88rem;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+details.card[open] .preview{display:none}
+.card-body{padding:4px 18px 16px 34px;border-top:1px solid var(--line)}
+.callout{background:var(--sunken);border-left:3px solid var(--warn);border-radius:6px;padding:8px 10px;font-size:.86rem;margin:10px 0}
+.cond{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;padding:8px 0;border-top:1px dashed var(--line)}
+.cond:first-of-type{border-top:0}
+.role{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:5px;background:var(--sunken);height:fit-content;white-space:nowrap}
+.role-required{background:var(--accent-soft);color:var(--accent)}.role-disqualifying{background:var(--sunken);color:var(--ok)}
+.role-uncertain{background:var(--sunken);color:var(--warn)}
+.cond .expect{font-family:var(--mono);font-size:.82rem;color:var(--muted)}
+.cite{font:inherit;font-size:.75rem;font-weight:600;color:var(--accent);background:var(--accent-soft);border:0;border-radius:4px;padding:0 5px;margin-left:3px;cursor:pointer;vertical-align:1px}
+details.why>summary{font-size:.8rem;color:var(--muted);cursor:pointer;margin-top:4px}
+details.why>div{font-size:.84rem;color:var(--muted);padding:4px 0 0 2px}
+ol.steps,ul.checks{margin:4px 0;padding-left:22px}ol.steps li,ul.checks li{margin:3px 0}
+.patterns{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.pattern{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:6px;overflow:hidden;max-width:100%}
+.pattern code{padding:2px 8px;background:var(--sunken);overflow-wrap:anywhere}
+.pattern button{font:inherit;font-size:.74rem;border:0;border-left:1px solid var(--line);background:var(--panel);color:var(--accent);cursor:pointer;padding:2px 8px}
+details.evidence>summary{cursor:pointer;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:16px 0 6px}
+.quote{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 10px;padding:8px 10px;border-radius:7px;background:var(--quote);margin:6px 0;transition:background .4s}
+.quote.flash{background:var(--mark)}
+.quote .num{font-weight:700;color:var(--accent);font-size:.82rem}
+.quote blockquote{margin:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.quote .src{grid-column:2;font-size:.8rem;color:var(--muted);overflow-wrap:anywhere}
+.card-foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-top:14px;font-size:.8rem;color:var(--muted)}
+.empty{color:var(--muted);padding:24px 0;text-align:center}
+/* other tabs */
+.list-row{display:flex;gap:10px;align-items:baseline;padding:8px 0;border-top:1px solid var(--line)}
+.list-row:first-child{border-top:0}.list-row .grow{flex:1;min-width:0}
+details.section{padding:12px 14px;margin:0 0 12px}
+details.section>summary{cursor:pointer;font-weight:600}
+table{border-collapse:collapse;width:100%}th,td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+th{font-size:.76rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
+.scroll{overflow-x:auto}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+@media (max-width:900px){.overview{grid-template-columns:minmax(0,1fr)}.layout{grid-template-columns:minmax(0,1fr)}
+  .sidebar{position:static;max-height:none}.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}.card-body{padding-left:16px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body><main><p class="muted">Upgrade risk reports</p><h1>6 upgrades</h1><div class="scroll"><table><thead><tr><th>Upgrade</th><th>Risk paths</th><th>Critical</th><th>High</th><th>Overall confidence</th><th>Open questions</th></tr></thead><tbody><tr><td><a href="django_3.2_to_4.2.html">Django 3.2 → 4.2</a></td><td>214</td><td>0</td><td>86</td><td>medium</td><td>5</td></tr><tr><td><a href="react_17_to_18.html">React 17 → 18</a></td><td>87</td><td>0</td><td>17</td><td>medium</td><td>11</td></tr><tr><td><a href="kubernetes_1.23_to_1.29.html">Kubernetes 1.23 → 1.29</a></td><td>153</td><td>1</td><td>66</td><td>medium</td><td>21</td></tr><tr><td><a href="postgresql_13_to_16.html">PostgreSQL 13 → 16</a></td><td>492</td><td>0</td><td>118</td><td>medium</td><td>52</td></tr><tr><td><a href="next.js_12_to_14.html">Next.js 12 → 14</a></td><td>206</td><td>0</td><td>98</td><td>medium</td><td>65</td></tr><tr><td><a href="pydantic_1_to_2.html">Pydantic 1 → 2</a></td><td>218</td><td>0</td><td>76</td><td>medium</td><td>5</td></tr></tbody></table></div></main></body></html>

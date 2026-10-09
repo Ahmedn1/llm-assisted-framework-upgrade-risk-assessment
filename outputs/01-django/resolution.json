@@ -1,0 +1,2903 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-09T15:11:24.274167+00:00",
+  "input": {
+    "project": "Django",
+    "current_version": "3.2",
+    "target_version": "4.2",
+    "source_urls": [],
+    "version_mode": "family"
+  },
+  "status": "resolved",
+  "identity": {
+    "id": "github:django/django",
+    "name": "django",
+    "repository": "django/django",
+    "homepage": "https://www.djangoproject.com/",
+    "score": 15,
+    "confidence": "heuristic",
+    "evidence": [
+      {
+        "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+        "field": "full_name",
+        "value": "django/django"
+      },
+      {
+        "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+        "field": "description",
+        "value": "The Web framework for perfectionists with deadlines."
+      },
+      {
+        "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+        "field": "homepage",
+        "value": "https://www.djangoproject.com/"
+      },
+      {
+        "url": "https://www.djangoproject.com/",
+        "field": "repository_backlink",
+        "value": "https://github.com/django/django"
+      },
+      {
+        "url": "https://api.github.com/repos/django/django",
+        "field": "full_name",
+        "value": "django/django"
+      },
+      {
+        "url": "https://pypi.org/pypi/Django/json",
+        "field": "info.name",
+        "value": "Django"
+      },
+      {
+        "url": "https://pypi.org/pypi/Django/json",
+        "field": "info.summary",
+        "value": "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
+      },
+      {
+        "url": "https://pypi.org/pypi/Django/json",
+        "field": "info.project_urls.Documentation",
+        "value": "https://docs.djangoproject.com/"
+      },
+      {
+        "url": "https://pypi.org/pypi/Django/json",
+        "field": "info.project_urls.Funding",
+        "value": "https://www.djangoproject.com/fundraising/"
+      },
+      {
+        "url": "https://pypi.org/pypi/Django/json",
+        "field": "info.project_urls.Homepage",
+        "value": "https://www.djangoproject.com/"
+      },
+      {
+        "url": "https://pypi.org/pypi/Django/json",
+        "field": "info.project_urls.Release notes",
+        "value": "https://docs.djangoproject.com/en/stable/releases/"
+      },
+      {
+        "url": "https://pypi.org/pypi/Django/json",
+        "field": "info.project_urls.Source",
+        "value": "https://github.com/django/django"
+      },
+      {
+        "url": "https://pypi.org/pypi/Django/json",
+        "field": "info.project_urls.Tracker",
+        "value": "https://code.djangoproject.com/"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22Django%22+official+releases+3.2+to+4.2",
+        "field": "search_result",
+        "value": "https://pypi.org/project/Django/"
+      },
+      {
+        "url": "https://www.djangoproject.com/",
+        "field": "repository_backlink",
+        "value": "https://github.com/django/django"
+      },
+      {
+        "url": "https://api.github.com/repos/django/django",
+        "field": "full_name",
+        "value": "django/django"
+      }
+    ]
+  },
+  "version_policy": {
+    "stable_numeric_versions_only": true,
+    "interval": "exclude current family; include all target-family releases",
+    "milestone_precision": 2,
+    "note": "Milestones group discovered versions for documentation collection; they are not installation steps. Family mode does not assess changes within the current family."
+  },
+  "candidates": [
+    {
+      "kind": "github",
+      "name": "django",
+      "url": "https://github.com/django/django",
+      "description": "The Web framework for perfectionists with deadlines.",
+      "repository": "django/django",
+      "homepage": "https://www.djangoproject.com/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "django/django"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "The Web framework for perfectionists with deadlines."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://www.djangoproject.com/"
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "field": "repository_backlink",
+          "value": "https://github.com/django/django"
+        },
+        {
+          "url": "https://api.github.com/repos/django/django",
+          "field": "full_name",
+          "value": "django/django"
+        }
+      ],
+      "score": 15,
+      "reasons": [
+        "Exact normalized project-name match (+4)",
+        "Repository name matches the requested project (+3)",
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "pypi",
+      "name": "Django",
+      "url": "https://pypi.org/pypi/Django/json",
+      "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "repository": "django/django",
+      "homepage": "https://www.djangoproject.com/",
+      "evidence": [
+        {
+          "url": "https://pypi.org/pypi/Django/json",
+          "field": "info.name",
+          "value": "Django"
+        },
+        {
+          "url": "https://pypi.org/pypi/Django/json",
+          "field": "info.summary",
+          "value": "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
+        },
+        {
+          "url": "https://pypi.org/pypi/Django/json",
+          "field": "info.project_urls.Documentation",
+          "value": "https://docs.djangoproject.com/"
+        },
+        {
+          "url": "https://pypi.org/pypi/Django/json",
+          "field": "info.project_urls.Funding",
+          "value": "https://www.djangoproject.com/fundraising/"
+        },
+        {
+          "url": "https://pypi.org/pypi/Django/json",
+          "field": "info.project_urls.Homepage",
+          "value": "https://www.djangoproject.com/"
+        },
+        {
+          "url": "https://pypi.org/pypi/Django/json",
+          "field": "info.project_urls.Release notes",
+          "value": "https://docs.djangoproject.com/en/stable/releases/"
+        },
+        {
+          "url": "https://pypi.org/pypi/Django/json",
+          "field": "info.project_urls.Source",
+          "value": "https://github.com/django/django"
+        },
+        {
+          "url": "https://pypi.org/pypi/Django/json",
+          "field": "info.project_urls.Tracker",
+          "value": "https://code.djangoproject.com/"
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Django%22+official+releases+3.2+to+4.2",
+          "field": "search_result",
+          "value": "https://pypi.org/project/Django/"
+        },
+        {
+          "url": "https://www.djangoproject.com/",
+          "field": "repository_backlink",
+          "value": "https://github.com/django/django"
+        },
+        {
+          "url": "https://api.github.com/repos/django/django",
+          "field": "full_name",
+          "value": "django/django"
+        }
+      ],
+      "score": 15,
+      "reasons": [
+        "Exact normalized project-name match (+4)",
+        "Repository name matches the requested project (+3)",
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/",
+      "description": "",
+      "repository": "",
+      "homepage": "https://docs.djangoproject.com/en/6.1/releases/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Django%22+official+releases+3.2+to+4.2",
+          "field": "search_result",
+          "value": "https://docs.djangoproject.com/en/6.1/releases/"
+        },
+        {
+          "url": "https://docs.djangoproject.com/en/6.1/releases/",
+          "field": "title",
+          "value": "Release notes | Django documentation | Django"
+        },
+        {
+          "url": "https://docs.djangoproject.com/en/6.1/releases/3.2.4/",
+          "field": "project_release_link",
+          "value": "https://docs.djangoproject.com/en/6.1/releases/"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/#final-releases",
+      "description": "",
+      "repository": "",
+      "homepage": "https://docs.djangoproject.com/en/6.1/releases/#final-releases",
+      "evidence": [
+        {
+          "url": "https://docs.djangoproject.com/en/6.1/releases/",
+          "field": "project_release_link",
+          "value": "https://docs.djangoproject.com/en/6.1/releases/#final-releases"
+        },
+        {
+          "url": "https://docs.djangoproject.com/en/6.1/releases/#final-releases",
+          "field": "title",
+          "value": "Release notes | Django documentation | Django"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/#security-releases",
+      "description": "",
+      "repository": "",
+      "homepage": "https://docs.djangoproject.com/en/6.1/releases/#security-releases",
+      "evidence": [
+        {
+          "url": "https://docs.djangoproject.com/en/6.1/releases/",
+          "field": "project_release_link",
+          "value": "https://docs.djangoproject.com/en/6.1/releases/#security-releases"
+        },
+        {
+          "url": "https://docs.djangoproject.com/en/6.1/releases/#security-releases",
+          "field": "title",
+          "value": "Release notes | Django documentation | Django"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Django 3.2.4 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/3.2.4/",
+      "description": "",
+      "repository": "",
+      "homepage": "https://docs.djangoproject.com/en/6.1/releases/3.2.4/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Django%22+official+releases+3.2+to+4.2",
+          "field": "search_result",
+          "value": "https://docs.djangoproject.com/en/6.1/releases/3.2.4/"
+        },
+        {
+          "url": "https://docs.djangoproject.com/en/6.1/releases/3.2.4/",
+          "field": "title",
+          "value": "Django 3.2.4 release notes | Django documentation | Django"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "npm",
+      "name": "django",
+      "url": "https://registry.npmjs.org/django",
+      "description": "security holding package",
+      "repository": "npm/security-holder",
+      "homepage": "https://github.com/npm/security-holder#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/django/latest",
+          "field": "name",
+          "value": "django"
+        },
+        {
+          "url": "https://registry.npmjs.org/django/latest",
+          "field": "repository",
+          "value": "git+https://github.com/npm/security-holder.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/django/latest",
+          "field": "description",
+          "value": "security holding package"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Exact normalized project-name match (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Download Django | Django",
+      "url": "https://www.djangoproject.com/download/",
+      "description": "",
+      "repository": "",
+      "homepage": "https://www.djangoproject.com/download/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Django%22+official+releases+3.2+to+4.2",
+          "field": "search_result",
+          "value": "https://www.djangoproject.com/download/"
+        },
+        {
+          "url": "https://www.djangoproject.com/download/",
+          "field": "title",
+          "value": "Download Django | Django"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Django | endoflife.date",
+      "url": "https://endoflife.date/django",
+      "description": "Check end-of-life, release policy and support schedule for Django.",
+      "repository": "",
+      "homepage": "https://endoflife.date/django",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Django%22+official+releases+3.2+to+4.2",
+          "field": "search_result",
+          "value": "https://endoflife.date/django"
+        },
+        {
+          "url": "https://endoflife.date/django",
+          "field": "title",
+          "value": "Django | endoflife.date"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "cookiecutter-django",
+      "url": "https://github.com/cookiecutter/cookiecutter-django",
+      "description": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly.",
+      "repository": "cookiecutter/cookiecutter-django",
+      "homepage": "https://cookiecutter-django.readthedocs.io",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "cookiecutter/cookiecutter-django"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://cookiecutter-django.readthedocs.io"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "django-cms",
+      "url": "https://github.com/django-cms/django-cms",
+      "description": "The easy-to-use and developer-friendly enterprise CMS powered by Django ",
+      "repository": "django-cms/django-cms",
+      "homepage": "http://www.django-cms.org",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "django-cms/django-cms"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "The easy-to-use and developer-friendly enterprise CMS powered by Django "
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "http://www.django-cms.org"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "django-rest-framework",
+      "url": "https://github.com/encode/django-rest-framework",
+      "description": "Web APIs for Django. \ud83c\udfb8",
+      "repository": "encode/django-rest-framework",
+      "homepage": "https://www.django-rest-framework.org",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "encode/django-rest-framework"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Web APIs for Django. \ud83c\udfb8"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://www.django-rest-framework.org"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "healthchecks",
+      "url": "https://github.com/healthchecks/healthchecks",
+      "description": "Open-source cron job and background task monitoring service, written in Python & Django",
+      "repository": "healthchecks/healthchecks",
+      "homepage": "https://healthchecks.io",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "healthchecks/healthchecks"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Open-source cron job and background task monitoring service, written in Python & Django"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://healthchecks.io"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "django-allauth",
+      "url": "https://github.com/pennersr/django-allauth",
+      "description": "Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication. \ud83d\udd01 Mirror of https://codeberg.org/allauth/django-allauth/",
+      "repository": "pennersr/django-allauth",
+      "homepage": "https://allauth.org",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "pennersr/django-allauth"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication. \ud83d\udd01 Mirror of https://codeberg.org/allauth/django-allauth/"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://allauth.org"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "realworld",
+      "url": "https://github.com/realworld-apps/realworld",
+      "description": "\"The mother of all demo apps\" \u2014 Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
+      "repository": "realworld-apps/realworld",
+      "homepage": "https://docs.realworld.show",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "realworld-apps/realworld"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "\"The mother of all demo apps\" \u2014 Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://docs.realworld.show"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "docs",
+      "url": "https://github.com/suitenumerique/docs",
+      "description": "Docs is an open-source text editor: web-native, made for real-time collaboration, cleanly structured documents and sub-documents with full ownership of your data. Built to scale with Django and React.",
+      "repository": "suitenumerique/docs",
+      "homepage": "https://docs.la-suite.eu/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "suitenumerique/docs"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Docs is an open-source text editor: web-native, made for real-time collaboration, cleanly structured documents and sub-documents with full ownership of your data. Built to scale with Django and React."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://docs.la-suite.eu/"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "wagtail",
+      "url": "https://github.com/wagtail/wagtail",
+      "description": "A Django content management system focused on flexibility and user experience",
+      "repository": "wagtail/wagtail",
+      "homepage": "https://wagtail.org",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "wagtail/wagtail"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "A Django content management system focused on flexibility and user experience"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://wagtail.org"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "awesome-django",
+      "url": "https://github.com/wsvincent/awesome-django",
+      "description": "A curated list of awesome things related to Django",
+      "repository": "wsvincent/awesome-django",
+      "homepage": "http://awesomedjango.org",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "wsvincent/awesome-django"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "A curated list of awesome things related to Django"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "http://awesomedjango.org"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "npm",
+      "name": "@cspell/dict-django",
+      "url": "https://registry.npmjs.org/@cspell%2Fdict-django",
+      "description": "Django dictionary for cspell.",
+      "repository": "streetsidesoftware/cspell-dicts",
+      "homepage": "https://github.com/streetsidesoftware/cspell-dicts/blob/main/dictionaries/django#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@cspell%2Fdict-django/latest",
+          "field": "name",
+          "value": "@cspell/dict-django"
+        },
+        {
+          "url": "https://registry.npmjs.org/@cspell%2Fdict-django/latest",
+          "field": "repository",
+          "value": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@cspell%2Fdict-django/latest",
+          "field": "description",
+          "value": "Django dictionary for cspell."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Django&size=5",
+          "field": "package.name",
+          "value": "@cspell/dict-django"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "cspell-dict-django",
+      "url": "https://registry.npmjs.org/cspell-dict-django",
+      "description": "Django dictionary for cspell.",
+      "repository": "streetsidesoftware/cspell-dicts",
+      "homepage": "https://github.com/streetsidesoftware/cspell-dicts/blob/master/packages/django#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/cspell-dict-django/latest",
+          "field": "name",
+          "value": "cspell-dict-django"
+        },
+        {
+          "url": "https://registry.npmjs.org/cspell-dict-django/latest",
+          "field": "repository",
+          "value": "git+https://github.com/streetsidesoftware/cspell-dicts.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/cspell-dict-django/latest",
+          "field": "description",
+          "value": "Django dictionary for cspell."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Django&size=5",
+          "field": "package.name",
+          "value": "cspell-dict-django"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "django-js-reverse",
+      "url": "https://registry.npmjs.org/django-js-reverse",
+      "description": "JavaScript url handling for Django that doesn't hurt.",
+      "repository": "ierror/django-js-reverse",
+      "homepage": "https://github.com/ierror/django-js-reverse#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/django-js-reverse/latest",
+          "field": "name",
+          "value": "django-js-reverse"
+        },
+        {
+          "url": "https://registry.npmjs.org/django-js-reverse/latest",
+          "field": "repository",
+          "value": "git://github.com/ierror/django-js-reverse.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/django-js-reverse/latest",
+          "field": "description",
+          "value": "JavaScript url handling for Django that doesn't hurt."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Django&size=5",
+          "field": "package.name",
+          "value": "django-js-reverse"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "storybook-django",
+      "url": "https://registry.npmjs.org/storybook-django",
+      "description": "Implement, document, and test UI components in isolation from your Django views",
+      "repository": "torchbox/storybook-django",
+      "homepage": "https://github.com/torchbox/storybook-django",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/storybook-django/latest",
+          "field": "name",
+          "value": "storybook-django"
+        },
+        {
+          "url": "https://registry.npmjs.org/storybook-django/latest",
+          "field": "repository",
+          "value": "git+https://github.com/torchbox/storybook-django.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/storybook-django/latest",
+          "field": "description",
+          "value": "Implement, document, and test UI components in isolation from your Django views"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Django&size=5",
+          "field": "package.name",
+          "value": "storybook-django"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "django-vite-plugin",
+      "url": "https://registry.npmjs.org/django-vite-plugin",
+      "description": "Django plugin for Vite.",
+      "repository": "protibimbok/django-vite-plugin",
+      "homepage": "https://github.com/protibimbok/django-vite-plugin#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/django-vite-plugin/latest",
+          "field": "name",
+          "value": "django-vite-plugin"
+        },
+        {
+          "url": "https://registry.npmjs.org/django-vite-plugin/latest",
+          "field": "repository",
+          "value": "git+https://github.com/protibimbok/django-vite-plugin.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/django-vite-plugin/latest",
+          "field": "description",
+          "value": "Django plugin for Vite."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Django&size=5",
+          "field": "package.name",
+          "value": "django-vite-plugin"
+        }
+      ],
+      "score": -18,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    }
+  ],
+  "catalogs": [
+    {
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "releases": [
+        {
+          "version": "4.0",
+          "raw_version": "4.0",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2021-12-07T09:19:58.185240Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.1",
+          "raw_version": "4.0.1",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-01-04T09:53:25.637001Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.2",
+          "raw_version": "4.0.2",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-02-01T07:56:23.036066Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.3",
+          "raw_version": "4.0.3",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-03-01T08:47:23.930184Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.4",
+          "raw_version": "4.0.4",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-04-11T07:53:01.287027Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.5",
+          "raw_version": "4.0.5",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-06-01T12:22:12.865544Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.6",
+          "raw_version": "4.0.6",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-07-04T07:57:23.824880Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.7",
+          "raw_version": "4.0.7",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-08-03T07:38:18.509869Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.8",
+          "raw_version": "4.0.8",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-10-04T07:54:20.471830Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.9",
+          "raw_version": "4.0.9",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-02-01T09:55:52.888766Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.0.10",
+          "raw_version": "4.0.10",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-02-14T08:25:32.863462Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1",
+          "raw_version": "4.1",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-08-03T08:40:20.936536Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.1",
+          "raw_version": "4.1.1",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-09-05T05:02:26.425285Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.2",
+          "raw_version": "4.1.2",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-10-04T07:54:23.273959Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.3",
+          "raw_version": "4.1.3",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-11-01T06:18:15.550215Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.4",
+          "raw_version": "4.1.4",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2022-12-06T09:16:48.876036Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.5",
+          "raw_version": "4.1.5",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-01-02T07:34:45.541744Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.6",
+          "raw_version": "4.1.6",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-02-01T09:55:56.855590Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.7",
+          "raw_version": "4.1.7",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-02-14T08:25:36.578599Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.8",
+          "raw_version": "4.1.8",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-04-05T06:11:04.460008Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.9",
+          "raw_version": "4.1.9",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-05-03T12:58:23.438294Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.10",
+          "raw_version": "4.1.10",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-07-03T07:57:16.588462Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.11",
+          "raw_version": "4.1.11",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-09-04T10:58:19.024013Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.12",
+          "raw_version": "4.1.12",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-10-04T14:59:03.784687Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.1.13",
+          "raw_version": "4.1.13",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-11-01T06:59:10.387459Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2",
+          "raw_version": "4.2",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-04-03T08:36:11.797877Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.1",
+          "raw_version": "4.2.1",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-05-03T12:58:27.208245Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.2",
+          "raw_version": "4.2.2",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-06-05T14:09:31.615719Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.3",
+          "raw_version": "4.2.3",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-07-03T07:57:20.221899Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.4",
+          "raw_version": "4.2.4",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-08-01T17:30:17.903829Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.5",
+          "raw_version": "4.2.5",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-09-04T10:58:22.309202Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.6",
+          "raw_version": "4.2.6",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-10-04T14:58:34.647748Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.7",
+          "raw_version": "4.2.7",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-11-01T06:59:15.299512Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.8",
+          "raw_version": "4.2.8",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2023-12-04T08:34:42.842122Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.9",
+          "raw_version": "4.2.9",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2024-01-02T09:16:15.344483Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.10",
+          "raw_version": "4.2.10",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2024-02-06T14:53:58.214743Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.11",
+          "raw_version": "4.2.11",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2024-03-04T08:56:53.184104Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.12",
+          "raw_version": "4.2.12",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2024-05-06T16:41:14.599163Z",
+          "yanked": true,
+          "record_url": null
+        },
+        {
+          "version": "4.2.13",
+          "raw_version": "4.2.13",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2024-05-07T17:22:58.646120Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.14",
+          "raw_version": "4.2.14",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2024-07-09T14:03:07.782451Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.15",
+          "raw_version": "4.2.15",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2024-08-06T13:16:35.691921Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.16",
+          "raw_version": "4.2.16",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2024-09-03T14:01:55.363767Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.17",
+          "raw_version": "4.2.17",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2024-12-04T15:16:27.478333Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.18",
+          "raw_version": "4.2.18",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-01-14T14:27:36.140011Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.19",
+          "raw_version": "4.2.19",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-02-05T14:01:52.988362Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.20",
+          "raw_version": "4.2.20",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-03-06T12:58:44.863766Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.21",
+          "raw_version": "4.2.21",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-05-07T14:07:01.318915Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.22",
+          "raw_version": "4.2.22",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-06-04T13:53:33.923132Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.23",
+          "raw_version": "4.2.23",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-06-10T10:06:28.092920Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.24",
+          "raw_version": "4.2.24",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-09-03T13:13:51.365908Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.25",
+          "raw_version": "4.2.25",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-10-01T15:05:46.545878Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.26",
+          "raw_version": "4.2.26",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-11-05T14:08:20.328245Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.27",
+          "raw_version": "4.2.27",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2025-12-02T14:01:44.234529Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.28",
+          "raw_version": "4.2.28",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2026-02-03T13:55:09.798380Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.29",
+          "raw_version": "4.2.29",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2026-03-03T13:56:36.495094Z",
+          "yanked": false,
+          "record_url": null
+        },
+        {
+          "version": "4.2.30",
+          "raw_version": "4.2.30",
+          "source_url": "https://pypi.org/pypi/Django/json",
+          "source_type": "pypi_release_catalog",
+          "published_at": "2026-04-07T14:05:38.241693Z",
+          "yanked": false,
+          "record_url": null
+        }
+      ],
+      "enumeration_complete": true,
+      "warnings": [],
+      "skipped_labels": [
+        "1.0.1 (no available files)",
+        "1.0.2 (no available files)",
+        "1.0.3 (no available files)",
+        "1.0.4 (no available files)",
+        "1.1 (no available files)",
+        "1.1.1 (no available files)",
+        "1.1.2 (no available files)",
+        "1.10a1",
+        "1.10b1",
+        "1.10rc1",
+        "1.11a1",
+        "1.11b1",
+        "1.11rc1",
+        "1.8a1",
+        "1.8b1",
+        "1.8b2",
+        "1.8c1",
+        "1.9a1",
+        "1.9b1",
+        "1.9rc1",
+        "1.9rc2",
+        "2.0a1",
+        "2.0b1",
+        "2.0rc1",
+        "2.1a1",
+        "2.1b1",
+        "2.1rc1",
+        "2.2a1",
+        "2.2b1",
+        "2.2rc1",
+        "3.0a1",
+        "3.0b1",
+        "3.0rc1",
+        "3.1a1",
+        "3.1b1",
+        "3.1rc1",
+        "3.2a1",
+        "3.2b1",
+        "3.2rc1",
+        "4.0a1",
+        "4.0b1",
+        "4.0rc1",
+        "4.1a1",
+        "4.1b1",
+        "4.1rc1",
+        "4.2a1",
+        "4.2b1",
+        "4.2rc1",
+        "5.0a1",
+        "5.0b1",
+        "5.0rc1",
+        "5.1a1",
+        "5.1b1",
+        "5.1rc1",
+        "5.2a1",
+        "5.2b1",
+        "5.2rc1",
+        "6.0a1",
+        "6.0b1",
+        "6.0rc1",
+        "6.1a1",
+        "6.1b1",
+        "6.1rc1"
+      ]
+    },
+    {
+      "source_url": "https://api.github.com/repos/django/django/releases",
+      "source_type": "github_releases",
+      "releases": [],
+      "enumeration_complete": true,
+      "warnings": [],
+      "skipped_labels": []
+    },
+    {
+      "source_url": "https://api.github.com/repos/django/django/tags",
+      "source_type": "github_tags",
+      "releases": [
+        {
+          "version": "4.0",
+          "raw_version": "4.0",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0"
+        },
+        {
+          "version": "4.0.1",
+          "raw_version": "4.0.1",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.1"
+        },
+        {
+          "version": "4.0.2",
+          "raw_version": "4.0.2",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.2"
+        },
+        {
+          "version": "4.0.3",
+          "raw_version": "4.0.3",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.3"
+        },
+        {
+          "version": "4.0.4",
+          "raw_version": "4.0.4",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.4"
+        },
+        {
+          "version": "4.0.5",
+          "raw_version": "4.0.5",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.5"
+        },
+        {
+          "version": "4.0.6",
+          "raw_version": "4.0.6",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.6"
+        },
+        {
+          "version": "4.0.7",
+          "raw_version": "4.0.7",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.7"
+        },
+        {
+          "version": "4.0.8",
+          "raw_version": "4.0.8",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.8"
+        },
+        {
+          "version": "4.0.9",
+          "raw_version": "4.0.9",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.9"
+        },
+        {
+          "version": "4.0.10",
+          "raw_version": "4.0.10",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.0.10"
+        },
+        {
+          "version": "4.1",
+          "raw_version": "4.1",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1"
+        },
+        {
+          "version": "4.1.1",
+          "raw_version": "4.1.1",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.1"
+        },
+        {
+          "version": "4.1.2",
+          "raw_version": "4.1.2",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.2"
+        },
+        {
+          "version": "4.1.3",
+          "raw_version": "4.1.3",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.3"
+        },
+        {
+          "version": "4.1.4",
+          "raw_version": "4.1.4",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.4"
+        },
+        {
+          "version": "4.1.5",
+          "raw_version": "4.1.5",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.5"
+        },
+        {
+          "version": "4.1.6",
+          "raw_version": "4.1.6",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.6"
+        },
+        {
+          "version": "4.1.7",
+          "raw_version": "4.1.7",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.7"
+        },
+        {
+          "version": "4.1.8",
+          "raw_version": "4.1.8",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.8"
+        },
+        {
+          "version": "4.1.9",
+          "raw_version": "4.1.9",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.9"
+        },
+        {
+          "version": "4.1.10",
+          "raw_version": "4.1.10",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.10"
+        },
+        {
+          "version": "4.1.11",
+          "raw_version": "4.1.11",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.11"
+        },
+        {
+          "version": "4.1.12",
+          "raw_version": "4.1.12",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.12"
+        },
+        {
+          "version": "4.1.13",
+          "raw_version": "4.1.13",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.1.13"
+        },
+        {
+          "version": "4.2",
+          "raw_version": "4.2",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2"
+        },
+        {
+          "version": "4.2.1",
+          "raw_version": "4.2.1",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.1"
+        },
+        {
+          "version": "4.2.2",
+          "raw_version": "4.2.2",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.2"
+        },
+        {
+          "version": "4.2.3",
+          "raw_version": "4.2.3",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.3"
+        },
+        {
+          "version": "4.2.4",
+          "raw_version": "4.2.4",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.4"
+        },
+        {
+          "version": "4.2.5",
+          "raw_version": "4.2.5",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.5"
+        },
+        {
+          "version": "4.2.6",
+          "raw_version": "4.2.6",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.6"
+        },
+        {
+          "version": "4.2.7",
+          "raw_version": "4.2.7",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.7"
+        },
+        {
+          "version": "4.2.8",
+          "raw_version": "4.2.8",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.8"
+        },
+        {
+          "version": "4.2.9",
+          "raw_version": "4.2.9",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.9"
+        },
+        {
+          "version": "4.2.10",
+          "raw_version": "4.2.10",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.10"
+        },
+        {
+          "version": "4.2.11",
+          "raw_version": "4.2.11",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.11"
+        },
+        {
+          "version": "4.2.12",
+          "raw_version": "4.2.12",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.12"
+        },
+        {
+          "version": "4.2.13",
+          "raw_version": "4.2.13",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.13"
+        },
+        {
+          "version": "4.2.14",
+          "raw_version": "4.2.14",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.14"
+        },
+        {
+          "version": "4.2.15",
+          "raw_version": "4.2.15",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.15"
+        },
+        {
+          "version": "4.2.16",
+          "raw_version": "4.2.16",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.16"
+        },
+        {
+          "version": "4.2.17",
+          "raw_version": "4.2.17",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.17"
+        },
+        {
+          "version": "4.2.18",
+          "raw_version": "4.2.18",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.18"
+        },
+        {
+          "version": "4.2.19",
+          "raw_version": "4.2.19",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.19"
+        },
+        {
+          "version": "4.2.20",
+          "raw_version": "4.2.20",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.20"
+        },
+        {
+          "version": "4.2.21",
+          "raw_version": "4.2.21",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.21"
+        },
+        {
+          "version": "4.2.22",
+          "raw_version": "4.2.22",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.22"
+        },
+        {
+          "version": "4.2.23",
+          "raw_version": "4.2.23",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.23"
+        },
+        {
+          "version": "4.2.24",
+          "raw_version": "4.2.24",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.24"
+        },
+        {
+          "version": "4.2.25",
+          "raw_version": "4.2.25",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.25"
+        },
+        {
+          "version": "4.2.26",
+          "raw_version": "4.2.26",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.26"
+        },
+        {
+          "version": "4.2.27",
+          "raw_version": "4.2.27",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.27"
+        },
+        {
+          "version": "4.2.28",
+          "raw_version": "4.2.28",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.28"
+        },
+        {
+          "version": "4.2.29",
+          "raw_version": "4.2.29",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.29"
+        },
+        {
+          "version": "4.2.30",
+          "raw_version": "4.2.30",
+          "source_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+          "source_type": "github_tags",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://github.com/django/django/tree/4.2.30"
+        }
+      ],
+      "enumeration_complete": true,
+      "warnings": [
+        "Git tags identify source references; they do not prove that a corresponding package or binary was published."
+      ],
+      "skipped_labels": [
+        "stable/5.1.x",
+        "stable/5.0.x",
+        "stable/4.2.x",
+        "stable/4.1.x",
+        "stable/4.0.x",
+        "stable/3.2.x",
+        "stable/3.1.x",
+        "stable/3.0.x",
+        "stable/2.2.x",
+        "stable/2.1.x",
+        "stable/2.0.x",
+        "stable/1.11.x",
+        "stable/1.10.x",
+        "stable/1.9.x",
+        "stable/1.8.x",
+        "stable/1.7.x",
+        "stable/1.6.x",
+        "stable/1.5.x",
+        "stable/1.4.x",
+        "stable/1.3.x",
+        "stable/1.2.x",
+        "stable/1.1.x",
+        "stable/1.0.x",
+        "stable/0.96.x",
+        "stable/0.95.x",
+        "stable/0.91.x",
+        "stable/0.90.x",
+        "archive/soc2010/test-refactor",
+        "archive/soc2010/query-refactor",
+        "archive/soc2010/app-loading",
+        "archive/soc2009/test-improvements",
+        "archive/soc2009/multidb",
+        "archive/soc2009/model-validation",
+        "archive/soc2009/i18n-improvements",
+        "archive/soc2009/http-wsgi-improvements",
+        "archive/soc2009/admin-ui",
+        "archive/attic/unicode",
+        "archive/attic/sqlalchemy",
+        "archive/attic/search-api",
+        "archive/attic/schema-evolution-ng",
+        "archive/attic/schema-evolution",
+        "archive/attic/queryset-refactor",
+        "archive/attic/per-object-permissions",
+        "archive/attic/newforms-admin",
+        "archive/attic/new-admin",
+        "archive/attic/multiple-db-support",
+        "archive/attic/multi-auth",
+        "archive/attic/magic-removal",
+        "archive/attic/i18n",
+        "archive/attic/gis",
+        "archive/attic/generic-auth",
+        "archive/attic/full-history",
+        "archive/attic/boulder-oracle-sprint",
+        "6.1rc1",
+        "6.1b1",
+        "6.1a1",
+        "6.0rc1",
+        "6.0b1",
+        "6.0a1",
+        "5.2rc1",
+        "5.2b1",
+        "5.2a1",
+        "5.1rc1",
+        "5.1b1",
+        "5.1a1",
+        "5.0rc1",
+        "5.0b1",
+        "5.0a1",
+        "4.2rc1",
+        "4.2b1",
+        "4.2a1",
+        "4.1rc1",
+        "4.1b1",
+        "4.1a1",
+        "4.0rc1",
+        "4.0b1",
+        "4.0a1",
+        "3.2rc1",
+        "3.2b1",
+        "3.2a1",
+        "3.1rc1",
+        "3.1b1",
+        "3.1a1",
+        "3.0rc1",
+        "3.0b1",
+        "3.0a1",
+        "2.2rc1",
+        "2.2b1",
+        "2.2a1",
+        "2.1rc1",
+        "2.1b1",
+        "2.1a1",
+        "2.0rc1",
+        "2.0b1",
+        "2.0a1",
+        "1.11rc1",
+        "1.11b1",
+        "1.11a1",
+        "1.10rc1",
+        "1.10b1",
+        "1.10a1",
+        "1.9rc2",
+        "1.9rc1",
+        "1.9b1",
+        "1.9a1",
+        "1.8c1",
+        "1.8b2",
+        "1.8b1",
+        "1.8a1",
+        "1.7c3",
+        "1.7c2",
+        "1.7c1",
+        "1.7b4",
+        "1.7b3",
+        "1.7b2",
+        "1.7b1",
+        "1.7a2",
+        "1.7a1",
+        "1.6c1",
+        "1.6b4",
+        "1.6b3",
+        "1.6b2",
+        "1.6b1",
+        "1.6a1",
+        "1.5c2",
+        "1.5c1",
+        "1.5b2",
+        "1.5b1",
+        "1.5a1"
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "version": "4.0",
+      "raw_version": "4.0",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2021-12-07T09:19:58.185240Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.1",
+      "raw_version": "4.0.1",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-01-04T09:53:25.637001Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.2",
+      "raw_version": "4.0.2",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-02-01T07:56:23.036066Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.3",
+      "raw_version": "4.0.3",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-03-01T08:47:23.930184Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.4",
+      "raw_version": "4.0.4",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-04-11T07:53:01.287027Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.5",
+      "raw_version": "4.0.5",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-06-01T12:22:12.865544Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.6",
+      "raw_version": "4.0.6",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-07-04T07:57:23.824880Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.7",
+      "raw_version": "4.0.7",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-08-03T07:38:18.509869Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.8",
+      "raw_version": "4.0.8",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-10-04T07:54:20.471830Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.9",
+      "raw_version": "4.0.9",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-02-01T09:55:52.888766Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.0.10",
+      "raw_version": "4.0.10",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-02-14T08:25:32.863462Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1",
+      "raw_version": "4.1",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-08-03T08:40:20.936536Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.1",
+      "raw_version": "4.1.1",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-09-05T05:02:26.425285Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.2",
+      "raw_version": "4.1.2",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-10-04T07:54:23.273959Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.3",
+      "raw_version": "4.1.3",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-11-01T06:18:15.550215Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.4",
+      "raw_version": "4.1.4",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2022-12-06T09:16:48.876036Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.5",
+      "raw_version": "4.1.5",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-01-02T07:34:45.541744Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.6",
+      "raw_version": "4.1.6",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-02-01T09:55:56.855590Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.7",
+      "raw_version": "4.1.7",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-02-14T08:25:36.578599Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.8",
+      "raw_version": "4.1.8",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-04-05T06:11:04.460008Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.9",
+      "raw_version": "4.1.9",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-05-03T12:58:23.438294Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.10",
+      "raw_version": "4.1.10",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-07-03T07:57:16.588462Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.11",
+      "raw_version": "4.1.11",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-09-04T10:58:19.024013Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.12",
+      "raw_version": "4.1.12",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-10-04T14:59:03.784687Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.1.13",
+      "raw_version": "4.1.13",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-11-01T06:59:10.387459Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2",
+      "raw_version": "4.2",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-04-03T08:36:11.797877Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.1",
+      "raw_version": "4.2.1",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-05-03T12:58:27.208245Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.2",
+      "raw_version": "4.2.2",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-06-05T14:09:31.615719Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.3",
+      "raw_version": "4.2.3",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-07-03T07:57:20.221899Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.4",
+      "raw_version": "4.2.4",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-08-01T17:30:17.903829Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.5",
+      "raw_version": "4.2.5",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-09-04T10:58:22.309202Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.6",
+      "raw_version": "4.2.6",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-10-04T14:58:34.647748Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.7",
+      "raw_version": "4.2.7",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-11-01T06:59:15.299512Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.8",
+      "raw_version": "4.2.8",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2023-12-04T08:34:42.842122Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.9",
+      "raw_version": "4.2.9",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2024-01-02T09:16:15.344483Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.10",
+      "raw_version": "4.2.10",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2024-02-06T14:53:58.214743Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.11",
+      "raw_version": "4.2.11",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2024-03-04T08:56:53.184104Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.12",
+      "raw_version": "4.2.12",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2024-05-06T16:41:14.599163Z",
+      "yanked": true,
+      "record_url": null
+    },
+    {
+      "version": "4.2.13",
+      "raw_version": "4.2.13",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2024-05-07T17:22:58.646120Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.14",
+      "raw_version": "4.2.14",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2024-07-09T14:03:07.782451Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.15",
+      "raw_version": "4.2.15",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2024-08-06T13:16:35.691921Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.16",
+      "raw_version": "4.2.16",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2024-09-03T14:01:55.363767Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.17",
+      "raw_version": "4.2.17",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2024-12-04T15:16:27.478333Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.18",
+      "raw_version": "4.2.18",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-01-14T14:27:36.140011Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.19",
+      "raw_version": "4.2.19",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-02-05T14:01:52.988362Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.20",
+      "raw_version": "4.2.20",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-03-06T12:58:44.863766Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.21",
+      "raw_version": "4.2.21",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-05-07T14:07:01.318915Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.22",
+      "raw_version": "4.2.22",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-06-04T13:53:33.923132Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.23",
+      "raw_version": "4.2.23",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-06-10T10:06:28.092920Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.24",
+      "raw_version": "4.2.24",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-09-03T13:13:51.365908Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.25",
+      "raw_version": "4.2.25",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-10-01T15:05:46.545878Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.26",
+      "raw_version": "4.2.26",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-11-05T14:08:20.328245Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.27",
+      "raw_version": "4.2.27",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2025-12-02T14:01:44.234529Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.28",
+      "raw_version": "4.2.28",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2026-02-03T13:55:09.798380Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.29",
+      "raw_version": "4.2.29",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2026-03-03T13:56:36.495094Z",
+      "yanked": false,
+      "record_url": null
+    },
+    {
+      "version": "4.2.30",
+      "raw_version": "4.2.30",
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "source_type": "pypi_release_catalog",
+      "published_at": "2026-04-07T14:05:38.241693Z",
+      "yanked": false,
+      "record_url": null
+    }
+  ],
+  "documentation_milestones": [
+    "4.0",
+    "4.1",
+    "4.2"
+  ],
+  "endpoint_checks": {
+    "current_found": true,
+    "target_found": true
+  },
+  "coverage": {
+    "identity": "resolved_by_heuristics",
+    "catalog": "enumerated",
+    "discovery": "bounded_search",
+    "source_selection": "selected",
+    "publication": "catalog_records"
+  },
+  "warnings": [
+    "Git tags identify source references; they do not prove that a corresponding package or binary was published.",
+    "Non-stable, unsupported, or unavailable version labels were skipped; inspect catalogs[].skipped_labels."
+  ],
+  "open_questions": [],
+  "source_inventory": [
+    {
+      "url": "https://api.github.com/repos/django/django",
+      "final_url": "https://api.github.com/repos/django/django",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:38:26.665209+00:00",
+      "content_sha256": "99121df70c246a15ba68f7023a0422dbe5418754014dd8e80678defe38f56e43",
+      "from_cache": true,
+      "source_id": "source_85dc8d64863d"
+    },
+    {
+      "url": "https://api.github.com/repos/django/django/releases?per_page=100&page=1",
+      "final_url": "https://api.github.com/repos/django/django/releases?per_page=100&page=1",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:40.748820+00:00",
+      "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "from_cache": true,
+      "source_id": "source_529d4fc1ee85"
+    },
+    {
+      "url": "https://api.github.com/repos/django/django/tags?per_page=100&page=1",
+      "final_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=1",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:40.869833+00:00",
+      "content_sha256": "98da3378eeb4c28d9dde09ea22ff22659945ad8aaa51ac25403e9215e6ec03b6",
+      "from_cache": true,
+      "source_id": "source_ec763aaf3e19"
+    },
+    {
+      "url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+      "final_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=2",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:41.141170+00:00",
+      "content_sha256": "98aa87ebef3ef25cc760484c49b7dc1965316ee18abc896d3a761c7c2ee43b61",
+      "from_cache": true,
+      "source_id": "source_f21edc84c04a"
+    },
+    {
+      "url": "https://api.github.com/repos/django/django/tags?per_page=100&page=3",
+      "final_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=3",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:41.300269+00:00",
+      "content_sha256": "882fcc1755e4ad53fbf21231e297442190152b03cc8ebd3a357091e37eddfad0",
+      "from_cache": true,
+      "source_id": "source_65aa74f37726"
+    },
+    {
+      "url": "https://api.github.com/repos/django/django/tags?per_page=100&page=4",
+      "final_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=4",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:41.436223+00:00",
+      "content_sha256": "34c763515f659c01929a0375be46cc0e1ee2526482f28794170fc7eb7deec49e",
+      "from_cache": true,
+      "source_id": "source_ea4d13823332"
+    },
+    {
+      "url": "https://api.github.com/repos/django/django/tags?per_page=100&page=5",
+      "final_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=5",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:41.560657+00:00",
+      "content_sha256": "b93508f864807c213fd295fee81830595e7b7270ef04972af7fed9472fbade8f",
+      "from_cache": true,
+      "source_id": "source_7d936d55974b"
+    },
+    {
+      "url": "https://api.github.com/repos/django/django/tags?per_page=100&page=6",
+      "final_url": "https://api.github.com/repos/django/django/tags?per_page=100&page=6",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:41.674699+00:00",
+      "content_sha256": "00d2b240f88990f1e1d278091d3cda684cd041fde6159808b736326f6868a806",
+      "from_cache": true,
+      "source_id": "source_27740e37ac07"
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+      "final_url": "https://api.github.com/search/repositories?q=%22Django%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:07.887868+00:00",
+      "content_sha256": "f010a01d98ff49d29eab1871f1f1dba7062c279cb2c4dfca3150ac586a2419ba",
+      "from_cache": true,
+      "source_id": "source_014c9950784d"
+    },
+    {
+      "url": "https://docs.djangoproject.com/en/6.1/releases/",
+      "final_url": "https://docs.djangoproject.com/en/6.1/releases/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:08.766818+00:00",
+      "content_sha256": "3e49b1b7584a5701cb6660cf959cd0ab7eedb1b5bed0026c7c0bf1e1da72a892",
+      "from_cache": true,
+      "source_id": "source_a88c12bd9c6e"
+    },
+    {
+      "url": "https://docs.djangoproject.com/en/6.1/releases/#final-releases",
+      "final_url": "https://docs.djangoproject.com/en/6.1/releases/#final-releases",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:40.333061+00:00",
+      "content_sha256": "3e49b1b7584a5701cb6660cf959cd0ab7eedb1b5bed0026c7c0bf1e1da72a892",
+      "from_cache": true,
+      "source_id": "source_6d8527e8d0a6"
+    },
+    {
+      "url": "https://docs.djangoproject.com/en/6.1/releases/#security-releases",
+      "final_url": "https://docs.djangoproject.com/en/6.1/releases/#security-releases",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:40.391441+00:00",
+      "content_sha256": "3e49b1b7584a5701cb6660cf959cd0ab7eedb1b5bed0026c7c0bf1e1da72a892",
+      "from_cache": true,
+      "source_id": "source_c1bac1d50580"
+    },
+    {
+      "url": "https://docs.djangoproject.com/en/6.1/releases/3.2.4/",
+      "final_url": "https://docs.djangoproject.com/en/6.1/releases/3.2.4/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:09.186949+00:00",
+      "content_sha256": "44fe5e2ab2cea60e2581f9fab348596763d2bf8b0590f3add2ffe45b84600717",
+      "from_cache": true,
+      "source_id": "source_5be0f4436272"
+    },
+    {
+      "url": "https://endoflife.date/django",
+      "final_url": "https://endoflife.date/django",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:09.344671+00:00",
+      "content_sha256": "d20a06fb82d1426cdb74c2f52ddfde3dc3c9e6418e7799c6a26612404b3d72cb",
+      "from_cache": true,
+      "source_id": "source_46a83fdce8fa"
+    },
+    {
+      "url": "https://html.duckduckgo.com/html/?q=%22Django%22+official+releases+3.2+to+4.2",
+      "final_url": "https://html.duckduckgo.com/html/?q=%22Django%22+official+releases+3.2+to+4.2",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:39.809889+00:00",
+      "content_sha256": "57fa863a4ea4d668dcc7a979cd08a5576271b8cbe8c40ec0815deb34aa6383bc",
+      "from_cache": true,
+      "source_id": "source_a4616d66022e"
+    },
+    {
+      "url": "https://pypi.org/pypi/Django/json",
+      "final_url": "https://pypi.org/pypi/Django/json",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:06.344457+00:00",
+      "content_sha256": "2bf83c7336b9599b9572e064d5d6b0049fbec7697699815184c32efc642e0aa9",
+      "from_cache": true,
+      "source_id": "source_4bb8cb867006"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/v1/search?text=Django&size=5",
+      "final_url": "https://registry.npmjs.org/-/v1/search?text=Django&size=5",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:06.672387+00:00",
+      "content_sha256": "5e44bbba3fe09212cbe5ad7e89fe081f709df2a77ea007acf21d83c84fc696df",
+      "from_cache": true,
+      "source_id": "source_155ad1b38c7c"
+    },
+    {
+      "url": "https://registry.npmjs.org/@cspell%2Fdict-django/latest",
+      "final_url": "https://registry.npmjs.org/@cspell%2Fdict-django/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:06.876756+00:00",
+      "content_sha256": "4cbea93adb66173f89e7b1f3a22a97fec65d6f6a977a17d6a744af888dbffd95",
+      "from_cache": true,
+      "source_id": "source_c2fae33da158"
+    },
+    {
+      "url": "https://registry.npmjs.org/cspell-dict-django/latest",
+      "final_url": "https://registry.npmjs.org/cspell-dict-django/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:07.080816+00:00",
+      "content_sha256": "9de6bcd7e0b8e9c2117184351cd8b692efaaab025a808d512d3010cd1c493368",
+      "from_cache": true,
+      "source_id": "source_093e33cd9250"
+    },
+    {
+      "url": "https://registry.npmjs.org/django-js-reverse/latest",
+      "final_url": "https://registry.npmjs.org/django-js-reverse/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:07.232389+00:00",
+      "content_sha256": "7039b9548703e445b51c1f20e7588899c2263a61d5bf4180ca478f2de8d437ba",
+      "from_cache": true,
+      "source_id": "source_d71ceb9d2e92"
+    },
+    {
+      "url": "https://registry.npmjs.org/django-vite-plugin/latest",
+      "final_url": "https://registry.npmjs.org/django-vite-plugin/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:07.380715+00:00",
+      "content_sha256": "891462ee163d71e19a98b6fc27e58851f09a07d672358a55a0bf06ec19fbfd73",
+      "from_cache": true,
+      "source_id": "source_4c47ee6365e0"
+    },
+    {
+      "url": "https://registry.npmjs.org/django/latest",
+      "final_url": "https://registry.npmjs.org/django/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:38:26.138202+00:00",
+      "content_sha256": "ea0c92a7a08cb873b2ec0651b05ce93f290ceb0bbdbfe2b4b7e571bf9c3d0131",
+      "from_cache": true,
+      "source_id": "source_de745432a369"
+    },
+    {
+      "url": "https://registry.npmjs.org/storybook-django/latest",
+      "final_url": "https://registry.npmjs.org/storybook-django/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:07.514572+00:00",
+      "content_sha256": "c9d5f73f433bf105493db5fbfc1a0cfdb3fe78ff68660e20cfd0f7314df2105c",
+      "from_cache": true,
+      "source_id": "source_6941bc1677af"
+    },
+    {
+      "url": "https://www.djangoproject.com/",
+      "final_url": "https://www.djangoproject.com/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:10.013850+00:00",
+      "content_sha256": "bbc953563e3b52b752b9ad2c7eff5fde196e7a435fcad18d085dbed6fa3b80ac",
+      "from_cache": true,
+      "source_id": "source_7331003f4e8f"
+    },
+    {
+      "url": "https://www.djangoproject.com/download/",
+      "final_url": "https://www.djangoproject.com/download/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:02:40.000539+00:00",
+      "content_sha256": "71df3e98f36ff951c5d4e7f3ca57769aabe029f03eceb7228904583f2988fcc6",
+      "from_cache": true,
+      "source_id": "source_bd131d579a7c"
+    }
+  ],
+  "llm_calls": 0,
+  "catalog_coverage": [
+    {
+      "source_url": "https://pypi.org/pypi/Django/json",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 56,
+      "granularity": "detailed_releases",
+      "detailed_version_count": 53,
+      "enumeration_complete": true,
+      "matching_observed_catalogs": [
+        "https://api.github.com/repos/django/django/tags"
+      ]
+    },
+    {
+      "source_url": "https://api.github.com/repos/django/django/releases",
+      "endpoint_checks": {
+        "current_found": false,
+        "target_found": false
+      },
+      "interval_version_count": 0,
+      "granularity": "endpoint_precision_only",
+      "detailed_version_count": 0,
+      "enumeration_complete": true,
+      "matching_observed_catalogs": []
+    },
+    {
+      "source_url": "https://api.github.com/repos/django/django/tags",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 56,
+      "granularity": "detailed_releases",
+      "detailed_version_count": 53,
+      "enumeration_complete": true,
+      "matching_observed_catalogs": [
+        "https://pypi.org/pypi/Django/json"
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "heuristic",
+    "tie_break_order": [
+      "web_search",
+      "github",
+      "registry",
+      "other"
+    ],
+    "note": "Source preference breaks equal scores; it is not ownership evidence."
+  },
+  "selected_catalog": "https://pypi.org/pypi/Django/json",
+  "network_requests": 0
+}

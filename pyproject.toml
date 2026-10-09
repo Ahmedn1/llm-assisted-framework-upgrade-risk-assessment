@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "upgrade-risk-pipeline"
+version = "0.1.0"
+description = "Evidence-grounded extraction of open-source upgrade risk paths: release resolution, evidence collection, LLM risk extraction and verification"
+requires-python = ">=3.10"
+dependencies = ["httpx>=0.27,<1", "beautifulsoup4>=4.12,<5", "packaging>=24,<27", "pydantic>=2.7,<3", "jsonschema>=4.22,<5"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+# Local d1 decision model (default for relevance and verification); pinned versions in requirements-d1.lock
+d1 = ["torch>=2.4", "transformers>=4.45", "huggingface_hub>=0.25"]
+
+[project.scripts]
+upgrade-resolve = "upgrade_resolver.cli:main"
+upgrade-collect = "evidence_collector.cli:main"
+upgrade-pipeline = "upgrade_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

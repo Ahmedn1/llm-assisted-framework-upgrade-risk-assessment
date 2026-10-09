@@ -1,0 +1,4193 @@
+{
+  "project": "Django",
+  "upgrade": "3.2_to_4.2",
+  "evidence_summary": {
+    "high_confidence_risks": [
+      {
+        "path_id": "applications_still_using_default_app_config_break_on_django",
+        "path_name": "Applications still using default_app_config break on Django 4.1+",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "calls_to_get_random_string_without_a_length_argument_fail_on",
+        "path_name": "Calls to get_random_string() without a length argument fail on Django 4.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "code_calls_undocumented_django_http_multipartparser_parse_he",
+        "path_name": "Code calls undocumented django.http.multipartparser.parse_header()",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "custom_database_backend_still_implements_ignore_conflicts_su",
+        "path_name": "Custom database backend still implements ignore_conflicts_suffix_sql() and is upgraded to Django 4.1+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "custom_expression_get_group_by_cols_code_passes_alias_argume",
+        "path_name": "Custom Expression.get_group_by_cols() code passes alias argument",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "custom_logoutview_overrides_old_get_next_page_hook_break_on",
+        "path_name": "Custom LogoutView overrides old get_next_page() hook break on Django 4.1+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "custom_management_command_uses_boolean_basecommand_requires",
+        "path_name": "Custom management command uses boolean BaseCommand.requires_system_checks",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "custom_save_mutates_fields_but_does_not_add_them_to_update_f",
+        "path_name": "Custom save() mutates fields but does not add them to update_fields",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "deleteview_custom_delete_override_no_longer_runs_for_post_de",
+        "path_name": "DeleteView custom delete() override no longer runs for POST deletes in Django 4.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "directly_instantiated_wsgirequest_now_requires_file_like_wsg",
+        "path_name": "Directly instantiated WSGIRequest now requires file-like wsgi.input",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "django_4_2_requires_sqlparse_0_3_1",
+        "path_name": "Django 4.2 requires sqlparse >= 0.3.1",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "fileinput_with_multiple_html_attribute_now_errors_unless_all",
+        "path_name": "FileInput with multiple HTML attribute now errors unless allow_multiple_selected is enabled",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_d198df28fa627659",
+          "doc_f6266b1ef707cdec"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "legacy_index_together_configuration_requires_a_migration_whe",
+        "path_name": "Legacy index_together configuration requires a migration when upgrading to Django 4.2",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "middlewaremixin_requires_a_real_get_response_callable_in_dja",
+        "path_name": "MiddlewareMixin requires a real get_response callable in Django 4.0+",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "multiple_file_uploads_through_a_single_forms_filefield_break",
+        "path_name": "Multiple file uploads through a single forms.FileField break after 4.1.9",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_d198df28fa627659",
+          "doc_f6266b1ef707cdec"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "mysql_rawsql_aggregation_removed_in_django_4_2",
+        "path_name": "MySQL RawSQL aggregation removed in Django 4.2",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "oracle_direct_haskey_lookup_with_untrusted_lhs_values_is_vul",
+        "path_name": "Oracle direct HasKey lookup with untrusted lhs values is vulnerable to SQL injection in Django 4.2.17",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_7b1dd3bfd104c026"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "password_reset_timeout_setting_removed",
+        "path_name": "Password reset timeout setting removed",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "postgis_2_4_removed_support_in_django_4_1",
+        "path_name": "PostGIS 2.4 removed support in Django 4.1+",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "raw_column_alias_passed_to_queryset_order_by_breaks_on_djang",
+        "path_name": "Raw column alias passed to QuerySet.order_by() breaks on Django 4.x",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "rawsql_aggregation_on_mysql_breaks_in_django_4_2",
+        "path_name": "RawSQL aggregation on MySQL breaks in Django 4.2",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "removed_memcachedcache_backend_breaks_cache_configuration_on",
+        "path_name": "Removed MemcachedCache backend breaks cache configuration on Django 4.1+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "testcase_setuptestdata_assigns_non_deepcopyable_objects_to_c",
+        "path_name": "TestCase.setUpTestData() assigns non-deepcopyable objects to class attributes",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "third_party_database_backend_still_implements_get_key_column",
+        "path_name": "Third-party database backend still implements get_key_columns() or app calls it indirectly",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "third_party_database_backend_still_overrides_convert_field_t",
+        "path_name": "Third-party database backend still overrides _convert_field_to_tz() after upgrade to Django 4.1+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "third_party_database_backend_still_relies_on_databasefeature",
+        "path_name": "Third-party database backend still relies on DatabaseFeatures.allows_group_by_pk",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_django_4_2_with_proj_5_installed",
+        "path_name": "Upgrade to Django 4.2 with PROJ < 5 installed",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "usage_of_removed_django_utils_http_is_safe_url_in_applicatio",
+        "path_name": "Usage of removed django.utils.http.is_safe_url() in application code",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "use_of_django_conf_urls_url_breaks_on_django_4_0",
+        "path_name": "Use of django.conf.urls.url() breaks on Django 4.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "use_of_django_utils_encoding_force_text_breaks_on_upgrade_to",
+        "path_name": "Use of django.utils.encoding.force_text() breaks on upgrade to Django 4.x",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "use_of_django_utils_encoding_smart_text_breaks_on_upgrade_to",
+        "path_name": "Use of django.utils.encoding.smart_text() breaks on upgrade to Django 4.x",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "use_of_httprequest_is_ajax_breaks_on_django_4_x",
+        "path_name": "Use of HttpRequest.is_ajax() breaks on Django 4.x",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "use_of_nullbooleanfield_in_model_code_breaks_on_django_4_0",
+        "path_name": "Use of NullBooleanField in model code breaks on Django 4.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "use_of_removed_emailvalidator_whitelist_argument_or_domain_w",
+        "path_name": "Use of removed EmailValidator whitelist argument or domain_whitelist attribute",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "use_of_undocumented_negated_parameter_on_exists_expression",
+        "path_name": "Use of undocumented negated parameter on Exists expression",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "usercreationform_now_saves_many_to_many_fields_for_custom_us",
+        "path_name": "UserCreationForm now saves many-to-many fields for custom user models",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "basegeometrywidget_map_width_map_height_deprecation",
+        "path_name": "BaseGeometryWidget map_width/map_height deprecation",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "cached_related_managers_change_object_level_behavior_for_for",
+        "path_name": "Cached related managers change object-level behavior for ForeignKey, ManyToManyField, and GenericRelation",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "case_insensitive_duplicate_usernames_now_rejected_by_usercre",
+        "path_name": "Case-insensitive duplicate usernames now rejected by UserCreationForm",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "custom_sitemap_index_templates_still_expecting_the_old_flat",
+        "path_name": "Custom sitemap index templates still expecting the old flat-list URL context break on Django 4.1+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "database_functions_with_mixed_type_expressions_require_expli",
+        "path_name": "Database functions with mixed-type expressions require explicit output_field",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "default_file_storage_deprecated_in_django_4_2",
+        "path_name": "DEFAULT_FILE_STORAGE deprecated in Django 4.2",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "deprecated_null_ordering_flags_in_expression_asc_desc_and_or",
+        "path_name": "Deprecated null ordering flags in Expression.asc()/desc() and OrderBy",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "deprecated_test_assertion_simpletestcase_assertformseterror",
+        "path_name": "Deprecated test assertion SimpleTestCase.assertFormsetError()",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "deprecated_transitional_setting_csrf_cookie_masked_is_presen",
+        "path_name": "Deprecated transitional setting CSRF_COOKIE_MASKED is present during upgrade to Django 4.1+",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "django_4_2_12_compatibility_issue_with_python_3_11_9_and_3_1",
+        "path_name": "Django 4.2.12 compatibility issue with Python 3.11.9+ and 3.12.3+",
+        "risk_type": "runtime_requirement",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_19b282c0c44e7c84"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "geojson_serializer_now_includes_feature_id_in_output",
+        "path_name": "GeoJSON serializer now includes feature id in output",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      }
+    ],
+    "medium_confidence_risks": [
+      {
+        "path_id": "admin_password_reset_tokens_from_pre_django_3_1_stop_working",
+        "path_name": "Admin password reset tokens from pre-Django 3.1 stop working",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "asgiref_minimum_version_raised_in_django_4_1_and_4_2",
+        "path_name": "asgiref minimum version raised in Django 4.1 and 4.2",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960",
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "involved in a conflict it won: c01",
+          "judge: partial support",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "code_imports_or_catches_django_db_models_query_utils_invalid",
+        "path_name": "Code imports or catches django.db.models.query_utils.InvalidQuery",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "code_uses_inlineadminformset_non_form_errors_as_a_property",
+        "path_name": "Code uses InlineAdminFormSet.non_form_errors as a property",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "cookie_based_messages_stored_in_a_pre_django_3_2_format_stop",
+        "path_name": "Cookie-based messages stored in a pre-Django 3.2 format stop being readable after upgrade to Django 4.1+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "involved in a conflict it won: c04",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "csrf_trusted_origin_entries_become_invalid_after_upgrade_if",
+        "path_name": "CSRF trusted origin entries become invalid after upgrade if they omit the scheme or use old dot-prefix wildcard syntax",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "custom_baseconstraint_subclasses_missing_validate_break_vali",
+        "path_name": "Custom BaseConstraint subclasses missing validate() break validation in Django 4.1+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "custom_database_backend_overrides_date_time_sql_methods_with",
+        "path_name": "Custom database backend overrides date/time SQL methods with old field_name signature",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "custom_databaseschemaeditor_unique_sql_overrides_still_expec",
+        "path_name": "Custom DatabaseSchemaEditor unique SQL overrides still expect column names",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "custom_delete_handler_logic_in_class_based_deletion_views_mu",
+        "path_name": "Custom delete() handler logic in class-based deletion views must be moved for Django 4.0+",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "databaseoperations_insert_statement_conflict_api_signature_c",
+        "path_name": "DatabaseOperations.insert_statement() conflict API signature change",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "django_4_2_raises_the_minimum_mysqlclient_version",
+        "path_name": "Django 4.2 raises the minimum mysqlclient version",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "django_admin_py_entry_point_removal_breaks_scripts_and_workf",
+        "path_name": "django-admin.py entry point removal breaks scripts and workflows",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "legacy_dumps_loads_signed_payloads_stop_loading",
+        "path_name": "Legacy dumps()/loads() signed payloads stop loading",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "pillow_dependency_below_new_minimum_blocks_django_4_2_upgrad",
+        "path_name": "Pillow dependency below new minimum blocks Django 4.2 upgrade",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "postgresql_forms_jsonfield_removed_in_django_4_0",
+        "path_name": "PostgreSQL forms JSONField removed in Django 4.0",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "postgresql_jsonb_keytexttransform_removed_in_django_4_0",
+        "path_name": "PostgreSQL jsonb KeyTextTransform removed in Django 4.0",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "postgresql_jsonb_keytransform_removed_in_django_4_0",
+        "path_name": "PostgreSQL jsonb KeyTransform removed in Django 4.0",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "postgresql_model_jsonfield_import_removed_in_django_4_0",
+        "path_name": "PostgreSQL model JSONField import removed in Django 4.0",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "pre_django_3_1_signed_values_created_with_signer_stop_valida",
+        "path_name": "Pre-Django 3.1 signed values created with Signer stop validating",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "python_3_12_3_compatibility_issue_fixed_in_django_4_2_12",
+        "path_name": "Python 3.12.3+ compatibility issue fixed in Django 4.2.12",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_19b282c0c44e7c84"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "python_3_6_no_longer_supported_in_django_4_0",
+        "path_name": "Python 3.6 no longer supported in Django 4.0+",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "queries_use_non_boolean_rhs_with_isnull_lookup_and_break_on",
+        "path_name": "Queries use non-boolean RHS with isnull lookup and break on Django 4.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "redis_backed_deployment_requires_redis_py_3_4_0_for_django_4",
+        "path_name": "Redis-backed deployment requires redis-py >= 3.4.0 for Django 4.2",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "remoteuserbackend_configure_user_gains_created_true_paramete",
+        "path_name": "RemoteUserBackend.configure_user() gains created=True parameter",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "removal_of_django_utils_text_unescape_entities",
+        "path_name": "Removal of django.utils.text.unescape_entities()",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "removed_django_translation_aliases_used_in_application_code",
+        "path_name": "Removed Django translation aliases used in application code",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "removed_template_tags_ifequal_ifnotequal_break_templates_on",
+        "path_name": "Removed template tags {% ifequal %} / {% ifnotequal %} break templates on Django 4.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "reverse_foreign_key_related_managers_on_unsaved_objects_now",
+        "path_name": "Reverse foreign key related managers on unsaved objects now raise ValueError",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "signal_declarations_still_use_providing_args_when_upgrading",
+        "path_name": "Signal declarations still use providing_args when upgrading to Django 4.2",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "undocumented_urlresolver_urlpattern_internals_moved_to_djang",
+        "path_name": "Undocumented URLResolver/URLPattern internals moved to django.contrib.admindocs.utils",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "upgrade_blocked_by_sqlite_runtimes_older_than_3_21_0",
+        "path_name": "Upgrade blocked by SQLite runtimes older than 3.21.0",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_django_4_0_requires_python_3_8_or_newer",
+        "path_name": "Upgrade to Django 4.0+ requires Python 3.8 or newer",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_django_4_2_with_geos_3_5_in_use",
+        "path_name": "Upgrade to Django 4.2 with GEOS 3.5 in use",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "use_of_django_views_static_was_modified_since_with_the_remov",
+        "path_name": "Use of django.views.static.was_modified_since() with the removed size argument",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "use_of_undocumented_query_add_annotation_with_is_summary_arg",
+        "path_name": "Use of undocumented Query.add_annotation() with is_summary argument",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "uses_django_utils_http_urlquote",
+        "path_name": "Uses django.utils.http.urlquote()",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "uses_django_utils_http_urlquote_plus",
+        "path_name": "Uses django.utils.http.urlquote_plus()",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "uses_django_utils_http_urlunquote",
+        "path_name": "Uses django.utils.http.urlunquote()",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "uses_django_utils_http_urlunquote_plus",
+        "path_name": "Uses django.utils.http.urlunquote_plus()",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "admin_changelist_multi_term_search_over_multi_valued_relatio",
+        "path_name": "Admin changelist multi-term search over multi-valued relationships returns fewer rows after upgrade to Django 4.1+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "admin_logout_ui_expects_post_instead_of_get",
+        "path_name": "Admin logout UI expects POST instead of GET",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "argon2_cffi_version_floor_raised_for_password_hashing",
+        "path_name": "argon2-cffi version floor raised for password hashing",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "built_in_logout_view_called_via_get",
+        "path_name": "Built-in logout view called via GET",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "cached_pickled_objects_may_be_incompatible_across_django_4_x",
+        "path_name": "Cached pickled objects may be incompatible across Django 4.x upgrade",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_a70c7e82084bbebb"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "code_or_integrations_depend_on_the_masked_csrf_cookie_value",
+        "path_name": "Code or integrations depend on the masked CSRF cookie value",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "code_or_validation_logic_relies_on_modelmultiplechoicefield",
+        "path_name": "Code or validation logic relies on ModelMultipleChoiceField list message behavior",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "csrf_validation_now_consults_origin_header_when_present",
+        "path_name": "CSRF validation now consults Origin header when present",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "custom_model_save_logic_breaks_under_queryset_update_or_crea",
+        "path_name": "Custom Model.save() logic breaks under QuerySet.update_or_create() in Django 4.2",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "custom_user_creation_forms_should_migrate_to_baseusercreatio",
+        "path_name": "Custom user creation forms should migrate to BaseUserCreationForm",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "custom_validators_rely_on_old_urlfield_to_python_behavior",
+        "path_name": "Custom validators rely on old URLField.to_python() behavior",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_fb510039f977099e"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "default_timezone_backend_changes_from_pytz_to_zoneinfo",
+        "path_name": "Default timezone backend changes from pytz to zoneinfo",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_exclusionconstraint_opclasses_argument_still_used",
+        "path_name": "Deprecated ExclusionConstraint opclasses argument still used",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_length_is_template_filter_usage",
+        "path_name": "Deprecated length_is template filter usage",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_pickleserializer_in_sessions_config_may_create_se",
+        "path_name": "Deprecated PickleSerializer in sessions config may create security risk and require migration",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "deprecated_simpletestcase_assertformerror_assertformseterror",
+        "path_name": "Deprecated SimpleTestCase.assertFormError()/assertFormsetError() argument patterns used in tests",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "development_environment_uses_cached_template_loader_after_up",
+        "path_name": "Development environment uses cached template loader after upgrade",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "discoverrunner_unexpected_success_expectedfailure_tests_fail",
+        "path_name": "DiscoverRunner unexpected-success expectedFailure tests fail the run",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "involved in a conflict it won: c03",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "django_rediscache_backend_requires_redis_py_3_0_0",
+        "path_name": "Django RedisCache backend requires redis-py 3.0.0+",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "django_utils_log_log_response_argument_rename_exc_info_excep",
+        "path_name": "django.utils.log.log_response() argument rename: exc_info -> exception",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "file_system_storage_or_file_based_cache_backend_relies_on_pr",
+        "path_name": "File-system storage or file-based cache backend relies on process umask for directory permissions",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_fb510039f977099e"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "form_template_name_becomes_a_property_and_may_break_code_tha",
+        "path_name": "Form.template_name becomes a property and may break code that treats it as a plain attribute",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "formset_template_rendering_changes_in_django_4_1_may_require",
+        "path_name": "Formset template rendering changes in Django 4.1 may require explicit renderer configuration for old paragraph layout",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "gdal_2_1_removed_in_django_4_1",
+        "path_name": "GDAL 2.1 removed in Django 4.1+",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "geomodeladmin_usage_may_need_migration_to_gismodeladmin_when",
+        "path_name": "GeoModelAdmin usage may need migration to GISModelAdmin when upgrading to Django 4.2",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "index_rename_now_generates_renameindex_migration_operation",
+        "path_name": "Index rename now generates RenameIndex migration operation",
+        "risk_type": "data_migration",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "involved in a conflict it won: c10, c11",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "inspectdb_charfield_generation_uses_display_size_metadata",
+        "path_name": "inspectdb CharField generation uses display_size metadata",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "isolated_mode_shells_lose_readline_features_after_django_upg",
+        "path_name": "Isolated mode shells lose readline features after Django upgrade to 4.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "json_null_values_in_bulk_create_need_value_none_jsonfield_on",
+        "path_name": "JSON null values in bulk_create need Value(None, JSONField()) on Django 4.2",
+        "risk_type": "data_migration",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "jsonbagg_default_value_type_change_requires_updating_annotat",
+        "path_name": "JSONBAgg default value type change requires updating annotations that still pass an encoded JSON string",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "jsonfield_lookups_and_aggregates_still_passing_json_encoded",
+        "path_name": "JSONField lookups and aggregates still passing JSON-encoded string literals",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "large_decimal_values_are_returned_as_is_instead_of_being_nor",
+        "path_name": "Large decimal values are returned as-is instead of being normalized",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_89f137338d67d38d"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "model_validation_now_checks_meta_constraints_and_can_fail_on",
+        "path_name": "Model validation now checks Meta.constraints and can fail on constraint violations",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "modeladmin_actions_default_type_change_breaks_code_that_muta",
+        "path_name": "ModelAdmin.actions default type change breaks code that mutates or expects list methods",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "modeladmin_inlines_default_type_change_breaks_code_that_muta",
+        "path_name": "ModelAdmin.inlines default type change breaks code that mutates or expects list methods",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "multiple_html_select_input_behavior_requires_allow_multiple",
+        "path_name": "Multiple HTML select/input behavior requires allow_multiple_selected=True to preserve old behavior",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_d198df28fa627659",
+          "doc_f6266b1ef707cdec"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "openlayers_template_widget_inline_css_map_css_block_removal",
+        "path_name": "OpenLayers template widget inline CSS/map_css block removal",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "openlayerswidget_default_library_upgrade_to_openlayers_7_2_2",
+        "path_name": "OpenLayersWidget default library upgrade to OpenLayers 7.2.2 changes widget behavior or custom integration compatibility",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "osmgeoadmin_usage_may_need_migration_to_gismodeladmin_when_u",
+        "path_name": "OSMGeoAdmin usage may need migration to GISModelAdmin when upgrading to Django 4.2",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "overlong_invalid_usernamefield_input_is_no_longer_normalized",
+        "path_name": "Overlong invalid UsernameField input is no longer normalized",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_8b37bcde8b1b9f18",
+          "doc_a487abff803362fb"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "overlong_language_code_passed_to_get_supported_language_vari",
+        "path_name": "Overlong language code passed to get_supported_language_variant() now raises ValueError",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_b0661b7dcf22ff9b"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "passing_pre_encoded_json_string_literals_to_jsonfield_on_dja",
+        "path_name": "Passing pre-encoded JSON string literals to JSONField on Django 4.2",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pbkdf2_default_iteration_count_increases_in_django_4_1_and_a",
+        "path_name": "PBKDF2 default iteration count increases in Django 4.1 and again in 4.2",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960",
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "involved in a conflict it won: c19",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "positional_arguments_passed_to_signer_or_timestampsigner",
+        "path_name": "Positional arguments passed to Signer or TimestampSigner",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "positional_arguments_passed_to_timestampsigner",
+        "path_name": "Positional arguments passed to TimestampSigner",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pre_django_3_1_session_data_may_be_invalid_after_upgrade",
+        "path_name": "Pre-Django 3.1 session data may be invalid after upgrade",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "project_still_depends_on_pytz_in_django_4_2",
+        "path_name": "Project still depends on pytz in Django 4.2",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "project_uses_form_renderer_and_depends_on_old_default_form_f",
+        "path_name": "Project uses FORM_RENDERER and depends on old default form/formset template behavior",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "project_uses_unsaltedmd5passwordhasher_in_password_hashing_s",
+        "path_name": "Project uses UnsaltedMD5PasswordHasher in password hashing settings or custom auth code",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "projects_relying_on_the_transitional_use_deprecated_pytz_set",
+        "path_name": "Projects relying on the transitional USE_DEPRECATED_PYTZ setting must migrate before Django 5.0",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "projects_still_configuring_secure_browser_xss_filter_break_o",
+        "path_name": "Projects still configuring SECURE_BROWSER_XSS_FILTER break or need cleanup after upgrading to Django 4.2",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "queryset_iterator_with_prefetch_related_and_no_chunk_size",
+        "path_name": "QuerySet.iterator() with prefetch_related() and no chunk_size",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "remoteuserbackend_subclass_overrides_missing_created_true_br",
+        "path_name": "RemoteUserBackend subclass overrides missing created=True break on Django 4.2",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "rolling_upgrade_or_mixed_version_deployment_with_csrfviewmid",
+        "path_name": "Rolling upgrade or mixed-version deployment with CsrfViewMiddleware interaction",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "set_language_no_longer_writes_language_to_session",
+        "path_name": "set_language no longer writes _language to session",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "smtp_emailbackend_now_validates_hostnames_and_certificates",
+        "path_name": "SMTP EmailBackend now validates hostnames and certificates",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "squashing_migrations_on_django_4_2_1_with_historical_meta_in",
+        "path_name": "Squashing migrations on Django 4.2.1+ with historical Meta.index_together usage",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_d198df28fa627659"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "static_files_js_module_import_aggregation_opt_in_required",
+        "path_name": "Static files JS module import aggregation opt-in required",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "staticfiles_storage_deprecated_in_django_4_2",
+        "path_name": "STATICFILES_STORAGE deprecated in Django 4.2",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "template_loader_behavior_changed_in_django_4_1_requires_expl",
+        "path_name": "Template loader behavior changed in Django 4.1 requires explicit OPTIONS['loaders'] override",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "templates_use_default_form_rendering_style_that_will_change",
+        "path_name": "Templates use default form rendering style that will change in Django 5.0",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "third_party_database_backend_still_reports_case_insensitive",
+        "path_name": "Third-party database backend still reports case-insensitive LIKE as supported on Django 4.1+",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "third_party_package_incompatibility_with_django_4_0_4_2",
+        "path_name": "Third-party package incompatibility with Django 4.0-4.2",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_a70c7e82084bbebb"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "transactiontestcase_assertquerysetequal_deprecation_in_djang",
+        "path_name": "TransactionTestCase.assertQuerysetEqual() deprecation in Django 4.2",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "transactiontestcase_assertquerysetequal_string_comparison_be",
+        "path_name": "TransactionTestCase.assertQuerysetEqual() string-comparison behavior change",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960",
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "unsaved_related_model_instance_used_in_a_related_filter",
+        "path_name": "Unsaved related model instance used in a related filter",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "upgrade_django_related_dependencies_to_versions_compatible_w",
+        "path_name": "Upgrade Django-related dependencies to versions compatible with Django 4.x",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_a70c7e82084bbebb"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_django_4_2_requires_jinja2_2_11_0",
+        "path_name": "Upgrade to Django 4.2 requires Jinja2 >= 2.11.0",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "urlfield_to_python_may_parse_some_urls_differently_because_s",
+        "path_name": "URLField.to_python() may parse some URLs differently because simplified scheme detection replaces urlsplit-based logic",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_fb510039f977099e"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "urlfield_to_python_no_longer_handles_control_characters_in_s",
+        "path_name": "URLField.to_python() no longer handles control characters in submitted values",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_fb510039f977099e"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_alterindextogether_in_migrations_after_upgrading_to_d",
+        "path_name": "Use of AlterIndexTogether in migrations after upgrading to Django 4.2",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_basegeometrywidget_map_height_map_width_attributes",
+        "path_name": "Use of BaseGeometryWidget map_height/map_width attributes",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_cryptpasswordhasher_in_password_hashing_configuration",
+        "path_name": "Use of CryptPasswordHasher in password hashing configuration becomes a deprecation risk on Django 4.1+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_default_hashing_algorithm_transitional_setting_blocks",
+        "path_name": "Use of DEFAULT_HASHING_ALGORITHM transitional setting blocks upgrade to Django 4.2",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_default_form_templates",
+        "path_name": "Use of deprecated default form templates",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_django_contrib_postgres_fields_ciemailfiel",
+        "path_name": "Use of deprecated django.contrib.postgres.fields.CIEmailField in application models",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_django_contrib_postgres_fields_citextfield",
+        "path_name": "Use of deprecated django.contrib.postgres.fields.CITextField in codebase upgraded to Django 4.2",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_gis_admin_openlayerswidget",
+        "path_name": "Use of deprecated GIS admin OpenLayersWidget",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_name_argument_in_django_utils_functional_c",
+        "path_name": "Use of deprecated name argument in django.utils.functional.cached_property()",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_sha1_password_hasher",
+        "path_name": "Use of deprecated SHA1 password hasher",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_transitional_form_renderers_in_django_4_2",
+        "path_name": "Use of deprecated transitional form renderers in Django 4.2 upgrade",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_django_contrib_postgres_fields_cicharfield_in_applica",
+        "path_name": "Use of django.contrib.postgres.fields.CICharField in application models",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_django_core_files_storage_get_storage_class_becomes_a",
+        "path_name": "Use of django.core.files.storage.get_storage_class() becomes a deprecation risk on Django 4.2",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_meta_index_together_in_model_meta_definitions_or_migr",
+        "path_name": "Use of Meta.index_together in model Meta definitions or migrations requires migration to Meta.indexes on Django 4.2+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_d198df28fa627659",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "involved in a conflict it won: c16",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "use_of_undocumented_successurlallowedhostsmixin_on_django_4",
+        "path_name": "Use of undocumented SuccessURLAllowedHostsMixin on Django 4.1+",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_unsaltedsha1passwordhasher_in_password_storage_or_ver",
+        "path_name": "Use of UnsaltedSHA1PasswordHasher in password storage or verification",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "uses_baseusermanager_make_random_password",
+        "path_name": "Uses BaseUserManager.make_random_password()",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "uses_deprecated_citext_mixin_from_django_contrib_postgres_fi",
+        "path_name": "Uses deprecated CIText mixin from django.contrib.postgres.fields",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "using_the_replacement_exclusionconstraint_expression_api_wit",
+        "path_name": "Using the replacement ExclusionConstraint expression API without installing django.contrib.postgres",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "baseformset_error_messages_now_supports_too_few_forms_too_ma",
+        "path_name": "BaseFormSet.error_messages now supports too_few_forms/too_many_forms customization",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "css_form_media_link_tags_lose_type_text_css_attribute",
+        "path_name": "CSS form media link tags lose type=\"text/css\" attribute",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "disallowedredirect_length_threshold_increased_for_very_long",
+        "path_name": "DisallowedRedirect length threshold increased for very long redirects",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_d0c1198a1f5f56fd"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "httpresponsepermanentredirect_longer_redirect_targets_accept",
+        "path_name": "HttpResponsePermanentRedirect longer redirect targets accepted",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_d0c1198a1f5f56fd"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "involved in a conflict it won: c07",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "httpresponseredirect_longer_url_limit_changes_redirect_accep",
+        "path_name": "HttpResponseRedirect longer URL limit changes redirect acceptance",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_d0c1198a1f5f56fd"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "involved in a conflict it won: c08",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "inlinemodeladmin_verbose_name_plural_default_changed_in_djan",
+        "path_name": "InlineModelAdmin.verbose_name_plural default changed in Django 4.0",
+        "risk_type": "changed_default",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "media_js_css_class_attributes_accept_hashable_html_objects",
+        "path_name": "Media js/css class attributes accept hashable __html__() objects",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "migration_autogeneration_for_foreignkey_includes_fewer_field",
+        "path_name": "Migration autogeneration for ForeignKey includes fewer field attributes after upgrading to Django 4.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "migration_autogeneration_for_manytomanyfield_includes_fewer",
+        "path_name": "Migration autogeneration for ManyToManyField includes fewer field attributes after upgrading to Django 4.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "model_validation_callers_pass_non_set_exclude_iterables",
+        "path_name": "Model validation callers pass non-set exclude iterables",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "model_full_clean_exclude_iterable_behavior_change",
+        "path_name": "Model.full_clean() exclude iterable behavior change",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "securitymiddleware_no_longer_emits_x_xss_protection",
+        "path_name": "SecurityMiddleware no longer emits X-XSS-Protection",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "separatedatabaseandstate_used_to_change_migration_state_with",
+        "path_name": "SeparateDatabaseAndState used to change migration state without running SQL",
+        "risk_type": "configuration_change",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_django_utils_timezone_utc_deprecated_in_django_4_1",
+        "path_name": "Use of django.utils.timezone.utc deprecated in Django 4.1+",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "windows_nfkc_normalization_slowdown_in_django_4_2_26",
+        "path_name": "Windows NFKC normalization slowdown in Django 4.2.26",
+        "risk_type": "operational_risk",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_31a078332fbaf5b2"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      }
+    ],
+    "low_confidence_or_disputed_risks": [
+      {
+        "path_id": "cookie_based_messages_stored_in_a_pre_django_3_1_format_stop",
+        "path_name": "Cookie-based messages stored in a pre-Django 3.1 format stop being readable after upgrade to Django 4.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c04",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "custom_expression_subclasses_override_get_group_by_cols_with",
+        "path_name": "Custom Expression subclasses override get_group_by_cols() with old signature",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "django_4_2_with_psycopg_3_below_3_1_8_blocks_supported_datab",
+        "path_name": "Django 4.2 with psycopg 3 below 3.1.8 blocks supported database features and may require dependency upgrade",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "forms_imagefield_used_with_multi_file_uploads_through_one_fo",
+        "path_name": "forms.ImageField used with multi-file uploads through one form field",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_d198df28fa627659",
+          "doc_f6266b1ef707cdec"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "old_session_encoding_format_becomes_unreadable_after_upgrade",
+        "path_name": "Old session encoding format becomes unreadable after upgrade",
+        "risk_type": "data_migration",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c26",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "postgresql_11_removed_from_supported_database_versions_in_dj",
+        "path_name": "PostgreSQL 11 removed from supported database versions in Django 4.2",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "judge: evidence contradicts the statement",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "no_required_condition_after_verification"
+        ]
+      },
+      {
+        "path_id": "postgresql_deployments_with_non_utf_8_client_encoding_requir",
+        "path_name": "PostgreSQL deployments with non-UTF-8 client encoding require remediation",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_d198df28fa627659"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "third_party_database_backend_overrides_year_lookup_bounds_me",
+        "path_name": "Third-party database backend overrides year lookup bounds methods without iso_year support",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_django_4_2_with_gdal_2_0_in_use",
+        "path_name": "Upgrade to Django 4.2 with GDAL 2.0 in use",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_django_4_2_with_postgis_2_3_in_use",
+        "path_name": "Upgrade to Django 4.2 with PostGIS 2.3 in use",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "admin_javascript_listeners_assume_formset_events_are_jquery",
+        "path_name": "Admin JavaScript listeners assume formset events are jQuery-based",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "applications_depending_on_non_div_form_markup_from_as_table",
+        "path_name": "Applications depending on non-div form markup from as_table(), as_p(), or as_ul()",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: evidence contradicts the statement",
+          "role changed from required to uncertain",
+          "judge: evidence unrelated the statement",
+          "judge_disputed_condition",
+          "no_required_condition_after_verification"
+        ]
+      },
+      {
+        "path_id": "autogenerated_migrations_may_change_because_autodetector_com",
+        "path_name": "Autogenerated migrations may change because autodetector compares model states instead of model classes",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_4c799d45cb5696aa",
+          "doc_c7f09603fb30dbbf"
+        ],
+        "reasons": [
+          "unresolved conflict: c17",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "clearablefileinput_fileinput_with_multiple_html_attribute_no",
+        "path_name": "ClearableFileInput/FileInput with multiple HTML attribute now errors unless allow_multiple_selected is enabled",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_d198df28fa627659",
+          "doc_f6266b1ef707cdec"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c02",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "code_touches_request_meta_csrf_cookie_and_expects_a_masked_v",
+        "path_name": "Code touches request.META['CSRF_COOKIE'] and expects a masked value",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: evidence contradicts the statement",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "no_required_condition_after_verification"
+        ]
+      },
+      {
+        "path_id": "combined_expressions_now_require_explicit_output_field_where",
+        "path_name": "Combined expressions now require explicit output_field where Django previously guessed it",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "constraint_refactor_now_generates_removeconstraint_addconstr",
+        "path_name": "Constraint refactor now generates RemoveConstraint + AddConstraint migration operations",
+        "risk_type": "data_migration",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c10, c11",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "css_source_map_urls_are_rewritten_by_manifeststaticfilesstor",
+        "path_name": "CSS source map URLs are rewritten by ManifestStaticFilesStorage",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c14",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "default_form_template_changes_to_paragraph_layout_unless_for",
+        "path_name": "Default form template changes to paragraph layout unless form_template_name is set",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "index_renames_may_be_generated_as_renameindex_instead_of_rem",
+        "path_name": "Index renames may be generated as RenameIndex instead of RemoveIndex/AddIndex",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "unresolved conflict: c17",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "moving_from_index_together_to_indexes_may_generate_renameind",
+        "path_name": "Moving from index_together to indexes may generate RenameIndex instead of AlterIndexTogether/AddIndex",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_1dbd312c2af0bcaf",
+          "doc_28350517cbaea960"
+        ],
+        "reasons": [
+          "unresolved conflict: c17",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "strip_tags_on_deeply_nested_or_pathological_html_now_raises",
+        "path_name": "strip_tags() on deeply nested or pathological HTML now raises SuspiciousOperation",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_7b1dd3bfd104c026"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c27",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "using_makemigrations_update_changes_migration_generation_wor",
+        "path_name": "Using makemigrations --update changes migration generation workflow",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_bd1e15d877d5fd41",
+          "doc_e0e0df9636049c90"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c13",
+          "source_disagreement"
+        ]
+      }
+    ],
+    "sources_with_disagreements": [
+      {
+        "conflict_id": "c01",
+        "subject": "asgiref",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f461",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-miscellaneous",
+            "trust_tier": "official",
+            "change": "requirement_raised",
+            "versions": [
+              "4.2"
+            ],
+            "value": "3.6.0",
+            "quote": "The minimum supported version of asgiref is increased from 3.5.2 to\n3.6.0."
+          },
+          {
+            "fact_id": "f291",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-miscellaneous",
+            "trust_tier": "official",
+            "change": "requirement_raised",
+            "versions": [
+              "4.1"
+            ],
+            "value": "3.5.2",
+            "quote": "The minimum supported version of asgiref is increased from 3.4.1 to\n3.5.2."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f461",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-miscellaneous preferred under the conflict policy.",
+        "affected_paths": [
+          "asgiref_minimum_version_raised_in_django_4_1_and_4_2"
+        ]
+      },
+      {
+        "conflict_id": "c02",
+        "subject": "ClearableFileInput",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f539",
+            "source_id": "doc_d198df28fa627659",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.1/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.1"
+            ],
+            "value": null,
+            "quote": "Fixed a regression in Django 4.2 that caused incorrect ClearableFileInput margins in the admin ( #34506 )."
+          },
+          {
+            "fact_id": "f523",
+            "source_id": "doc_f6266b1ef707cdec",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.1.9/#s-cve-2023-31047-potential-bypass-of-validation-when-uploading-multiple-files-using-one-form-field",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.1.9"
+            ],
+            "value": "raises ValueError when the multiple HTML attribute is set, unless allow_multiple_selected is True",
+            "quote": "ClearableFileInput and FileInput form widgets now raise ValueError when\nthe multiple HTML attribute is set on them."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f539",
+        "reason": "official source https://docs.djangoproject.com/en/dev/releases/4.2.1/#s-bugfixes preferred under the conflict policy.",
+        "affected_paths": [
+          "clearablefileinput_fileinput_with_multiple_html_attribute_no"
+        ]
+      },
+      {
+        "conflict_id": "c03",
+        "subject": "DiscoverRunner",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f268",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-miscellaneous",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.1"
+            ],
+            "value": "returns a non-zero error code",
+            "quote": "DiscoverRunner now returns a non-zero error code\nfor unexpected successes from tests marked with unittest.expectedFailure() ."
+          },
+          {
+            "fact_id": "f094",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-tests",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "4.0"
+            ],
+            "value": "logger argument",
+            "quote": "The new logger argument to DiscoverRunner allows a Python logger to be used for logging."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f268",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.1/#s-miscellaneous preferred under the conflict policy.",
+        "affected_paths": [
+          "discoverrunner_unexpected_success_expectedfailure_tests_fail"
+        ]
+      },
+      {
+        "conflict_id": "c04",
+        "subject": "django.contrib.messages.storage.cookie.CookieStorage",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f323",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-features-removed-in-4-1",
+            "trust_tier": "official",
+            "change": "removed",
+            "versions": [
+              "4.1"
+            ],
+            "value": null,
+            "quote": "Support for the pre-Django 3.2 format of messages used by django.contrib.messages.storage.cookie.CookieStorage is removed."
+          },
+          {
+            "fact_id": "f146",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-features-removed-in-4-0",
+            "trust_tier": "official",
+            "change": "removed",
+            "versions": [
+              "4.0"
+            ],
+            "value": "support removed",
+            "quote": "Support for the pre-Django 3.1 encoding format of cookies values used by django.contrib.messages.storage.cookie.CookieStorage is removed."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f323",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.1/#s-features-removed-in-4-1 preferred under the conflict policy.",
+        "affected_paths": [
+          "cookie_based_messages_stored_in_a_pre_django_3_1_format_stop",
+          "cookie_based_messages_stored_in_a_pre_django_3_2_format_stop"
+        ]
+      },
+      {
+        "conflict_id": "c05",
+        "subject": "django.db.backends logger",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f412",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-logging",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "4.2"
+            ],
+            "value": null,
+            "quote": "The django.db.backends logger now logs transaction management queries"
+          },
+          {
+            "fact_id": "f067",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-logging",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "4.0"
+            ],
+            "value": null,
+            "quote": "The alias of the database used in an SQL call is now passed as extra context\nalong with each message to the django.db.backends logger."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f412",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-logging preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c06",
+        "subject": "GDALRaster",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f386",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-django-contrib-gis",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2"
+            ],
+            "value": "supports pathlib.Path",
+            "quote": "The GDALRaster class now supports pathlib.Path ."
+          },
+          {
+            "fact_id": "f037",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-django-contrib-gis",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.0"
+            ],
+            "value": "allow creating rasters in any GDAL virtual filesystem",
+            "quote": "GDALRaster now allows creating rasters in\nany GDAL virtual filesystem."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f386",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-django-contrib-gis preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c07",
+        "subject": "HttpResponsePermanentRedirect",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f590",
+            "source_id": "doc_d0c1198a1f5f56fd",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.27/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.27"
+            ],
+            "value": "16384 characters",
+            "quote": "The limit is now 16384 characters ( #36743 )."
+          },
+          {
+            "fact_id": "f577",
+            "source_id": "doc_31a078332fbaf5b2",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.26/#s-cve-2025-64458-potential-denial-of-service-vulnerability-in-httpresponseredirect-and-httpresponsepermanentredirect-on-windows",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.26"
+            ],
+            "value": null,
+            "quote": "HttpResponseRedirect , HttpResponsePermanentRedirect , and the shortcut redirect() were subject to a potential denial-of-service attack"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f590",
+        "reason": "official source https://docs.djangoproject.com/en/dev/releases/4.2.27/#s-bugfixes preferred under the conflict policy.",
+        "affected_paths": [
+          "httpresponsepermanentredirect_longer_redirect_targets_accept"
+        ]
+      },
+      {
+        "conflict_id": "c08",
+        "subject": "HttpResponseRedirect",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f589",
+            "source_id": "doc_d0c1198a1f5f56fd",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.27/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.27"
+            ],
+            "value": "16384 characters",
+            "quote": "The limit is now 16384 characters ( #36743 )."
+          },
+          {
+            "fact_id": "f576",
+            "source_id": "doc_31a078332fbaf5b2",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.26/#s-cve-2025-64458-potential-denial-of-service-vulnerability-in-httpresponseredirect-and-httpresponsepermanentredirect-on-windows",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.26"
+            ],
+            "value": null,
+            "quote": "HttpResponseRedirect , HttpResponsePermanentRedirect , and the shortcut redirect() were subject to a potential denial-of-service attack"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f589",
+        "reason": "official source https://docs.djangoproject.com/en/dev/releases/4.2.27/#s-bugfixes preferred under the conflict policy.",
+        "affected_paths": [
+          "httpresponseredirect_longer_url_limit_changes_redirect_accep"
+        ]
+      },
+      {
+        "conflict_id": "c09",
+        "subject": "i18n_patterns()",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f532",
+            "source_id": "doc_d198df28fa627659",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.1/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.1"
+            ],
+            "value": null,
+            "quote": "Fixed a regression in Django 4.2 where i18n_patterns() didn\u2019t respect the prefix_default_language argument when a fallback language of the default language was used ( #34455 )."
+          },
+          {
+            "fact_id": "f533",
+            "source_id": "doc_d198df28fa627659",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.1/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.1"
+            ],
+            "value": null,
+            "quote": "Fixed a regression in Django 4.2 where translated URLs of the default language from i18n_patterns() with prefix_default_language set to False raised 404 errors for a request with a different language ( #34515 )."
+          },
+          {
+            "fact_id": "f208",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-internationalization",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.1"
+            ],
+            "value": null,
+            "quote": "The i18n_patterns() function now supports languages with both scripts and regions."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c10",
+        "subject": "makemigrations",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f475",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-index-together-option-is-deprecated-in-favor-of-indexes",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "4.2"
+            ],
+            "value": "generate a migration containing a RenameIndex operation",
+            "quote": "Running the makemigrations command will generate a migration\ncontaining a RenameIndex operation"
+          },
+          {
+            "fact_id": "f215",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-management-commands",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.1"
+            ],
+            "value": null,
+            "quote": "Python files created by startproject , startapp , optimizemigration , makemigrations , and squashmigrations are now formatted using the black command if it is present on your PATH ."
+          },
+          {
+            "fact_id": "f302",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-id2",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "4.1"
+            ],
+            "value": "generate a new migration with two operations: RemoveConstraint and AddConstraint",
+            "quote": "After making this change, makemigrations will generate a new migration with two operations: RemoveConstraint and AddConstraint ."
+          },
+          {
+            "fact_id": "f123",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-migrations-autodetector-changes",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "4.0"
+            ],
+            "value": null,
+            "quote": "running makemigrations might generate no-op AlterField operations"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f475",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-index-together-option-is-deprecated-in-favor-of-indexes preferred under the conflict policy.",
+        "affected_paths": [
+          "constraint_refactor_now_generates_removeconstraint_addconstr",
+          "index_rename_now_generates_renameindex_migration_operation"
+        ]
+      },
+      {
+        "conflict_id": "c11",
+        "subject": "makemigrations",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f475",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-index-together-option-is-deprecated-in-favor-of-indexes",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "4.2"
+            ],
+            "value": "generate a migration containing a RenameIndex operation",
+            "quote": "Running the makemigrations command will generate a migration\ncontaining a RenameIndex operation"
+          },
+          {
+            "fact_id": "f302",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-id2",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "4.1"
+            ],
+            "value": "generate a new migration with two operations: RemoveConstraint and AddConstraint",
+            "quote": "After making this change, makemigrations will generate a new migration with two operations: RemoveConstraint and AddConstraint ."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f475",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-index-together-option-is-deprecated-in-favor-of-indexes preferred under the conflict policy.",
+        "affected_paths": [
+          "constraint_refactor_now_generates_removeconstraint_addconstr",
+          "index_rename_now_generates_renameindex_migration_operation"
+        ]
+      },
+      {
+        "conflict_id": "c12",
+        "subject": "makemigrations --check",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f374",
+            "source_id": "doc_1c937e18ca484fe1",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.8/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.8"
+            ],
+            "value": "display pending migrations",
+            "quote": "Fixed a regression in Django 4.2 that caused makemigrations --check to stop displaying pending migrations"
+          },
+          {
+            "fact_id": "f455",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-miscellaneous",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2"
+            ],
+            "value": "no longer creates missing migration files",
+            "quote": "The makemigrations --check option no longer creates missing\nmigration files."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f374",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2.8/#s-bugfixes preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c13",
+        "subject": "makemigrations --update",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f350",
+            "source_id": "doc_702a4764577cd5a4",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.2/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.2"
+            ],
+            "value": "respects the --name option",
+            "quote": "Fixed a bug in Django 4.2 where makemigrations --update didn\u2019t respect the --name option"
+          },
+          {
+            "fact_id": "f415",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-management-commands",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "4.2"
+            ],
+            "value": "merges model changes into the latest migration and optimizes the resulting operations",
+            "quote": "The new makemigrations --update option merges model changes into the latest migration and optimizes the resulting operations."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f350",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2.2/#s-bugfixes preferred under the conflict policy.",
+        "affected_paths": [
+          "using_makemigrations_update_changes_migration_generation_wor"
+        ]
+      },
+      {
+        "conflict_id": "c14",
+        "subject": "ManifestStaticFilesStorage",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f399",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-django-contrib-staticfiles",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2"
+            ],
+            "value": "experimental support for replacing paths to JavaScript modules in import and export statements with their hashed counterparts",
+            "quote": "ManifestStaticFilesStorage now has experimental support for replacing paths to JavaScript modules in import and export statements with their hashed counterparts."
+          },
+          {
+            "fact_id": "f186",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-django-contrib-staticfiles",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.1"
+            ],
+            "value": null,
+            "quote": "ManifestStaticFilesStorage now replaces paths to CSS source map references with their hashed counterparts."
+          },
+          {
+            "fact_id": "f048",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-django-contrib-staticfiles",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.0"
+            ],
+            "value": "replaces paths to JavaScript source map references with their hashed counterparts",
+            "quote": "ManifestStaticFilesStorage now\nreplaces paths to JavaScript source map references with their hashed\ncounterparts."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f399",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-django-contrib-staticfiles preferred under the conflict policy.",
+        "affected_paths": [
+          "css_source_map_urls_are_rewritten_by_manifeststaticfilesstor"
+        ]
+      },
+      {
+        "conflict_id": "c15",
+        "subject": "ManifestStaticFilesStorage",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f399",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-django-contrib-staticfiles",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2"
+            ],
+            "value": "experimental support for replacing paths to JavaScript modules in import and export statements with their hashed counterparts",
+            "quote": "ManifestStaticFilesStorage now has experimental support for replacing paths to JavaScript modules in import and export statements with their hashed counterparts."
+          },
+          {
+            "fact_id": "f048",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-django-contrib-staticfiles",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.0"
+            ],
+            "value": "replaces paths to JavaScript source map references with their hashed counterparts",
+            "quote": "ManifestStaticFilesStorage now\nreplaces paths to JavaScript source map references with their hashed\ncounterparts."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f399",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-django-contrib-staticfiles preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c16",
+        "subject": "Meta.index_together",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f542",
+            "source_id": "doc_d198df28fa627659",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.1/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "deprecated",
+            "versions": [
+              "4.2.1"
+            ],
+            "value": "Meta.indexes",
+            "quote": "allows removing a deprecated Meta.index_together option from historical migrations and use Meta.indexes instead ( #34525 )."
+          },
+          {
+            "fact_id": "f473",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-index-together-option-is-deprecated-in-favor-of-indexes",
+            "trust_tier": "official",
+            "change": "deprecated",
+            "versions": [
+              "4.2"
+            ],
+            "value": "indexes",
+            "quote": "The Meta.index_together option is deprecated in favor of the indexes option."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f542",
+        "reason": "official source https://docs.djangoproject.com/en/dev/releases/4.2.1/#s-bugfixes preferred under the conflict policy.",
+        "affected_paths": [
+          "use_of_meta_index_together_in_model_meta_definitions_or_migr"
+        ]
+      },
+      {
+        "conflict_id": "c17",
+        "subject": "migrations autodetector",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f220",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-migrations",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.1"
+            ],
+            "value": "RenameIndex",
+            "quote": "The migrations autodetector now generates RenameIndex operations instead of RemoveIndex and AddIndex"
+          },
+          {
+            "fact_id": "f221",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-migrations",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.1"
+            ],
+            "value": "RenameIndex",
+            "quote": "The migrations autodetector now generates RenameIndex operations instead of AlterIndexTogether and AddIndex"
+          },
+          {
+            "fact_id": "f120",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-migrations-autodetector-changes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.0"
+            ],
+            "value": "model states",
+            "quote": "The migrations autodetector now uses model states instead of model classes."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "autogenerated_migrations_may_change_because_autodetector_com",
+          "index_renames_may_be_generated_as_renameindex_instead_of_rem",
+          "moving_from_index_together_to_indexes_may_generate_renameind"
+        ]
+      },
+      {
+        "conflict_id": "c18",
+        "subject": "Model",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f425",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-models",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "4.2"
+            ],
+            "value": "provides asynchronous versions of some database methods: adelete(), arefresh_from_db(), and asave()",
+            "quote": "Model now provides asynchronous versions of some methods that use the database, using an a prefix: adelete() , arefresh_from_db() , and asave() ."
+          },
+          {
+            "fact_id": "f176",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-django-contrib-admin",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "4.0"
+            ],
+            "value": null,
+            "quote": "The new context variable model which contains the model class for each model is added to the AdminSite.each_context() method."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f425",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-models preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c19",
+        "subject": "PBKDF2 password hasher",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f508",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-django-contrib-auth",
+            "trust_tier": "official",
+            "change": "default_changed",
+            "versions": [
+              "4.2"
+            ],
+            "value": "600,000",
+            "quote": "The default iteration count for the PBKDF2 password hasher is increased from 390,000 to 600,000."
+          },
+          {
+            "fact_id": "f335",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-django-contrib-auth",
+            "trust_tier": "official",
+            "change": "default_changed",
+            "versions": [
+              "4.1"
+            ],
+            "value": "390,000",
+            "quote": "The default iteration count for the PBKDF2 password hasher is increased from 320,000 to 390,000."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f508",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-django-contrib-auth preferred under the conflict policy.",
+        "affected_paths": [
+          "pbkdf2_default_iteration_count_increases_in_django_4_1_and_a"
+        ]
+      },
+      {
+        "conflict_id": "c20",
+        "subject": "QuerySet",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f417",
+            "source_id": "doc_e0e0df9636049c90",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/#s-models",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "4.2"
+            ],
+            "value": "extensively supports filtering against UUID functions, except disjunctive filter lookups against window functions when performing aggregation",
+            "quote": "QuerySet now extensively supports filtering against UUID functions with the exception of disjunctive filter lookups against window functions when performing aggregation."
+          },
+          {
+            "fact_id": "f324",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-asynchronous-orm-interface",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "4.1"
+            ],
+            "value": "asynchronous interface for all data access operations",
+            "quote": "QuerySet now provides an asynchronous interface for all data access operations."
+          },
+          {
+            "fact_id": "f325",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-asynchronous-orm-interface",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "4.1"
+            ],
+            "value": "async interface names use an a prefix",
+            "quote": "These are named as-per the existing synchronous operations but with an a prefix, for example acreate() , aget() , and so on."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f417",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2/#s-models preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c21",
+        "subject": "QuerySet.aggregate()",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f375",
+            "source_id": "doc_1c937e18ca484fe1",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.8/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.8"
+            ],
+            "value": "no crash",
+            "quote": "Fixed a regression in Django 4.2 that caused a crash of QuerySet.aggregate() with aggregates referencing other aggregates or\nwindow functions through conditional expressions"
+          },
+          {
+            "fact_id": "f353",
+            "source_id": "doc_702a4764577cd5a4",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.2/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.2"
+            ],
+            "value": "no longer crashes",
+            "quote": "Fixed a regression in Django 4.2 that caused a crash of QuerySet.aggregate() with expressions referencing other aggregates"
+          },
+          {
+            "fact_id": "f354",
+            "source_id": "doc_702a4764577cd5a4",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.2/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.2"
+            ],
+            "value": "no longer crashes",
+            "quote": "Fixed a regression in Django 4.2 that caused a crash of QuerySet.aggregate() with aggregates referencing subqueries"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f375",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2.8/#s-bugfixes preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c22",
+        "subject": "QuerySet.alias()",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f586",
+            "source_id": "doc_d0c1198a1f5f56fd",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.27/#s-cve-2025-13372-potential-sql-injection-in-filteredrelation-column-aliases-on-postgresql",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.27"
+            ],
+            "value": null,
+            "quote": "as the **kwargs passed to QuerySet.annotate() or QuerySet.alias() on\nPostgreSQL."
+          },
+          {
+            "fact_id": "f573",
+            "source_id": "doc_89a139daf66b3fe5",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.25/#s-cve-2025-59681-potential-sql-injection-in-queryset-annotate-alias-aggregate-and-extra-on-mysql-and-mariadb",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.25"
+            ],
+            "value": null,
+            "quote": "QuerySet.annotate() , alias() , aggregate() , and extra() methods were subject\nto SQL injection in column aliases"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f586",
+        "reason": "official source https://docs.djangoproject.com/en/dev/releases/4.2.27/#s-cve-2025-13372-potential-sql-injection-in-filteredrelation-column-aliases-on-postgresql preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c23",
+        "subject": "QuerySet.annotate()",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f585",
+            "source_id": "doc_d0c1198a1f5f56fd",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.27/#s-cve-2025-13372-potential-sql-injection-in-filteredrelation-column-aliases-on-postgresql",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.27"
+            ],
+            "value": null,
+            "quote": "as the **kwargs passed to QuerySet.annotate() or QuerySet.alias() on\nPostgreSQL."
+          },
+          {
+            "fact_id": "f572",
+            "source_id": "doc_89a139daf66b3fe5",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.25/#s-cve-2025-59681-potential-sql-injection-in-queryset-annotate-alias-aggregate-and-extra-on-mysql-and-mariadb",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.25"
+            ],
+            "value": null,
+            "quote": "QuerySet.annotate() , alias() , aggregate() , and extra() methods were subject\nto SQL injection in column aliases"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f585",
+        "reason": "official source https://docs.djangoproject.com/en/dev/releases/4.2.27/#s-cve-2025-13372-potential-sql-injection-in-filteredrelation-column-aliases-on-postgresql preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c24",
+        "subject": "QuerySet.bulk_create()",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f223",
+            "source_id": "doc_1dbd312c2af0bcaf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/#s-models",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.1"
+            ],
+            "value": null,
+            "quote": "QuerySet.bulk_create() now supports updating fields when a row insertion fails uniqueness constraints."
+          },
+          {
+            "fact_id": "f082",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-models",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.0"
+            ],
+            "value": "primary key set on objects when using SQLite 3.35+",
+            "quote": "QuerySet.bulk_create() now sets the primary key on objects when using SQLite 3.35+."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f223",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.1/#s-models preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c25",
+        "subject": "QuerySet.defer()",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f348",
+            "source_id": "doc_702a4764577cd5a4",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.2/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.2"
+            ],
+            "value": "no longer crashes; passing those references is a no-op",
+            "quote": "Fixed a regression in Django 4.2 that caused a crash of QuerySet.defer() when passing a ManyToManyField or GenericForeignKey reference. While doing so is a no-op, it was allowed in older version"
+          },
+          {
+            "fact_id": "f527",
+            "source_id": "doc_d198df28fa627659",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.1/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.1"
+            ],
+            "value": null,
+            "quote": "Fixed a regression in Django 4.2 that caused a crash of QuerySet.defer() when deferring fields by attribute names ( #34458 )."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f348",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2.2/#s-bugfixes preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c26",
+        "subject": "sessions",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f181",
+            "source_id": "doc_14d4f374ec1fec6c",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.1.8/#s-bugfixes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.1.8"
+            ],
+            "value": "no longer invalidated when rotating secret keys with SECRET_KEY_FALLBACKS",
+            "quote": "caused invalidation of sessions when rotating secret keys with SECRET_KEY_FALLBACKS"
+          },
+          {
+            "fact_id": "f148",
+            "source_id": "doc_c7f09603fb30dbbf",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/#s-features-removed-in-4-0",
+            "trust_tier": "official",
+            "change": "removed",
+            "versions": [
+              "4.0"
+            ],
+            "value": "support removed",
+            "quote": "Support for the pre-Django 3.1 encoding format of sessions is removed."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f181",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.1.8/#s-bugfixes preferred under the conflict policy.",
+        "affected_paths": [
+          "old_session_encoding_format_becomes_unreadable_after_upgrade"
+        ]
+      },
+      {
+        "conflict_id": "c27",
+        "subject": "strip_tags()",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f357",
+            "source_id": "doc_32b1be22c3a2cdc8",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.21/#s-cve-2025-32873-denial-of-service-possibility-in-strip-tags",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.21"
+            ],
+            "value": null,
+            "quote": "strip_tags() now raises a SuspiciousOperation exception if it encounters an unusually large number of unclosed opening tags."
+          },
+          {
+            "fact_id": "f558",
+            "source_id": "doc_7b1dd3bfd104c026",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.17/#s-cve-2024-53907-denial-of-service-possibility-in-strip-tags",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "4.2.17"
+            ],
+            "value": "raises SuspiciousOperation after an upper limit of recursive calls to HTMLParser",
+            "quote": "strip_tags() now has an upper limit of recursive calls to HTMLParser before raising a SuspiciousOperation exception."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f357",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2.21/#s-cve-2025-32873-denial-of-service-possibility-in-strip-tags preferred under the conflict policy.",
+        "affected_paths": [
+          "strip_tags_on_deeply_nested_or_pathological_html_now_raises"
+        ]
+      },
+      {
+        "conflict_id": "c28",
+        "subject": "strip_tags()",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f357",
+            "source_id": "doc_32b1be22c3a2cdc8",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.21/#s-cve-2025-32873-denial-of-service-possibility-in-strip-tags",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.21"
+            ],
+            "value": null,
+            "quote": "strip_tags() now raises a SuspiciousOperation exception if it encounters an unusually large number of unclosed opening tags."
+          },
+          {
+            "fact_id": "f556",
+            "source_id": "doc_7b1dd3bfd104c026",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.17/#s-cve-2024-53907-denial-of-service-possibility-in-strip-tags",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.17"
+            ],
+            "value": null,
+            "quote": "strip_tags() now has an upper limit of recursive calls to HTMLParser before raising a SuspiciousOperation exception."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f357",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2.21/#s-cve-2025-32873-denial-of-service-possibility-in-strip-tags preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c29",
+        "subject": "striptags template filter",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f358",
+            "source_id": "doc_32b1be22c3a2cdc8",
+            "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.21/#s-cve-2025-32873-denial-of-service-possibility-in-strip-tags",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.21"
+            ],
+            "value": null,
+            "quote": "This function is used to implement the striptags template filter, which was thus also vulnerable."
+          },
+          {
+            "fact_id": "f557",
+            "source_id": "doc_7b1dd3bfd104c026",
+            "url": "https://docs.djangoproject.com/en/dev/releases/4.2.17/#s-cve-2024-53907-denial-of-service-possibility-in-strip-tags",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "4.2.17"
+            ],
+            "value": null,
+            "quote": "The strip_tags() method is used to implement the corresponding striptags template filter, which was thus also vulnerable."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f358",
+        "reason": "official source https://docs.djangoproject.com/en/6.1/releases/4.2.21/#s-cve-2025-32873-denial-of-service-possibility-in-strip-tags preferred under the conflict policy.",
+        "affected_paths": []
+      }
+    ],
+    "open_questions": [
+      "Unconfirmed condition in 'Custom Model.save() logic breaks under QuerySet.update_or_create() in Django 4.2': Application defines custom model save() logic that may depend on whether update_fields is supplied",
+      "Unconfirmed condition in 'Deprecated transitional setting CSRF_COOKIE_MASKED is present during upgrade to Django 4.1+': The project still depends on the transitional behavior of CSRF_COOKIE_MASKED rather than having already removed it",
+      "Unresolved disagreement about i18n_patterns() (versions) between https://docs.djangoproject.com/en/6.1/releases/4.1/#s-internationalization, https://docs.djangoproject.com/en/dev/releases/4.2.1/#s-bugfixes [c09]",
+      "Unresolved disagreement about migrations autodetector (value) between https://docs.djangoproject.com/en/6.1/releases/4.0/#s-migrations-autodetector-changes, https://docs.djangoproject.com/en/6.1/releases/4.1/#s-migrations [c17]",
+      "3 critical or high risks rest on a single source (flagged single_source_severe_risk); confirm them with a second source: 'Oracle direct HasKey lookup with untrusted lhs values is vulnerable to SQL injection in Django 4.2.17'; 'PostgreSQL deployments with non-UTF-8 client encoding require remediation'; 'Python 3.12.3+ compatibility issue fixed in Django 4.2.12'."
+    ]
+  }
+}

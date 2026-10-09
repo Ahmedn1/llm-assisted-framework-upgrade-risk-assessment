@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-10-09T15:30:48.697878+00:00",
+  "input": {
+    "project": "Kubernetes",
+    "current_version": "1.23",
+    "target_version": "1.29"
+  },
+  "configuration": {
+    "offline": false,
+    "refresh": false,
+    "scorer": "heuristic",
+    "web_search": "auto",
+    "evidence_search": "none",
+    "max_documents": 100,
+    "resolver_requests": 100,
+    "collector_requests": 200,
+    "max_urls": 500,
+    "max_depth": 2,
+    "execution_path": "deterministic",
+    "section_relevance": true,
+    "risk_extraction": true,
+    "section_relevance_max_sections": 200,
+    "decision_backend": {
+      "adapter": "OpenD1Client",
+      "model": "LiquidAI/d1-3B@051bcc464b01b9f92942b364d9586b0ef5912432"
+    },
+    "risk_extraction_options": {
+      "max_sections": 150,
+      "structured_mode": "json_schema",
+      "max_output_tokens": 8192,
+      "token_parameter": "max_completion_tokens"
+    },
+    "risk_verification": {
+      "judge": "decision",
+      "max_conditions": 300
+    },
+    "models": {
+      "relevance": {
+        "kind": "d1",
+        "model": "LiquidAI/d1-3B",
+        "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+        "base_url": null,
+        "api_key_set": false,
+        "resolved_from": {
+          "backend": "default",
+          "model": "default",
+          "revision": "default pin",
+          "base_url": null,
+          "api_key": null
+        }
+      },
+      "extraction": {
+        "kind": "llm",
+        "model": "gpt-5.4-mini",
+        "base_url": "https://api.openai.com/v1",
+        "api_key_set": true,
+        "resolved_from": {
+          "model": "LLM_MODEL_NAME",
+          "base_url": "LLM_BASE_URL",
+          "api_key": "LLM_API_KEY"
+        }
+      },
+      "judge": {
+        "kind": "d1",
+        "model": "LiquidAI/d1-3B",
+        "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+        "base_url": null,
+        "api_key_set": false,
+        "resolved_from": {
+          "backend": "default",
+          "model": "default",
+          "revision": "default pin",
+          "base_url": null,
+          "api_key": null
+        }
+      }
+    }
+  },
+  "files": {
+    "resolution": "resolution.json",
+    "evidence": "evidence.json",
+    "source_inventory": "source_inventory.json",
+    "candidate_sections": "candidate_sections.json",
+    "risk_model": "risk_model.json",
+    "extracted_facts": "extracted_facts.json",
+    "grounding_report": "grounding_report.json",
+    "evidence_summary": "evidence_summary.json",
+    "final_output": "final_output.json",
+    "report": "report.html"
+  },
+  "section_relevance": {
+    "section_relevance_decision_calls": 200,
+    "section_relevance_scored": 200,
+    "section_relevance_failed": 0,
+    "section_relevance_not_scored": 199,
+    "section_relevance_labels": {
+      "risk_candidate": 33,
+      "context": 58,
+      "not_relevant": 109
+    }
+  },
+  "risk_extraction": {
+    "risk_paths": 153,
+    "contextual_facts": 253,
+    "overall_confidence": "high",
+    "extraction_llm_calls": 197,
+    "rejected_facts": 17,
+    "extraction_failures": 0
+  },
+  "risk_verification": {
+    "overall_confidence": "medium",
+    "judge": "decision",
+    "high_confidence_risks": 37,
+    "medium_confidence_risks": 87,
+    "low_confidence_or_disputed_risks": 29,
+    "sources_with_disagreements": 21
+  },
+  "summary": {
+    "resolver_status": "partial",
+    "selected_catalog": "https://kubernetes.io/releases/notes/",
+    "version_count": 6,
+    "milestones": [
+      "1.24",
+      "1.25",
+      "1.26",
+      "1.27",
+      "1.28",
+      "1.29"
+    ],
+    "resolver_coverage": {
+      "identity": "resolved_by_heuristics",
+      "catalog": "partial",
+      "discovery": "bounded_search",
+      "source_selection": "selected",
+      "publication": "catalog_records"
+    },
+    "resolver_warnings": [
+      "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+      "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+      "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+    ],
+    "resolver_network_requests": 0,
+    "collector_status": "partial",
+    "document_count": 100,
+    "retrieval_failures": 0,
+    "failure_examples": [],
+    "validation_failures": 0,
+    "inference_failures": 0,
+    "pipeline_status": "completed_partial",
+    "document_types": {
+      "release_notes": 63,
+      "supporting_document": 1,
+      "github_release": 7,
+      "deprecation_notice": 1,
+      "api_documentation": 14,
+      "upgrade_guide": 14
+    },
+    "versions_with_candidate_evidence": 6,
+    "versions_with_direct_evidence": 6,
+    "versions_with_direct_release_notes": 6,
+    "versions_without_evidence": [],
+    "versions_with_only_registry_metadata": [],
+    "upgrade_guide_urls": [
+      "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/",
+      "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-linux-nodes/",
+      "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-windows-nodes/",
+      "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/",
+      "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents/",
+      "https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/",
+      "https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/",
+      "https://kubernetes.io/docs/tasks/configure-pod-container/migrate-from-psp/",
+      "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/",
+      "https://kubernetes.io/docs/reference/using-api/deprecation-guide/",
+      "https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/",
+      "https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/storage-version-migration-v1/",
+      "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/",
+      "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/"
+    ],
+    "pending_urls": 495,
+    "skipped_urls": 5927,
+    "collector_network_requests": 5,
+    "collector_warnings": [
+      "robots.txt unavailable for https://raw.githubusercontent.com: Cached HTTP 404 for https://raw.githubusercontent.com/robots.txt"
+    ],
+    "llm_calls": 0,
+    "section_relevance_decision_calls": 200,
+    "section_relevance_scored": 200,
+    "section_relevance_failed": 0,
+    "section_relevance_not_scored": 199,
+    "section_relevance_labels": {
+      "risk_candidate": 33,
+      "context": 58,
+      "not_relevant": 109
+    },
+    "risk_paths": 153,
+    "contextual_facts": 253,
+    "overall_confidence": "high",
+    "extraction_llm_calls": 197,
+    "rejected_facts": 17,
+    "extraction_failures": 0,
+    "verification_overall_confidence": "medium",
+    "verification_judge": "decision",
+    "verification_high_confidence_risks": 37,
+    "verification_medium_confidence_risks": 87,
+    "verification_low_confidence_or_disputed_risks": 29,
+    "verification_sources_with_disagreements": 21
+  }
+}

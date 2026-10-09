@@ -1,0 +1,3882 @@
+{
+  "project": "Next.js",
+  "current_version": "12",
+  "target_version": "14",
+  "resolved_versions": [
+    "13.0.0",
+    "13.0.1",
+    "13.0.2",
+    "13.0.3",
+    "13.0.4",
+    "13.0.5",
+    "13.0.6",
+    "13.0.7",
+    "13.1.0",
+    "13.1.1",
+    "13.1.2",
+    "13.1.3",
+    "13.1.4",
+    "13.1.5",
+    "13.1.6",
+    "13.2.0",
+    "13.2.1",
+    "13.2.2",
+    "13.2.3",
+    "13.2.4",
+    "13.3.0",
+    "13.3.1",
+    "13.3.2",
+    "13.3.3",
+    "13.3.4",
+    "13.4.0",
+    "13.4.1",
+    "13.4.2",
+    "13.4.3",
+    "13.4.4",
+    "13.4.5",
+    "13.4.6",
+    "13.4.7",
+    "13.4.8",
+    "13.4.9",
+    "13.4.10",
+    "13.4.11",
+    "13.4.12",
+    "13.4.13",
+    "13.4.15",
+    "13.4.16",
+    "13.4.17",
+    "13.4.18",
+    "13.4.19",
+    "13.5.0",
+    "13.5.1",
+    "13.5.2",
+    "13.5.3",
+    "13.5.4",
+    "13.5.5",
+    "13.5.6",
+    "13.5.7",
+    "13.5.8",
+    "13.5.9",
+    "13.5.10",
+    "13.5.11",
+    "14.0.0",
+    "14.0.1",
+    "14.0.2",
+    "14.0.3",
+    "14.0.4",
+    "14.1.0",
+    "14.1.1",
+    "14.1.2",
+    "14.1.3",
+    "14.1.4",
+    "14.2.0",
+    "14.2.1",
+    "14.2.2",
+    "14.2.3",
+    "14.2.4",
+    "14.2.5",
+    "14.2.6",
+    "14.2.7",
+    "14.2.8",
+    "14.2.9",
+    "14.2.10",
+    "14.2.11",
+    "14.2.12",
+    "14.2.13",
+    "14.2.14",
+    "14.2.15",
+    "14.2.16",
+    "14.2.17",
+    "14.2.18",
+    "14.2.19",
+    "14.2.20",
+    "14.2.21",
+    "14.2.22",
+    "14.2.23",
+    "14.2.24",
+    "14.2.25",
+    "14.2.26",
+    "14.2.27",
+    "14.2.28",
+    "14.2.29",
+    "14.2.30",
+    "14.2.31",
+    "14.2.32",
+    "14.2.33",
+    "14.2.34",
+    "14.2.35"
+  ],
+  "documentation_milestones": [
+    "13",
+    "14"
+  ],
+  "collection_path": "deterministic",
+  "generated_at": "2026-10-09T16:25:55.764767+00:00",
+  "sources": [
+    {
+      "source_id": "doc_46dd3a076620ce2a",
+      "title": "Building Your Application: Upgrading | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/upgrading",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T10:10:57.931460+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/version-14. Mentions in-range versions 14.2.35. Candidate sections: 3 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "2c4fbdf9511cae07ea827996cc809b3636b8358eb4fa454de6ab835d25df1eb4",
+      "rank": 1
+    },
+    {
+      "source_id": "doc_51841109f054d927",
+      "title": "Upgrading: App Router Migration | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T10:10:58.266197+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/version-14. Mentions in-range versions 14.2.35. Candidate sections: 14 migration_step, 12 unclassified_change, 3 removal, 3 breaking_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 30,
+      "out_of_range_sections": 0,
+      "content_sha256": "3e80a698791cfa4f5da52f0b98547000fc1f35d3a2633e3bec9a4bfa2eea794f",
+      "rank": 2
+    },
+    {
+      "source_id": "doc_7ae1e41d59f0ca0c",
+      "title": "Upgrading: Codemods | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/upgrading/codemods",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T10:10:59.130775+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/version-14. Mentions in-range versions 14.2.35. Candidate sections: 8 unclassified_change, 4 migration_step, 2 deprecation, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 14,
+      "out_of_range_sections": 0,
+      "content_sha256": "f1a64f73c76f75728f83d521777ad8a5f9c7a45c908c79a2a239dfcf6a082d74",
+      "rank": 3
+    },
+    {
+      "source_id": "doc_ea3c087ef9dfcc50",
+      "title": "Upgrading: Migrating from Vite | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T10:10:58.777627+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/version-14. Mentions in-range versions 14.2.35. Candidate sections: 10 unclassified_change, 7 migration_step, 3 dependency_requirement, 2 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 21,
+      "out_of_range_sections": 0,
+      "content_sha256": "c40772fce35744d60ee7ca722177ba2b28a6e710c051e53da36b982d65963511",
+      "rank": 4
+    },
+    {
+      "source_id": "doc_de8d64cf90c52e2b",
+      "title": "Upgrading: Version 14 | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/upgrading/version-14",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:56.117113+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/version-14. Mentions in-range versions 14.2.35. Candidate sections: 2 migration_step, 1 removal, 1 runtime_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "7c9607c9f2a855c1c1f932b741984db2ea0a233686aacabacb891631dd6cc375",
+      "rank": 5
+    },
+    {
+      "source_id": "doc_84b1501221856460",
+      "title": "Upgrading: Version 14 | Next.js",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/version-14",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T10:00:31.411172+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/app/guides/upgrading/version-14. Candidate sections: 3 migration_step, 2 removal, 2 runtime_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0.0"
+      ],
+      "version_association_bases": [
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "444598799f727722b4a536408508da4bb5acece39615b71b846083de47f82547",
+      "rank": 6
+    },
+    {
+      "source_id": "doc_ed828eb3149ea8d3",
+      "title": "Upgrading: Version 13 | Next.js",
+      "url": "https://nextjs.org/docs/pages/guides/upgrading/version-13",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T10:00:32.809455+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/pages/guides/upgrading/version-13. Candidate sections: 5 migration_step, 2 configuration_change, 2 unclassified_change, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "13.0.0"
+      ],
+      "version_association_bases": [
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 0,
+      "content_sha256": "a10c616e1fd3011590b6a03e2a06e4b7a9fa73c8502a3a0a8d847ab610b0bc67",
+      "rank": 7
+    },
+    {
+      "source_id": "doc_1872ac01646844e0",
+      "title": "Upgrading: Version 14 | Next.js",
+      "url": "https://nextjs.org/docs/pages/guides/upgrading/version-14",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T10:12:48.321435+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/pages/guides/upgrading. Candidate sections: 3 migration_step, 2 removal, 2 runtime_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0.0"
+      ],
+      "version_association_bases": [
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "287e9346f99de0a2a553510571a71b1b327c86fe9eb1b50ce8e10337bed295a8",
+      "rank": 8
+    },
+    {
+      "source_id": "doc_979f87c6fc24ec2a",
+      "title": "v13.0.0",
+      "url": "https://github.com/vercel/next.js/releases/tag/v13.0.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T10:10:40.885799+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.0.0. Candidate sections: 3 configuration_change, 3 migration_step, 2 runtime_requirement, 2 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository vercel/next.js."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "13.0.0"
+      ],
+      "version_association_bases": [
+        "milestone_release_tag_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 5,
+      "out_of_range_sections": 0,
+      "content_sha256": "f2b6a2ab1420a322a18fc140e9bd2963d24b79b1358829f5a9c8d02b4caa25fc",
+      "rank": 9
+    },
+    {
+      "source_id": "doc_fcf802b3edcf1dc0",
+      "title": "v14.0.0",
+      "url": "https://github.com/vercel/next.js/releases/tag/v14.0.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T10:10:41.077848+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 14.0.0. Candidate sections: 4 unclassified_change, 1 deprecation, 1 removal, 1 runtime_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository vercel/next.js."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "14.0.0"
+      ],
+      "version_association_bases": [
+        "milestone_release_tag_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 5,
+      "out_of_range_sections": 0,
+      "content_sha256": "82e481e41f25d98a20e61f605e6982f9266a16283c2d16cef36a05ead4930c72",
+      "rank": 10
+    },
+    {
+      "source_id": "doc_fb5aedcacfc1e70c",
+      "title": "Introduction: App Router | Next.js",
+      "url": "https://nextjs.org/docs/14/app",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:58.265888+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "74f879fc6e86ca3dfe4d886b4db1f8a5c71488ffd433b6c573bf4aa6dba27a26",
+      "rank": 11
+    },
+    {
+      "source_id": "doc_5fc5f57021b7c311",
+      "title": "Components: <Image> | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/components/image",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:59.291259+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 13.0.0, 13.0.6, 13.2.0, 14.0.0, 14.1.0, 14.2.35. Candidate sections: 5 changed_default, 4 deprecation, 4 removal, 3 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "13.0.6",
+        "13.2.0",
+        "14.0.0",
+        "14.1.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 17,
+      "out_of_range_sections": 0,
+      "content_sha256": "dcacb5f19c027c52fb9a0bc1bafdc620ee750d4cb89b54cf6735f36f0d93eb65",
+      "rank": 12
+    },
+    {
+      "source_id": "doc_b662f0b48251bdbc",
+      "title": "Components: <Link> | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/components/link",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:59.525572+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/codemods. Mentions in-range versions 13.0.0, 14.2.35. Candidate sections: 3 changed_default, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "b6a2427b239cee9f3eadf36caaa566b2887ebd1ef43e4f83f7887dc6f02721b7",
+      "rank": 13
+    },
+    {
+      "source_id": "doc_0fb0751adc8a7f65",
+      "title": "Components: <Script> | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/components/script",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:09.309343+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.0.0, 14.2.35. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1b7b61508c4e61dc7e7cb14021a9d16c636306aad8da08e48f93b342d358e257",
+      "rank": 14
+    },
+    {
+      "source_id": "doc_d1570fc1d8bb8f3c",
+      "title": "File Conventions: not-found.js | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/file-conventions/not-found",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:12.558819+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.0.0, 13.3.0, 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "13.3.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1069a27adcf90c59fc0245878d590a0c3963b36bcc658d5bb43ef7829caa83cf",
+      "rank": 15
+    },
+    {
+      "source_id": "doc_72d1a3609b051fd4",
+      "title": "File Conventions: Route Segment Config | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/file-conventions/route-segment-config",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:17.987149+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.4.10, 14.2.35. Candidate sections: 5 changed_default, 4 configuration_change, 2 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.4.10",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 0,
+      "content_sha256": "baae2734324e154ea34f1397d02e54b44a21cd8effc4d7352db2a967b5d6df95",
+      "rank": 16
+    },
+    {
+      "source_id": "doc_2480365acc87f451",
+      "title": "Functions: cookies | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/functions/cookies",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:17.342049+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.0.0, 14.2.35. Candidate sections: 3 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "b36e9260b6b826e881ec4e3b38ea32847d53511e8b5ec631f6b59e92a8425412",
+      "rank": 17
+    },
+    {
+      "source_id": "doc_03ff72f3d8e73cae",
+      "title": "Functions: fetch | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/functions/fetch",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:17.623906+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.0.0, 14.2.35. Candidate sections: 1 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "3269a81ac44f1f0668523774ddd946875e991a9a8299646fd60217625167474d",
+      "rank": 18
+    },
+    {
+      "source_id": "doc_cb95e28359ebd6f9",
+      "title": "Functions: generateMetadata | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/functions/generate-metadata",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:14.036444+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.2.0, 14.2.35. Candidate sections: 3 deprecation, 1 migration_step, 1 configuration_change, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.2.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 7,
+      "out_of_range_sections": 0,
+      "content_sha256": "01f99b8da6b2194eda785b155f1283565a5928e67e3c8ebc3a36b89d7b2a85a2",
+      "rank": 19
+    },
+    {
+      "source_id": "doc_b8d90b73001eec3c",
+      "title": "Functions: generateStaticParams | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/functions/generate-static-params",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:11.765962+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.0.0, 14.2.35. Candidate sections: 2 configuration_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "bfcf3f7a53a882cc929d98eef4eee7b97226c347be9db9ed34a57f97d417bf09",
+      "rank": 20
+    },
+    {
+      "source_id": "doc_b7006bb991736d5d",
+      "title": "Functions: headers | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/functions/headers",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:17.004768+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.0.0, 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "b1f4815d77aecd1f7a414bc3099abc518393fdb5a7dda0c5f906a9a5227c981e",
+      "rank": 21
+    },
+    {
+      "source_id": "doc_c5456e4ac547d236",
+      "title": "Functions: usePathname | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/functions/use-pathname",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:15.277287+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.0.0, 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "7ff203cc01850053ded552964212342623be71ff494d55f1130f43db974bf8ca",
+      "rank": 22
+    },
+    {
+      "source_id": "doc_057ff0f3c36500f9",
+      "title": "Functions: useRouter | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/functions/use-router",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:14.960184+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.0.0, 14.2.35. Candidate sections: 1 removal, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "261fd2cafd2518274ce62d804d99b031c5f46a37676d7f23da4386edfcfff6a0",
+      "rank": 23
+    },
+    {
+      "source_id": "doc_6bb6a759a2a2ffe2",
+      "title": "Functions: useSearchParams | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/functions/use-search-params",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:15.673594+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 13.0.0, 14.2.35. Candidate sections: 1 migration_step, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "f97574a0a73dd98e81bce3a8184835f45824de582c1e63d608e4a79651b3d148",
+      "rank": 24
+    },
+    {
+      "source_id": "doc_a49fae12ef3e21e1",
+      "title": "API Reference: next.config.js Options | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/next-config-js",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:21.921192+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "77ebfb06fe559695f72542411123177771b9c48d66ebd465cec8b52fa005d3d9",
+      "rank": 25
+    },
+    {
+      "source_id": "doc_0f0d89495cb2e1d7",
+      "title": "next.config.js Options: basePath | Next.js",
+      "url": "https://nextjs.org/docs/14/app/api-reference/next-config-js/basePath",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:23.851085+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35. Candidate sections: 1 configuration_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "cfc61f68c38561885c5d1e7eb2222809fb898475637976808003bc433d3bf4dd",
+      "rank": 26
+    },
+    {
+      "source_id": "doc_e3a06e839c58b42e",
+      "title": "Configuring: Environment Variables | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/configuring/environment-variables",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:23.485138+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35. Candidate sections: 10 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 10,
+      "out_of_range_sections": 0,
+      "content_sha256": "847a21164ff93abe5855a95f6f5c8688a778273f66a371d55c5e0cc1c4327201",
+      "rank": 27
+    },
+    {
+      "source_id": "doc_220a927cf36d61ba",
+      "title": "Configuring: ESLint | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/configuring/eslint",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:24.555937+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35. Candidate sections: 6 configuration_change, 2 dependency_requirement, 1 behavior_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 0,
+      "content_sha256": "fd1671696124f0e705d4944d4755dc0cb98bd2a69886bfc32d99f896f23efeef",
+      "rank": 28
+    },
+    {
+      "source_id": "doc_aca3e164fff58576",
+      "title": "Configuring: TypeScript | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/configuring/typescript",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:22.329369+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 13.2.0, 14.2.35. Candidate sections: 4 configuration_change, 1 dependency_requirement, 1 removal, 1 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.2.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "c41b72e5217f9c275655733bfd6f52de904a22cbd592882f9c61e887060a1616",
+      "rank": 29
+    },
+    {
+      "source_id": "doc_e3ad75501f242aae",
+      "title": "Building Your Application: Data Fetching | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/data-fetching",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:11.473848+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "595ca0d281a9b67a5adcb20c669f9f1e4b97048c87fdfe4cea995a70c8bd35bd",
+      "rank": 30
+    },
+    {
+      "source_id": "doc_7238e7bc8c4609ea",
+      "title": "Data Fetching: Fetching, Caching, and Revalidating | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/data-fetching/fetching-caching-and-revalidating",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:14.547860+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 3 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "8e0a5d6d90a93627964700f59a26d71d96aa8d3c4f7b2b35874f821b6e6cdb18",
+      "rank": 31
+    },
+    {
+      "source_id": "doc_def23cead0d38f96",
+      "title": "Optimizing: Fonts | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/optimizing/fonts",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:10.226535+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "e98517ae2a498eb7c327ce97f6d981a2a86404c464df25aae981f04f0d7f367c",
+      "rank": 32
+    },
+    {
+      "source_id": "doc_04f6366104a4afab",
+      "title": "Optimizing: Images | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/optimizing/images",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:21.309264+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "ce214e6bf7d167ddb6542292493c697d3189019c36da5df236d59048488ff8b1",
+      "rank": 33
+    },
+    {
+      "source_id": "doc_15010e9e9c4f1aff",
+      "title": "Optimizing: Metadata | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/optimizing/metadata",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:12.869425+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "035982069abd328260b5d88c8b63284c2ffcd0aba2fbdcb20eeaa7b7c3be1e8d",
+      "rank": 34
+    },
+    {
+      "source_id": "doc_64a5da3b3a010d04",
+      "title": "Optimizing: Scripts | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/optimizing/scripts",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:21.612565+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35. Candidate sections: 2 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "c3500a2376c1ad1bbdeab392afc4cdca7ea10d5bac7aa479dba81a0c5d87a35c",
+      "rank": 35
+    },
+    {
+      "source_id": "doc_d4c175e2fd780f95",
+      "title": "Rendering: Client Components | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/rendering/client-components",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:13.231604+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 1 data_migration.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1095f45409ba964684597f7b411b4a2a740123c133e0d3c43dba900851c6f0a3",
+      "rank": 36
+    },
+    {
+      "source_id": "doc_8ce46c8713f8da58",
+      "title": "Rendering: Server Components | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/rendering/server-components",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:09.939809+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 1 dependency_requirement, 1 security, 1 data_migration.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "9adf00ce250873256ef6a7bca25afc5442628df754e8ae523f3177632bb76009",
+      "rank": 37
+    },
+    {
+      "source_id": "doc_b8edf9e47eb14304",
+      "title": "Building Your Application: Routing | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:08.430932+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "c10bc3bc82b72ffe5b1d4fec936d5d8b9e65ede1db53695ad4e7ac6bbb2523b4",
+      "rank": 38
+    },
+    {
+      "source_id": "doc_070abbbcc117a0e0",
+      "title": "Routing: Defining Routes | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing/defining-routes",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:11.064841+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "9cec716d9138c859da0db61d376d9bd8dfd9cbd8faff03719d097b87d2251b36",
+      "rank": 39
+    },
+    {
+      "source_id": "doc_9b7b3c07c4a55d61",
+      "title": "Routing: Dynamic Routes | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing/dynamic-routes",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:22.943535+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35. Candidate sections: 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "c3ad37f81525ed9b0f67e504f084394a049e2d769d37e2e1a70912067137975b",
+      "rank": 40
+    },
+    {
+      "source_id": "doc_d8155704b6c62954",
+      "title": "Routing: Error Handling | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing/error-handling",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:12.191810+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 1 api_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "a1516a131f44937b915827ba2365700479302a85082b07ed12a631dff9235634",
+      "rank": 41
+    },
+    {
+      "source_id": "doc_6606f3ac56a791d6",
+      "title": "Routing: Internationalization | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing/internationalization",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:20.959006+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35. Candidate sections: 1 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "0ae1fa76f6f788b41fac83d891be0fa8228de7399e2973d79577dda2a474fd34",
+      "rank": 42
+    },
+    {
+      "source_id": "doc_99daba68fc4431c5",
+      "title": "Routing: Linking and Navigating | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing/linking-and-navigating",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:08.812036+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 3 configuration_change, 2 migration_step, 1 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 5,
+      "out_of_range_sections": 0,
+      "content_sha256": "fee58f7530215d4c9222b4a5249cb9374d8cdc388b8569d7f610a6c1f45d0d79",
+      "rank": 43
+    },
+    {
+      "source_id": "doc_26b1851453faeec5",
+      "title": "Routing: Loading UI and Streaming | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing/loading-ui-and-streaming",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:20.032933+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8039febb08c59baf3df3bf47e797245a2f594a0b7ef26dd2088520a41fa87e04",
+      "rank": 44
+    },
+    {
+      "source_id": "doc_54ae49a4210c009e",
+      "title": "Routing: Middleware | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing/middleware",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:20.441997+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/from-vite. Mentions in-range versions 13.0.0, 13.1.0, 14.2.35. Candidate sections: 3 configuration_change, 2 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "13.1.0",
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "a9674db166fe6c6be8b6e7ee2473c4c06198fee9cd4fe77d5432b9e05ccd088a",
+      "rank": 45
+    },
+    {
+      "source_id": "doc_9a497cab57f2d05f",
+      "title": "Routing: Pages and Layouts | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing/pages-and-layouts",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:10.660570+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 1 migration_step, 1 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "c2753a9b4e2228cbddf8441bb0e55e9b5c9e94629104b6d6f76bf6ab124af20a",
+      "rank": 46
+    },
+    {
+      "source_id": "doc_53da95d4fb819f3a",
+      "title": "Routing: Route Handlers | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/routing/route-handlers",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:18.175446+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 4 configuration_change, 3 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 7,
+      "out_of_range_sections": 0,
+      "content_sha256": "2bb1bf72041cab3da7669fa7dc59e182f58a9e0b0462502e31fc3fe516e35c20",
+      "rank": 47
+    },
+    {
+      "source_id": "doc_c73f5f029ea661d7",
+      "title": "Styling: CSS-in-JS | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/styling/css-in-js",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:19.524107+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "935291d194c066f59710381a1f05b2989932c871689d4118e120e72d09879b8e",
+      "rank": 48
+    },
+    {
+      "source_id": "doc_dfe12e6118125e5c",
+      "title": "Styling: CSS Modules | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/styling/css-modules",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:18.642948+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "0068d30ac18dab38382e0bd1be0270023d6f48f12ad78066d2a84e178c0f2871",
+      "rank": 49
+    },
+    {
+      "source_id": "doc_159c391950880fe6",
+      "title": "Styling: Sass | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/styling/sass",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:19.896026+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "21d8768dc5cff51149ac275632df79606bf094cb62e4092b242c3265f21acf8c",
+      "rank": 50
+    },
+    {
+      "source_id": "doc_a0cb0870d95561b9",
+      "title": "Styling: Tailwind CSS | Next.js",
+      "url": "https://nextjs.org/docs/14/app/building-your-application/styling/tailwind-css",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:19.154849+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "ea59789620176cc650eb623dbdc474f33853d61808661eca1ec9e5e7d689f722",
+      "rank": 51
+    },
+    {
+      "source_id": "doc_c5e388d330317c6a",
+      "title": "https://nextjs.org/docs/14/llms.txt",
+      "url": "https://nextjs.org/docs/14/llms.txt",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:05.943227+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/version-14. Mentions in-range versions 14.2.35. Candidate sections: 1 configuration_change, 1 migration_step, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "68b880e54ec7860908c1c1500790d292ab46973fa31ef2411da091cf86985758",
+      "rank": 52
+    },
+    {
+      "source_id": "doc_4ddf003ae4f78a06",
+      "title": "Functions: useRouter | Next.js",
+      "url": "https://nextjs.org/docs/14/pages/api-reference/functions/use-router",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:16.083389+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 2 changed_default, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "7d8b0d3c60fefb3a54eb7336bddc590d5b6aebf78db70fe06aa3c3f6b7512145",
+      "rank": 53
+    },
+    {
+      "source_id": "doc_ea1b46c4d8bdbce9",
+      "title": "Routing: Internationalization | Next.js",
+      "url": "https://nextjs.org/docs/14/pages/building-your-application/routing/internationalization",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:16.595649+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 2 known_issue, 1 configuration_change, 1 migration_step, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "f17d207df47590563920960516e2f93ce59cd0ea23ed0a671bff03c49701eae3",
+      "rank": 54
+    },
+    {
+      "source_id": "doc_5539a185f886b67f",
+      "title": "Routing: Pages and Layouts | Next.js",
+      "url": "https://nextjs.org/docs/14/pages/building-your-application/routing/pages-and-layouts",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:13.626972+00:00",
+      "why_relevant": "Linked from https://nextjs.org/docs/14/app/building-your-application/upgrading/app-router-migration. Mentions in-range versions 14.2.35. Candidate sections: 1 api_change, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0",
+        "14.2.35"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "5c0ae934c8aa8a8db0a9a015415dead9d0ba43178cb9cf2c79ea5e7867f62266",
+      "rank": 55
+    },
+    {
+      "source_id": "doc_d35b575e0f7819f2",
+      "title": "Components: Image Component | Next.js",
+      "url": "https://nextjs.org/docs/app/api-reference/components/image",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:04.887195+00:00",
+      "why_relevant": "Linked from https://nextjs.org/blog/next-14. Mentions in-range versions 13.0.0, 13.0.6, 13.2.0, 14.0.0, 14.1.0, 14.2.0, 14.2.14, 14.2.15, 14.2.23. Candidate sections: 6 migration_step, 6 configuration_change, 5 deprecation, 4 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.0.0",
+        "13.0.6",
+        "13.2.0",
+        "14.0.0",
+        "14.1.0",
+        "14.2.0",
+        "14.2.14",
+        "14.2.15",
+        "14.2.23"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 23,
+      "out_of_range_sections": 0,
+      "content_sha256": "0fea526a6496dfe9347a81c72ef97ec754951acd6e3c4aed8541ce9ede2ad7e6",
+      "rank": 56
+    },
+    {
+      "source_id": "doc_f12451f483ee1997",
+      "title": "next.config.js: logging | Next.js",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/logging",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:05.643966+00:00",
+      "why_relevant": "Linked from https://nextjs.org/blog/next-14. Mentions in-range versions 14.0.0. Candidate sections: 4 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "50419eb33e8514bab0ad5158e7401fbb514b8eba6bf36bc054685ce98b47a4da",
+      "rank": 57
+    },
+    {
+      "source_id": "doc_c6404246f186c663",
+      "title": "Functions: generateViewport | Next.js",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-viewport",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:04.276524+00:00",
+      "why_relevant": "Linked from https://nextjs.org/blog/next-14. Mentions in-range versions 14.0.0. Candidate sections: 1 migration_step, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0.0"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "7138a34a9740f244999659d445c1887574a738082340bb7e927bb5eb61130138",
+      "rank": 58
+    },
+    {
+      "source_id": "doc_ae33824cb77937a8",
+      "title": "Guides: Static Exports | Next.js",
+      "url": "https://nextjs.org/docs/app/guides/static-exports",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T10:11:04.650973+00:00",
+      "why_relevant": "Linked from https://nextjs.org/blog/next-14. Mentions in-range versions 13.3.0, 13.4.0, 14.0.0. Candidate sections: 1 breaking_change, 1 migration_step, 1 configuration_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "13.3.0",
+        "13.4.0",
+        "14.0.0"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "eb34309f4faaabb067363e142860bd451acbd5afa2d25db746bcfc41a44cc5d1",
+      "rank": 59
+    },
+    {
+      "source_id": "doc_3c74ea7a14c591cc",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.0.0",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:54.462327+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.0.0. Candidate sections: 1 dependency_requirement, 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.0.0"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1d7e4775e49ffaa1c5b525aaee5e6b60f3132018c036f8d3473fcdc8fd6f72a9",
+      "rank": 60
+    },
+    {
+      "source_id": "doc_f959db48ec557398",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.0.1",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:54.663279+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.0.1.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.0.1"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "ace7223710a775405d3f2c1f27183582218872f1df2ba50714bf11fb1cfabc6c",
+      "rank": 61
+    },
+    {
+      "source_id": "doc_73afe95547fbde4a",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.0.2",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:54.950288+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.0.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.0.2"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "b05538691962bbd15f8a2d7be609654f94d54ed6fb8d1319bc026307cac4dde3",
+      "rank": 62
+    },
+    {
+      "source_id": "doc_c43275181d8a58ef",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.0.3",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:55.154327+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.0.3.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.0.3"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "b89c15fac4499d022e134087e7ec12511904289a5142e792d2075930845383e3",
+      "rank": 63
+    },
+    {
+      "source_id": "doc_2dad55282389077b",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.0.4",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:55.461185+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.0.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.0.4"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "120d12ae2a695eba1d19a72178214ec534b65a7c6bb64b29e800d6d8d768270d",
+      "rank": 64
+    },
+    {
+      "source_id": "doc_242644e9628f495a",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.0.5",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:55.641969+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.0.5.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.0.5"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "e279305f90ab66db49bf65a01fdb2e74dd989f2fc987e44db602c0fbce752b79",
+      "rank": 65
+    },
+    {
+      "source_id": "doc_c78ffad857d6c502",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.0.6",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:55.952825+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.0.6.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.0.6"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "aa5643598a1090503a6bd2a98ce1b8dde5a9ce511e2ccb58145f13c0609ad461",
+      "rank": 66
+    },
+    {
+      "source_id": "doc_cc2bbdc2f89ab2c7",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.0.7",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:56.149811+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.0.7.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.0.7"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "6d0c348fc5abc2835f5575632e18a2d052297232636490315c4a2cbe91afeca8",
+      "rank": 67
+    },
+    {
+      "source_id": "doc_e02f4fd41ee7e7e9",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.1.0",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:56.398288+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.1.0.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.1.0"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "81ae002fc83218f5983d448542ed9e846ba83a29cb1dc39d5e33895dd7db5a27",
+      "rank": 68
+    },
+    {
+      "source_id": "doc_7c898c59934b67ee",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.1.1",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:56.649014+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.1.1.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.1.1"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "14422254c47b55e128a6da9f2dc2d6c17c1e5baa236d02145b93887dcdecaaeb",
+      "rank": 69
+    },
+    {
+      "source_id": "doc_25ef9342342467f1",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.1.2",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:56.887976+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.1.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.1.2"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "b418390e17862e93451a9b9294caffa011361a2a4587461f1e900ab6cca964fe",
+      "rank": 70
+    },
+    {
+      "source_id": "doc_baa2c8f9c5235593",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.1.3",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:57.177429+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.1.3.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.1.3"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "44aa2b7eb0d0a15426e9e29fb430d25a8cb442624211e260efd1a395cf3eaf80",
+      "rank": 71
+    },
+    {
+      "source_id": "doc_f1e51179f517cbfe",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.1.4",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:57.406411+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.1.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.1.4"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "90c65e7d3ffe4c7aba6b6c5d4ec8912e78ada04ea746ccbaa3319f9a8fb3da0d",
+      "rank": 72
+    },
+    {
+      "source_id": "doc_96a55668eaaa3f73",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.1.5",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:57.641061+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.1.5.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.1.5"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8107fe4f3cd61cae906678dc72d7b0438f53070306dbae963d5c5aae504e37db",
+      "rank": 73
+    },
+    {
+      "source_id": "doc_e70e971c43b80b9c",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.1.6",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:57.966267+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.1.6.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.1.6"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "d2feade0fed0775b0d4f7b0dd8501782890a23e2192f07656610c9f0bf69c6db",
+      "rank": 74
+    },
+    {
+      "source_id": "doc_f55658927a6e1cde",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.2.0",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:58.151110+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.2.0.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.2.0"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "a20d48b933dccdfd2acdad8142d98bad544ef17586513a7e1282baacd6c11275",
+      "rank": 75
+    },
+    {
+      "source_id": "doc_6fd7d5af932f4799",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.2.1",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:58.411264+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.2.1.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.2.1"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "536bfbed4e738353895c7d87dacd1cda1b94c2ff9d75fea1da1ab61c10081138",
+      "rank": 76
+    },
+    {
+      "source_id": "doc_c4880740d49fca18",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.2.2",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:58.675458+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.2.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.2.2"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "d2f29771ebe8976889c01fe9b83648b08d4b553be124880eed7b87ffe870ac79",
+      "rank": 77
+    },
+    {
+      "source_id": "doc_459f339d45817f00",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.2.3",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:58.934708+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.2.3.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.2.3"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "365924a30fd1a2bda67c9c43621d1b976a29739e19e5776491a9838c9f8f1193",
+      "rank": 78
+    },
+    {
+      "source_id": "doc_6b0bc3d495ca9a18",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.2.4",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:59.151599+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.2.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.2.4"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "925bd64dcb4876926c7f87f97f0ea868588d2e8b3c3d69082b203a89b0c30dc0",
+      "rank": 79
+    },
+    {
+      "source_id": "doc_bf612e0dd6ba533e",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.3.0",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:59.401540+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.3.0.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.3.0"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "4e6ce20834d97fcea2f75f91f09b96d77d41b99626dfee5f0f3ad591344391a4",
+      "rank": 80
+    },
+    {
+      "source_id": "doc_8fa0a55634c84acc",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.3.1",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:59.664844+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.3.1.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.3.1"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "929ec4bd2b660a7fbdc228e37c201719f5c56ca130c904d17ceb6ca0e9d7be83",
+      "rank": 81
+    },
+    {
+      "source_id": "doc_2b4d0555727d9075",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.3.2",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:05:59.897232+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.3.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.3.2"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "31a6c4b0ad60872408448c0258a954fee1c55ed315a756893cdbf27806445655",
+      "rank": 82
+    },
+    {
+      "source_id": "doc_6531fdb80bd109ec",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.3.3",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:00.158567+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.3.3.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.3.3"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "d34469fde32ce6b31d74d1f457dfbe3cc9b2323699b2262342848b2ee7da84ca",
+      "rank": 83
+    },
+    {
+      "source_id": "doc_7549fae9374db88b",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.3.4",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:00.396889+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.3.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.3.4"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "3e07e587f74e6878cb148ae4116a4be9a2108c3e0ea18f4a6acda49c77fed2f6",
+      "rank": 84
+    },
+    {
+      "source_id": "doc_e5f241a83510e7e6",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.0",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:00.648110+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.0.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.0"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "653bc2bf85358254f3745d91751b57cb9679d8681145f2734dfb3bd9e3000262",
+      "rank": 85
+    },
+    {
+      "source_id": "doc_96979aff5e1d806c",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.1",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:00.891521+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.1.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.1"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "547a4b57ce43be1bdd0fc4e1507b78944351f3285286c451189dd8b096b46d84",
+      "rank": 86
+    },
+    {
+      "source_id": "doc_bf03189e74d7ca3b",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.10",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:03.206071+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.10.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.10"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "fe1bba33bc9f3b58a196a21580aad868bc11884976723b062d846138e251698b",
+      "rank": 87
+    },
+    {
+      "source_id": "doc_06e266a61d871678",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.11",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:03.422883+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.11.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.11"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "fc54cb41c0ebc9a62052c2c42b0894f92d225fc4d9594ef9fb22db8922138022",
+      "rank": 88
+    },
+    {
+      "source_id": "doc_37b89696b3025b15",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.12",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:03.652821+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.12.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.12"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "e65b5ea3b6212c0b9dd7b759f82d7eed8233f5192d137d3814c5ffd2a0ff03cc",
+      "rank": 89
+    },
+    {
+      "source_id": "doc_e5159e6ac70176ba",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.13",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:03.919184+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.13.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.13"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "d974435e254afaa4e4708de962cae3f551bd6a3c702c88de099af19d583f30aa",
+      "rank": 90
+    },
+    {
+      "source_id": "doc_c067abf995d8a644",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.15",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:04.413690+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.15.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.15"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "c9e918ae084804334019302dee609134fbc031d9587b6f417846228aa02a99eb",
+      "rank": 91
+    },
+    {
+      "source_id": "doc_07f301260949d9c6",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.16",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:04.531091+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.16.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.16"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "5cd9f66f090756f0409091585f161b5dbaf93fe39fabe9f2b0229ed7ee824726",
+      "rank": 92
+    },
+    {
+      "source_id": "doc_0b28cdd60709a6c2",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.17",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:04.811688+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.17.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.17"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "0a6dbb9c801126568817c4f84aa17fde5c8edcd9b66eafb96004f08d22458511",
+      "rank": 93
+    },
+    {
+      "source_id": "doc_ae15ebd60d5bad76",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.18",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:05.045847+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.18.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.18"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "849ce1813cdb8898e6cd88f86528cb2d97906774865705157bda7a18f2038cf5",
+      "rank": 94
+    },
+    {
+      "source_id": "doc_66c31466ccbdeb3f",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.19",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:05.304478+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.19.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.19"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "78656fdabdfa8a3b664b1c2f2d7943bd4c47e050c04e47d952d00aba2f0dcdaf",
+      "rank": 95
+    },
+    {
+      "source_id": "doc_3330058b7f76751f",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.2",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:01.135050+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.2"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "cf664c9105afcf2590abeae5eaea9879dc6d3fe28d8a6ea0608c8c8333395d9c",
+      "rank": 96
+    },
+    {
+      "source_id": "doc_998e73de8860b391",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.3",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:01.413713+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.3.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.3"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "336773fc0ee12418b4579c54b50ba3a57e5d029e2f2a686585fa0e6894ce755a",
+      "rank": 97
+    },
+    {
+      "source_id": "doc_33f3d2a4bb590fd2",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.4",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:01.635129+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.4"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "34caf589297bd3545397ca070c6ca5d4f1c0a97354cec30fbad799ddaa256a65",
+      "rank": 98
+    },
+    {
+      "source_id": "doc_226034797ee4f4a8",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.5",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:01.894793+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.5.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.5"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "5fd81b79f5dcc823c1db8d7fc4705c4c3874c6d4d6aecad17f70016ebcdfc082",
+      "rank": 99
+    },
+    {
+      "source_id": "doc_c1f323bc332ddeb4",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.6",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:02.153240+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.6.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.6"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "46b31517d1a7e1a8e0fc458d800c324265eaa42c3d886c334bd0d52cf299b7f5",
+      "rank": 100
+    },
+    {
+      "source_id": "doc_64d2d145d620c461",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.7",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:02.397626+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.7.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.7"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1eed0236f2d0eb0088a93cda732c947d3fd624a75b4b00f49f6e6dad57b34c0d",
+      "rank": 101
+    },
+    {
+      "source_id": "doc_b621dd2372bc0cf9",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.8",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:02.654883+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.8.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.8"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "3870dcbe1ac58fb994d040e9cd1fe7cf7f93f0916f8b45d79f788b954a88f66d",
+      "rank": 102
+    },
+    {
+      "source_id": "doc_f9abb5f0a1c9b65a",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.4.9",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:02.905546+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.4.9.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.4.9"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "3242a601fd60efbcbb6e69183b864b5d2bda04d96c3e2faca3bda581d76781df",
+      "rank": 103
+    },
+    {
+      "source_id": "doc_47f9112328a17c83",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.0",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:05.579626+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.0.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.0"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "5d86459b34c479f92f4f8f915a3dad5f3ba13d132ae362417590f9916a4b83d9",
+      "rank": 104
+    },
+    {
+      "source_id": "doc_ad59b640536d49eb",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.1",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:05.808327+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.1.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.1"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "34b2346354decb9ad2e2eaf4bd789ad99cfee6f1e9d237de9aef1e95af02da6c",
+      "rank": 105
+    },
+    {
+      "source_id": "doc_e14a544dbca9012c",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.10",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:08.075825+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.10.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.10"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "dcbc602c648bca0717542311fe06a4213d2cbba95aa8d6b38c87feaccefbe483",
+      "rank": 106
+    },
+    {
+      "source_id": "doc_1864e156429d1b29",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.11",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:08.291626+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.11, 13.5.9.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.9",
+        "13.5.11"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8e7f8a68c2f3ad9ee9720af5410e6310e3ce0d54d213f990475b117d8e4b323c",
+      "rank": 107
+    },
+    {
+      "source_id": "doc_bb3f025026d84439",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.2",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:06.034152+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.2"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "20aab3344323e070d52c23e01c53b87651695594464b593c2a27fc73bbb92e63",
+      "rank": 108
+    },
+    {
+      "source_id": "doc_3ae8396ed682943f",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.3",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:06.289780+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.3.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.3"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8956933c9a335a3a4a3e200339d31c91094e7abb9b7a266e0c422f127935048c",
+      "rank": 109
+    },
+    {
+      "source_id": "doc_3ec99736ea328f23",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.4",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:06.521584+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.4"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "089e775a08b148d6603bc00b43e02760b461d88c9bdbc4afc0a9fd26303c0e69",
+      "rank": 110
+    },
+    {
+      "source_id": "doc_3a62463a652b1d2f",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.5",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:06.791985+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.5.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.5"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1a6d7630ae22405579c3fd6ee32f8f0638121dd9fb33ba05028db8b4a6ffcf62",
+      "rank": 111
+    },
+    {
+      "source_id": "doc_9a2108bd114969dd",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.6",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:07.032800+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.6.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.6"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "38b98dd1e845eb299d9174608e3d6bdf3196d28450a12766bca8b2118010335a",
+      "rank": 112
+    },
+    {
+      "source_id": "doc_cd10ec24179baebe",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.7",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:07.347142+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.7.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.7"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "d5700c172233d14233162d5d588e8567e405fa95e7f6c24eaa7ffa1bf60727f0",
+      "rank": 113
+    },
+    {
+      "source_id": "doc_4c98c61512e4feb6",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.8",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:07.535107+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.8.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.8"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "68d97121120c3d06a5fd5d8a43a473d2a870674250b70cd8dac097ff9cb254e4",
+      "rank": 114
+    },
+    {
+      "source_id": "doc_ef6f5b3f45275da6",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/13.5.9",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:07.787237+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 13.5.9.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "13.5.9"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8ddb7094c523780476de631abbf3be434dd65791a877afc03f49ef10c96e2367",
+      "rank": 115
+    },
+    {
+      "source_id": "doc_4a821dc54c3a26e3",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/14.0.0",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:08.531089+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 14.0.0. Candidate sections: 1 deprecation, 1 dependency_requirement, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "14.0.0"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "37e3a4b6e55173e713530ca95af2e27218f415ba2225ef2bfc00e84c213a2628",
+      "rank": 116
+    },
+    {
+      "source_id": "doc_6ffe7e5e802f23c8",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/14.0.1",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:08.804139+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 14.0.1.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "14.0.1"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8ca5fdf24df02089285eedf1735dccc411a08cbcb4b028729327cc57261c6bb4",
+      "rank": 117
+    },
+    {
+      "source_id": "doc_5f7a34586cf1862c",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/14.0.2",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:09.046418+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 14.0.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "14.0.2"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "ea1b9f5f0704a0a416d01865eaac1f6fbb376cb39df7346185d0f75c37bc18c5",
+      "rank": 118
+    },
+    {
+      "source_id": "doc_6f1ff41f6bdc02b0",
+      "title": "next",
+      "url": "https://registry.npmjs.org/next/14.0.3",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T10:06:09.315852+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 14.0.3.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "14.0.3"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "551455e0b30d93f2bcc96c16ec8a1033cbd6124a8787811095cd2076de620abe",
+      "rank": 119
+    },
+    {
+      "source_id": "doc_0dc79bcfdccc43fb",
+      "title": "Next.js 14 | Next.js",
+      "url": "https://nextjs.org/blog/next-14",
+      "source_type": "maintainer_blog_post",
+      "retrieved_at": "2026-10-09T05:05:55.432758+00:00",
+      "why_relevant": "Collected as supporting context. Candidate sections: 2 configuration_change, 2 api_change, 2 deprecation, 2 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site nextjs.org."
+      },
+      "document_type": "blog_post",
+      "roles": [
+        "blog_post"
+      ],
+      "versions": [
+        "14.0.0"
+      ],
+      "version_association_bases": [
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 5,
+      "out_of_range_sections": 0,
+      "content_sha256": "fe1a72b2148bfcc593f16f7936fe6b7e22ac05ef3708cd996a87f43c6ccedee1",
+      "rank": 120
+    }
+  ],
+  "excluded_sources": [
+    {
+      "source_id": "doc_94f11890253db536",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/codemods",
+      "title": "Upgrading: Codemods | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_5e4d1884979d2b73",
+      "url": "https://nextjs.org/docs/messages/url-deprecated",
+      "title": "`url` is deprecated | Next.js",
+      "document_type": "deprecation_notice",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_2587fcb697f3d9c6",
+      "url": "https://nextjs.org/docs/app/getting-started/upgrading",
+      "title": "Getting Started: Upgrading | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_1777e90c2b361e7e",
+      "url": "https://nextjs.org/docs/app/guides/migrating",
+      "title": "Guides: Migrating | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_b997e6817fa0e1d0",
+      "url": "https://nextjs.org/docs/app/guides/migrating-to-cache-components",
+      "title": "Guides: Migrating to Cache Components | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_dfad39127a637c1b",
+      "url": "https://nextjs.org/docs/app/guides/upgrading",
+      "title": "Guides: Upgrading | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_a1c977642bafb5a2",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/agent-upgrade",
+      "title": "Upgrading: Upgrade with a coding agent | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_594859139d96b3c8",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/agentUpgrade",
+      "title": "next.config.js: agentUpgrade | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_1308e3df4b78e89b",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F01-app%2F02-guides%2Fupgrading%2Fcodemods.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_638ef918d2a73f19",
+      "url": "https://nextjs.org",
+      "title": "Next.js by Vercel - The React Framework",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_ccc9d838ed973699",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F01-app%2F02-guides%2Fupgrading%2Fversion-14.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_9f31ba4a8ca30841",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F02-pages%2F02-guides%2Fupgrading%2Fversion-13.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_35e3d5d459221b5e",
+      "url": "https://nextjs.org/docs/app/guides/migrating/from-create-react-app",
+      "title": "Migrating: Create React App | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_3ecf0de22c481a2e",
+      "url": "https://nextjs.org/docs/app/guides/migrating/from-vite",
+      "title": "Migrating: Vite | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_be6b9433b2acdbd9",
+      "url": "https://nextjs.org/docs/app/guides/migrating/app-router-migration",
+      "title": "Migrating: App Router | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_d1198bf9113532f3",
+      "url": "https://nextjs.org/docs/pages/guides/upgrading/codemods",
+      "title": "Upgrading: Codemods | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_ef26f65316bcf6ff",
+      "url": "https://nextjs.org/docs/pages/guides/upgrading/version-12",
+      "title": "Upgrading: Version 12 | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_e93f8e186cd53fe7",
+      "url": "https://nextjs.org/docs/pages/guides/upgrading",
+      "title": "Guides: Upgrading | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_2aa2b9079b51a739",
+      "url": "https://nextjs.org/docs/pages/guides/migrating",
+      "title": "Guides: Migrating | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_89d1e563ccc12848",
+      "url": "https://nextjs.org/docs/messages/app-container-deprecated",
+      "title": "Addressing \"App Container Deprecated\" Error in Next.js | Next.js",
+      "document_type": "deprecation_notice",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_5c36fa57234db44a",
+      "url": "https://nextjs.org/docs/messages/middleware-upgrade-guide",
+      "title": "Middleware Upgrade Guide | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_8c9ddc5e5bfa454e",
+      "url": "https://nextjs.org/docs/messages/edge-runtime-deprecated",
+      "title": "Edge Runtime Deprecated | Next.js",
+      "document_type": "deprecation_notice",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_4a03606e5e13d3fa",
+      "url": "https://nextjs.org/docs/messages/preferred-region-deprecated",
+      "title": "preferredRegion Deprecated | Next.js",
+      "document_type": "deprecation_notice",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_f86412747a773492",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F01-app%2F02-guides%2Fmigrating%2Ffrom-create-react-app.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_8229461fd7e4453c",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F01-app%2F02-guides%2Fmigrating%2Ffrom-vite.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_333e429a2fce8f99",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F01-app%2F02-guides%2Fmigrating%2Fapp-router-migration.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_52d27d0d9c464bf6",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F02-pages%2F02-guides%2Fupgrading%2Fcodemods.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_22d34735ae4bf428",
+      "url": "https://nextjs.org/docs/messages/webpack5",
+      "title": "Webpack 5 Adoption | Next.js",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_a913bd5062286fab",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F02-pages%2F02-guides%2Fupgrading%2Fversion-12.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_be1caf1b74316904",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F02-pages%2F02-guides%2Fupgrading%2Findex.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_9e42c6a11e534854",
+      "url": "https://nextjs.org/docs/pages/guides/migrating/app-router-migration",
+      "title": "Migrating: App Router | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_d049d90bbe2a4069",
+      "url": "https://nextjs.org/docs/pages/guides/migrating/from-create-react-app",
+      "title": "Migrating: Create React App | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_5a97e7b51d731252",
+      "url": "https://nextjs.org/docs/pages/guides/migrating/from-vite",
+      "title": "Migrating: Vite | Next.js",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_d5a35da8fb9615e5",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Fedit%2Fcanary%2Fdocs%2F02-pages%2F02-guides%2Fmigrating%2Findex.mdx",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "document_type": "upgrade_guide",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_20c0fca51f579aa6",
+      "url": "https://nextjs.org/docs/app/api-reference/turbopack",
+      "title": "API Reference: Turbopack | Next.js",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_8526f04326e5c654",
+      "url": "https://nextjs.org/docs/app/guides/forms",
+      "title": "Guides: Forms | Next.js",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_2acbe9e28c4ba0b9",
+      "url": "https://nextjs.org/docs/llms.txt",
+      "title": "https://nextjs.org/docs/llms.txt",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_ab626291d9b77258",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheComponents",
+      "title": "next.config.js: cacheComponents | Next.js",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_10123edcfffaaae8",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/partialPrefetching",
+      "title": "next.config.js: partialPrefetching | Next.js",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_841320b531030dcc",
+      "url": "https://nextjs.org/docs/app/guides/adopting-partial-prefetching",
+      "title": "Guides: Adopting Partial Prefetching | Next.js",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    }
+  ],
+  "trust_policy": {
+    "official": "Project site, project repository or the selected package registry record.",
+    "probable_official": "Repository name matches but owner differs; not verified.",
+    "official_repository_discussion": "Issues/PRs in the project repository: context, not release statements.",
+    "third_party": "Supporting context only; never overrides official sources."
+  },
+  "notes": [
+    "source_id equals the evidence document id, so evidence.json and candidate_sections.json join on it.",
+    "Fetch-level request log (including robots.txt checks) remains in evidence.json source_inventory."
+  ]
+}

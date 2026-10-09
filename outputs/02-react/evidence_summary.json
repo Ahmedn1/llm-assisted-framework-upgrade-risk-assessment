@@ -1,0 +1,2818 @@
+{
+  "project": "React",
+  "upgrade": "17_to_18",
+  "evidence_summary": {
+    "high_confidence_risks": [
+      {
+        "path_id": "internet_explorer_support_removed_in_react_18",
+        "path_name": "Internet Explorer support removed in React 18",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "explicit_children_prop_typing_required_in_react_18",
+        "path_name": "Explicit children prop typing required in React 18",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "function_components_rely_on_defaultprops_deprecation_warning",
+        "path_name": "Function components rely on defaultProps deprecation warning in React 18.3.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "older_browsers_and_internet_explorer_require_a_global_polyfi",
+        "path_name": "Older browsers and Internet Explorer require a global polyfill after upgrade",
+        "risk_type": "runtime_requirement",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "suspense_fallback_undefined_now_renders_like_null_instead_of",
+        "path_name": "Suspense fallback={undefined} now renders like null instead of being ignored",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "suspense_re_suspends_after_fallback_causes_layout_effects_to",
+        "path_name": "Suspense re-suspends after fallback causes layout effects to be cleaned up and recreated",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_reactdom_rendersubtreeintocontainer_during",
+        "path_name": "Use of deprecated ReactDOM.renderSubtreeIntoContainer during React 18 upgrade",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "finddomnode_deprecation_warnings_outside_strictmode",
+        "path_name": "findDOMNode deprecation warnings outside StrictMode",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "high",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "prop_spreading_key_now_warns_in_react_18_3_0",
+        "path_name": "Prop spreading `key` now warns in React 18.3.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "high",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "removal_of_unstable_scheduler_tracing_api_breaks_imports_or",
+        "path_name": "Removal of unstable scheduler/tracing API breaks imports or usage during React 18 upgrade",
+        "risk_type": "removed_api",
+        "risk_level": "low",
+        "confidence": "high",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "structural: risk_level capped from high to low: every cited fact comes from a section marked experimental, alpha, canary or unstable."
+        ]
+      }
+    ],
+    "medium_confidence_risks": [
+      {
+        "path_id": "hydration_text_mismatch_triggers_client_rendering_instead_of",
+        "path_name": "Hydration text mismatch triggers client rendering instead of node patching",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "involved in a conflict it won: c06",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "missing_getserversnapshot_callback_for_server_capable_snapsh",
+        "path_name": "Missing getServerSnapshot callback for server-capable snapshot usage",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_175b392afbd1743b"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "old_render_callback_api_has_no_one_to_one_replacement_in_rea",
+        "path_name": "Old render callback API has no one-to-one replacement in React 18",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "production_code_calls_act_and_now_throws",
+        "path_name": "Production code calls act and now throws",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "react_18_removes_timeoutms_from_usedeferredvalue",
+        "path_name": "React 18 removes timeoutMs from useDeferredValue",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_476faad1326c4c2d"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "react_18_removes_timeoutms_from_usetransition",
+        "path_name": "React 18 removes timeoutMs from useTransition",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_476faad1326c4c2d"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "react_18_requires_native_promise_support_or_polyfill_in_olde",
+        "path_name": "React 18 requires native Promise support or polyfill in older environments",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "removal_of_work_loop_passive_hook_effect_arrays_breaks_code",
+        "path_name": "Removal of work loop passive hook effect arrays breaks code or tooling that depends on them",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_33af73894698d927"
+        ],
+        "reasons": [
+          "best source is official_repository_discussion",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "removed_unsupported_unstable_changedbits_api",
+        "path_name": "Removed unsupported unstable_changedBits API",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "server_rendered_app_still_uses_reactdom_hydrate_after_upgrad",
+        "path_name": "Server-rendered app still uses ReactDOM.hydrate after upgrading to React 18",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_98997cf52379052f"
+        ],
+        "reasons": [
+          "involved in a conflict it won: c05",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "typescript_project_still_pinned_to_older_types_react_types_r",
+        "path_name": "TypeScript project still pinned to older @types/react / @types/react-dom while upgrading to React 18",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_react_18_breaks_code_that_calls_withsuspenseconfi",
+        "path_name": "Upgrade to React 18 breaks code that calls withSuspenseConfig",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_ab364685eb7bd7a4"
+        ],
+        "reasons": [
+          "best source is official_repository_discussion",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "application_depends_on_the_use_sync_external_store_shim_impl",
+        "path_name": "Application depends on the use-sync-external-store shim implementation and upgrades to React 18.1.0",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_5316b43d24182e6e"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "code_or_tooling_depends_on_pendingpassivehookeffectsunmount",
+        "path_name": "Code or tooling depends on pendingPassiveHookEffectsUnmount work loop array",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_33af73894698d927"
+        ],
+        "reasons": [
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "code_or_tooling_reads_fiber_expirationtime_directly_and_must",
+        "path_name": "Code or tooling reads fiber.expirationTime directly and must migrate to lanes in React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1cf16371e61fb247"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "code_or_tooling_reads_update_expirationtime_from_react_inter",
+        "path_name": "Code or tooling reads update.expirationTime from React internals and must switch to lane in React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1cf16371e61fb247"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "complex_children_inside_title_elements_are_now_disallowed",
+        "path_name": "Complex children inside <title> elements are now disallowed",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_b831db4d68250091"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "concurrent_rendering_introduces_interruptible_component_beha",
+        "path_name": "Concurrent rendering introduces interruptible component behavior changes",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_98997cf52379052f"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_api_warnings_introduced_in_react_18_3_0",
+        "path_name": "Deprecated API warnings introduced in React 18.3.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "deprecated_react_test_utils_methods_produce_warnings_after_u",
+        "path_name": "Deprecated React test-utils methods produce warnings after upgrading to React 18.3.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_reactdom_unmountcomponentatnode_usage_during_reac",
+        "path_name": "Deprecated ReactDOM.unmountComponentAtNode usage during React 18 upgrade",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_server_streaming_api_usage_rendertonodestream",
+        "path_name": "Deprecated server streaming API usage: renderToNodeStream",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_98997cf52379052f"
+        ],
+        "reasons": [
+          "involved in a conflict it won: c08",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "direct_use_of_fiber_childexpirationtime_must_be_updated_to_c",
+        "path_name": "Direct use of fiber.childExpirationTime must be updated to childLanes",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1cf16371e61fb247"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "hydration_text_mismatch_now_causes_client_render_fallback",
+        "path_name": "Hydration text mismatch now causes client render fallback",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "internal_code_directly_manipulating_reactfiberlane_lanes_wit",
+        "path_name": "Internal code directly manipulating ReactFiberLane lanes without helper imports must be updated for React 18",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_1cf16371e61fb247"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "layout_effects_around_suspense_boundaries_run_again_after_re",
+        "path_name": "Layout effects around Suspense boundaries run again after re-suspend in React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "legacy_context_deprecation_warning_outside_strictmode",
+        "path_name": "Legacy Context deprecation warning outside StrictMode",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "maxduration_config_removed_in_react_18_and_replaced_by_hard",
+        "path_name": "maxDuration config removed in React 18 and replaced by hard-coded 150ms",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_131b7bab47b8fa73"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "passive_effects_now_traverse_recursively_on_mount_and_unmoun",
+        "path_name": "Passive effects now traverse recursively on mount and unmount",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_33af73894698d927"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "passive_flag_now_bubbles_to_ancestors_on_unmount",
+        "path_name": "Passive flag now bubbles to ancestors on unmount",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_33af73894698d927"
+        ],
+        "reasons": [
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "react_18_changes_object_to_string_coercion_behavior_for_valu",
+        "path_name": "React 18 changes object-to-string coercion behavior for values with problematic valueOf implementations",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_8fa14271bb3a0d68"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "react_18_may_use_a_bad_or_slow_setimmediate_polyfill_in_mode",
+        "path_name": "React 18 may use a bad or slow setImmediate polyfill in modern browsers",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_07faa6b2bd587df6"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "react_18_removes_the_built_in_object_assign_polyfill",
+        "path_name": "React 18 removes the built-in object-assign polyfill",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "react_18_requires_native_symbol_support_or_a_polyfill",
+        "path_name": "React 18 requires native Symbol support or a polyfill",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "react_18_requires_object_assign_support_in_the_runtime",
+        "path_name": "React 18 requires Object.assign support in the runtime",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "reactdom_hydrate_is_deprecated_in_react_18_and_keeps_the_app",
+        "path_name": "ReactDOM.hydrate is deprecated in React 18 and keeps the app in React 17 mode",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "reactdom_render_remains_on_a_react_17_compatibility_path_aft",
+        "path_name": "ReactDOM.render remains on a React 17 compatibility path after upgrading to React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "removal_of_unstable_level_attribute_support",
+        "path_name": "Removal of unstable_level attribute support",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_fbfc98cb00d78aa2"
+        ],
+        "reasons": [
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "risk_from_bad_or_slow_setimmediate_polyfills_in_react_18_0_0",
+        "path_name": "Risk from bad or slow setImmediate polyfills in React 18.0.0",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_07faa6b2bd587df6"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "server_hydration_snapshot_source_changes_when_using_getserve",
+        "path_name": "Server/hydration snapshot source changes when using getServerSnapshot",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_175b392afbd1743b"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "suspense_remounts_layout_effects_when_content_reappears",
+        "path_name": "Suspense remounts layout effects when content reappears",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "suspense_tree_suspension_now_discards_incomplete_renders_and",
+        "path_name": "Suspense tree suspension now discards incomplete renders and retries from scratch",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "involved in a conflict it won: c15",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "typescript_projects_need_updated_react_18_type_packages",
+        "path_name": "TypeScript projects need updated React 18 type packages",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_reactdomserver_rendertonodestream_in_react",
+        "path_name": "Use of deprecated ReactDOMServer.renderToNodeStream in React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "usereducer_eager_bailout_removal_causes_extra_re_renders_on",
+        "path_name": "useReducer eager bailout removal causes extra re-renders on React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_95b5525995a719ea"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "calling_rendersubtreeintocontainer_after_upgrading_to_react",
+        "path_name": "Calling renderSubtreeIntoContainer after upgrading to React 18 emits a warning",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "code_writes_to_this_refs_and_relies_on_old_disallowed_behavi",
+        "path_name": "Code writes to this.refs and relies on old disallowed behavior",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "deprecated_server_stream_rendering_api_used_in_react_18_3_0",
+        "path_name": "Deprecated server stream rendering API used in React 18.3.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "deprecated_unmountcomponentatnode_usage_triggers_warnings_af",
+        "path_name": "Deprecated unmountComponentAtNode usage triggers warnings after upgrade",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "involved in a conflict it won: c16",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "react_17_18_string_value_migration_step_becomes_allowed_afte",
+        "path_name": "React 17 -> 18: String(value) migration step becomes allowed after lint-rule removal",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_8fa14271bb3a0d68"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "best source is official_repository_discussion"
+        ]
+      },
+      {
+        "path_id": "string_refs_are_deprecated_and_now_warn_outside_strictmode_i",
+        "path_name": "String refs are deprecated and now warn outside StrictMode in React 18.3.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "tests_import_act_from_test_utils_and_now_warn",
+        "path_name": "Tests import act from test-utils and now warn",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_53446f36fe4fed2e"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "usereducer_no_longer_observes_stale_props_via_eager_bailout",
+        "path_name": "useReducer no longer observes stale props via eager bailout removal",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      }
+    ],
+    "low_confidence_or_disputed_risks": [
+      {
+        "path_id": "direct_lane_bitmask_manipulation_outside_reactfiberlane_brea",
+        "path_name": "Direct lane bitmask manipulation outside ReactFiberLane breaks on React 18",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_1cf16371e61fb247"
+        ],
+        "reasons": [
+          "best source is official_repository_discussion",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "usesyncexternalstore_without_getserversnapshot_on_server_ren",
+        "path_name": "useSyncExternalStore without getServerSnapshot on server-rendered or hydrated code paths",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_175b392afbd1743b"
+        ],
+        "reasons": [
+          "unresolved conflict: c23",
+          "judge: evidence contradicts the statement",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "usetransition_may_require_suspense_boundary_key_reorganizati",
+        "path_name": "useTransition may require Suspense boundary/key reorganization in React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_476faad1326c4c2d"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c24",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "using_reactdom_render_after_upgrading_to_react_18_blocks_new",
+        "path_name": "Using ReactDOM.render after upgrading to React 18 blocks new client features",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_98997cf52379052f"
+        ],
+        "reasons": [
+          "unresolved conflict: c04",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "option_children_string_only_assumption_breaks_when_value_is",
+        "path_name": "<option> children string-only assumption breaks when value is provided",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "automatic_batching_breaks_code_that_depends_on_immediate_dom",
+        "path_name": "Automatic batching breaks code that depends on immediate DOM updates",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "css_in_js_library_still_injecting_styles_during_render_may_n",
+        "path_name": "CSS-in-JS library still injecting styles during render may need React 18 useInsertionEffect migration",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "unresolved conflict: c22",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "effects_used_for_external_subscriptions_may_need_migration_t",
+        "path_name": "Effects used for external subscriptions may need migration to useSyncExternalStore",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "unresolved conflict: c18",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "external_store_updates_are_not_synchronous_enough_for_react",
+        "path_name": "External store updates are not synchronous enough for React 18 concurrent reads",
+        "risk_type": "runtime_requirement",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: evidence contradicts the statement",
+          "unresolved conflict: c23",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "source_disagreement",
+          "no_required_condition_after_verification"
+        ]
+      },
+      {
+        "path_id": "misusing_useid_for_list_keys_during_react_18_migration",
+        "path_name": "Misusing useId for list keys during React 18 migration",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_98997cf52379052f"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c20",
+          "judge: evidence contradicts the statement",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "react_18_automatic_batching_changes_update_timing_outside_re",
+        "path_name": "React 18 automatic batching changes update timing outside React event handlers",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c02",
+          "judge: evidence unrelated the statement",
+          "cited source lost a conflict: c02, c03",
+          "role changed from required to uncertain",
+          "marked uncertain at extraction",
+          "judge_disputed_condition",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "react_18_new_features_unavailable_without_adopting_the_new_c",
+        "path_name": "React 18 new features unavailable without adopting the new client root API",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_98997cf52379052f"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "react_18_requires_runtime_symbol_support",
+        "path_name": "React 18 requires runtime Symbol support",
+        "risk_type": "runtime_requirement",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "judge: evidence contradicts the statement",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "no_required_condition_after_verification"
+        ]
+      },
+      {
+        "path_id": "react_18_ssr_with_rendertostring_and_suspense_fallback_behav",
+        "path_name": "React 18 SSR with renderToString and Suspense fallback behavior change",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "unresolved conflict: c12",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "server_rendering_still_uses_rendertostring_instead_of_a_stre",
+        "path_name": "Server rendering still uses renderToString instead of a streaming API",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c09",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "server_rendering_still_using_rendertostring_should_migrate_t",
+        "path_name": "Server rendering still using renderToString should migrate to a streaming API for React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c10",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "static_server_rendering_with_suspense_now_falls_back_instead",
+        "path_name": "Static server rendering with Suspense now falls back instead of erroring",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "involved in a conflict it won: c11",
+          "judge_disputed_condition",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "strict_mode_remount_check_exposes_non_resilient_effects_in_d",
+        "path_name": "Strict Mode remount check exposes non-resilient effects in development",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c13, c14",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "tests_run_under_react_18_without_setting_globalthis_is_react",
+        "path_name": "Tests run under React 18 without setting globalThis.IS_REACT_ACT_ENVIRONMENT",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "usedeferredvalue_behavior_change_from_timeout_based_delay_to",
+        "path_name": "useDeferredValue behavior change from timeout-based delay to load/refresh semantics",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_476faad1326c4c2d"
+        ],
+        "reasons": [
+          "unresolved conflict: c17",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "useeffect_runs_synchronously_after_discrete_user_input_updat",
+        "path_name": "useEffect runs synchronously after discrete user input updates in React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022",
+          "doc_5d40be942f7a094f"
+        ],
+        "reasons": [
+          "unresolved conflict: c18, c19",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "usetransition_placeholder_timing_changes_in_react_18",
+        "path_name": "useTransition placeholder timing changes in React 18",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_476faad1326c4c2d"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c24",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "lazy_equivalent_resolutions_are_now_treated_as_the_same_comp",
+        "path_name": "lazy() equivalent resolutions are now treated as the same component",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "low",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c07",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "tests_rely_on_automatic_act_warnings_to_catch_missing_act_us",
+        "path_name": "Tests rely on automatic act warnings to catch missing act() usage",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_2cfd26b9a91d3978",
+          "doc_4ae4432386d06022"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "involved in a conflict it won: c01",
+          "judge_disputed_condition",
+          "source_disagreement"
+        ]
+      }
+    ],
+    "sources_with_disagreements": [
+      {
+        "conflict_id": "c01",
+        "subject": "act warnings",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f088",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "default_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "opt-in",
+            "quote": "In tests, `act` warnings are now opt-in:"
+          },
+          {
+            "fact_id": "f023",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#react",
+            "trust_tier": "official",
+            "change": "default_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "opt-in",
+            "quote": "In tests, act warnings are now opt-in"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f088",
+        "reason": "official source https://github.com/react/react/blob/main/CHANGELOG.md preferred under the conflict policy.",
+        "affected_paths": [
+          "tests_rely_on_automatic_act_warnings_to_catch_missing_act_us"
+        ]
+      },
+      {
+        "conflict_id": "c02",
+        "subject": "automatic batching",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f172",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#__next",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "Our latest major version includes out-of-the-box improvements like automatic batching"
+          },
+          {
+            "fact_id": "f073",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "more batching automatically",
+            "quote": "This release introduces a performance improvement that changes to the way React batches updates to do more batching automatically."
+          },
+          {
+            "fact_id": "f045",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#automatic-batching",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "all updates are automatically batched with createRoot, no matter where they originate from",
+            "quote": "Before React 18, we only batched updates inside React event handlers."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f172",
+        "reason": "official source https://react.dev/blog/2022/03/29/react-v18#__next preferred under the conflict policy.",
+        "affected_paths": [
+          "react_18_automatic_batching_changes_update_timing_outside_re"
+        ]
+      },
+      {
+        "conflict_id": "c03",
+        "subject": "Automatic batching",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f073",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "more batching automatically",
+            "quote": "This release introduces a performance improvement that changes to the way React batches updates to do more batching automatically."
+          },
+          {
+            "fact_id": "f045",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#automatic-batching",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "all updates are automatically batched with createRoot, no matter where they originate from",
+            "quote": "Before React 18, we only batched updates inside React event handlers."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f073",
+        "reason": "official source https://github.com/react/react/blob/main/CHANGELOG.md preferred under the conflict policy.",
+        "affected_paths": [
+          "react_18_automatic_batching_changes_update_timing_outside_re"
+        ]
+      },
+      {
+        "conflict_id": "c04",
+        "subject": "createRoot",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f065",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "createRoot",
+            "quote": "Use it instead of `ReactDOM.render`. New features in React 18 don't work without it."
+          },
+          {
+            "fact_id": "f177",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#react-dom-client",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "createRoot",
+            "quote": "createRoot : New method to create a root to render or unmount . Use it instead of ReactDOM.render ."
+          },
+          {
+            "fact_id": "f119",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": null,
+            "quote": "* Add `createRoot` and `hydrateRoot`."
+          },
+          {
+            "fact_id": "f031",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-client-rendering-apis",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "createRoot from react-dom/client",
+            "quote": "import { createRoot } from 'react-dom/client'"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "using_reactdom_render_after_upgrading_to_react_18_blocks_new"
+        ]
+      },
+      {
+        "conflict_id": "c05",
+        "subject": "hydrateRoot",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f179",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#react-dom-client",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "hydrateRoot",
+            "quote": "hydrateRoot : New method to hydrate a server rendered application. Use it instead of ReactDOM.hydrate in conjunction with the new React DOM Server APIs."
+          },
+          {
+            "fact_id": "f120",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": null,
+            "quote": "* Add `createRoot` and `hydrateRoot`."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f179",
+        "reason": "official source https://react.dev/blog/2022/03/29/react-v18#react-dom-client preferred under the conflict policy.",
+        "affected_paths": [
+          "server_rendered_app_still_uses_reactdom_hydrate_after_upgrad"
+        ]
+      },
+      {
+        "conflict_id": "c06",
+        "subject": "Hydration mismatches due to missing or extra text content",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f078",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "treated like errors; no longer attempt to patch up individual nodes; revert to client rendering up to the closest <Suspense> boundary",
+            "quote": "Hydration mismatches due to missing or extra text content are now treated like errors instead of warnings. React will no longer attempt to \"patch up\" individual nodes by inserting or deleting a node on the client in an attempt to match the server markup, and will revert to client rendering up to the closest `<Suspense>` boundary in the tree."
+          },
+          {
+            "fact_id": "f016",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#other-breaking-changes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "treated like errors; React will no longer attempt to \"patch up\" individual nodes and will revert to client rendering up to the closest <Suspense> boundary",
+            "quote": "Hydration mismatches due to missing or extra text content are now treated like errors instead of warnings."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f078",
+        "reason": "official source https://github.com/react/react/blob/main/CHANGELOG.md preferred under the conflict policy.",
+        "affected_paths": [
+          "hydration_text_mismatch_triggers_client_rendering_instead_of"
+        ]
+      },
+      {
+        "conflict_id": "c07",
+        "subject": "lazy",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f195",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#server-components-experimental",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "Add lazy support."
+          },
+          {
+            "fact_id": "f109",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "all resolving to the same component equivalent",
+            "quote": "* Consider all `lazy()` resolving to the same component equivalent."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f195",
+        "reason": "official source https://react.dev/blog/2022/03/29/react-v18#server-components-experimental preferred under the conflict policy.",
+        "affected_paths": [
+          "lazy_equivalent_resolutions_are_now_treated_as_the_same_comp"
+        ]
+      },
+      {
+        "conflict_id": "c08",
+        "subject": "renderToNodeStream",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f192",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#react-dom-server-1",
+            "trust_tier": "official",
+            "change": "deprecated",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "Deprecate renderToNodeStream ."
+          },
+          {
+            "fact_id": "f132",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "deprecated",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": null,
+            "quote": "* Deprecate `renderToNodeStream`."
+          },
+          {
+            "fact_id": "f037",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-server-rendering-apis",
+            "trust_tier": "official",
+            "change": "deprecated",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "renderToPipeableStream",
+            "quote": "renderToNodeStream : Deprecated \u26d4\ufe0f\ufe0f"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f192",
+        "reason": "official source https://react.dev/blog/2022/03/29/react-v18#react-dom-server-1 preferred under the conflict policy.",
+        "affected_paths": [
+          "deprecated_server_streaming_api_usage_rendertonodestream"
+        ]
+      },
+      {
+        "conflict_id": "c09",
+        "subject": "renderToPipeableStream",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f183",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#react-dom-server",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "renderToPipeableStream : for streaming in Node environments."
+          },
+          {
+            "fact_id": "f092",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "streaming API",
+            "quote": "It is still recommended that you switch to a streaming API like `renderToPipeableStream` or `renderToReadableStream` instead."
+          },
+          {
+            "fact_id": "f038",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-server-rendering-apis",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "renderToPipeableStream",
+            "quote": "Instead, for streaming in Node environments, use: renderToPipeableStream : New \u2728"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f183",
+        "reason": "official source https://react.dev/blog/2022/03/29/react-v18#react-dom-server preferred under the conflict policy.",
+        "affected_paths": [
+          "server_rendering_still_uses_rendertostring_instead_of_a_stre"
+        ]
+      },
+      {
+        "conflict_id": "c10",
+        "subject": "renderToReadableStream",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f184",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#react-dom-server",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "renderToReadableStream : for modern edge runtime environments, such as Deno and Cloudflare workers."
+          },
+          {
+            "fact_id": "f093",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "streaming API",
+            "quote": "It is still recommended that you switch to a streaming API like `renderToPipeableStream` or `renderToReadableStream` instead."
+          },
+          {
+            "fact_id": "f039",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-server-rendering-apis",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "modern edge runtime environments, such as Deno and Cloudflare workers",
+            "quote": "a new API to support streaming SSR with Suspense for modern edge runtime environments, such as Deno and Cloudflare workers"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f184",
+        "reason": "official source https://react.dev/blog/2022/03/29/react-v18#react-dom-server preferred under the conflict policy.",
+        "affected_paths": [
+          "server_rendering_still_using_rendertostring_should_migrate_t"
+        ]
+      },
+      {
+        "conflict_id": "c11",
+        "subject": "renderToStaticMarkup",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f094",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "emits fallback HTML for the closest <Suspense> boundary and retries on the client",
+            "quote": "Will no longer error when suspending on the server. Instead, it will emit the fallback HTML for the closest `<Suspense>` boundary and retry rendering on the client."
+          },
+          {
+            "fact_id": "f028",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#react-dom-server",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "emit the fallback HTML for the closest <Suspense> boundary",
+            "quote": "renderToStaticMarkup : Will no longer error when suspending on the server."
+          },
+          {
+            "fact_id": "f041",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-server-rendering-apis",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "limited support for Suspense",
+            "quote": "renderToStaticMarkup : Limited \u26a0\ufe0f"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f094",
+        "reason": "official source https://github.com/react/react/blob/main/CHANGELOG.md preferred under the conflict policy.",
+        "affected_paths": [
+          "static_server_rendering_with_suspense_now_falls_back_instead"
+        ]
+      },
+      {
+        "conflict_id": "c12",
+        "subject": "renderToString",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f072",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "The existing `renderToString` method keeps working but is discouraged."
+          },
+          {
+            "fact_id": "f185",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#react-dom-server",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "The existing renderToString method keeps working but is discouraged."
+          },
+          {
+            "fact_id": "f091",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "emits fallback HTML for the closest <Suspense> boundary and retries on the client",
+            "quote": "Will no longer error when suspending on the server. Instead, it will emit the fallback HTML for the closest `<Suspense>` boundary and then retry rendering the same content on the client."
+          },
+          {
+            "fact_id": "f027",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#react-dom-server",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "emit the fallback HTML for the closest <Suspense> boundary and then retry rendering the same content on the client",
+            "quote": "renderToString : Will no longer error when suspending on the server."
+          },
+          {
+            "fact_id": "f040",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-server-rendering-apis",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "limited support for Suspense",
+            "quote": "renderToString : Limited \u26a0\ufe0f"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "react_18_ssr_with_rendertostring_and_suspense_fallback_behav"
+        ]
+      },
+      {
+        "conflict_id": "c13",
+        "subject": "Strict Mode",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f201",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#gradually-adopting-concurrent-features",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "logs extra warnings and double-invokes idempotent functions during development",
+            "quote": "Strict Mode doesn\u2019t affect production behavior, but during development it will log extra warnings and double-invoke functions that are expected to be idempotent."
+          },
+          {
+            "fact_id": "f075",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "automatic unmount and remount on first mount in development",
+            "quote": "React 18 introduces a new development-only check to Strict Mode. React will automatically unmount and remount every component, whenever a component mounts for the first time, restoring the previous state on the second mount."
+          },
+          {
+            "fact_id": "f076",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": null,
+            "quote": "If this breaks your app, consider removing Strict Mode until you can fix the components to be resilient to remounting with existing state."
+          },
+          {
+            "fact_id": "f102",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "re-run effects to check for restorable state",
+            "quote": "* Make `<StrictMode>` re-run effects to check for restorable state."
+          },
+          {
+            "fact_id": "f002",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-strict-mode",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "React 18 introduces a new development-only check to Strict Mode."
+          },
+          {
+            "fact_id": "f003",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-strict-mode",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "React will simulate unmounting and remounting the component in development mode",
+            "quote": "With Strict Mode in React 18, React will simulate unmounting and remounting the component in development mode"
+          },
+          {
+            "fact_id": "f034",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#__next",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "stricter checks in development mode",
+            "quote": "Strict Mode has gotten stricter in React 18"
+          },
+          {
+            "fact_id": "f035",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#__next",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "remove it during the upgrade, and then add it back after you fix the issues",
+            "quote": "If removing Strict Mode fixes your app, you can remove it during the upgrade, and then add it back"
+          },
+          {
+            "fact_id": "f263",
+            "source_id": "doc_7c080f5a97e57642",
+            "url": "https://github.com/react/react/pull/22308",
+            "trust_tier": "official_repository_discussion",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "console is patched only during the double render, not during the first render",
+            "quote": "this PR changes the `StrictMode` console override behavior so that we only patch the console during the `StrictMode` double render so that, during the first render, the location points to developer code rather than our DevTools console code."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f201",
+        "reason": "official source https://react.dev/blog/2022/03/29/react-v18#gradually-adopting-concurrent-features preferred under the conflict policy.",
+        "affected_paths": [
+          "strict_mode_remount_check_exposes_non_resilient_effects_in_d"
+        ]
+      },
+      {
+        "conflict_id": "c14",
+        "subject": "Strict Mode",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f201",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#gradually-adopting-concurrent-features",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "logs extra warnings and double-invokes idempotent functions during development",
+            "quote": "Strict Mode doesn\u2019t affect production behavior, but during development it will log extra warnings and double-invoke functions that are expected to be idempotent."
+          },
+          {
+            "fact_id": "f075",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "automatic unmount and remount on first mount in development",
+            "quote": "React 18 introduces a new development-only check to Strict Mode. React will automatically unmount and remount every component, whenever a component mounts for the first time, restoring the previous state on the second mount."
+          },
+          {
+            "fact_id": "f102",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "re-run effects to check for restorable state",
+            "quote": "* Make `<StrictMode>` re-run effects to check for restorable state."
+          },
+          {
+            "fact_id": "f003",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-strict-mode",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "React will simulate unmounting and remounting the component in development mode",
+            "quote": "With Strict Mode in React 18, React will simulate unmounting and remounting the component in development mode"
+          },
+          {
+            "fact_id": "f034",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#__next",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "stricter checks in development mode",
+            "quote": "Strict Mode has gotten stricter in React 18"
+          },
+          {
+            "fact_id": "f263",
+            "source_id": "doc_7c080f5a97e57642",
+            "url": "https://github.com/react/react/pull/22308",
+            "trust_tier": "official_repository_discussion",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "console is patched only during the double render, not during the first render",
+            "quote": "this PR changes the `StrictMode` console override behavior so that we only patch the console during the `StrictMode` double render so that, during the first render, the location points to developer code rather than our DevTools console code."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f201",
+        "reason": "official source https://react.dev/blog/2022/03/29/react-v18#gradually-adopting-concurrent-features preferred under the conflict policy.",
+        "affected_paths": [
+          "strict_mode_remount_check_exposes_non_resilient_effects_in_d"
+        ]
+      },
+      {
+        "conflict_id": "c15",
+        "subject": "Suspense trees",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f080",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "thrown away completely and retried from scratch after the async operation finishes",
+            "quote": "If a component suspends before it's fully added to the tree, React will not add it to the tree in an incomplete state or fire its effects. Instead, React will throw away the new tree completely, wait for the asynchronous operation to finish, and then retry rendering again from scratch."
+          },
+          {
+            "fact_id": "f017",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#other-breaking-changes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "React will throw away the new tree completely, wait for the asynchronous operation to finish, and then retry rendering again from scratch",
+            "quote": "Suspense trees are always consistent: If a component suspends before it\u2019s fully added to the tree, React will not add it to the tree in an incomplete state or fire its effects."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f080",
+        "reason": "official source https://github.com/react/react/blob/main/CHANGELOG.md preferred under the conflict policy.",
+        "affected_paths": [
+          "suspense_tree_suspension_now_discards_incomplete_renders_and"
+        ]
+      },
+      {
+        "conflict_id": "c16",
+        "subject": "unmountComponentAtNode",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f159",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "deprecated",
+            "versions": [
+              "18.3.0"
+            ],
+            "value": null,
+            "quote": "- Warn for deprecated `unmountComponentAtNode`"
+          },
+          {
+            "fact_id": "f030",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-client-rendering-apis",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "root.unmount",
+            "quote": "We\u2019ve also changed unmountComponentAtNode to root.unmount :"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f159",
+        "reason": "official source https://github.com/react/react/blob/main/CHANGELOG.md preferred under the conflict policy.",
+        "affected_paths": [
+          "deprecated_unmountcomponentatnode_usage_triggers_warnings_af"
+        ]
+      },
+      {
+        "conflict_id": "c17",
+        "subject": "useDeferredValue",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f060",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "`useDeferredValue` lets you defer re-rendering a non-urgent part of the tree."
+          },
+          {
+            "fact_id": "f203",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#gradually-adopting-concurrent-features",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "Or useDeferredValue to throttle expensive re-renders."
+          },
+          {
+            "fact_id": "f096",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": null,
+            "quote": "* Add `useTransition` and `useDeferredValue` to separate urgent updates from transitions."
+          },
+          {
+            "fact_id": "f051",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#new-apis-for-libraries",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "new API for concurrent rendering",
+            "quote": "React 18 also introduces new APIs for concurrent rendering such as startTransition , useDeferredValue and useId"
+          },
+          {
+            "fact_id": "f218",
+            "source_id": "doc_4c40d3030ffd0c98",
+            "url": "https://github.com/react/react/pull/17058",
+            "trust_tier": "official_repository_discussion",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "Migrated `useDeferredValue` and `useTransition` from Facebook's www repo into `ReactFiberHooks`."
+          },
+          {
+            "fact_id": "f239",
+            "source_id": "doc_476faad1326c4c2d",
+            "url": "https://github.com/react/react/pull/19703",
+            "trust_tier": "official_repository_discussion",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "same load versus refresh semantics as the update that spawns the deferred value",
+            "quote": "apply the same load versus refresh semantics to the update that spawns the deferred value."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "usedeferredvalue_behavior_change_from_timeout_based_delay_to"
+        ]
+      },
+      {
+        "conflict_id": "c18",
+        "subject": "useEffect",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f062",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "useSyncExternalStore",
+            "quote": "It removes the need for `useEffect` when implementing subscriptions to external data sources, and is recommended for any library that integrates with state external to React."
+          },
+          {
+            "fact_id": "f189",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#usesyncexternalstore",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "useSyncExternalStore",
+            "quote": "It removes the need for useEffect when implementing subscriptions to external data sources"
+          },
+          {
+            "fact_id": "f077",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "always synchronously flushes effect functions for discrete user input events",
+            "quote": "React now always synchronously flushes effect functions if the update was triggered during a discrete user input event such as a click or a keydown event."
+          },
+          {
+            "fact_id": "f107",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "flush resulting from discrete events like clicks synchronously",
+            "quote": "* Flush `useEffect` resulting from discrete events like clicks synchronously."
+          },
+          {
+            "fact_id": "f015",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#other-breaking-changes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "synchronously flush effect functions if the update was triggered during a discrete user input event",
+            "quote": "React now always synchronously flushes effect functions if the update was triggered during a discrete user input event"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "effects_used_for_external_subscriptions_may_need_migration_t",
+          "useeffect_runs_synchronously_after_discrete_user_input_updat"
+        ]
+      },
+      {
+        "conflict_id": "c19",
+        "subject": "useEffect",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f077",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "always synchronously flushes effect functions for discrete user input events",
+            "quote": "React now always synchronously flushes effect functions if the update was triggered during a discrete user input event such as a click or a keydown event."
+          },
+          {
+            "fact_id": "f107",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": "flush resulting from discrete events like clicks synchronously",
+            "quote": "* Flush `useEffect` resulting from discrete events like clicks synchronously."
+          },
+          {
+            "fact_id": "f015",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#other-breaking-changes",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "synchronously flush effect functions if the update was triggered during a discrete user input event",
+            "quote": "React now always synchronously flushes effect functions if the update was triggered during a discrete user input event"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "useeffect_runs_synchronously_after_discrete_user_input_updat"
+        ]
+      },
+      {
+        "conflict_id": "c20",
+        "subject": "useId()",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f170",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "18.2.0"
+            ],
+            "value": "inside Server Components",
+            "quote": "Add support for `useId()` inside Server Components."
+          },
+          {
+            "fact_id": "f057",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "`useId` is a new hook for generating unique IDs on both the client and server, while avoiding hydration mismatches."
+          },
+          {
+            "fact_id": "f187",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#useid",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "useId is not for generating keys in a list . Keys should be generated from your data."
+          },
+          {
+            "fact_id": "f097",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": null,
+            "quote": "* Add `useId` for generating unique IDs."
+          },
+          {
+            "fact_id": "f052",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#new-apis-for-libraries",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "new API for concurrent rendering",
+            "quote": "React 18 also introduces new APIs for concurrent rendering such as startTransition , useDeferredValue and useId"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f170",
+        "reason": "official source https://github.com/react/react/blob/main/CHANGELOG.md preferred under the conflict policy.",
+        "affected_paths": [
+          "misusing_useid_for_list_keys_during_react_18_migration"
+        ]
+      },
+      {
+        "conflict_id": "c21",
+        "subject": "useId()",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f170",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "18.2.0"
+            ],
+            "value": "inside Server Components",
+            "quote": "Add support for `useId()` inside Server Components."
+          },
+          {
+            "fact_id": "f186",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#useid",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "useId is a new Hook for generating unique IDs on both the client and server, while avoiding hydration mismatches."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f170",
+        "reason": "official source https://github.com/react/react/blob/main/CHANGELOG.md preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c22",
+        "subject": "useInsertionEffect",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f063",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "`useInsertionEffect` is a new hook that allows CSS-in-JS libraries to address performance issues of injecting styles in render."
+          },
+          {
+            "fact_id": "f190",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#useinsertioneffect",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "useInsertionEffect is a new Hook that allows CSS-in-JS libraries to address performance issues of injecting styles in render."
+          },
+          {
+            "fact_id": "f191",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#useinsertioneffect",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "This Hook will run after the DOM is mutated, but before layout effects read the new layout."
+          },
+          {
+            "fact_id": "f100",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": null,
+            "quote": "* Add `useInsertionEffect` for CSS-in-JS libraries."
+          },
+          {
+            "fact_id": "f048",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#new-apis-for-libraries",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "for CSS-in-JS libraries to address performance issues of injecting styles in render",
+            "quote": "useInsertionEffect is a new Hook that allows CSS-in-JS libraries to address performance issues of injecting styles in render."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "css_in_js_library_still_injecting_styles_during_render_may_n"
+        ]
+      },
+      {
+        "conflict_id": "c23",
+        "subject": "useSyncExternalStore",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f061",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "`useSyncExternalStore` is a new hook that allows external stores to support concurrent reads by forcing updates to the store to be synchronous."
+          },
+          {
+            "fact_id": "f188",
+            "source_id": "doc_98997cf52379052f",
+            "url": "https://react.dev/blog/2022/03/29/react-v18#usesyncexternalstore",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "useSyncExternalStore is a new Hook that allows external stores to support concurrent reads by forcing updates to the store to be synchronous."
+          },
+          {
+            "fact_id": "f098",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": null,
+            "quote": "* Add `useSyncExternalStore` to help external store libraries integrate with React."
+          },
+          {
+            "fact_id": "f047",
+            "source_id": "doc_5d40be942f7a094f",
+            "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide#new-apis-for-libraries",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "forces updates to the store to be synchronous",
+            "quote": "allows external stores to support concurrent reads by forcing updates to the store to be synchronous"
+          },
+          {
+            "fact_id": "f264",
+            "source_id": "doc_175b392afbd1743b",
+            "url": "https://github.com/react/react/pull/22347",
+            "trust_tier": "official_repository_discussion",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "third argument `getServerSnapshot`",
+            "quote": "Adds a third argument called `getServerSnapshot`."
+          },
+          {
+            "fact_id": "f267",
+            "source_id": "doc_175b392afbd1743b",
+            "url": "https://github.com/react/react/pull/22347",
+            "trust_tier": "official_repository_discussion",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "React aborts that subtree on the server and reverts to client rendering up to the nearest Suspense boundary",
+            "quote": "If the user does attempt to omit `getServerSnapshot`, and the hook is called on the server, React will abort that subtree on the server and revert to client rendering, up to the nearest Suspense boundary."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "external_store_updates_are_not_synchronous_enough_for_react",
+          "usesyncexternalstore_without_getserversnapshot_on_server_ren"
+        ]
+      },
+      {
+        "conflict_id": "c24",
+        "subject": "useTransition",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f059",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "`startTransition` and `useTransition` let you mark some state updates as not urgent."
+          },
+          {
+            "fact_id": "f095",
+            "source_id": "doc_2cfd26b9a91d3978",
+            "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "18.0.0",
+              "18.1.0",
+              "18.2.0",
+              "18.3.0",
+              "18.3.1"
+            ],
+            "value": null,
+            "quote": "* Add `useTransition` and `useDeferredValue` to separate urgent updates from transitions."
+          },
+          {
+            "fact_id": "f219",
+            "source_id": "doc_4c40d3030ffd0c98",
+            "url": "https://github.com/react/react/pull/17058",
+            "trust_tier": "official_repository_discussion",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "Migrated `useDeferredValue` and `useTransition` from Facebook's www repo into `ReactFiberHooks`."
+          },
+          {
+            "fact_id": "f236",
+            "source_id": "doc_476faad1326c4c2d",
+            "url": "https://github.com/react/react/pull/19703",
+            "trust_tier": "official_repository_discussion",
+            "change": "behavior_changed",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": "Transitions either immediately switch to a skeleton/placeholder view for loads or wait indefinitely for refreshes",
+            "quote": "Transitions will either immediately switch to a skeleton/placeholder view (when loading new content) or wait indefinitely until the data resolves (when refreshing stale content)."
+          },
+          {
+            "fact_id": "f237",
+            "source_id": "doc_476faad1326c4c2d",
+            "url": "https://github.com/react/react/pull/19703",
+            "trust_tier": "official_repository_discussion",
+            "change": "migration_step",
+            "versions": [
+              "18.0.0"
+            ],
+            "value": null,
+            "quote": "If you need to fix a transition to be treated as a load instead of a refresh, or vice versa, the solution will involve rearranging the location of your Suspense boundaries. It may also involve adding a key."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f059",
+        "reason": "official source https://github.com/react/react/blob/main/CHANGELOG.md preferred under the conflict policy.",
+        "affected_paths": [
+          "usetransition_may_require_suspense_boundary_key_reorganizati",
+          "usetransition_placeholder_timing_changes_in_react_18"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Unconfirmed condition in 'React 18 automatic batching changes update timing outside React event handlers': The codebase contains state updates that previously relied on separate renders or immediate timing between updates.",
+      "Unconfirmed condition in 'Suspense remounts layout effects when content reappears': The application has layout effects whose lifecycle depends on Suspense reveal behavior.",
+      "Unconfirmed condition in 'useReducer eager bailout removal causes extra re-renders on React 18': The codebase relies on the previous eager bailout behavior to avoid a render when reducer state does not change.",
+      "Unresolved disagreement about createRoot (risk_vs_context) between https://github.com/react/react/blob/main/CHANGELOG.md, https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-client-rendering-apis, https://react.dev/blog/2022/03/29/react-v18#react-dom-client [c04]",
+      "Unresolved disagreement about renderToString (risk_vs_context) between https://github.com/react/react/blob/main/CHANGELOG.md, https://react.dev/blog/2022/03/08/react-18-upgrade-guide#react-dom-server, https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-server-rendering-apis, https://react.dev/blog/2022/03/29/react-v18#react-dom-server [c12]",
+      "Unresolved disagreement about useDeferredValue (risk_vs_context) between https://github.com/react/react/blob/main/CHANGELOG.md, https://github.com/react/react/pull/17058, https://github.com/react/react/pull/19703, https://react.dev/blog/2022/03/08/react-18-upgrade-guide#new-apis-for-libraries, https://react.dev/blog/2022/03/29/react-v18#gradually-adopting-concurrent-features [c17]",
+      "Unresolved disagreement about useEffect (risk_vs_context) between https://github.com/react/react/blob/main/CHANGELOG.md, https://react.dev/blog/2022/03/08/react-18-upgrade-guide#other-breaking-changes, https://react.dev/blog/2022/03/29/react-v18#usesyncexternalstore [c18]",
+      "Unresolved disagreement about useEffect (value) between https://github.com/react/react/blob/main/CHANGELOG.md, https://react.dev/blog/2022/03/08/react-18-upgrade-guide#other-breaking-changes [c19]",
+      "Unresolved disagreement about useInsertionEffect (risk_vs_context) between https://github.com/react/react/blob/main/CHANGELOG.md, https://react.dev/blog/2022/03/08/react-18-upgrade-guide#new-apis-for-libraries, https://react.dev/blog/2022/03/29/react-v18#useinsertioneffect [c22]",
+      "Unresolved disagreement about useSyncExternalStore (risk_vs_context) between https://github.com/react/react/blob/main/CHANGELOG.md, https://github.com/react/react/pull/22347, https://react.dev/blog/2022/03/08/react-18-upgrade-guide#new-apis-for-libraries, https://react.dev/blog/2022/03/29/react-v18#usesyncexternalstore [c23]",
+      "11 critical or high risks rest on a single source (flagged single_source_severe_risk); confirm them with a second source: 'Direct lane bitmask manipulation outside ReactFiberLane breaks on React 18'; 'Internet Explorer support removed in React 18'; 'Missing getServerSnapshot callback for server-capable snapshot usage' and 8 more."
+    ]
+  }
+}

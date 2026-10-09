@@ -1,0 +1,2743 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-09T15:43:40.962418+00:00",
+  "input": {
+    "project": "PostgreSQL",
+    "current_version": "13",
+    "target_version": "16",
+    "source_urls": [],
+    "version_mode": "family"
+  },
+  "status": "partial",
+  "identity": {
+    "id": "site:www.postgresql.org",
+    "name": "PostgreSQL: Documentation: 19: E.1.\u00a0Release 19",
+    "repository": null,
+    "homepage": "https://www.postgresql.org/docs/19/release-19.html",
+    "score": 6,
+    "confidence": "heuristic",
+    "evidence": [
+      {
+        "url": "https://www.postgresql.org/",
+        "field": "project_release_link",
+        "value": "https://www.postgresql.org/docs/19/release-19.html"
+      },
+      {
+        "url": "https://www.postgresql.org/docs/19/release-19.html",
+        "field": "title",
+        "value": "PostgreSQL: Documentation: 19: E.1.\u00a0Release 19"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22PostgreSQL%22+official+releases+13+to+16",
+        "field": "search_result",
+        "value": "https://www.postgresql.org/docs/release/"
+      },
+      {
+        "url": "https://www.postgresql.org/docs/release/",
+        "field": "title",
+        "value": "PostgreSQL: Release Notes"
+      },
+      {
+        "url": "https://www.postgresql.org/",
+        "field": "project_release_link",
+        "value": "https://www.postgresql.org/docs/release/"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22PostgreSQL%22+official+releases+13+to+16",
+        "field": "search_result",
+        "value": "https://www.postgresql.org/download/"
+      },
+      {
+        "url": "https://www.postgresql.org/download/",
+        "field": "title",
+        "value": "PostgreSQL: Downloads"
+      }
+    ]
+  },
+  "version_policy": {
+    "stable_numeric_versions_only": true,
+    "interval": "exclude current family; include all target-family releases",
+    "milestone_precision": 1,
+    "note": "Milestones group discovered versions for documentation collection; they are not installation steps. Family mode does not assess changes within the current family."
+  },
+  "candidates": [
+    {
+      "kind": "github",
+      "name": "postgres",
+      "url": "https://github.com/postgres/postgres",
+      "description": "Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch",
+      "repository": "postgres/postgres",
+      "homepage": "https://www.postgresql.org/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "postgres/postgres"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://www.postgresql.org/"
+        },
+        {
+          "url": "https://api.github.com/repos/postgres/postgres",
+          "field": "full_name",
+          "value": "postgres/postgres"
+        }
+      ],
+      "score": 6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "PostgreSQL: Documentation: 19: E.1.\u00a0Release 19",
+      "url": "https://www.postgresql.org/docs/19/release-19.html",
+      "description": "PostgreSQL: Documentation: 19: E.1.\u00a0Release 19",
+      "repository": "",
+      "homepage": "https://www.postgresql.org/docs/19/release-19.html",
+      "evidence": [
+        {
+          "url": "https://www.postgresql.org/",
+          "field": "project_release_link",
+          "value": "https://www.postgresql.org/docs/19/release-19.html"
+        },
+        {
+          "url": "https://www.postgresql.org/docs/19/release-19.html",
+          "field": "title",
+          "value": "PostgreSQL: Documentation: 19: E.1.\u00a0Release 19"
+        }
+      ],
+      "score": 6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/",
+      "description": "PostgreSQL: Release Notes",
+      "repository": "",
+      "homepage": "https://www.postgresql.org/docs/release/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22PostgreSQL%22+official+releases+13+to+16",
+          "field": "search_result",
+          "value": "https://www.postgresql.org/docs/release/"
+        },
+        {
+          "url": "https://www.postgresql.org/docs/release/",
+          "field": "title",
+          "value": "PostgreSQL: Release Notes"
+        },
+        {
+          "url": "https://www.postgresql.org/",
+          "field": "project_release_link",
+          "value": "https://www.postgresql.org/docs/release/"
+        }
+      ],
+      "score": 6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "PostgreSQL: Downloads",
+      "url": "https://www.postgresql.org/download/",
+      "description": "PostgreSQL: Downloads",
+      "repository": "",
+      "homepage": "https://www.postgresql.org/download/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22PostgreSQL%22+official+releases+13+to+16",
+          "field": "search_result",
+          "value": "https://www.postgresql.org/download/"
+        },
+        {
+          "url": "https://www.postgresql.org/download/",
+          "field": "title",
+          "value": "PostgreSQL: Downloads"
+        }
+      ],
+      "score": 6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Index of /pub/",
+      "url": "https://download.postgresql.org/pub/",
+      "description": "Index of /pub/",
+      "repository": "",
+      "homepage": "https://download.postgresql.org/pub/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22PostgreSQL%22+official+releases+13+to+16",
+          "field": "search_result",
+          "value": "https://download.postgresql.org/pub/"
+        },
+        {
+          "url": "https://download.postgresql.org/pub/",
+          "field": "title",
+          "value": "Index of /pub/"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "WrenAI",
+      "url": "https://github.com/Canner/WrenAI",
+      "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
+      "repository": "Canner/WrenAI",
+      "homepage": "https://www.getwren.ai/en/open-core",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "Canner/WrenAI"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://www.getwren.ai/en/open-core"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "Douyin_TikTok_Download_API",
+      "url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
+      "description": "\ud83d\ude80 \u6296\u97f3\u3001TikTok \u6570\u636e\u91c7\u96c6\u4e0e\u65e0\u6c34\u5370\u89c6\u9891\u4e0b\u8f7d API\uff0c\u81ea\u6258\u7ba1\uff0c\u652f\u6301 MCP \u8c03\u7528\u4e0e Docker \u4e00\u952e\u90e8\u7f72\u3002| Self-hosted TikTok & Douyin scraper and no-watermark video downloader \u2014 async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up. ",
+      "repository": "Evil0ctal/Douyin_TikTok_Download_API",
+      "homepage": "https://douyin.wtf",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "Evil0ctal/Douyin_TikTok_Download_API"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "\ud83d\ude80 \u6296\u97f3\u3001TikTok \u6570\u636e\u91c7\u96c6\u4e0e\u65e0\u6c34\u5370\u89c6\u9891\u4e0b\u8f7d API\uff0c\u81ea\u6258\u7ba1\uff0c\u652f\u6301 MCP \u8c03\u7528\u4e0e Docker \u4e00\u952e\u90e8\u7f72\u3002| Self-hosted TikTok & Douyin scraper and no-watermark video downloader \u2014 async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up. "
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://douyin.wtf"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "knex",
+      "url": "https://github.com/knex/knex",
+      "description": "A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.",
+      "repository": "knex/knex",
+      "homepage": "https://knexjs.org/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "knex/knex"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://knexjs.org/"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "llm-app",
+      "url": "https://github.com/pathwaycom/llm-app",
+      "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. \ud83d\udc33Docker-friendly.\u26a1Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
+      "repository": "pathwaycom/llm-app",
+      "homepage": "https://pathway.com/developers/templates/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "pathwaycom/llm-app"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. \ud83d\udc33Docker-friendly.\u26a1Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://pathway.com/developers/templates/"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "PostgreSQL Latest Version - Support Lifecycle & EOL",
+      "url": "https://versionlog.com/postgresql/",
+      "description": "Latest PostgreSQL version, full release history, support lifecycle, release dates, LTS and End of Life (EOL) information. Updated regularly. PostgreSQL,...",
+      "repository": "",
+      "homepage": "https://versionlog.com/postgresql/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22PostgreSQL%22+official+releases+13+to+16",
+          "field": "search_result",
+          "value": "https://versionlog.com/postgresql/"
+        },
+        {
+          "url": "https://versionlog.com/postgresql/",
+          "field": "title",
+          "value": "PostgreSQL Latest Version - Support Lifecycle & EOL"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "PostgreSQL 16 - What's New, Support Lifecycle & EOL",
+      "url": "https://versionlog.com/postgresql/16/",
+      "description": "Discover what's new in PostgreSQL 16. Complete release history, support lifecycle, release dates, LTS schedule and End of Life (EOL) status. PostgreSQL,...",
+      "repository": "",
+      "homepage": "https://versionlog.com/postgresql/16/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22PostgreSQL%22+official+releases+13+to+16",
+          "field": "search_result",
+          "value": "https://versionlog.com/postgresql/16/"
+        },
+        {
+          "url": "https://versionlog.com/postgresql/16/",
+          "field": "title",
+          "value": "PostgreSQL 16 - What's New, Support Lifecycle & EOL"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "npm",
+      "name": "postgresql",
+      "url": "https://registry.npmjs.org/postgresql",
+      "description": "An NPM wrapper for PostgreSQL.",
+      "repository": "tkellen/node-postgresql",
+      "homepage": "https://github.com/tkellen/node-postgresql",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/postgresql/latest",
+          "field": "name",
+          "value": "postgresql"
+        },
+        {
+          "url": "https://registry.npmjs.org/postgresql/latest",
+          "field": "repository",
+          "value": "git://github.com/tkellen/node-postgresql.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/postgresql/latest",
+          "field": "description",
+          "value": "An NPM wrapper for PostgreSQL."
+        }
+      ],
+      "score": -2,
+      "reasons": [
+        "Exact normalized project-name match (+4)",
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "github",
+      "name": "full-stack-fastapi-template",
+      "url": "https://github.com/fastapi/full-stack-fastapi-template",
+      "description": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+      "repository": "fastapi/full-stack-fastapi-template",
+      "homepage": "",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "fastapi/full-stack-fastapi-template"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose."
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "github",
+      "name": "orm",
+      "url": "https://github.com/prisma/orm",
+      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+      "repository": "prisma/orm",
+      "homepage": "https://www.prisma.io",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "prisma/orm"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://www.prisma.io"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "github",
+      "name": "sequelize",
+      "url": "https://github.com/sequelize/sequelize",
+      "description": "Feature-rich ORM for modern Node.js and TypeScript, it supports PostgreSQL (with JSON and JSONB support), MySQL, MariaDB, SQLite, MS SQL Server, Snowflake, Oracle DB, DB2 and DB2 for IBM i.",
+      "repository": "sequelize/sequelize",
+      "homepage": "https://sequelize.org/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "sequelize/sequelize"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Feature-rich ORM for modern Node.js and TypeScript, it supports PostgreSQL (with JSON and JSONB support), MySQL, MariaDB, SQLite, MS SQL Server, Snowflake, Oracle DB, DB2 and DB2 for IBM i."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://sequelize.org/"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "github",
+      "name": "dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | \u8f7b\u91cf\u7ea7\u8de8\u5e73\u53f0\u6570\u636e\u5e93\u7ba1\u7406\u5de5\u5177\uff0c\u652f\u6301 MySQL\u3001PostgreSQL\u3001SQLite\u3001Redis\u3001MongoDB\u3001\u8fbe\u68a6\u7b49 100+ \u6570\u636e\u5e93\uff0c\u63d0\u4f9b\u684c\u9762\u7aef\u3001Docker\u3001CLI\u3001\u5185\u7f6e AI \u52a9\u624b\u548c MCP\u3002",
+      "repository": "t8y2/dbx",
+      "homepage": "https://dbxio.com",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "t8y2/dbx"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | \u8f7b\u91cf\u7ea7\u8de8\u5e73\u53f0\u6570\u636e\u5e93\u7ba1\u7406\u5de5\u5177\uff0c\u652f\u6301 MySQL\u3001PostgreSQL\u3001SQLite\u3001Redis\u3001MongoDB\u3001\u8fbe\u68a6\u7b49 100+ \u6570\u636e\u5e93\uff0c\u63d0\u4f9b\u684c\u9762\u7aef\u3001Docker\u3001CLI\u3001\u5185\u7f6e AI \u52a9\u624b\u548c MCP\u3002"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://dbxio.com"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "github",
+      "name": "typeorm",
+      "url": "https://github.com/typeorm/typeorm",
+      "description": "TypeScript & JavaScript ORM for Node.js \u2014 supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, and more.",
+      "repository": "typeorm/typeorm",
+      "homepage": "http://typeorm.io",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "typeorm/typeorm"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "TypeScript & JavaScript ORM for Node.js \u2014 supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, and more."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "http://typeorm.io"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@pulumi/postgresql",
+      "url": "https://registry.npmjs.org/@pulumi%2Fpostgresql",
+      "description": "A Pulumi package for creating and managing postgresql cloud resources.",
+      "repository": "pulumi/pulumi-postgresql",
+      "homepage": "https://pulumi.io",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@pulumi%2Fpostgresql/latest",
+          "field": "name",
+          "value": "@pulumi/postgresql"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pulumi%2Fpostgresql/latest",
+          "field": "repository",
+          "value": "git+https://github.com/pulumi/pulumi-postgresql.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pulumi%2Fpostgresql/latest",
+          "field": "description",
+          "value": "A Pulumi package for creating and managing postgresql cloud resources."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=PostgreSQL&size=5",
+          "field": "package.name",
+          "value": "@pulumi/postgresql"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@testcontainers/postgresql",
+      "url": "https://registry.npmjs.org/@testcontainers%2Fpostgresql",
+      "description": "PostgreSQL module for Testcontainers",
+      "repository": "testcontainers/testcontainers-node",
+      "homepage": "https://github.com/testcontainers/testcontainers-node#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@testcontainers%2Fpostgresql/latest",
+          "field": "name",
+          "value": "@testcontainers/postgresql"
+        },
+        {
+          "url": "https://registry.npmjs.org/@testcontainers%2Fpostgresql/latest",
+          "field": "repository",
+          "value": "git+https://github.com/testcontainers/testcontainers-node.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@testcontainers%2Fpostgresql/latest",
+          "field": "description",
+          "value": "PostgreSQL module for Testcontainers"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=PostgreSQL&size=5",
+          "field": "package.name",
+          "value": "@testcontainers/postgresql"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "loopback-connector-postgresql",
+      "url": "https://registry.npmjs.org/loopback-connector-postgresql",
+      "description": "Loopback PostgreSQL Connector",
+      "repository": "loopbackio/loopback-connector-postgresql",
+      "homepage": "https://github.com/loopbackio/loopback-connector-postgresql#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/loopback-connector-postgresql/latest",
+          "field": "name",
+          "value": "loopback-connector-postgresql"
+        },
+        {
+          "url": "https://registry.npmjs.org/loopback-connector-postgresql/latest",
+          "field": "repository",
+          "value": "git+https://github.com/loopbackio/loopback-connector-postgresql.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/loopback-connector-postgresql/latest",
+          "field": "description",
+          "value": "Loopback PostgreSQL Connector"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=PostgreSQL&size=5",
+          "field": "package.name",
+          "value": "loopback-connector-postgresql"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "pg-connection-string",
+      "url": "https://registry.npmjs.org/pg-connection-string",
+      "description": "Functions for dealing with a PostgreSQL connection string",
+      "repository": "brianc/node-postgres",
+      "homepage": "https://github.com/brianc/node-postgres/tree/master/packages/pg-connection-string",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/pg-connection-string/latest",
+          "field": "name",
+          "value": "pg-connection-string"
+        },
+        {
+          "url": "https://registry.npmjs.org/pg-connection-string/latest",
+          "field": "repository",
+          "value": "git://github.com/brianc/node-postgres.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/pg-connection-string/latest",
+          "field": "description",
+          "value": "Functions for dealing with a PostgreSQL connection string"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=PostgreSQL&size=5",
+          "field": "package.name",
+          "value": "pg-connection-string"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "pg",
+      "url": "https://registry.npmjs.org/pg",
+      "description": "PostgreSQL client - pure javascript & libpq with the same API",
+      "repository": "brianc/node-postgres",
+      "homepage": "https://github.com/brianc/node-postgres",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/pg/latest",
+          "field": "name",
+          "value": "pg"
+        },
+        {
+          "url": "https://registry.npmjs.org/pg/latest",
+          "field": "repository",
+          "value": "git://github.com/brianc/node-postgres.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/pg/latest",
+          "field": "description",
+          "value": "PostgreSQL client - pure javascript & libpq with the same API"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=PostgreSQL&size=5",
+          "field": "package.name",
+          "value": "pg"
+        }
+      ],
+      "score": -18,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    }
+  ],
+  "catalogs": [
+    {
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "releases": [
+        {
+          "version": "14.0",
+          "raw_version": "14.0",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.0/"
+        },
+        {
+          "version": "14.1",
+          "raw_version": "14.1",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.1/"
+        },
+        {
+          "version": "14.2",
+          "raw_version": "14.2",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.2/"
+        },
+        {
+          "version": "14.3",
+          "raw_version": "14.3",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.3/"
+        },
+        {
+          "version": "14.4",
+          "raw_version": "14.4",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.4/"
+        },
+        {
+          "version": "14.5",
+          "raw_version": "14.5",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.5/"
+        },
+        {
+          "version": "14.6",
+          "raw_version": "14.6",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.6/"
+        },
+        {
+          "version": "14.7",
+          "raw_version": "14.7",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.7/"
+        },
+        {
+          "version": "14.8",
+          "raw_version": "14.8",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.8/"
+        },
+        {
+          "version": "14.9",
+          "raw_version": "14.9",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.9/"
+        },
+        {
+          "version": "14.10",
+          "raw_version": "14.10",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.10/"
+        },
+        {
+          "version": "14.11",
+          "raw_version": "14.11",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.11/"
+        },
+        {
+          "version": "14.12",
+          "raw_version": "14.12",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.12/"
+        },
+        {
+          "version": "14.13",
+          "raw_version": "14.13",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.13/"
+        },
+        {
+          "version": "14.14",
+          "raw_version": "14.14",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.14/"
+        },
+        {
+          "version": "14.15",
+          "raw_version": "14.15",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.15/"
+        },
+        {
+          "version": "14.16",
+          "raw_version": "14.16",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.16/"
+        },
+        {
+          "version": "14.17",
+          "raw_version": "14.17",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.17/"
+        },
+        {
+          "version": "14.18",
+          "raw_version": "14.18",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.18/"
+        },
+        {
+          "version": "14.19",
+          "raw_version": "14.19",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.19/"
+        },
+        {
+          "version": "14.20",
+          "raw_version": "14.20",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.20/"
+        },
+        {
+          "version": "14.21",
+          "raw_version": "14.21",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.21/"
+        },
+        {
+          "version": "14.22",
+          "raw_version": "14.22",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.22/"
+        },
+        {
+          "version": "14.23",
+          "raw_version": "14.23",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.23/"
+        },
+        {
+          "version": "14.24",
+          "raw_version": "14.24",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/14.24/"
+        },
+        {
+          "version": "15.0",
+          "raw_version": "15.0",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.0/"
+        },
+        {
+          "version": "15.1",
+          "raw_version": "15.1",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.1/"
+        },
+        {
+          "version": "15.2",
+          "raw_version": "15.2",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.2/"
+        },
+        {
+          "version": "15.3",
+          "raw_version": "15.3",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.3/"
+        },
+        {
+          "version": "15.4",
+          "raw_version": "15.4",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.4/"
+        },
+        {
+          "version": "15.5",
+          "raw_version": "15.5",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.5/"
+        },
+        {
+          "version": "15.6",
+          "raw_version": "15.6",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.6/"
+        },
+        {
+          "version": "15.7",
+          "raw_version": "15.7",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.7/"
+        },
+        {
+          "version": "15.8",
+          "raw_version": "15.8",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.8/"
+        },
+        {
+          "version": "15.9",
+          "raw_version": "15.9",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.9/"
+        },
+        {
+          "version": "15.10",
+          "raw_version": "15.10",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.10/"
+        },
+        {
+          "version": "15.11",
+          "raw_version": "15.11",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.11/"
+        },
+        {
+          "version": "15.12",
+          "raw_version": "15.12",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.12/"
+        },
+        {
+          "version": "15.13",
+          "raw_version": "15.13",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.13/"
+        },
+        {
+          "version": "15.14",
+          "raw_version": "15.14",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.14/"
+        },
+        {
+          "version": "15.15",
+          "raw_version": "15.15",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.15/"
+        },
+        {
+          "version": "15.16",
+          "raw_version": "15.16",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.16/"
+        },
+        {
+          "version": "15.17",
+          "raw_version": "15.17",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.17/"
+        },
+        {
+          "version": "15.18",
+          "raw_version": "15.18",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.18/"
+        },
+        {
+          "version": "15.19",
+          "raw_version": "15.19",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/15.19/"
+        },
+        {
+          "version": "16.0",
+          "raw_version": "16.0",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.0/"
+        },
+        {
+          "version": "16.1",
+          "raw_version": "16.1",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.1/"
+        },
+        {
+          "version": "16.2",
+          "raw_version": "16.2",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.2/"
+        },
+        {
+          "version": "16.3",
+          "raw_version": "16.3",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.3/"
+        },
+        {
+          "version": "16.4",
+          "raw_version": "16.4",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.4/"
+        },
+        {
+          "version": "16.5",
+          "raw_version": "16.5",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.5/"
+        },
+        {
+          "version": "16.6",
+          "raw_version": "16.6",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.6/"
+        },
+        {
+          "version": "16.7",
+          "raw_version": "16.7",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.7/"
+        },
+        {
+          "version": "16.8",
+          "raw_version": "16.8",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.8/"
+        },
+        {
+          "version": "16.9",
+          "raw_version": "16.9",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.9/"
+        },
+        {
+          "version": "16.10",
+          "raw_version": "16.10",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.10/"
+        },
+        {
+          "version": "16.11",
+          "raw_version": "16.11",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.11/"
+        },
+        {
+          "version": "16.12",
+          "raw_version": "16.12",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.12/"
+        },
+        {
+          "version": "16.13",
+          "raw_version": "16.13",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.13/"
+        },
+        {
+          "version": "16.14",
+          "raw_version": "16.14",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.14/"
+        },
+        {
+          "version": "16.15",
+          "raw_version": "16.15",
+          "source_url": "https://www.postgresql.org/docs/release/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/release/16.15/"
+        }
+      ],
+      "enumeration_complete": false,
+      "warnings": [
+        "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+        "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/adminpack.html",
+        "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-createuser.html",
+        "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-dropdb.html",
+        "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-pg-dumpall.html",
+        "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-pgbasebackup.html",
+        "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-pgdump.html"
+      ],
+      "skipped_labels": []
+    },
+    {
+      "source_url": "https://www.postgresql.org/download/",
+      "source_type": "html_release_index",
+      "releases": [
+        {
+          "version": "14",
+          "raw_version": "14",
+          "source_url": "https://www.postgresql.org/docs/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/index.html"
+        },
+        {
+          "version": "14.1",
+          "raw_version": "14.1",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-1.html"
+        },
+        {
+          "version": "14.2",
+          "raw_version": "14.2",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-2.html"
+        },
+        {
+          "version": "14.3",
+          "raw_version": "14.3",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-3.html"
+        },
+        {
+          "version": "14.4",
+          "raw_version": "14.4",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-4.html"
+        },
+        {
+          "version": "14.5",
+          "raw_version": "14.5",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-5.html"
+        },
+        {
+          "version": "14.6",
+          "raw_version": "14.6",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-6.html"
+        },
+        {
+          "version": "14.7",
+          "raw_version": "14.7",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-7.html"
+        },
+        {
+          "version": "14.8",
+          "raw_version": "14.8",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-8.html"
+        },
+        {
+          "version": "14.9",
+          "raw_version": "14.9",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-9.html"
+        },
+        {
+          "version": "14.10",
+          "raw_version": "14.10",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-10.html"
+        },
+        {
+          "version": "14.11",
+          "raw_version": "14.11",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-11.html"
+        },
+        {
+          "version": "14.12",
+          "raw_version": "14.12",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-12.html"
+        },
+        {
+          "version": "14.13",
+          "raw_version": "14.13",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-13.html"
+        },
+        {
+          "version": "14.14",
+          "raw_version": "14.14",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-14.html"
+        },
+        {
+          "version": "14.15",
+          "raw_version": "14.15",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-15.html"
+        },
+        {
+          "version": "14.16",
+          "raw_version": "14.16",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-16.html"
+        },
+        {
+          "version": "14.17",
+          "raw_version": "14.17",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-17.html"
+        },
+        {
+          "version": "14.18",
+          "raw_version": "14.18",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-18.html"
+        },
+        {
+          "version": "14.19",
+          "raw_version": "14.19",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-19.html"
+        },
+        {
+          "version": "14.20",
+          "raw_version": "14.20",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-20.html"
+        },
+        {
+          "version": "14.21",
+          "raw_version": "14.21",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-21.html"
+        },
+        {
+          "version": "14.22",
+          "raw_version": "14.22",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-22.html"
+        },
+        {
+          "version": "14.23",
+          "raw_version": "14.23",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-23.html"
+        },
+        {
+          "version": "14.24",
+          "raw_version": "14.24",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-24.html"
+        },
+        {
+          "version": "15",
+          "raw_version": "15",
+          "source_url": "https://www.postgresql.org/docs/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/15/index.html"
+        },
+        {
+          "version": "16",
+          "raw_version": "16",
+          "source_url": "https://www.postgresql.org/docs/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/16/index.html"
+        }
+      ],
+      "enumeration_complete": false,
+      "warnings": [
+        "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+      ],
+      "skipped_labels": []
+    },
+    {
+      "source_url": "https://www.postgresql.org/docs/19/release-19.html",
+      "source_type": "html_release_index",
+      "releases": [
+        {
+          "version": "14",
+          "raw_version": "14",
+          "source_url": "https://www.postgresql.org/docs/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/index.html"
+        },
+        {
+          "version": "14.1",
+          "raw_version": "14.1",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-1.html"
+        },
+        {
+          "version": "14.2",
+          "raw_version": "14.2",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-2.html"
+        },
+        {
+          "version": "14.3",
+          "raw_version": "14.3",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-3.html"
+        },
+        {
+          "version": "14.4",
+          "raw_version": "14.4",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-4.html"
+        },
+        {
+          "version": "14.5",
+          "raw_version": "14.5",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-5.html"
+        },
+        {
+          "version": "14.6",
+          "raw_version": "14.6",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-6.html"
+        },
+        {
+          "version": "14.7",
+          "raw_version": "14.7",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-7.html"
+        },
+        {
+          "version": "14.8",
+          "raw_version": "14.8",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-8.html"
+        },
+        {
+          "version": "14.9",
+          "raw_version": "14.9",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-9.html"
+        },
+        {
+          "version": "14.10",
+          "raw_version": "14.10",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-10.html"
+        },
+        {
+          "version": "14.11",
+          "raw_version": "14.11",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-11.html"
+        },
+        {
+          "version": "14.12",
+          "raw_version": "14.12",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-12.html"
+        },
+        {
+          "version": "14.13",
+          "raw_version": "14.13",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-13.html"
+        },
+        {
+          "version": "14.14",
+          "raw_version": "14.14",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-14.html"
+        },
+        {
+          "version": "14.15",
+          "raw_version": "14.15",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-15.html"
+        },
+        {
+          "version": "14.16",
+          "raw_version": "14.16",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-16.html"
+        },
+        {
+          "version": "14.17",
+          "raw_version": "14.17",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-17.html"
+        },
+        {
+          "version": "14.18",
+          "raw_version": "14.18",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-18.html"
+        },
+        {
+          "version": "14.19",
+          "raw_version": "14.19",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-19.html"
+        },
+        {
+          "version": "14.20",
+          "raw_version": "14.20",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-20.html"
+        },
+        {
+          "version": "14.21",
+          "raw_version": "14.21",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-21.html"
+        },
+        {
+          "version": "14.22",
+          "raw_version": "14.22",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-22.html"
+        },
+        {
+          "version": "14.23",
+          "raw_version": "14.23",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-23.html"
+        },
+        {
+          "version": "14.24",
+          "raw_version": "14.24",
+          "source_url": "https://www.postgresql.org/docs/14/release.html",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/14/release-14-24.html"
+        },
+        {
+          "version": "15",
+          "raw_version": "15",
+          "source_url": "https://www.postgresql.org/docs/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/15/index.html"
+        },
+        {
+          "version": "16",
+          "raw_version": "16",
+          "source_url": "https://www.postgresql.org/docs/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://www.postgresql.org/docs/16/index.html"
+        }
+      ],
+      "enumeration_complete": false,
+      "warnings": [
+        "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+      ],
+      "skipped_labels": []
+    }
+  ],
+  "versions": [
+    {
+      "version": "14.0",
+      "raw_version": "14.0",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.0/"
+    },
+    {
+      "version": "14.1",
+      "raw_version": "14.1",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.1/"
+    },
+    {
+      "version": "14.2",
+      "raw_version": "14.2",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.2/"
+    },
+    {
+      "version": "14.3",
+      "raw_version": "14.3",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.3/"
+    },
+    {
+      "version": "14.4",
+      "raw_version": "14.4",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.4/"
+    },
+    {
+      "version": "14.5",
+      "raw_version": "14.5",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.5/"
+    },
+    {
+      "version": "14.6",
+      "raw_version": "14.6",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.6/"
+    },
+    {
+      "version": "14.7",
+      "raw_version": "14.7",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.7/"
+    },
+    {
+      "version": "14.8",
+      "raw_version": "14.8",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.8/"
+    },
+    {
+      "version": "14.9",
+      "raw_version": "14.9",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.9/"
+    },
+    {
+      "version": "14.10",
+      "raw_version": "14.10",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.10/"
+    },
+    {
+      "version": "14.11",
+      "raw_version": "14.11",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.11/"
+    },
+    {
+      "version": "14.12",
+      "raw_version": "14.12",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.12/"
+    },
+    {
+      "version": "14.13",
+      "raw_version": "14.13",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.13/"
+    },
+    {
+      "version": "14.14",
+      "raw_version": "14.14",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.14/"
+    },
+    {
+      "version": "14.15",
+      "raw_version": "14.15",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.15/"
+    },
+    {
+      "version": "14.16",
+      "raw_version": "14.16",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.16/"
+    },
+    {
+      "version": "14.17",
+      "raw_version": "14.17",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.17/"
+    },
+    {
+      "version": "14.18",
+      "raw_version": "14.18",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.18/"
+    },
+    {
+      "version": "14.19",
+      "raw_version": "14.19",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.19/"
+    },
+    {
+      "version": "14.20",
+      "raw_version": "14.20",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.20/"
+    },
+    {
+      "version": "14.21",
+      "raw_version": "14.21",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.21/"
+    },
+    {
+      "version": "14.22",
+      "raw_version": "14.22",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.22/"
+    },
+    {
+      "version": "14.23",
+      "raw_version": "14.23",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.23/"
+    },
+    {
+      "version": "14.24",
+      "raw_version": "14.24",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/14.24/"
+    },
+    {
+      "version": "15.0",
+      "raw_version": "15.0",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.0/"
+    },
+    {
+      "version": "15.1",
+      "raw_version": "15.1",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.1/"
+    },
+    {
+      "version": "15.2",
+      "raw_version": "15.2",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.2/"
+    },
+    {
+      "version": "15.3",
+      "raw_version": "15.3",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.3/"
+    },
+    {
+      "version": "15.4",
+      "raw_version": "15.4",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.4/"
+    },
+    {
+      "version": "15.5",
+      "raw_version": "15.5",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.5/"
+    },
+    {
+      "version": "15.6",
+      "raw_version": "15.6",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.6/"
+    },
+    {
+      "version": "15.7",
+      "raw_version": "15.7",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.7/"
+    },
+    {
+      "version": "15.8",
+      "raw_version": "15.8",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.8/"
+    },
+    {
+      "version": "15.9",
+      "raw_version": "15.9",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.9/"
+    },
+    {
+      "version": "15.10",
+      "raw_version": "15.10",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.10/"
+    },
+    {
+      "version": "15.11",
+      "raw_version": "15.11",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.11/"
+    },
+    {
+      "version": "15.12",
+      "raw_version": "15.12",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.12/"
+    },
+    {
+      "version": "15.13",
+      "raw_version": "15.13",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.13/"
+    },
+    {
+      "version": "15.14",
+      "raw_version": "15.14",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.14/"
+    },
+    {
+      "version": "15.15",
+      "raw_version": "15.15",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.15/"
+    },
+    {
+      "version": "15.16",
+      "raw_version": "15.16",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.16/"
+    },
+    {
+      "version": "15.17",
+      "raw_version": "15.17",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.17/"
+    },
+    {
+      "version": "15.18",
+      "raw_version": "15.18",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.18/"
+    },
+    {
+      "version": "15.19",
+      "raw_version": "15.19",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/15.19/"
+    },
+    {
+      "version": "16.0",
+      "raw_version": "16.0",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.0/"
+    },
+    {
+      "version": "16.1",
+      "raw_version": "16.1",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.1/"
+    },
+    {
+      "version": "16.2",
+      "raw_version": "16.2",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.2/"
+    },
+    {
+      "version": "16.3",
+      "raw_version": "16.3",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.3/"
+    },
+    {
+      "version": "16.4",
+      "raw_version": "16.4",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.4/"
+    },
+    {
+      "version": "16.5",
+      "raw_version": "16.5",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.5/"
+    },
+    {
+      "version": "16.6",
+      "raw_version": "16.6",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.6/"
+    },
+    {
+      "version": "16.7",
+      "raw_version": "16.7",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.7/"
+    },
+    {
+      "version": "16.8",
+      "raw_version": "16.8",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.8/"
+    },
+    {
+      "version": "16.9",
+      "raw_version": "16.9",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.9/"
+    },
+    {
+      "version": "16.10",
+      "raw_version": "16.10",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.10/"
+    },
+    {
+      "version": "16.11",
+      "raw_version": "16.11",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.11/"
+    },
+    {
+      "version": "16.12",
+      "raw_version": "16.12",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.12/"
+    },
+    {
+      "version": "16.13",
+      "raw_version": "16.13",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.13/"
+    },
+    {
+      "version": "16.14",
+      "raw_version": "16.14",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.14/"
+    },
+    {
+      "version": "16.15",
+      "raw_version": "16.15",
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://www.postgresql.org/docs/release/16.15/"
+    }
+  ],
+  "documentation_milestones": [
+    "14",
+    "15",
+    "16"
+  ],
+  "endpoint_checks": {
+    "current_found": true,
+    "target_found": true
+  },
+  "coverage": {
+    "identity": "resolved_by_heuristics",
+    "catalog": "partial",
+    "discovery": "bounded_search",
+    "source_selection": "selected",
+    "publication": "catalog_records"
+  },
+  "warnings": [
+    "PyPI discovery: Cached HTTP 404 for https://pypi.org/pypi/PostgreSQL/json",
+    "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+    "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/adminpack.html",
+    "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-createuser.html",
+    "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-dropdb.html",
+    "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-pg-dumpall.html",
+    "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-pgbasebackup.html",
+    "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-pgdump.html",
+    "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+    "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+  ],
+  "open_questions": [],
+  "source_inventory": [
+    {
+      "url": "https://api.github.com/repos/postgres/postgres",
+      "final_url": "https://api.github.com/repos/postgres/postgres",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:32.142098+00:00",
+      "content_sha256": "3d71399353a9d8fa543dd469c8035a62a3915c580f844f4318658c4fb28c0f8e",
+      "from_cache": true,
+      "source_id": "source_af570d064d23"
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+      "final_url": "https://api.github.com/search/repositories?q=%22PostgreSQL%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:28.351534+00:00",
+      "content_sha256": "ed33d829661f636f74208c4430117114976e8a655c44d6ea9d7c59ed627250d8",
+      "from_cache": true,
+      "source_id": "source_67bbd9f0c399"
+    },
+    {
+      "url": "https://download.postgresql.org/pub/",
+      "final_url": "https://download.postgresql.org/pub/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:31.974098+00:00",
+      "content_sha256": "0b7de6d7794d9b04fec7e074985c490d28924022936d64d48822ac35b1b8093c",
+      "from_cache": true,
+      "source_id": "source_feedf84419fc"
+    },
+    {
+      "url": "https://html.duckduckgo.com/html/?q=%22PostgreSQL%22+official+releases+13+to+16",
+      "final_url": "https://html.duckduckgo.com/html/?q=%22PostgreSQL%22+official+releases+13+to+16",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:29.043912+00:00",
+      "content_sha256": "5aa41ab9331b7a4aa9576ff3f80672e4b2454cb6a9c984470ae058d9fa0a5ae0",
+      "from_cache": true,
+      "source_id": "source_823c503df810"
+    },
+    {
+      "url": "https://pypi.org/pypi/PostgreSQL/json",
+      "final_url": "https://pypi.org/pypi/PostgreSQL/json",
+      "status": 404,
+      "retrieved_at": "2026-10-09T03:12:26.508732+00:00",
+      "content_sha256": "b82014934f66beeb9e05a37f65357c4b50db0349d25d68d818ed0319dd4feb40",
+      "from_cache": true,
+      "source_id": "source_db95184c3c88"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/v1/search?text=PostgreSQL&size=5",
+      "final_url": "https://registry.npmjs.org/-/v1/search?text=PostgreSQL&size=5",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:27.062650+00:00",
+      "content_sha256": "837fe8c2e9f7e90cbc6aa637df73c6137f95e775f6e27b19677f2e45a4e324c1",
+      "from_cache": true,
+      "source_id": "source_226fcf4c3302"
+    },
+    {
+      "url": "https://registry.npmjs.org/@pulumi%2Fpostgresql/latest",
+      "final_url": "https://registry.npmjs.org/@pulumi%2Fpostgresql/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:27.372116+00:00",
+      "content_sha256": "a7364598b5b61a415feaf96436779113b2ccf86bb7d599239a025c8ee1d2af8a",
+      "from_cache": true,
+      "source_id": "source_38ada93cf9a8"
+    },
+    {
+      "url": "https://registry.npmjs.org/@testcontainers%2Fpostgresql/latest",
+      "final_url": "https://registry.npmjs.org/@testcontainers%2Fpostgresql/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:27.224327+00:00",
+      "content_sha256": "4155f514334f5233c557cccd113f9a7c42d94531516865dc8882982d723f5ff2",
+      "from_cache": true,
+      "source_id": "source_066874992fc7"
+    },
+    {
+      "url": "https://registry.npmjs.org/loopback-connector-postgresql/latest",
+      "final_url": "https://registry.npmjs.org/loopback-connector-postgresql/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:27.663274+00:00",
+      "content_sha256": "d16c02b993418e33fc4567d42f4860988a87e822f5b4ec8adcf98b6f2b5fffdc",
+      "from_cache": true,
+      "source_id": "source_aa88da3e3598"
+    },
+    {
+      "url": "https://registry.npmjs.org/pg-connection-string/latest",
+      "final_url": "https://registry.npmjs.org/pg-connection-string/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:27.788968+00:00",
+      "content_sha256": "fc8c05c3fb664f515464d6cbe5d07031391bba1e81395da97da3d42b82e05ac1",
+      "from_cache": true,
+      "source_id": "source_97e725f53f11"
+    },
+    {
+      "url": "https://registry.npmjs.org/pg/latest",
+      "final_url": "https://registry.npmjs.org/pg/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:27.522013+00:00",
+      "content_sha256": "928cc53cd24d6e2ea6caa11d74422c9291d117d88c8cc4c1974b074f638b9d35",
+      "from_cache": true,
+      "source_id": "source_8d75107658d9"
+    },
+    {
+      "url": "https://registry.npmjs.org/postgresql/latest",
+      "final_url": "https://registry.npmjs.org/postgresql/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:26.713922+00:00",
+      "content_sha256": "5e33e20c96d64e54bb9da460f738431671f18dc14bd61a244b5999aeffc00693",
+      "from_cache": true,
+      "source_id": "source_4cad3819ea48"
+    },
+    {
+      "url": "https://versionlog.com/postgresql/",
+      "final_url": "https://versionlog.com/postgresql/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:30.693877+00:00",
+      "content_sha256": "de136100078e7fb926e72f225d597488302f32a30e79f3124efbd079cb39e11c",
+      "from_cache": true,
+      "source_id": "source_873d166dcd9a"
+    },
+    {
+      "url": "https://versionlog.com/postgresql/16/",
+      "final_url": "https://versionlog.com/postgresql/16/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:31.057712+00:00",
+      "content_sha256": "56822983583d89628ba8d2add5fa05b1b4275807ffeaf31f0494b8139ec22d48",
+      "from_cache": true,
+      "source_id": "source_5d1f65c1ce0c"
+    },
+    {
+      "url": "https://www.postgresql.org/",
+      "final_url": "https://www.postgresql.org/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:31.562053+00:00",
+      "content_sha256": "76bfc06d43049b401b17856dfcacc586f862e1c907e9e487e7ec8b40486a80ba",
+      "from_cache": true,
+      "source_id": "source_71266c81157d"
+    },
+    {
+      "url": "https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/",
+      "final_url": "https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T04:48:39.432114+00:00",
+      "content_sha256": "75df1177d012c68f8ac2318dabc177e08171c68e5e37cddc59eb6eefe3225746",
+      "from_cache": true,
+      "source_id": "source_9e8fd6ca990f"
+    },
+    {
+      "url": "https://www.postgresql.org/account/comments/new/14/release.html/",
+      "final_url": "https://www.postgresql.org/account/login/?next=/account/comments/new/14/release.html/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:05:29.099212+00:00",
+      "content_sha256": "a0461782686e217772985d18c7289916563c75db35654f0fcd22f1c2c9cb0140",
+      "from_cache": true,
+      "source_id": "source_6cf4dc632f3a"
+    },
+    {
+      "url": "https://www.postgresql.org/developer/roadmap/",
+      "final_url": "https://www.postgresql.org/developer/roadmap/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:05:28.569366+00:00",
+      "content_sha256": "422ccc54fbf6fb7cd3a74c2dad07fcb92586108c3cf4015169b2842078ebe54b",
+      "from_cache": true,
+      "source_id": "source_e8c3927aa47e"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/",
+      "final_url": "https://www.postgresql.org/docs/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T04:48:39.178190+00:00",
+      "content_sha256": "16e5fb2f43f7667525fb4bfa78f99df11b5801c0c24b5dd28831204d6eab3103",
+      "from_cache": true,
+      "source_id": "source_27e9451f668e"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/13/release.html",
+      "final_url": "https://www.postgresql.org/docs/13/release.html",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:05:29.201465+00:00",
+      "content_sha256": "81f47ea53583dd1a05bf5ce2506526e3e461827248e293dd2c06f9409be935c1",
+      "from_cache": true,
+      "source_id": "source_e9273212a6f0"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/14/index.html",
+      "final_url": "https://www.postgresql.org/docs/14/index.html",
+      "status": 200,
+      "retrieved_at": "2026-10-09T04:54:05.507386+00:00",
+      "content_sha256": "226b0df5d2b407ae5f5460c55c3548d512ba631cacb3e7bc682b603dd65e381b",
+      "from_cache": true,
+      "source_id": "source_be99e32a8304"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/14/release.html",
+      "final_url": "https://www.postgresql.org/docs/14/release.html",
+      "status": 200,
+      "retrieved_at": "2026-10-09T04:54:05.258261+00:00",
+      "content_sha256": "d0ff2783f9e7e757f442bfd5dbcd7109b5e7a1ec5c0fe84231abecda12bc1151",
+      "from_cache": true,
+      "source_id": "source_9eac2e17c215"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/19/release-19.html",
+      "final_url": "https://www.postgresql.org/docs/19/release-19.html",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:05:24.788464+00:00",
+      "content_sha256": "084623db5d74917560bc59c18e613c7a361c83d3c2133564f9dd3dbdd7a1a730",
+      "from_cache": true,
+      "source_id": "source_1fca49ab9193"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/release/",
+      "final_url": "https://www.postgresql.org/docs/release/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:31.702937+00:00",
+      "content_sha256": "d540c2f23f750ff8f1877981b6c168c5e1154988cd06d3c065d23176370d5d64",
+      "from_cache": true,
+      "source_id": "source_21881118545d"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/release/13.0/",
+      "final_url": "https://www.postgresql.org/docs/release/13.0/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:05:25.219417+00:00",
+      "content_sha256": "b13227f3baa17c6344894d65fc91fef153655090587f46bb47b3f51ffb878e7f",
+      "from_cache": true,
+      "source_id": "source_7332ae4a3f1a"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/release/13.0/adminpack.html",
+      "final_url": "https://www.postgresql.org/docs/release/13.0/adminpack.html/",
+      "status": 404,
+      "retrieved_at": "2026-10-09T05:05:25.805810+00:00",
+      "content_sha256": "0694c961543b0d8af364ee1a72c5d0534f4bbcee533471039b1b476268c777a5",
+      "from_cache": true,
+      "source_id": "source_dd69ed6a1735"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/release/13.0/app-createuser.html",
+      "final_url": "https://www.postgresql.org/docs/release/13.0/app-createuser.html/",
+      "status": 404,
+      "retrieved_at": "2026-10-09T05:05:26.172029+00:00",
+      "content_sha256": "0694c961543b0d8af364ee1a72c5d0534f4bbcee533471039b1b476268c777a5",
+      "from_cache": true,
+      "source_id": "source_e27d6c4f3aea"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/release/13.0/app-dropdb.html",
+      "final_url": "https://www.postgresql.org/docs/release/13.0/app-dropdb.html/",
+      "status": 404,
+      "retrieved_at": "2026-10-09T05:05:26.548943+00:00",
+      "content_sha256": "0694c961543b0d8af364ee1a72c5d0534f4bbcee533471039b1b476268c777a5",
+      "from_cache": true,
+      "source_id": "source_4b5a56e19424"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/release/13.0/app-pg-dumpall.html",
+      "final_url": "https://www.postgresql.org/docs/release/13.0/app-pg-dumpall.html/",
+      "status": 404,
+      "retrieved_at": "2026-10-09T05:05:26.975331+00:00",
+      "content_sha256": "0694c961543b0d8af364ee1a72c5d0534f4bbcee533471039b1b476268c777a5",
+      "from_cache": true,
+      "source_id": "source_2b182fbd4a28"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/release/13.0/app-pgbasebackup.html",
+      "final_url": "https://www.postgresql.org/docs/release/13.0/app-pgbasebackup.html/",
+      "status": 404,
+      "retrieved_at": "2026-10-09T05:05:27.543277+00:00",
+      "content_sha256": "0694c961543b0d8af364ee1a72c5d0534f4bbcee533471039b1b476268c777a5",
+      "from_cache": true,
+      "source_id": "source_466f8b62bd3f"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/release/13.0/app-pgdump.html",
+      "final_url": "https://www.postgresql.org/docs/release/13.0/app-pgdump.html/",
+      "status": 404,
+      "retrieved_at": "2026-10-09T05:05:28.363832+00:00",
+      "content_sha256": "0694c961543b0d8af364ee1a72c5d0534f4bbcee533471039b1b476268c777a5",
+      "from_cache": true,
+      "source_id": "source_35ab9ee497c6"
+    },
+    {
+      "url": "https://www.postgresql.org/download/",
+      "final_url": "https://www.postgresql.org/download/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T03:12:31.935325+00:00",
+      "content_sha256": "bc8b1f4ddf4a79ea677a44aac3b1e7d4f9d5699573a2979206a49973dab75e61",
+      "from_cache": true,
+      "source_id": "source_b87f95778088"
+    }
+  ],
+  "llm_calls": 0,
+  "catalog_coverage": [
+    {
+      "source_url": "https://www.postgresql.org/docs/release/",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 61,
+      "granularity": "detailed_releases",
+      "detailed_version_count": 61,
+      "enumeration_complete": false,
+      "matching_observed_catalogs": []
+    },
+    {
+      "source_url": "https://www.postgresql.org/download/",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 27,
+      "granularity": "detailed_releases",
+      "detailed_version_count": 24,
+      "enumeration_complete": false,
+      "matching_observed_catalogs": [
+        "https://www.postgresql.org/docs/19/release-19.html"
+      ]
+    },
+    {
+      "source_url": "https://www.postgresql.org/docs/19/release-19.html",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 27,
+      "granularity": "detailed_releases",
+      "detailed_version_count": 24,
+      "enumeration_complete": false,
+      "matching_observed_catalogs": [
+        "https://www.postgresql.org/download/"
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "heuristic",
+    "tie_break_order": [
+      "web_search",
+      "github",
+      "registry",
+      "other"
+    ],
+    "note": "Source preference breaks equal scores; it is not ownership evidence."
+  },
+  "selected_catalog": "https://www.postgresql.org/docs/release/",
+  "network_requests": 0
+}

@@ -1,0 +1,3810 @@
+{
+  "project": "Pydantic",
+  "upgrade": "1_to_2",
+  "evidence_summary": {
+    "high_confidence_risks": [
+      {
+        "path_id": "code_accesses_pydantic_dataclass_pydantic_model_internals",
+        "path_name": "Code accesses Pydantic dataclass __pydantic_model__ internals",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "code_assumes_anyurl_is_a_str_subclass",
+        "path_name": "Code assumes AnyUrl is a str subclass",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "code_imports_or_subclasses_pydantic_generics_genericmodel",
+        "path_name": "Code imports or subclasses pydantic.generics.GenericModel",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "code_still_uses_allow_mutation_after_upgrading_to_pydantic_2",
+        "path_name": "Code still uses allow_mutation after upgrading to Pydantic 2.13.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "codebase_implements_post_init_post_parse_hook",
+        "path_name": "Codebase implements __post_init_post_parse__ hook",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "custom_root_model_uses_root_and_must_migrate_to_rootmodel",
+        "path_name": "Custom root model uses __root__ and must migrate to RootModel",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "custom_type_uses_get_validators_hook_and_is_upgraded_to_pyda",
+        "path_name": "Custom type uses __get_validators__ hook and is upgraded to Pydantic 2.13.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "dataclass_field_tuple_inputs_stop_working_in_pydantic_2_13_0",
+        "path_name": "Dataclass field tuple inputs stop working in Pydantic 2.13.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "field_constraints_on_generic_containers_no_longer_propagate",
+        "path_name": "Field constraints on generic containers no longer propagate to inner types in Pydantic 2.13.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "importing_basesettings_from_pydantic_after_the_move_to_pydan",
+        "path_name": "Importing BaseSettings from pydantic after the move to pydantic-settings",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "iterable_of_pairs_input_no_longer_coerces_to_dict_fields",
+        "path_name": "Iterable-of-pairs input no longer coerces to dict fields",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "pydantic_dataclass_post_init_timing_changes_to_after_validat",
+        "path_name": "Pydantic dataclass __post_init__ timing changes to after validation",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "pydantic_dataclass_configs_using_extra_allow_stop_working_in",
+        "path_name": "Pydantic dataclass configs using extra='allow' stop working in 2.13.0",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "pypy_3_7_runtime_no_longer_supported_in_pydantic_2_6_0",
+        "path_name": "PyPy 3.7 runtime no longer supported in Pydantic 2.6.0",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "python_3_7_no_longer_supported_in_pydantic_2_6_0",
+        "path_name": "Python 3.7 no longer supported in Pydantic 2.6.0",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_pydantic_2_13_0_requires_replacing_deprecated_val",
+        "path_name": "Upgrade to Pydantic 2.13.0 requires replacing deprecated @validator with @field_validator",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_config_error_msg_templates_breaks_on_pydantic_2_13_0",
+        "path_name": "Use of Config.error_msg_templates breaks on Pydantic 2.13.0+",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "uses_removed_json_loads_model_config_in_pydantic_v2_13_0",
+        "path_name": "Uses removed json_loads model config in Pydantic v2.13.0+",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "validate_all_config_renamed_to_validate_default_breaks_exist",
+        "path_name": "validate_all config renamed to validate_default breaks existing model config",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "validator_typeerror_now_propagates_instead_of_becoming_valid",
+        "path_name": "Validator TypeError now propagates instead of becoming ValidationError",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "validators_using_field_config_arguments_must_be_rewritten_fo",
+        "path_name": "Validators using field/config arguments must be rewritten for @field_validator",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "root_validator_deprecated_migrate_to_model_validator",
+        "path_name": "@root_validator deprecated; migrate to @model_validator",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "code_assumes_field_alias_always_returns_a_field_name",
+        "path_name": "Code assumes Field.alias always returns a field name",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "code_relies_on_basemodel_equality_with_dicts_or_non_basemode",
+        "path_name": "Code relies on BaseModel equality with dicts or non-BaseModel objects",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "custom_environment_parsing_still_relies_on_legacy_settings_l",
+        "path_name": "Custom environment parsing still relies on legacy settings loading logic after upgrading to Pydantic Settings 2.13.0",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "custom_json_schema_hook_uses_modify_schema_and_needs_migrati",
+        "path_name": "Custom JSON schema hook uses __modify_schema__ and needs migration to __get_pydantic_json_schema__",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "datetime_parsing_accepts_yyyy_mm_dd_strings_in_pydantic_2_6",
+        "path_name": "Datetime parsing accepts yyyy-MM-DD strings in Pydantic 2.6.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "deprecated_root_validator_usage_requires_migration_to_model",
+        "path_name": "Deprecated @root_validator usage requires migration to @model_validator",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "field_name_clashes_with_type_names_now_error_at_model_defini",
+        "path_name": "Field name clashes with type names now error at model definition",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "invalid_self_annotations_now_error_in_pydantic_2_10_0",
+        "path_name": "Invalid `Self` annotations now error in Pydantic 2.10.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "models_use_deprecated_json_encoders_config",
+        "path_name": "Models use deprecated json_encoders config",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "nested_pydantic_v1_model_incompatibility_warning_in_2_10_0",
+        "path_name": "Nested Pydantic v1 model incompatibility warning in 2.10.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "parametrized_generics_revalidated_when_instance_origin_is_a",
+        "path_name": "Parametrized generics revalidated when instance origin is a subclass of the original generic class",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "parent_model_config_no_longer_implicitly_applies_to_vanilla",
+        "path_name": "Parent model config no longer implicitly applies to vanilla dataclass fields",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      }
+    ],
+    "medium_confidence_risks": [
+      {
+        "path_id": "model_validator_may_receive_a_model_instance_instead_of_dict",
+        "path_name": "@model_validator may receive a model instance instead of dict values",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "validate_arguments_renamed_to_validate_call",
+        "path_name": "@validate_arguments renamed to @validate_call",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "any_annotated_fields_become_required_instead_of_implicitly_d",
+        "path_name": "Any-annotated fields become required instead of implicitly defaulting to None",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "applications_still_configured_with_orm_mode_need_to_switch_t",
+        "path_name": "Applications still configured with `orm_mode` need to switch to `from_attributes`",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "applications_using_the_removed_pydantic_json_dumps_config_se",
+        "path_name": "Applications using the removed Pydantic `json_dumps` config setting break on upgrade to 2.13.0+",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "code_imports_or_subclasses_removed_pydantic_constrainedset",
+        "path_name": "Code imports or subclasses removed pydantic.ConstrainedSet",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "configwrapper_core_config_signature_change_requires_updating",
+        "path_name": "ConfigWrapper.core_config signature change requires updating callers that pass title via config object",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "create_model_field_definition_format_changed",
+        "path_name": "create_model field definition format changed",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "field_constraint_max_items_renamed_to_max_length",
+        "path_name": "Field constraint max_items renamed to max_length",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "field_constraint_min_items_must_be_renamed_to_min_length",
+        "path_name": "Field constraint min_items must be renamed to min_length",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "field_regex_constraints_still_use_regex_instead_of_pattern",
+        "path_name": "Field regex constraints still use regex instead of pattern",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "importing_paymentcardbrand_from_pydantic_types_breaks_after",
+        "path_name": "Importing PaymentCardBrand from pydantic.types breaks after the move to pydantic_extra_types",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "imports_from_pydantic_module_break_when_targeting_pydantic_2",
+        "path_name": "Imports from pydantic.<module> break when targeting Pydantic 2.13.0+ unless moved to pydantic.v1 namespace",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "imports_from_pydantic_types_paymentcardnumber_break_after_th",
+        "path_name": "Imports from pydantic.types.PaymentCardNumber break after the symbol moved to pydantic_extra_types",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "optional_annotated_fields_may_become_required_after_upgrade",
+        "path_name": "Optional-annotated fields may become required after upgrade",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "pydantic_2_x_requires_the_new_typing_inspection_dependency_t",
+        "path_name": "Pydantic 2.x requires the new typing-inspection dependency to be installed",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "pydantic_config_uses_allow_population_by_field_name_after_up",
+        "path_name": "Pydantic config uses allow_population_by_field_name after upgrade to v2.13.0",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "pydantic_config_uses_schema_extra_and_must_be_renamed_to_jso",
+        "path_name": "Pydantic config uses schema_extra and must be renamed to json_schema_extra",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "pydantic_v2_default_regex_engine_drops_lookarounds_backrefer",
+        "path_name": "Pydantic v2 default regex engine drops lookarounds/backreferences in regex patterns",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "pypy_3_8_runtime_no_longer_supported_after_upgrading_to_pyda",
+        "path_name": "PyPy 3.8 runtime no longer supported after upgrading to Pydantic 2.6.0",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "removal_of_constrained_classes_requires_migrating_to_annotat",
+        "path_name": "Removal of Constrained* classes requires migrating to Annotated[..., Field(...)]",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "removal_of_copy_on_model_validation_config_setting_breaks_co",
+        "path_name": "Removal of copy_on_model_validation config setting breaks codebases that still set it",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "removed_internal_extract_get_pydantic_json_schema_parameter",
+        "path_name": "Removed internal _extract_get_pydantic_json_schema() parameter breaks custom calls or overrides",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "root_validators_rely_on_skip_on_failure_false",
+        "path_name": "Root validators rely on skip_on_failure=False",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "settings_classes_override_parse_env_var",
+        "path_name": "Settings classes override parse_env_var",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "subclass_only_fields_are_dropped_when_dumping_nested_subclas",
+        "path_name": "Subclass-only fields are dropped when dumping nested subclass instances",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_pydantic_2_x_on_python_3_8_breaks_because_python",
+        "path_name": "Upgrade to Pydantic 2.x on Python 3.8 breaks because Python 3.8 is no longer supported",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "usage_of_pydantic_constrainedint_breaks_on_pydantic_2_13_0",
+        "path_name": "Usage of pydantic.ConstrainedInt breaks on Pydantic 2.13.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "usage_of_removed_pydantic_constraineddate_api",
+        "path_name": "Usage of removed pydantic.ConstrainedDate API",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "usage_of_removed_pydantic_constrainedlist_api",
+        "path_name": "Usage of removed pydantic.ConstrainedList API",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_field_const_is_removed_in_pydantic_2_13_0",
+        "path_name": "Use of Field(const=...) is removed in Pydantic 2.13.0",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_getterdict_import_or_subclass",
+        "path_name": "Use of GetterDict import or subclass",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_pydantic_constrainedfrozenset_is_present_in_applicati",
+        "path_name": "Use of pydantic.ConstrainedFrozenSet is present in application code",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_removed_eval_type_backport_api_in_pydantic_2",
+        "path_name": "Use of removed eval_type_backport() API in Pydantic 2",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_removed_post_init_call_model_config_in_pydantic_2_13",
+        "path_name": "Use of removed post_init_call model config in Pydantic 2.13.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_removed_pydantic_constrainedbytes_api",
+        "path_name": "Use of removed pydantic.ConstrainedBytes API",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_removed_pydantic_constraineddecimal_api",
+        "path_name": "Use of removed pydantic.ConstrainedDecimal API",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_removed_pydantic_constrainedfloat_api",
+        "path_name": "Use of removed pydantic.ConstrainedFloat API",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_removed_pydantic_constrainedstr_api",
+        "path_name": "Use of removed pydantic.ConstrainedStr API",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_removed_pydantic_jsonwrapper_api",
+        "path_name": "Use of removed pydantic.JsonWrapper API",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_unique_items_field_option_breaks_on_pydantic_2_13_0",
+        "path_name": "Use of unique_items field option breaks on Pydantic 2.13.0+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "validator_config_argument_removed_use_info_config_instead",
+        "path_name": "Validator config argument removed; use info.config instead",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "validate_call_returns_a_function_instead_of_a_custom_descrip",
+        "path_name": "@validate_call returns a function instead of a custom descriptor, affecting callable behavior and inheritance",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "always_true_validators_now_validate_defaults_with_standard_v",
+        "path_name": "always=True validators now validate defaults with standard validators",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "applications_relying_on_non_smart_union_validation_behavior",
+        "path_name": "Applications relying on non-smart union validation behavior may see changed validation in Pydantic 2.13.0+",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "automatic_coercion_from_int_float_decimal_to_strings_is_no_l",
+        "path_name": "Automatic coercion from int/float/Decimal to strings is no longer enabled by default",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "base64bytes_decoding_encoding_implementation_change_in_2_10",
+        "path_name": "Base64Bytes decoding/encoding implementation change in 2.10.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "basemodel_constructor_now_uses_positional_only_self_affectin",
+        "path_name": "BaseModel constructor now uses positional-only self, affecting code with a field named self",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "basemodel_docstring_no_longer_appears_in_generated_json_sche",
+        "path_name": "BaseModel docstring no longer appears in generated JSON Schema descriptions",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "basemodel_equality_no_longer_includes_extra_dict_attributes",
+        "path_name": "BaseModel equality no longer includes extra __dict__ attributes",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "build_or_contributor_environment_still_expects_greenlet_to_b",
+        "path_name": "Build or contributor environment still expects greenlet to be installed",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "code_imports_or_calls_deprecated_pydantic_class_validators_v",
+        "path_name": "Code imports or calls deprecated pydantic.class_validators.validator",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "code_imports_or_calls_the_old_pydantic_camel_case_naming_hel",
+        "path_name": "Code imports or calls the old Pydantic camel-case naming helper",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "code_imports_pydantic_utils_representation_and_upgrades_to_p",
+        "path_name": "Code imports pydantic.utils.Representation and upgrades to Pydantic 2.13.0+",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "config_option_anystr_strip_whitespace_renamed_to_str_strip_w",
+        "path_name": "Config option anystr_strip_whitespace renamed to str_strip_whitespace",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "constrainedstr_usage_should_be_migrated_to_stringconstraints",
+        "path_name": "ConstrainedStr usage should be migrated to StringConstraints",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "constructor_arguments_may_be_copied_during_validation_coerci",
+        "path_name": "Constructor arguments may be copied during validation/coercion",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "dataclass_config_no_longer_inherited_from_parent_model_must",
+        "path_name": "Dataclass config no longer inherited from parent model; must be set on @dataclass decorator",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "dataclass_generated_call_signatures_now_include_field_aliase",
+        "path_name": "Dataclass-generated call signatures now include field aliases",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "decimal_json_schema_and_serialization_now_use_string_represe",
+        "path_name": "Decimal JSON schema and serialization now use string representation",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "deprecated_validator_usage_requires_migration_to_field_valid",
+        "path_name": "Deprecated @validator usage requires migration to @field_validator",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "deprecated_custom_pydantic_encoder_import_path",
+        "path_name": "Deprecated custom_pydantic_encoder import path",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_parse_obj_as_usage_requires_migration_to_typeadap",
+        "path_name": "Deprecated parse_obj_as usage requires migration to TypeAdapter",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_schema_of_usage_requires_migration_to_typeadapter",
+        "path_name": "Deprecated schema_of usage requires migration to TypeAdapter",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_validate_arguments_import_path",
+        "path_name": "Deprecated validate_arguments import path",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "deprecated_version_info_import_path_moved_to_pydantic_versio",
+        "path_name": "Deprecated version_info import path moved to pydantic.version.version_info",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "direct_imports_or_calls_to_pydantic_utils_import_string_need",
+        "path_name": "Direct imports or calls to pydantic.utils.import_string need to move to pydantic.v1.utils.import_string",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "final_annotated_field_with_a_default_now_emits_a_deprecation",
+        "path_name": "Final-annotated field with a default now emits a deprecation warning",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "generated_json_schema_for_optional_fields_now_advertises_nul",
+        "path_name": "Generated JSON schema for Optional fields now advertises nullability",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "generic_collection_subclass_round_tripping_no_longer_preserv",
+        "path_name": "Generic collection subclass round-tripping no longer preserves exact input type",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "host_required_now_enforced_for_url_validation",
+        "path_name": "host_required now enforced for URL validation",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "import_path_changed_for_lower_camel_alias_helper",
+        "path_name": "Import path changed for lower-camel alias helper",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "import_path_for_update_not_none_moves_to_pydantic_v1_utils_i",
+        "path_name": "Import path for update_not_none moves to pydantic.v1.utils in Pydantic 2.13.0+",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "importing_pydantic_utils_sequence_like_from_the_v2_namespace",
+        "path_name": "Importing pydantic.utils.sequence_like from the v2 namespace requires migration to pydantic.v1.utils.sequence_like",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "importing_pydantic_utils_smart_deepcopy_from_the_old_namespa",
+        "path_name": "Importing pydantic.utils.smart_deepcopy from the old namespace",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "imports_or_references_pydantic_utils_root_key_directly",
+        "path_name": "Imports or references pydantic.utils.ROOT_KEY directly",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "imports_still_use_pydantic_color_after_upgrade_to_pydantic_2",
+        "path_name": "Imports still use pydantic.color after upgrade to Pydantic 2.13.0",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "inner_config_class_is_deprecated_and_should_be_moved_to_mode",
+        "path_name": "Inner Config class is deprecated and should be moved to model_config",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "instance_level_access_to_model_computed_fields_is_deprecated",
+        "path_name": "Instance-level access to model_computed_fields is deprecated",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "instance_level_access_to_model_fields_is_deprecated",
+        "path_name": "Instance-level access to model_fields is deprecated",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "json_schema_consumers_break_on_changed_literal_enum_schema_g",
+        "path_name": "JSON schema consumers break on changed Literal/Enum schema generation",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "json_schema_for_namedtuple_fields_no_longer_preserves_namedt",
+        "path_name": "JSON schema for namedtuple fields no longer preserves namedtuples",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "json_schema_output_for_dictionary_schemas_now_always_include",
+        "path_name": "JSON Schema output for dictionary schemas now always includes additionalProperties: true",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "model_validation_that_previously_relied_on_from_orm_needs_fr",
+        "path_name": "Model validation that previously relied on from_orm needs from_attributes=True",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "model_dump_json_output_format_changes_break_string_compariso",
+        "path_name": "model_dump_json output format changes break string comparisons or consumers expecting json.dumps-style JSON",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "old_validationerror_import_path_still_used",
+        "path_name": "Old ValidationError import path still used",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "parameterized_generic_models_rely_on_pre_parameterization_sl",
+        "path_name": "Parameterized generic models rely on pre-parameterization __slots__ layout",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "payment_card_numbers_imported_from_pydantic_core_break_after",
+        "path_name": "Payment Card Numbers imported from Pydantic core break after upgrade",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "relies on implied facts",
+          "structural: risk_level capped from high to medium: no cited fact is explicit."
+        ]
+      },
+      {
+        "path_id": "pinned_pydantic_core_too_low_for_pydantic_2_5_3",
+        "path_name": "Pinned pydantic-core too low for Pydantic 2.5.3",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "relies on implied facts",
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from high to medium: no cited fact is explicit."
+        ]
+      },
+      {
+        "path_id": "projects_relying_on_python_s_regex_library_behavior_need_to",
+        "path_name": "Projects relying on Python\u2019s regex library behavior need to opt into regex_engine configuration",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pydantic_2_x_core_schema_generation_for_path_types_changes_c",
+        "path_name": "Pydantic 2.x core schema generation for path types changes custom schema integration points",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pydantic_config_option_anystr_lower_renamed_to_str_to_lower",
+        "path_name": "Pydantic config option anystr_lower renamed to str_to_lower",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pydantic_config_option_max_anystr_length_renamed_to_str_max",
+        "path_name": "Pydantic config option max_anystr_length renamed to str_max_length",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pydantic_config_option_min_anystr_length_renamed_to_str_min",
+        "path_name": "Pydantic config option min_anystr_length renamed to str_min_length",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pydantic_config_uses_keep_untouched_which_was_renamed_to_ign",
+        "path_name": "Pydantic config uses keep_untouched, which was renamed to ignored_types",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pydantic_final_field_option_renamed_to_typing_final_type_hin",
+        "path_name": "Pydantic final field option renamed to typing.Final type hint",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pydantic_modelfield_imports_need_a_compatibility_pattern_for",
+        "path_name": "Pydantic ModelField imports need a compatibility pattern for code that must run on both V1 and V2",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pydantic_url_types_migration_from_annotated_approach_to_subc",
+        "path_name": "Pydantic URL types migration from annotated approach to subclassing",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pydantic_v1_basemodel_method_names_still_in_use_trigger_depr",
+        "path_name": "Pydantic V1 BaseModel method names still in use trigger deprecation warnings after upgrading to 2.13.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pyobject_usage_needs_replacement_with_importstring",
+        "path_name": "PyObject usage needs replacement with ImportString",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pyodide_deployment_may_be_incompatible_until_final_314_0_rel",
+        "path_name": "Pyodide deployment may be incompatible until final 314.0 release",
+        "risk_type": "runtime_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "raised_bundled_pydantic_core_requirement_in_pydantic_2_x_rel",
+        "path_name": "Raised bundled pydantic-core requirement in Pydantic 2.x releases up to 2.14.0",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "regex_validations_may_behave_differently_after_upgrading_to",
+        "path_name": "Regex validations may behave differently after upgrading to Pydantic V2.13.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "renamed_config_option_anystr_upper_str_to_upper",
+        "path_name": "Renamed config option anystr_upper -> str_to_upper",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "runtime_isinstance_checks_against_parametrized_generic_mygen",
+        "path_name": "Runtime isinstance checks against parametrized generic MyGenericModel[int] break unless you subclass it",
+        "risk_type": "runtime_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "single_host_url_classes_now_subclass_anyurl_in_pydantic_2_10",
+        "path_name": "Single-host URL classes now subclass AnyUrl in Pydantic 2.10.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "smart_union_matching_now_selects_a_different_union_member",
+        "path_name": "Smart union matching now selects a different union member",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "type_variable_substitution_in_unions_involving_any_or_never",
+        "path_name": "Type-variable substitution in unions involving Any or Never changes in Pydantic 2.10.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "typeadapters_experimental_flag_removed_in_2_10_0",
+        "path_name": "TypeAdapters experimental flag removed in 2.10.0",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "union_matching_behavior_requires_left_to_right_mode_and_reor",
+        "path_name": "Union matching behavior requires left-to-right mode and reordered Union members",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "union_validation_now_preserves_input_type_instead_of_always",
+        "path_name": "Union validation now preserves input type instead of always coercing to the first matching member",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "union_validation_semantics_differ_unless_field_union_mode_le",
+        "path_name": "Union validation semantics differ unless Field(union_mode='left_to_right') is added",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "unions_of_simple_types_serialize_more_strictly_in_pydantic_2",
+        "path_name": "Unions of simple types serialize more strictly in Pydantic 2.6.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_pydantic_2_13_0_requires_pydantic_1_10_17_for_sha",
+        "path_name": "Upgrade to Pydantic 2.13.0 requires pydantic>=1.10.17 for shared v1 namespace imports",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_pydantic_2_6_0_now_requires_pyright_1_1_345_for_t",
+        "path_name": "Upgrade to Pydantic 2.6.0 now requires pyright 1.1.345 for type-checking workflows",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_pydantic_2_6_0_requires_matching_pydantic_extra_t",
+        "path_name": "Upgrade to Pydantic 2.6.0 requires matching pydantic-extra-types 2.4.1",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "url_inputs_validated_by_pydantic_may_change_acceptance_rejec",
+        "path_name": "URL inputs validated by Pydantic may change acceptance/rejection in v2.13.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "usage_of_color_types_removed_from_core_pydantic",
+        "path_name": "Usage of Color Types removed from core Pydantic",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "relies on implied facts",
+          "structural: risk_level capped from high to medium: no cited fact is explicit."
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_internal_update_json_schema_api_after_upgr",
+        "path_name": "Use of deprecated internal update_json_schema API after upgrading to Pydantic 2.7.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_parse_raw_loading_api",
+        "path_name": "Use of deprecated parse_raw loading API",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_pydantic_json_pydantic_encoder_import_path",
+        "path_name": "Use of deprecated pydantic.json.pydantic_encoder import path",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_pydantic_tools_schema_json_of_requires_mig",
+        "path_name": "Use of deprecated pydantic.tools.schema_json_of requires migration to pydantic.deprecated.tools.schema_json_of",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_deprecated_pydantic_validate_arguments_decorator",
+        "path_name": "Use of deprecated pydantic.validate_arguments decorator",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_ellipsis_with_field_needs_migration_in_pydantic_2_10",
+        "path_name": "Use of Ellipsis (\u2026) with Field needs migration in Pydantic 2.10.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_moved_deprecated_constant_pydantic_json_encoders_by_t",
+        "path_name": "Use of moved deprecated constant pydantic.json.ENCODERS_BY_TYPE in Pydantic 2.13.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_pydantic_class_validators_root_validator_on_pydantic",
+        "path_name": "Use of pydantic.class_validators.root_validator on Pydantic 2.13.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_pydantic_json_timedelta_isoformat_requires_migration",
+        "path_name": "Use of pydantic.json.timedelta_isoformat requires migration to deprecated namespace in Pydantic 2.13.0+",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_pydantic_utils_deep_update_requires_import_migration",
+        "path_name": "Use of pydantic.utils.deep_update requires import migration to pydantic.v1.utils.deep_update",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_pydantic_utils_is_valid_field_import_path_on_pydantic",
+        "path_name": "Use of pydantic.utils.is_valid_field import path on Pydantic 2.13.0+",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_pydantic_utils_lenient_isinstance_without_switching_t",
+        "path_name": "Use of pydantic.utils.lenient_isinstance without switching to pydantic.v1.utils.lenient_isinstance",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "use_of_pydantic_utils_lenient_issubclass_requires_migration",
+        "path_name": "Use of pydantic.utils.lenient_issubclass requires migration to pydantic.v1.utils.lenient_issubclass",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "uses_parse_raw_and_needs_migration_to_model_validate_json_mo",
+        "path_name": "Uses parse_raw and needs migration to model_validate_json / model_validate",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "uses_pydantic_utils_getterdict_directly_and_needs_the_v1_com",
+        "path_name": "Uses pydantic.utils.GetterDict directly and needs the V1 compatibility namespace in Pydantic 2.13.0+",
+        "risk_type": "removed_api",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "using_parametrized_generics_in_isinstance_checks",
+        "path_name": "Using parametrized generics in isinstance checks",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "using_parse_file_triggers_deprecation_work_on_upgrade_to_pyd",
+        "path_name": "Using parse_file triggers deprecation work on upgrade to Pydantic 2.13.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "validator_function_redefinition_detection_narrowed_to_single",
+        "path_name": "Validator/function redefinition detection narrowed to single-class scope",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "validate_call_now_respects_field_inside_annotated_changing_v",
+        "path_name": "@validate_call now respects Field inside Annotated, changing validation outcomes",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      },
+      {
+        "path_id": "annotated_types_dependency_bound_corrected_in_pydantic_2_9_1",
+        "path_name": "annotated-types dependency bound corrected in Pydantic 2.9.1",
+        "risk_type": "dependency_requirement",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "base64bytes_no_longer_requires_padding_when_decoding",
+        "path_name": "Base64Bytes no longer requires padding when decoding",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "basemodel_model_copy_now_accepts_any_mapping_changing_input",
+        "path_name": "BaseModel.model_copy() now accepts any mapping, changing input validation expectations",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "cached_property_can_now_be_set_on_pydantic_models",
+        "path_name": "cached_property can now be set on Pydantic models",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "code_depends_on_model_construct_preserving_the_older_dict_ke",
+        "path_name": "Code depends on `model_construct` preserving the older `__dict__` key order",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      },
+      {
+        "path_id": "code_depends_on_pre_2_6_0_to_snake_output_for_specific_input",
+        "path_name": "Code depends on pre-2.6.0 to_snake output for specific inputs",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      },
+      {
+        "path_id": "coerce_numbers_to_str_enabled_with_invalid_unicode_input_now",
+        "path_name": "coerce_numbers_to_str enabled with invalid Unicode input now behaves differently",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      },
+      {
+        "path_id": "conflicting_dataclass_configuration_using_pydantic_config_an",
+        "path_name": "Conflicting dataclass configuration using __pydantic_config__ and @dataclass config warning in Pydantic 2.10.0",
+        "risk_type": "configuration_change",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "conflicting_dataclass_configuration_via_dataclass_and_pydant",
+        "path_name": "Conflicting dataclass configuration via @dataclass and __pydantic_config__",
+        "risk_type": "configuration_change",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "deprecated_baseconfig_getattr_warning_location_changes_in_2",
+        "path_name": "Deprecated BaseConfig getattr warning location changes in 2.6.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "expanded_date_parsing_accepts_1bc_dates",
+        "path_name": "Expanded date parsing accepts 1BC dates",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "function_validator_type_signatures_must_be_updated_to_positi",
+        "path_name": "Function validator type signatures must be updated to positional-only in Pydantic 2.6.0+",
+        "risk_type": "removed_api",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from high to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      },
+      {
+        "path_id": "json_schema_reference_generation_changes_when_schemas_includ",
+        "path_name": "JSON Schema reference generation changes when schemas include examples keys",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      },
+      {
+        "path_id": "json_schema_title_generation_strips_whitespace_in_pydantic_2",
+        "path_name": "JSON Schema title generation strips whitespace in Pydantic 2.10.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "path_serialization_output_changes_after_pydantic_2_0",
+        "path_name": "Path serialization output changes after Pydantic 2.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "pipeline_api_constraint_handling_change_affects_validation_r",
+        "path_name": "Pipeline API constraint handling change affects validation results",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      },
+      {
+        "path_id": "plainvalidator_annotation_ordering_changes_validation_behavi",
+        "path_name": "PlainValidator annotation ordering changes validation behavior",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      },
+      {
+        "path_id": "privateattr_typing_changed_to_overloads",
+        "path_name": "PrivateAttr typing changed to overloads",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "type_rejects_generic_aliases_with_a_better_error_in_pydantic",
+        "path_name": "type[] rejects generic aliases with a better error in Pydantic 2.11.0+",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "tzdata_no_longer_required_for_core_installation",
+        "path_name": "tzdata no longer required for core installation",
+        "risk_type": "dependency_requirement",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "zoneinfo_invalid_type_handling_changed_in_2_10_0",
+        "path_name": "ZoneInfo invalid-type handling changed in 2.10.0",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      },
+      {
+        "path_id": "zoneinfo_invalid_type_validation_behavior_changed_in_2_9_2",
+        "path_name": "ZoneInfo invalid-type validation behavior changed in 2.9.2",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)",
+          "structural: risk_level capped from medium to low: every cited fact is a bug fix shipped by the upgrade."
+        ]
+      }
+    ],
+    "low_confidence_or_disputed_risks": [
+      {
+        "path_id": "field_validator_migration_breaks_validators_that_rely_on_eac",
+        "path_name": "@field_validator migration breaks validators that rely on each_item",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "validate_call_no_longer_preserves_helper_attributes_like_raw",
+        "path_name": "@validate_call no longer preserves helper attributes like raw_function and validate",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c14",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "dataclass_validation_schema_generation_must_use_typeadapter",
+        "path_name": "Dataclass validation/schema generation must use TypeAdapter instead of __pydantic_model__-based validation",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c12",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "field_schema_customization_uses_removed_arbitrary_kwargs_on",
+        "path_name": "Field schema customization uses removed arbitrary kwargs on `Field`",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c03",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "genericmodel_based_generic_models_must_be_migrated_to_basemo",
+        "path_name": "GenericModel-based generic models must be migrated to BaseModel + Generic",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c01",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "pydantic_upgrade_requires_email_validator_2_0_0_for_email_va",
+        "path_name": "Pydantic upgrade requires email-validator >=2.0.0 for email validation features",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c02",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "rootmodel_no_longer_supports_arbitrary_types_allowed",
+        "path_name": "RootModel no longer supports arbitrary_types_allowed",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c10",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "rootmodel_replacement_for_root_models",
+        "path_name": "RootModel replacement for __root__ models",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c10",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "rootmodel_uses_arbitrary_types_allowed_configuration",
+        "path_name": "RootModel uses arbitrary_types_allowed configuration",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_pydantic_2_x_on_python_3_9_runtime",
+        "path_name": "Upgrade to Pydantic 2.x on Python 3.9 runtime",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: evidence contradicts the statement",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "single_source_severe_risk",
+          "no_required_condition_after_verification"
+        ]
+      },
+      {
+        "path_id": "use_of_getter_dict_configuration_entry",
+        "path_name": "Use of getter_dict configuration entry",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "using_v1_models_as_type_parameters_in_v2_generic_basemodel_m",
+        "path_name": "Using V1 models as type parameters in V2 generic BaseModel models",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "validator_code_relies_on_removed_field_modelfield_argument",
+        "path_name": "Validator code relies on removed `field` ModelField argument",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c03, c04",
+          "cited source lost a conflict: c03",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "adopt_the_new_fallback_parameter_in_serialization_methods",
+        "path_name": "Adopt the new fallback parameter in serialization methods",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: evidence unrelated the statement",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "no_required_condition_after_verification"
+        ]
+      },
+      {
+        "path_id": "applications_or_tooling_that_assume_pydantic_s_default_json",
+        "path_name": "Applications or tooling that assume Pydantic\u2019s default JSON Schema draft format stays unchanged",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "unresolved conflict: c06",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "applications_relying_on_stricter_protected_namespace_default",
+        "path_name": "Applications relying on stricter protected namespace defaults",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "code_passes_pydantic_url_objects_into_apis_that_expect_plain",
+        "path_name": "Code passes Pydantic URL objects into APIs that expect plain strings",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c11",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "constrained_types_still_implemented_with_constrained_classes",
+        "path_name": "Constrained types still implemented with Constrained* classes in codebase",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "custom_json_schema_generation_depends_on_old_recursive_inter",
+        "path_name": "Custom JSON schema generation depends on old recursive internals",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "deprecated_json_usage_requires_migration_to_model_dump_json",
+        "path_name": "Deprecated json() usage requires migration to model_dump_json()",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c05",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "fields_use_arbitrary_json_schema_kwargs_instead_of_json_sche",
+        "path_name": "Fields use arbitrary JSON Schema kwargs instead of json_schema_extra",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: evidence contradicts the statement",
+          "cited source lost a conflict: c07",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "source_disagreement",
+          "no_required_condition_after_verification"
+        ]
+      },
+      {
+        "path_id": "function_schema_json_schema_generation_requires_the_correct",
+        "path_name": "Function schema JSON Schema generation requires the correct mode",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "per_item_string_validation_on_generic_containers_using_field",
+        "path_name": "Per-item string validation on generic containers using Field(pattern=...)",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "typeadapter_initialization_rejects_config_for_annotated_type",
+        "path_name": "TypeAdapter initialization rejects config for annotated types that already have config",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_f123c8714d48ded3"
+        ],
+        "reasons": [
+          "cited source lost a conflict: c12",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "url_types_append_trailing_slash_when_no_path_is_included",
+        "path_name": "URL types append trailing slash when no path is included",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_01caba462692fdb8"
+        ],
+        "reasons": [
+          "unresolved conflict: c13",
+          "source_disagreement"
+        ]
+      }
+    ],
+    "sources_with_disagreements": [
+      {
+        "conflict_id": "c01",
+        "subject": "BaseModel",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f337",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.10.0"
+            ],
+            "value": "fixed stacklevel",
+            "quote": "Fix stacklevel on deprecation warnings for BaseModel"
+          },
+          {
+            "fact_id": "f565",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-49",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.7.0"
+            ],
+            "value": "type-safety of attribute access fixed",
+            "quote": "Fix type-safety of attribute access in BaseModel by @bluenote10 in #8651"
+          },
+          {
+            "fact_id": "f172",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-pydanticgenericsgenericmodel",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "generic BaseModel subclasses with Generic as a parent class",
+            "quote": "Instead, you can now create generic BaseModel subclasses by just adding Generic as a parent class on a BaseModel subclass directly."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f337",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38 preferred under the conflict policy.",
+        "affected_paths": [
+          "genericmodel_based_generic_models_must_be_migrated_to_basemo"
+        ]
+      },
+      {
+        "conflict_id": "c02",
+        "subject": "email-validator",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f624",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#packaging-30",
+            "trust_tier": "official",
+            "change": "requirement_raised",
+            "versions": [
+              "2.6.0"
+            ],
+            "value": "2.0",
+            "quote": "Check for email-validator version >= 2.0"
+          },
+          {
+            "fact_id": "f099",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#other-changes",
+            "trust_tier": "official",
+            "change": "requirement_raised",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": ">=2.0.0",
+            "quote": "Make sure to update\nusing pip install -U email-validator ."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f624",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#packaging-30 preferred under the conflict policy.",
+        "affected_paths": [
+          "pydantic_upgrade_requires_email_validator_2_0_0_for_email_va"
+        ]
+      },
+      {
+        "conflict_id": "c03",
+        "subject": "Field",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f352",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.10.0"
+            ],
+            "value": "overloads",
+            "quote": "Use overloads for Field and PrivateAttr functions"
+          },
+          {
+            "fact_id": "f484",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-44",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.8.0"
+            ],
+            "value": null,
+            "quote": "Updates type signature for Field() constructor"
+          },
+          {
+            "fact_id": "f041",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-validators-allowed-signatures",
+            "trust_tier": "official",
+            "change": "removed",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "cls.model_fields[info.field_name]",
+            "quote": "field : this argument used to be a ModelField object, which was a quasi-internal class that no longer exists in Pydantic V2."
+          },
+          {
+            "fact_id": "f042",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-validators-allowed-signatures",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "cls.model_fields[info.field_name]",
+            "quote": "Most of this information can still be accessed by using the field name from info.field_name to index into cls.model_fields"
+          },
+          {
+            "fact_id": "f176",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-pydanticfield",
+            "trust_tier": "official",
+            "change": "removed",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "json_schema_extra",
+            "quote": "Field no longer supports arbitrary keyword arguments to be added to the JSON schema. Instead, any extra data you want to add to the JSON schema should be passed as a dictionary to the json_schema_extra keyword argument."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f352",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38 preferred under the conflict policy.",
+        "affected_paths": [
+          "field_schema_customization_uses_removed_arbitrary_kwargs_on",
+          "validator_code_relies_on_removed_field_modelfield_argument"
+        ]
+      },
+      {
+        "conflict_id": "c04",
+        "subject": "Field",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f333",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.10.0"
+            ],
+            "value": "overloads",
+            "quote": "Use overloads for Field and PrivateAttr functions"
+          },
+          {
+            "fact_id": "f042",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-validators-allowed-signatures",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "cls.model_fields[info.field_name]",
+            "quote": "Most of this information can still be accessed by using the field name from info.field_name to index into cls.model_fields"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f333",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38 preferred under the conflict policy.",
+        "affected_paths": [
+          "validator_code_relies_on_removed_field_modelfield_argument"
+        ]
+      },
+      {
+        "conflict_id": "c05",
+        "subject": "JSON",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f556",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#performance-9",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.7.0"
+            ],
+            "value": "Fast path for ASCII python string creation",
+            "quote": "Fast path for ASCII python string creation in JSON by @samuelcolvin in pydantic/jiter#72"
+          },
+          {
+            "fact_id": "f169",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-pydanticbasemodel",
+            "trust_tier": "official",
+            "change": "deprecated",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "model_dump_json()",
+            "quote": "The .json() method is deprecated"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f556",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#performance-9 preferred under the conflict policy.",
+        "affected_paths": [
+          "deprecated_json_usage_requires_migration_to_model_dump_json"
+        ]
+      },
+      {
+        "conflict_id": "c06",
+        "subject": "JSON Schema",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f402",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-41",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.9.0"
+            ],
+            "value": null,
+            "quote": "Do not compute JSON Schema default when plain serializers are used with when_used set to 'json-unless-none' and the default value is None"
+          },
+          {
+            "fact_id": "f406",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-41",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.9.0"
+            ],
+            "value": null,
+            "quote": "Fix JSON Schema generation for constrained dates"
+          },
+          {
+            "fact_id": "f421",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-41",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.9.0"
+            ],
+            "value": null,
+            "quote": "Handle nullable schemas with serialization schema available during JSON Schema generation"
+          },
+          {
+            "fact_id": "f548",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#changes-16",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.7.0"
+            ],
+            "value": null,
+            "quote": "Add enum and type to the JSON schema for single item literals"
+          },
+          {
+            "fact_id": "f073",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-json-schema-generation",
+            "trust_tier": "official",
+            "change": "default_changed",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "draft 2020-12 (with some OpenAPI extensions)",
+            "quote": "The JSON schema we generate by default now targets draft 2020-12 (with some OpenAPI extensions)."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "applications_or_tooling_that_assume_pydantic_s_default_json"
+        ]
+      },
+      {
+        "conflict_id": "c07",
+        "subject": "json_schema_extra",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f476",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-2",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.0",
+              "2.0.1",
+              "2.0.2",
+              "2.0.3",
+              "2.1.0",
+              "2.1.1",
+              "2.2.0",
+              "2.2.1",
+              "2.3.0",
+              "2.4.0",
+              "2.4.1",
+              "2.4.2",
+              "2.5.0",
+              "2.5.1",
+              "2.5.2",
+              "2.5.3",
+              "2.6.0",
+              "2.6.1",
+              "2.6.2",
+              "2.6.3",
+              "2.6.4",
+              "2.7.0",
+              "2.7.1",
+              "2.7.2",
+              "2.7.3",
+              "2.7.4",
+              "2.8.0",
+              "2.8.1",
+              "2.8.2",
+              "2.9.0",
+              "2.9.1",
+              "2.9.2",
+              "2.10.0",
+              "2.10.1",
+              "2.10.2",
+              "2.10.3",
+              "2.10.4",
+              "2.10.5",
+              "2.10.6",
+              "2.11.0",
+              "2.11.1",
+              "2.11.2",
+              "2.11.3",
+              "2.11.4",
+              "2.11.5",
+              "2.11.6",
+              "2.11.7",
+              "2.11.8",
+              "2.11.9",
+              "2.12.0",
+              "2.12.1",
+              "2.12.2",
+              "2.12.3",
+              "2.12.4",
+              "2.12.5",
+              "2.13.0",
+              "2.13.1",
+              "2.13.2",
+              "2.13.3",
+              "2.13.4",
+              "2.13.5",
+              "2.14.0"
+            ],
+            "value": null,
+            "quote": "Fix json_schema_extra dict being dropped when a callable follows it in Annotated"
+          },
+          {
+            "fact_id": "f177",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-pydanticfield",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "dictionary passed to json_schema_extra",
+            "quote": "should be passed as a dictionary to the json_schema_extra keyword argument."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f476",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-2 preferred under the conflict policy.",
+        "affected_paths": [
+          "fields_use_arbitrary_json_schema_kwargs_instead_of_json_sche"
+        ]
+      },
+      {
+        "conflict_id": "c08",
+        "subject": "model_config",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f354",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.10.0"
+            ],
+            "value": "no error",
+            "quote": "Fix PydanticUserError on empty model_config with annotations"
+          },
+          {
+            "fact_id": "f537",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#new-features-17",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.7.0"
+            ],
+            "value": null,
+            "quote": "Handle a case when model_config is defined as a model property"
+          },
+          {
+            "fact_id": "f007",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-config",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "a dict with the key/value pairs you want to be used as the config",
+            "quote": "you should set a class attribute called model_config to be a dict with the key/value pairs you want to be used as the config."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f354",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38 preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c09",
+        "subject": "model_config",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f354",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.10.0"
+            ],
+            "value": "no error",
+            "quote": "Fix PydanticUserError on empty model_config with annotations"
+          },
+          {
+            "fact_id": "f008",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-config",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "inherited by subclasses",
+            "quote": "When subclassing a model, the model_config attribute is inherited."
+          },
+          {
+            "fact_id": "f009",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-config",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "non-default settings are merged; conflicts override with Model2",
+            "quote": "the non-default settings in the model_config attribute from the two models will be merged, and for any settings defined in both, those from Model2 will override those from Model1 ."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f354",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38 preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c10",
+        "subject": "RootModel",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f546",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#changes-16",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.7.0"
+            ],
+            "value": null,
+            "quote": "Improve error message for improper RootModel subclasses"
+          },
+          {
+            "fact_id": "f681",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-54",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.6.0"
+            ],
+            "value": "overridden dataclass_transform behavior",
+            "quote": "Override dataclass_transform behavior for RootModel"
+          },
+          {
+            "fact_id": "f157",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-pydanticbasemodel",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": null,
+            "quote": "with a new type called RootModel which is intended to replace the functionality of using a field called __root__ in Pydantic V1"
+          },
+          {
+            "fact_id": "f158",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-pydanticbasemodel",
+            "trust_tier": "official",
+            "change": "known_issue",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": null,
+            "quote": "RootModel types no longer support the arbitrary_types_allowed config setting."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f546",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#changes-16 preferred under the conflict policy.",
+        "affected_paths": [
+          "rootmodel_no_longer_supports_arbitrary_types_allowed",
+          "rootmodel_replacement_for_root_models"
+        ]
+      },
+      {
+        "conflict_id": "c11",
+        "subject": "str",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f551",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#changes-16",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.7.0"
+            ],
+            "value": null,
+            "quote": "Trimming str before parsing to int and float"
+          },
+          {
+            "fact_id": "f085",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#url-and-dsn-types-in-pydanticnetworks-no-longer-inherit-from-str",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "str(url)",
+            "quote": "To use these types in APIs which expect str you\u2019ll now need to convert them (with str(url) )."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f551",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#changes-16 preferred under the conflict policy.",
+        "affected_paths": [
+          "code_passes_pydantic_url_objects_into_apis_that_expect_plain"
+        ]
+      },
+      {
+        "conflict_id": "c12",
+        "subject": "TypeAdapter",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f273",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-37",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "2.10.1"
+            ],
+            "value": "correct frame",
+            "quote": "Use the correct frame when instantiating a parametrized TypeAdapter"
+          },
+          {
+            "fact_id": "f299",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#new-features-13",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "2.10.0"
+            ],
+            "value": null,
+            "quote": "Add rebuild() method for TypeAdapter and simplify defer_build patterns by @sydney-runkle in #10537"
+          },
+          {
+            "fact_id": "f586",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-49",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.7.0"
+            ],
+            "value": "typing compatible with special forms",
+            "quote": "Make TypeAdapter \u2019s typing compatible with special forms by @adriangb in #8923"
+          },
+          {
+            "fact_id": "f667",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-54",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.6.0"
+            ],
+            "value": "config disallowed when annotated type has config already",
+            "quote": "Disallow config specification when initializing a TypeAdapter when the annotated type has config already"
+          },
+          {
+            "fact_id": "f066",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#introduction-of-typeadapter",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "an object for validating, serializing, and producing JSON schemas for arbitrary types",
+            "quote": "the TypeAdapter class lets you create an object with methods for validating, serializing, and producing JSON schemas for arbitrary types."
+          },
+          {
+            "fact_id": "f194",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-dataclasses",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "wrap the dataclass with a TypeAdapter",
+            "quote": "you should now wrap the dataclass with a TypeAdapter"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f273",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-37 preferred under the conflict policy.",
+        "affected_paths": [
+          "dataclass_validation_schema_generation_must_use_typeadapter",
+          "typeadapter_initialization_rejects_config_for_annotated_type"
+        ]
+      },
+      {
+        "conflict_id": "c13",
+        "subject": "Url types",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f268",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-36",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "2.10.2"
+            ],
+            "value": "serialization as any",
+            "quote": "Support serialization as any for Secret types and Url types"
+          },
+          {
+            "fact_id": "f270",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-36",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "2.10.2"
+            ],
+            "value": "hashing support",
+            "quote": "Add hashing support for URL types"
+          },
+          {
+            "fact_id": "f087",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#url-and-dsn-types-in-pydanticnetworks-no-longer-inherit-from-str",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "append slashes to the validated version if no path is included",
+            "quote": "the new Url types append slashes to the validated version if no path is included"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "url_types_append_trailing_slash_when_no_path_is_included"
+        ]
+      },
+      {
+        "conflict_id": "c14",
+        "subject": "validate_call",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f368",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.10.0"
+            ],
+            "value": "fixed",
+            "quote": "Fix circular import with validate_call"
+          },
+          {
+            "fact_id": "f494",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-44",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "2.8.0"
+            ],
+            "value": null,
+            "quote": "validate_call type params fix"
+          },
+          {
+            "fact_id": "f648",
+            "source_id": "doc_f123c8714d48ded3",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/#changes-17",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "2.6.0"
+            ],
+            "value": null,
+            "quote": "fixes binding issue with inheritance and adds self/cls argument to validation errors"
+          },
+          {
+            "fact_id": "f051",
+            "source_id": "doc_01caba462692fdb8",
+            "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/#validate_arguments-has-been-renamed-to-validate_call",
+            "trust_tier": "official",
+            "change": "removed",
+            "versions": [
+              "2.13.0"
+            ],
+            "value": "those attributes are not preserved",
+            "quote": "we have not preserved this functionality in @validate_call ."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f368",
+        "reason": "official source https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-38 preferred under the conflict policy.",
+        "affected_paths": [
+          "validate_call_no_longer_preserves_helper_attributes_like_raw"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Unconfirmed condition in 'Raised bundled pydantic-core requirement in Pydantic 2.x releases up to 2.14.0': The application or deployment separately pins pydantic-core and may not allow the bundled version to be upgraded with Pydantic",
+      "Unconfirmed condition in 'coerce_numbers_to_str enabled with invalid Unicode input now behaves differently': The application may receive or process strings containing invalid Unicode characters.",
+      "Unresolved disagreement about JSON Schema (risk_vs_context) between https://pydantic.dev/docs/validation/latest/get-started/changelog/#changes-16, https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-41, https://pydantic.dev/docs/validation/latest/get-started/migration/#changes-to-json-schema-generation [c06]",
+      "Unresolved disagreement about Url types (risk_vs_context) between https://pydantic.dev/docs/validation/latest/get-started/changelog/#fixes-36, https://pydantic.dev/docs/validation/latest/get-started/migration/#url-and-dsn-types-in-pydanticnetworks-no-longer-inherit-from-str [c13]",
+      "76 critical or high risks rest on a single source (flagged single_source_severe_risk); confirm them with a second source: '@field_validator migration breaks validators that rely on each_item'; '@model_validator may receive a model instance instead of dict values'; '@validate_arguments renamed to @validate_call' and 73 more."
+    ]
+  }
+}

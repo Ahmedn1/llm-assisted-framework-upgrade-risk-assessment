@@ -1,0 +1,1009 @@
+{
+  "$defs": {
+    "ClaimOut": {
+      "additionalProperties": false,
+      "properties": {
+        "fact_id": {
+          "title": "Fact Id",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "trust_tier": {
+          "anyOf": [
+            {
+              "enum": [
+                "official",
+                "probable_official",
+                "official_repository_discussion",
+                "third_party"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Trust Tier"
+        },
+        "change": {
+          "enum": [
+            "removed",
+            "deprecated",
+            "renamed",
+            "default_changed",
+            "behavior_changed",
+            "requirement_raised",
+            "requirement_added",
+            "replacement_recommended",
+            "migration_step",
+            "known_issue",
+            "security_fix",
+            "context"
+          ],
+          "title": "Change",
+          "type": "string"
+        },
+        "versions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Versions",
+          "type": "array"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "fact_id",
+        "source_id",
+        "url",
+        "trust_tier",
+        "change",
+        "versions",
+        "value",
+        "quote"
+      ],
+      "title": "ClaimOut",
+      "type": "object"
+    },
+    "DisagreementOut": {
+      "additionalProperties": false,
+      "properties": {
+        "conflict_id": {
+          "title": "Conflict Id",
+          "type": "string"
+        },
+        "subject": {
+          "title": "Subject",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "severity",
+            "versions",
+            "value",
+            "risk_vs_context"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "claims": {
+          "items": {
+            "$ref": "#/$defs/ClaimOut"
+          },
+          "minItems": 2,
+          "title": "Claims",
+          "type": "array"
+        },
+        "resolution": {
+          "enum": [
+            "resolved",
+            "unresolved"
+          ],
+          "title": "Resolution",
+          "type": "string"
+        },
+        "winner_fact_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Winner Fact Id"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "affected_paths": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Affected Paths",
+          "type": "array"
+        }
+      },
+      "required": [
+        "conflict_id",
+        "subject",
+        "kind",
+        "claims",
+        "resolution",
+        "winner_fact_id",
+        "reason",
+        "affected_paths"
+      ],
+      "title": "DisagreementOut",
+      "type": "object"
+    },
+    "EvidenceSummaryBody": {
+      "additionalProperties": false,
+      "properties": {
+        "high_confidence_risks": {
+          "items": {
+            "$ref": "#/$defs/RiskRef"
+          },
+          "title": "High Confidence Risks",
+          "type": "array"
+        },
+        "medium_confidence_risks": {
+          "items": {
+            "$ref": "#/$defs/RiskRef"
+          },
+          "title": "Medium Confidence Risks",
+          "type": "array"
+        },
+        "low_confidence_or_disputed_risks": {
+          "items": {
+            "$ref": "#/$defs/RiskRef"
+          },
+          "title": "Low Confidence Or Disputed Risks",
+          "type": "array"
+        },
+        "sources_with_disagreements": {
+          "items": {
+            "$ref": "#/$defs/DisagreementOut"
+          },
+          "title": "Sources With Disagreements",
+          "type": "array"
+        },
+        "open_questions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Open Questions",
+          "type": "array"
+        }
+      },
+      "required": [
+        "high_confidence_risks",
+        "medium_confidence_risks",
+        "low_confidence_or_disputed_risks",
+        "sources_with_disagreements",
+        "open_questions"
+      ],
+      "title": "EvidenceSummaryBody",
+      "type": "object"
+    },
+    "EvidenceSummaryOut": {
+      "additionalProperties": false,
+      "properties": {
+        "project": {
+          "title": "Project",
+          "type": "string"
+        },
+        "upgrade": {
+          "title": "Upgrade",
+          "type": "string"
+        },
+        "evidence_summary": {
+          "$ref": "#/$defs/EvidenceSummaryBody"
+        }
+      },
+      "required": [
+        "project",
+        "upgrade",
+        "evidence_summary"
+      ],
+      "title": "EvidenceSummaryOut",
+      "type": "object"
+    },
+    "FinalCondition": {
+      "additionalProperties": false,
+      "properties": {
+        "condition_id": {
+          "title": "Condition Id",
+          "type": "string"
+        },
+        "statement": {
+          "title": "Statement",
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "version",
+            "api_usage",
+            "configuration",
+            "dependency",
+            "runtime",
+            "deployment",
+            "database",
+            "behavior",
+            "test_coverage",
+            "unknown"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "required": {
+          "title": "Required",
+          "type": "boolean"
+        },
+        "condition_role": {
+          "enum": [
+            "required",
+            "optional",
+            "alternative",
+            "disqualifying",
+            "uncertain"
+          ],
+          "title": "Condition Role",
+          "type": "string"
+        },
+        "operator": {
+          "enum": [
+            "equals",
+            "not_equals",
+            "in_range",
+            "less_than",
+            "greater_than",
+            "contains",
+            "absent",
+            "present",
+            "unknown"
+          ],
+          "title": "Operator",
+          "type": "string"
+        },
+        "expected_value": {
+          "title": "Expected Value",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/FinalEvidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "reasoning": {
+          "title": "Reasoning",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "ambiguities": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Ambiguities",
+          "type": "array"
+        },
+        "search_patterns": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Search Patterns",
+          "type": "array"
+        },
+        "verification": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FinalVerification"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Null when the risk model was not verified"
+        }
+      },
+      "required": [
+        "condition_id",
+        "statement",
+        "category",
+        "required",
+        "condition_role",
+        "operator",
+        "expected_value",
+        "evidence",
+        "reasoning",
+        "confidence",
+        "ambiguities",
+        "search_patterns",
+        "verification"
+      ],
+      "title": "FinalCondition",
+      "type": "object"
+    },
+    "FinalContextualFact": {
+      "additionalProperties": false,
+      "properties": {
+        "statement": {
+          "title": "Statement",
+          "type": "string"
+        },
+        "subject": {
+          "title": "Subject",
+          "type": "string"
+        },
+        "change": {
+          "enum": [
+            "removed",
+            "deprecated",
+            "renamed",
+            "default_changed",
+            "behavior_changed",
+            "requirement_raised",
+            "requirement_added",
+            "replacement_recommended",
+            "migration_step",
+            "known_issue",
+            "security_fix",
+            "context"
+          ],
+          "title": "Change",
+          "type": "string"
+        },
+        "known_incompatibility": {
+          "title": "Known Incompatibility",
+          "type": "boolean"
+        },
+        "versions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Versions",
+          "type": "array"
+        },
+        "why_not_a_risk": {
+          "title": "Why Not A Risk",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/FinalEvidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "statement",
+        "subject",
+        "change",
+        "known_incompatibility",
+        "versions",
+        "why_not_a_risk",
+        "evidence"
+      ],
+      "title": "FinalContextualFact",
+      "type": "object"
+    },
+    "FinalEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Type"
+        },
+        "quote_or_summary": {
+          "minLength": 1,
+          "title": "Quote Or Summary",
+          "type": "string"
+        },
+        "relevance": {
+          "title": "Relevance",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "versions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Versions",
+          "type": "array"
+        },
+        "trust_tier": {
+          "anyOf": [
+            {
+              "enum": [
+                "official",
+                "probable_official",
+                "official_repository_discussion",
+                "third_party"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Trust Tier"
+        }
+      },
+      "required": [
+        "source_id",
+        "source_type",
+        "quote_or_summary",
+        "relevance",
+        "url",
+        "versions",
+        "trust_tier"
+      ],
+      "title": "FinalEvidence",
+      "type": "object"
+    },
+    "FinalMigrationStep": {
+      "additionalProperties": false,
+      "properties": {
+        "step": {
+          "title": "Step",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/FinalEvidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "step",
+        "evidence"
+      ],
+      "title": "FinalMigrationStep",
+      "type": "object"
+    },
+    "FinalRiskPath": {
+      "additionalProperties": false,
+      "properties": {
+        "path_id": {
+          "title": "Path Id",
+          "type": "string"
+        },
+        "path_name": {
+          "title": "Path Name",
+          "type": "string"
+        },
+        "risk_type": {
+          "enum": [
+            "removed_api",
+            "changed_behavior",
+            "changed_default",
+            "dependency_requirement",
+            "runtime_requirement",
+            "configuration_change",
+            "data_migration",
+            "operational_risk",
+            "unknown"
+          ],
+          "title": "Risk Type",
+          "type": "string"
+        },
+        "risk_level": {
+          "enum": [
+            "critical",
+            "high",
+            "medium",
+            "low",
+            "unknown"
+          ],
+          "title": "Risk Level",
+          "type": "string"
+        },
+        "affected_surface": {
+          "enum": [
+            "application_code",
+            "configuration",
+            "dependencies",
+            "runtime",
+            "database",
+            "deployment",
+            "tests",
+            "unknown"
+          ],
+          "title": "Affected Surface",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "conditions": {
+          "items": {
+            "$ref": "#/$defs/FinalCondition"
+          },
+          "minItems": 1,
+          "title": "Conditions",
+          "type": "array"
+        },
+        "suggested_actions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Suggested Actions",
+          "type": "array"
+        },
+        "migration_steps": {
+          "items": {
+            "$ref": "#/$defs/FinalMigrationStep"
+          },
+          "title": "Migration Steps",
+          "type": "array"
+        },
+        "change_kinds": {
+          "items": {
+            "enum": [
+              "removed",
+              "deprecated",
+              "renamed",
+              "default_changed",
+              "behavior_changed",
+              "requirement_raised",
+              "requirement_added",
+              "replacement_recommended",
+              "migration_step",
+              "known_issue",
+              "security_fix",
+              "context"
+            ],
+            "type": "string"
+          },
+          "title": "Change Kinds",
+          "type": "array"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Path confidence from verification; null if not verified",
+          "title": "Confidence"
+        },
+        "flags": {
+          "description": "Verification flags and structural warnings",
+          "items": {
+            "type": "string"
+          },
+          "title": "Flags",
+          "type": "array"
+        }
+      },
+      "required": [
+        "path_id",
+        "path_name",
+        "risk_type",
+        "risk_level",
+        "affected_surface",
+        "description",
+        "conditions",
+        "suggested_actions",
+        "migration_steps",
+        "change_kinds",
+        "confidence",
+        "flags"
+      ],
+      "title": "FinalRiskPath",
+      "type": "object"
+    },
+    "FinalSource": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "source_type": {
+          "title": "Source Type",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Retrieved At"
+        },
+        "why_relevant": {
+          "title": "Why Relevant",
+          "type": "string"
+        },
+        "trust_tier": {
+          "enum": [
+            "official",
+            "probable_official",
+            "official_repository_discussion",
+            "third_party"
+          ],
+          "title": "Trust Tier",
+          "type": "string"
+        },
+        "trust_basis": {
+          "title": "Trust Basis",
+          "type": "string"
+        },
+        "versions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Versions",
+          "type": "array"
+        },
+        "cited_by_risk_paths": {
+          "title": "Cited By Risk Paths",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "source_id",
+        "title",
+        "url",
+        "source_type",
+        "retrieved_at",
+        "why_relevant",
+        "trust_tier",
+        "trust_basis",
+        "versions",
+        "cited_by_risk_paths"
+      ],
+      "title": "FinalSource",
+      "type": "object"
+    },
+    "FinalVerification": {
+      "additionalProperties": false,
+      "properties": {
+        "grounding": {
+          "enum": [
+            "grounded",
+            "partially_grounded",
+            "ungrounded"
+          ],
+          "title": "Grounding",
+          "type": "string"
+        },
+        "entailment": {
+          "enum": [
+            "supports",
+            "partially_supports",
+            "contradicts",
+            "unrelated",
+            "not_checked"
+          ],
+          "title": "Entailment",
+          "type": "string"
+        },
+        "independent_sources": {
+          "title": "Independent Sources",
+          "type": "integer"
+        },
+        "conflicts": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Conflicts",
+          "type": "array"
+        }
+      },
+      "required": [
+        "grounding",
+        "entailment",
+        "independent_sources",
+        "conflicts"
+      ],
+      "title": "FinalVerification",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "generated_at": {
+          "title": "Generated At",
+          "type": "string"
+        },
+        "collection_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Collection Path"
+        },
+        "extraction_models": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Extraction Models",
+          "type": "array"
+        },
+        "verified": {
+          "title": "Verified",
+          "type": "boolean"
+        },
+        "verification_judge": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Verification Judge"
+        },
+        "working_files": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Working Files",
+          "type": "array"
+        }
+      },
+      "required": [
+        "schema_version",
+        "generated_at",
+        "collection_path",
+        "extraction_models",
+        "verified",
+        "verification_judge",
+        "working_files"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    },
+    "RiskRef": {
+      "additionalProperties": false,
+      "properties": {
+        "path_id": {
+          "title": "Path Id",
+          "type": "string"
+        },
+        "path_name": {
+          "title": "Path Name",
+          "type": "string"
+        },
+        "risk_type": {
+          "enum": [
+            "removed_api",
+            "changed_behavior",
+            "changed_default",
+            "dependency_requirement",
+            "runtime_requirement",
+            "configuration_change",
+            "data_migration",
+            "operational_risk",
+            "unknown"
+          ],
+          "title": "Risk Type",
+          "type": "string"
+        },
+        "risk_level": {
+          "enum": [
+            "critical",
+            "high",
+            "medium",
+            "low",
+            "unknown"
+          ],
+          "title": "Risk Level",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Sources",
+          "type": "array"
+        },
+        "reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reasons",
+          "type": "array"
+        }
+      },
+      "required": [
+        "path_id",
+        "path_name",
+        "risk_type",
+        "risk_level",
+        "confidence",
+        "sources",
+        "reasons"
+      ],
+      "title": "RiskRef",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "project": {
+      "title": "Project",
+      "type": "string"
+    },
+    "current_version": {
+      "title": "Current Version",
+      "type": "string"
+    },
+    "target_version": {
+      "title": "Target Version",
+      "type": "string"
+    },
+    "summary": {
+      "title": "Summary",
+      "type": "string"
+    },
+    "source_inventory": {
+      "items": {
+        "$ref": "#/$defs/FinalSource"
+      },
+      "title": "Source Inventory",
+      "type": "array"
+    },
+    "risk_paths": {
+      "items": {
+        "$ref": "#/$defs/FinalRiskPath"
+      },
+      "title": "Risk Paths",
+      "type": "array"
+    },
+    "contextual_facts": {
+      "items": {
+        "$ref": "#/$defs/FinalContextualFact"
+      },
+      "title": "Contextual Facts",
+      "type": "array"
+    },
+    "open_questions": {
+      "description": "Unknowns about the upgrade itself",
+      "items": {
+        "type": "string"
+      },
+      "title": "Open Questions",
+      "type": "array"
+    },
+    "diagnostics": {
+      "description": "How the run went: budgets, rejected extractions, failed model calls",
+      "items": {
+        "type": "string"
+      },
+      "title": "Diagnostics",
+      "type": "array"
+    },
+    "overall_confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "title": "Overall Confidence",
+      "type": "string"
+    },
+    "evidence_summary": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/EvidenceSummaryOut"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance"
+    }
+  },
+  "required": [
+    "project",
+    "current_version",
+    "target_version",
+    "summary",
+    "source_inventory",
+    "risk_paths",
+    "contextual_facts",
+    "open_questions",
+    "diagnostics",
+    "overall_confidence",
+    "evidence_summary",
+    "provenance"
+  ],
+  "title": "Upgrade risk final output",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

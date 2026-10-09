@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-10-09T15:43:40.638511+00:00",
+  "input": {
+    "project": "PostgreSQL",
+    "current_version": "13",
+    "target_version": "16"
+  },
+  "configuration": {
+    "offline": false,
+    "refresh": false,
+    "scorer": "heuristic",
+    "web_search": "auto",
+    "evidence_search": "none",
+    "max_documents": 100,
+    "resolver_requests": 100,
+    "collector_requests": 200,
+    "max_urls": 500,
+    "max_depth": 2,
+    "execution_path": "deterministic",
+    "section_relevance": true,
+    "risk_extraction": true,
+    "section_relevance_max_sections": 200,
+    "decision_backend": {
+      "adapter": "OpenD1Client",
+      "model": "LiquidAI/d1-3B@051bcc464b01b9f92942b364d9586b0ef5912432"
+    },
+    "risk_extraction_options": {
+      "max_sections": 150,
+      "structured_mode": "json_schema",
+      "max_output_tokens": 8192,
+      "token_parameter": "max_completion_tokens"
+    },
+    "risk_verification": {
+      "judge": "decision",
+      "max_conditions": 300
+    },
+    "models": {
+      "relevance": {
+        "kind": "d1",
+        "model": "LiquidAI/d1-3B",
+        "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+        "base_url": null,
+        "api_key_set": false,
+        "resolved_from": {
+          "backend": "default",
+          "model": "default",
+          "revision": "default pin",
+          "base_url": null,
+          "api_key": null
+        }
+      },
+      "extraction": {
+        "kind": "llm",
+        "model": "gpt-5.4-mini",
+        "base_url": "https://api.openai.com/v1",
+        "api_key_set": true,
+        "resolved_from": {
+          "model": "LLM_MODEL_NAME",
+          "base_url": "LLM_BASE_URL",
+          "api_key": "LLM_API_KEY"
+        }
+      },
+      "judge": {
+        "kind": "d1",
+        "model": "LiquidAI/d1-3B",
+        "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+        "base_url": null,
+        "api_key_set": false,
+        "resolved_from": {
+          "backend": "default",
+          "model": "default",
+          "revision": "default pin",
+          "base_url": null,
+          "api_key": null
+        }
+      }
+    }
+  },
+  "files": {
+    "resolution": "resolution.json",
+    "evidence": "evidence.json",
+    "source_inventory": "source_inventory.json",
+    "candidate_sections": "candidate_sections.json",
+    "risk_model": "risk_model.json",
+    "extracted_facts": "extracted_facts.json",
+    "grounding_report": "grounding_report.json",
+    "evidence_summary": "evidence_summary.json",
+    "final_output": "final_output.json",
+    "report": "report.html"
+  },
+  "section_relevance": {
+    "section_relevance_decision_calls": 200,
+    "section_relevance_scored": 200,
+    "section_relevance_failed": 0,
+    "section_relevance_not_scored": 50,
+    "section_relevance_labels": {
+      "risk_candidate": 7,
+      "context": 87,
+      "not_relevant": 106
+    }
+  },
+  "risk_extraction": {
+    "risk_paths": 492,
+    "contextual_facts": 866,
+    "overall_confidence": "medium",
+    "extraction_llm_calls": 548,
+    "rejected_facts": 48,
+    "extraction_failures": 1
+  },
+  "risk_verification": {
+    "overall_confidence": "medium",
+    "judge": "decision",
+    "high_confidence_risks": 34,
+    "medium_confidence_risks": 369,
+    "low_confidence_or_disputed_risks": 89,
+    "sources_with_disagreements": 257
+  },
+  "summary": {
+    "resolver_status": "partial",
+    "selected_catalog": "https://www.postgresql.org/docs/release/",
+    "version_count": 61,
+    "milestones": [
+      "14",
+      "15",
+      "16"
+    ],
+    "resolver_coverage": {
+      "identity": "resolved_by_heuristics",
+      "catalog": "partial",
+      "discovery": "bounded_search",
+      "source_selection": "selected",
+      "publication": "catalog_records"
+    },
+    "resolver_warnings": [
+      "PyPI discovery: Cached HTTP 404 for https://pypi.org/pypi/PostgreSQL/json",
+      "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+      "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/adminpack.html",
+      "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-createuser.html",
+      "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-dropdb.html",
+      "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-pg-dumpall.html",
+      "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-pgbasebackup.html",
+      "Cached HTTP 404 for https://www.postgresql.org/docs/release/13.0/app-pgdump.html",
+      "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+      "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+    ],
+    "resolver_network_requests": 0,
+    "collector_status": "partial",
+    "document_count": 100,
+    "retrieval_failures": 0,
+    "failure_examples": [],
+    "validation_failures": 0,
+    "inference_failures": 0,
+    "pipeline_status": "completed_partial",
+    "document_types": {
+      "release_notes": 61,
+      "api_documentation": 35,
+      "upgrade_guide": 4
+    },
+    "versions_with_candidate_evidence": 61,
+    "versions_with_direct_evidence": 61,
+    "versions_with_direct_release_notes": 61,
+    "versions_without_evidence": [],
+    "versions_with_only_registry_metadata": [],
+    "upgrade_guide_urls": [
+      "https://www.postgresql.org/docs/14/pgupgrade.html",
+      "https://www.postgresql.org/docs/14/upgrading.html",
+      "https://www.postgresql.org/docs/15/pgupgrade.html",
+      "https://www.postgresql.org/docs/15/upgrading.html"
+    ],
+    "pending_urls": 389,
+    "skipped_urls": 30,
+    "collector_network_requests": 0,
+    "collector_warnings": [],
+    "llm_calls": 0,
+    "section_relevance_decision_calls": 200,
+    "section_relevance_scored": 200,
+    "section_relevance_failed": 0,
+    "section_relevance_not_scored": 50,
+    "section_relevance_labels": {
+      "risk_candidate": 7,
+      "context": 87,
+      "not_relevant": 106
+    },
+    "risk_paths": 492,
+    "contextual_facts": 866,
+    "overall_confidence": "medium",
+    "extraction_llm_calls": 548,
+    "rejected_facts": 48,
+    "extraction_failures": 1,
+    "verification_overall_confidence": "medium",
+    "verification_judge": "decision",
+    "verification_high_confidence_risks": 34,
+    "verification_medium_confidence_risks": 369,
+    "verification_low_confidence_or_disputed_risks": 89,
+    "verification_sources_with_disagreements": 257
+  }
+}

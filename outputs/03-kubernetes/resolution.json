@@ -1,0 +1,2785 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-09T15:30:49.087412+00:00",
+  "input": {
+    "project": "Kubernetes",
+    "current_version": "1.23",
+    "target_version": "1.29",
+    "source_urls": [],
+    "version_mode": "family"
+  },
+  "status": "partial",
+  "identity": {
+    "id": "github:kubernetes/kubernetes",
+    "name": "kubernetes",
+    "repository": "kubernetes/kubernetes",
+    "homepage": "https://kubernetes.io",
+    "score": 15,
+    "confidence": "heuristic",
+    "evidence": [
+      {
+        "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+        "field": "full_name",
+        "value": "kubernetes/kubernetes"
+      },
+      {
+        "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+        "field": "description",
+        "value": "Production-Grade Container Scheduling and Management"
+      },
+      {
+        "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+        "field": "homepage",
+        "value": "https://kubernetes.io"
+      },
+      {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "field": "full_name",
+        "value": "kubernetes/kubernetes"
+      },
+      {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "field": "description",
+        "value": "Production-Grade Container Scheduling and Management"
+      },
+      {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "field": "homepage",
+        "value": "https://kubernetes.io"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+        "field": "search_result",
+        "value": "https://github.com/kubernetes/kubernetes/releases"
+      },
+      {
+        "url": "https://kubernetes.io",
+        "field": "repository_backlink",
+        "value": "https://github.com/kubernetes/kubernetes"
+      },
+      {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "field": "full_name",
+        "value": "kubernetes/kubernetes"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+        "field": "search_result",
+        "value": "https://kubernetes.io/releases/"
+      },
+      {
+        "url": "https://kubernetes.io/releases/",
+        "field": "title",
+        "value": "Releases | Kubernetes"
+      },
+      {
+        "url": "https://kubernetes.io/releases/",
+        "field": "repository_link",
+        "value": "kubernetes/kubernetes"
+      },
+      {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "field": "full_name",
+        "value": "kubernetes/kubernetes"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+        "field": "search_result",
+        "value": "https://kubernetes.io/releases/notes/"
+      },
+      {
+        "url": "https://kubernetes.io/releases/notes/",
+        "field": "title",
+        "value": "Notes | Kubernetes"
+      },
+      {
+        "url": "https://kubernetes.io/releases/",
+        "field": "project_release_link",
+        "value": "https://kubernetes.io/releases/notes/"
+      },
+      {
+        "url": "https://kubernetes.io/releases/notes/",
+        "field": "repository_link",
+        "value": "kubernetes/kubernetes"
+      },
+      {
+        "url": "https://kubernetes.io/releases/patch-releases/",
+        "field": "project_release_link",
+        "value": "https://kubernetes.io/releases/notes/"
+      },
+      {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "field": "full_name",
+        "value": "kubernetes/kubernetes"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+        "field": "search_result",
+        "value": "https://kubernetes.io/releases/patch-releases/"
+      },
+      {
+        "url": "https://kubernetes.io/releases/patch-releases/",
+        "field": "title",
+        "value": "Patch Releases | Kubernetes"
+      },
+      {
+        "url": "https://kubernetes.io/releases/",
+        "field": "project_release_link",
+        "value": "https://kubernetes.io/releases/patch-releases/"
+      },
+      {
+        "url": "https://kubernetes.io/releases/notes/",
+        "field": "project_release_link",
+        "value": "https://kubernetes.io/releases/patch-releases/"
+      },
+      {
+        "url": "https://kubernetes.io/releases/patch-releases/",
+        "field": "repository_link",
+        "value": "kubernetes/kubernetes"
+      },
+      {
+        "url": "https://api.github.com/repos/kubernetes/kubernetes",
+        "field": "full_name",
+        "value": "kubernetes/kubernetes"
+      }
+    ]
+  },
+  "version_policy": {
+    "stable_numeric_versions_only": true,
+    "interval": "exclude current family; include all target-family releases",
+    "milestone_precision": 2,
+    "note": "Milestones group discovered versions for documentation collection; they are not installation steps. Family mode does not assess changes within the current family."
+  },
+  "candidates": [
+    {
+      "kind": "github",
+      "name": "kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "repository": "kubernetes/kubernetes",
+      "homepage": "https://kubernetes.io",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "kubernetes/kubernetes"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Production-Grade Container Scheduling and Management"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://kubernetes.io"
+        },
+        {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes",
+          "field": "full_name",
+          "value": "kubernetes/kubernetes"
+        },
+        {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes",
+          "field": "description",
+          "value": "Production-Grade Container Scheduling and Management"
+        },
+        {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes",
+          "field": "homepage",
+          "value": "https://kubernetes.io"
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+          "field": "search_result",
+          "value": "https://github.com/kubernetes/kubernetes/releases"
+        },
+        {
+          "url": "https://kubernetes.io",
+          "field": "repository_backlink",
+          "value": "https://github.com/kubernetes/kubernetes"
+        },
+        {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes",
+          "field": "full_name",
+          "value": "kubernetes/kubernetes"
+        }
+      ],
+      "score": 15,
+      "reasons": [
+        "Exact normalized project-name match (+4)",
+        "Repository name matches the requested project (+3)",
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Releases | Kubernetes",
+      "url": "https://kubernetes.io/releases/",
+      "description": "The Kubernetes project maintains release branches for the most recent three minor releases (1.37, 1.36, 1.35). Kubernetes 1.19 and newer receive approximately 1 year of patch support. Kubernetes 1.18 and older received approximately 9 months of patch support.\nKubernetes versions are expressed as x.y.z, where x is the major version, y is the minor version, and z is the patch version, following Semantic Versioning terminology.\nMore information in the version skew policy document.",
+      "repository": "kubernetes/kubernetes",
+      "homepage": "https://kubernetes.io/releases/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+          "field": "search_result",
+          "value": "https://kubernetes.io/releases/"
+        },
+        {
+          "url": "https://kubernetes.io/releases/",
+          "field": "title",
+          "value": "Releases | Kubernetes"
+        },
+        {
+          "url": "https://kubernetes.io/releases/",
+          "field": "repository_link",
+          "value": "kubernetes/kubernetes"
+        },
+        {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes",
+          "field": "full_name",
+          "value": "kubernetes/kubernetes"
+        }
+      ],
+      "score": 13,
+      "reasons": [
+        "Repository name matches the requested project (+3)",
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Notes | Kubernetes",
+      "url": "https://kubernetes.io/releases/notes/",
+      "description": "Kubernetes release notes.",
+      "repository": "kubernetes/kubernetes",
+      "homepage": "https://kubernetes.io/releases/notes/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+          "field": "search_result",
+          "value": "https://kubernetes.io/releases/notes/"
+        },
+        {
+          "url": "https://kubernetes.io/releases/notes/",
+          "field": "title",
+          "value": "Notes | Kubernetes"
+        },
+        {
+          "url": "https://kubernetes.io/releases/",
+          "field": "project_release_link",
+          "value": "https://kubernetes.io/releases/notes/"
+        },
+        {
+          "url": "https://kubernetes.io/releases/notes/",
+          "field": "repository_link",
+          "value": "kubernetes/kubernetes"
+        },
+        {
+          "url": "https://kubernetes.io/releases/patch-releases/",
+          "field": "project_release_link",
+          "value": "https://kubernetes.io/releases/notes/"
+        },
+        {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes",
+          "field": "full_name",
+          "value": "kubernetes/kubernetes"
+        }
+      ],
+      "score": 13,
+      "reasons": [
+        "Repository name matches the requested project (+3)",
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Patch Releases | Kubernetes",
+      "url": "https://kubernetes.io/releases/patch-releases/",
+      "description": "Schedule and team contact information for Kubernetes patch releases.\nFor general information about Kubernetes release cycle, see the release process description.\nCadenceOur typical patch release cadence is monthly. It is commonly a bit faster (1 to 2 weeks) for the earliest patch releases after a 1.X minor release. Critical bug fixes may cause a more immediate release outside of the normal cadence. We also aim to not make releases during major holiday periods.",
+      "repository": "kubernetes/kubernetes",
+      "homepage": "https://kubernetes.io/releases/patch-releases/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+          "field": "search_result",
+          "value": "https://kubernetes.io/releases/patch-releases/"
+        },
+        {
+          "url": "https://kubernetes.io/releases/patch-releases/",
+          "field": "title",
+          "value": "Patch Releases | Kubernetes"
+        },
+        {
+          "url": "https://kubernetes.io/releases/",
+          "field": "project_release_link",
+          "value": "https://kubernetes.io/releases/patch-releases/"
+        },
+        {
+          "url": "https://kubernetes.io/releases/notes/",
+          "field": "project_release_link",
+          "value": "https://kubernetes.io/releases/patch-releases/"
+        },
+        {
+          "url": "https://kubernetes.io/releases/patch-releases/",
+          "field": "repository_link",
+          "value": "kubernetes/kubernetes"
+        },
+        {
+          "url": "https://api.github.com/repos/kubernetes/kubernetes",
+          "field": "full_name",
+          "value": "kubernetes/kubernetes"
+        }
+      ],
+      "score": 13,
+      "reasons": [
+        "Repository name matches the requested project (+3)",
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Patch Releases | Kubernetes",
+      "url": "https://kubernetes.io/releases/patch-releases/#upcoming-monthly-releases",
+      "description": "Schedule and team contact information for Kubernetes patch releases.\nFor general information about Kubernetes release cycle, see the release process description.\nCadenceOur typical patch release cadence is monthly. It is commonly a bit faster (1 to 2 weeks) for the earliest patch releases after a 1.X minor release. Critical bug fixes may cause a more immediate release outside of the normal cadence. We also aim to not make releases during major holiday periods.",
+      "repository": "",
+      "homepage": "https://kubernetes.io/releases/patch-releases/#upcoming-monthly-releases",
+      "evidence": [
+        {
+          "url": "https://kubernetes.io/releases/patch-releases/",
+          "field": "project_release_link",
+          "value": "https://kubernetes.io/releases/patch-releases/#upcoming-monthly-releases"
+        },
+        {
+          "url": "https://kubernetes.io/releases/patch-releases/#upcoming-monthly-releases",
+          "field": "title",
+          "value": "Patch Releases | Kubernetes"
+        }
+      ],
+      "score": 6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "npm",
+      "name": "kubernetes",
+      "url": "https://registry.npmjs.org/kubernetes",
+      "description": "Install Kubernetes from npm",
+      "repository": "",
+      "homepage": "",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/kubernetes/latest",
+          "field": "name",
+          "value": "kubernetes"
+        },
+        {
+          "url": "https://registry.npmjs.org/kubernetes/latest",
+          "field": "repository",
+          "value": ""
+        },
+        {
+          "url": "https://registry.npmjs.org/kubernetes/latest",
+          "field": "description",
+          "value": "Install Kubernetes from npm"
+        }
+      ],
+      "score": 6,
+      "reasons": [
+        "Exact normalized project-name match (+4)",
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "repository": "aquasecurity/trivy",
+      "homepage": "https://trivy.dev",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "aquasecurity/trivy"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://trivy.dev"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "devops-exercises",
+      "url": "https://github.com/bregman-arie/devops-exercises",
+      "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+      "repository": "bregman-arie/devops-exercises",
+      "homepage": "",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "bregman-arie/devops-exercises"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "k9s",
+      "url": "https://github.com/derailed/k9s",
+      "description": "\ud83d\udc36 Kubernetes CLI To Manage Your Clusters In Style!",
+      "repository": "derailed/k9s",
+      "homepage": "https://k9scli.io",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "derailed/k9s"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "\ud83d\udc36 Kubernetes CLI To Manage Your Clusters In Style!"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://k9scli.io"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "repository": "helm/helm",
+      "homepage": "https://helm.sh",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "helm/helm"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "The Kubernetes Package Manager"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://helm.sh"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "jumpserver",
+      "url": "https://github.com/jumpserver/jumpserver",
+      "description": "JumpServer is an Open-source Privileged Access Management (PAM) platform with AI-powered capabilities, providing DevOps and IT teams a unified workspace to securely access SSH, RDP, Kubernetes, databases, websites, RemoteApp, VirtualApp, and more.",
+      "repository": "jumpserver/jumpserver",
+      "homepage": "https://jumpserver.com",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "jumpserver/jumpserver"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "JumpServer is an Open-source Privileged Access Management (PAM) platform with AI-powered capabilities, providing DevOps and IT teams a unified workspace to securely access SSH, RDP, Kubernetes, databases, websites, RemoteApp, VirtualApp, and more."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://jumpserver.com"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "k3s",
+      "url": "https://github.com/k3s-io/k3s",
+      "description": "Lightweight Kubernetes",
+      "repository": "k3s-io/k3s",
+      "homepage": "https://k3s.io",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "k3s-io/k3s"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Lightweight Kubernetes"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://k3s.io"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "kubernetes-the-hard-way",
+      "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+      "description": "Bootstrap Kubernetes the hard way. No scripts.",
+      "repository": "kelseyhightower/kubernetes-the-hard-way",
+      "homepage": "",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "kelseyhightower/kubernetes-the-hard-way"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Bootstrap Kubernetes the hard way. No scripts."
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "minikube",
+      "url": "https://github.com/kubernetes/minikube",
+      "description": "Run Kubernetes locally",
+      "repository": "kubernetes/minikube",
+      "homepage": "https://minikube.sigs.k8s.io/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "kubernetes/minikube"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Run Kubernetes locally"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://minikube.sigs.k8s.io/"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "portainer",
+      "url": "https://github.com/portainer/portainer",
+      "description": "Making Docker and Kubernetes management easy.",
+      "repository": "portainer/portainer",
+      "homepage": "https://www.portainer.io",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "portainer/portainer"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Making Docker and Kubernetes management easy."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://www.portainer.io"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Download Kubernetes | Kubernetes",
+      "url": "https://kubernetes.io/releases/download/",
+      "description": "Kubernetes ships binaries for each component as well as a standard set of client applications to bootstrap or interact with a cluster. Components like the API server are capable of running within container images inside of a cluster. Those components are also shipped in container images as part of the official release process. All binaries as well as container images are available for multiple operating systems as well as hardware architectures.",
+      "repository": "",
+      "homepage": "https://kubernetes.io/releases/download/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+          "field": "search_result",
+          "value": "https://kubernetes.io/releases/download/"
+        },
+        {
+          "url": "https://kubernetes.io/releases/download/",
+          "field": "title",
+          "value": "Download Kubernetes | Kubernetes"
+        }
+      ],
+      "score": -2,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "pypi",
+      "name": "kubernetes",
+      "url": "https://pypi.org/pypi/Kubernetes/json",
+      "description": "Kubernetes python client",
+      "repository": "kubernetes-client/python",
+      "homepage": "https://github.com/kubernetes-client/python",
+      "evidence": [
+        {
+          "url": "https://pypi.org/pypi/Kubernetes/json",
+          "field": "info.name",
+          "value": "kubernetes"
+        },
+        {
+          "url": "https://pypi.org/pypi/Kubernetes/json",
+          "field": "info.summary",
+          "value": "Kubernetes python client"
+        },
+        {
+          "url": "https://pypi.org/pypi/Kubernetes/json",
+          "field": "info.project_urls.Homepage",
+          "value": "https://github.com/kubernetes-client/python"
+        }
+      ],
+      "score": -2,
+      "reasons": [
+        "Exact normalized project-name match (+4)",
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@kubernetes-models/apimachinery",
+      "url": "https://registry.npmjs.org/@kubernetes-models%2Fapimachinery",
+      "description": "Types for Kubernetes API objects",
+      "repository": "tommy351/kubernetes-models-ts",
+      "homepage": "https://github.com/tommy351/kubernetes-models-ts/tree/master/packages/apimachinery",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@kubernetes-models%2Fapimachinery/latest",
+          "field": "name",
+          "value": "@kubernetes-models/apimachinery"
+        },
+        {
+          "url": "https://registry.npmjs.org/@kubernetes-models%2Fapimachinery/latest",
+          "field": "repository",
+          "value": "https://github.com/tommy351/kubernetes-models-ts.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@kubernetes-models%2Fapimachinery/latest",
+          "field": "description",
+          "value": "Types for Kubernetes API objects"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Kubernetes&size=5",
+          "field": "package.name",
+          "value": "@kubernetes-models/apimachinery"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "kubernetes-models",
+      "url": "https://registry.npmjs.org/kubernetes-models",
+      "description": "Kubernetes models",
+      "repository": "tommy351/kubernetes-models-ts",
+      "homepage": "https://github.com/tommy351/kubernetes-models-ts/tree/master/first-party/kubernetes-models",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/kubernetes-models/latest",
+          "field": "name",
+          "value": "kubernetes-models"
+        },
+        {
+          "url": "https://registry.npmjs.org/kubernetes-models/latest",
+          "field": "repository",
+          "value": "https://github.com/tommy351/kubernetes-models-ts.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/kubernetes-models/latest",
+          "field": "description",
+          "value": "Kubernetes models"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Kubernetes&size=5",
+          "field": "package.name",
+          "value": "kubernetes-models"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "kubernetes-types",
+      "url": "https://registry.npmjs.org/kubernetes-types",
+      "description": "TypeScript definitions of Kubernetes resource types",
+      "repository": "silverlyra/kubernetes-types",
+      "homepage": "https://github.com/silverlyra/kubernetes-types#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/kubernetes-types/latest",
+          "field": "name",
+          "value": "kubernetes-types"
+        },
+        {
+          "url": "https://registry.npmjs.org/kubernetes-types/latest",
+          "field": "repository",
+          "value": "git+https://github.com/silverlyra/kubernetes-types.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/kubernetes-types/latest",
+          "field": "description",
+          "value": "TypeScript definitions of Kubernetes resource types"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Kubernetes&size=5",
+          "field": "package.name",
+          "value": "kubernetes-types"
+        }
+      ],
+      "score": -10,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@backstage/plugin-kubernetes-common",
+      "url": "https://registry.npmjs.org/@backstage%2Fplugin-kubernetes-common",
+      "description": "Common functionalities for kubernetes, to be shared between kubernetes and kubernetes-backend plugin",
+      "repository": "backstage/backstage",
+      "homepage": "https://backstage.io",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@backstage%2Fplugin-kubernetes-common/latest",
+          "field": "name",
+          "value": "@backstage/plugin-kubernetes-common"
+        },
+        {
+          "url": "https://registry.npmjs.org/@backstage%2Fplugin-kubernetes-common/latest",
+          "field": "repository",
+          "value": "https://github.com/backstage/backstage"
+        },
+        {
+          "url": "https://registry.npmjs.org/@backstage%2Fplugin-kubernetes-common/latest",
+          "field": "description",
+          "value": "Common functionalities for kubernetes, to be shared between kubernetes and kubernetes-backend plugin"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Kubernetes&size=5",
+          "field": "package.name",
+          "value": "@backstage/plugin-kubernetes-common"
+        }
+      ],
+      "score": -18,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@kubernetes/client-node",
+      "url": "https://registry.npmjs.org/@kubernetes%2Fclient-node",
+      "description": "NodeJS client for kubernetes",
+      "repository": "kubernetes-client/javascript",
+      "homepage": "https://github.com/kubernetes-client/javascript#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@kubernetes%2Fclient-node/latest",
+          "field": "name",
+          "value": "@kubernetes/client-node"
+        },
+        {
+          "url": "https://registry.npmjs.org/@kubernetes%2Fclient-node/latest",
+          "field": "repository",
+          "value": "git+https://github.com/kubernetes-client/javascript.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@kubernetes%2Fclient-node/latest",
+          "field": "description",
+          "value": "NodeJS client for kubernetes"
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Kubernetes&size=5",
+          "field": "package.name",
+          "value": "@kubernetes/client-node"
+        }
+      ],
+      "score": -18,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    }
+  ],
+  "catalogs": [
+    {
+      "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases",
+      "source_type": "github_releases",
+      "releases": [
+        {
+          "version": "1.24.0",
+          "raw_version": "v1.24.0",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-05-03T20:43:53Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.0"
+        },
+        {
+          "version": "1.24.1",
+          "raw_version": "v1.24.1",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-05-26T03:31:07Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.1"
+        },
+        {
+          "version": "1.24.2",
+          "raw_version": "v1.24.2",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-06-17T03:43:42Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.2"
+        },
+        {
+          "version": "1.24.3",
+          "raw_version": "v1.24.3",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-07-13T19:58:07Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.3"
+        },
+        {
+          "version": "1.24.4",
+          "raw_version": "v1.24.4",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-08-17T23:07:59Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.4"
+        },
+        {
+          "version": "1.24.5",
+          "raw_version": "v1.24.5",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-09-14T20:44:58Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.5"
+        },
+        {
+          "version": "1.24.6",
+          "raw_version": "v1.24.6",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-09-21T16:50:49Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.6"
+        },
+        {
+          "version": "1.24.7",
+          "raw_version": "v1.24.7",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-10-13T17:19:17Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.7"
+        },
+        {
+          "version": "1.24.8",
+          "raw_version": "v1.24.8",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-11-10T17:40:53Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.8"
+        },
+        {
+          "version": "1.24.9",
+          "raw_version": "v1.24.9",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-12-08T18:14:25Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.9"
+        },
+        {
+          "version": "1.24.10",
+          "raw_version": "v1.24.10",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-01-19T17:16:48Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.10"
+        },
+        {
+          "version": "1.24.11",
+          "raw_version": "v1.24.11",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-02-28T20:34:33Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.11"
+        },
+        {
+          "version": "1.24.12",
+          "raw_version": "v1.24.12",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-03-17T17:23:16Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.12"
+        },
+        {
+          "version": "1.24.13",
+          "raw_version": "v1.24.13",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-04-12T19:20:27Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.13"
+        },
+        {
+          "version": "1.24.14",
+          "raw_version": "v1.24.14",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-05-17T23:53:16Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.14"
+        },
+        {
+          "version": "1.24.15",
+          "raw_version": "v1.24.15",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-06-14T18:12:24Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.15"
+        },
+        {
+          "version": "1.24.16",
+          "raw_version": "v1.24.16",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-07-19T21:20:11Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.16"
+        },
+        {
+          "version": "1.24.17",
+          "raw_version": "v1.24.17",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-08-24T04:04:54Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.17"
+        },
+        {
+          "version": "1.25.0",
+          "raw_version": "v1.25.0",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-08-23T21:27:47Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.0"
+        },
+        {
+          "version": "1.25.1",
+          "raw_version": "v1.25.1",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-09-15T14:42:21Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.1"
+        },
+        {
+          "version": "1.25.2",
+          "raw_version": "v1.25.2",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-09-21T20:18:10Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.2"
+        },
+        {
+          "version": "1.25.3",
+          "raw_version": "v1.25.3",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-10-13T17:16:00Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.3"
+        },
+        {
+          "version": "1.25.4",
+          "raw_version": "v1.25.4",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-11-10T17:02:29Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.4"
+        },
+        {
+          "version": "1.25.5",
+          "raw_version": "v1.25.5",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-12-08T17:40:24Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.5"
+        },
+        {
+          "version": "1.25.6",
+          "raw_version": "v1.25.6",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-01-19T00:59:55Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.6"
+        },
+        {
+          "version": "1.25.7",
+          "raw_version": "v1.25.7",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-02-28T22:05:52Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.7"
+        },
+        {
+          "version": "1.25.8",
+          "raw_version": "v1.25.8",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-03-17T18:00:45Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.8"
+        },
+        {
+          "version": "1.25.9",
+          "raw_version": "v1.25.9",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-04-12T18:38:00Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.9"
+        },
+        {
+          "version": "1.25.10",
+          "raw_version": "v1.25.10",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-05-18T00:47:41Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.10"
+        },
+        {
+          "version": "1.25.11",
+          "raw_version": "v1.25.11",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-06-14T19:06:18Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.11"
+        },
+        {
+          "version": "1.25.12",
+          "raw_version": "v1.25.12",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-07-19T20:39:27Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.12"
+        },
+        {
+          "version": "1.25.13",
+          "raw_version": "v1.25.13",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-08-24T04:07:13Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.13"
+        },
+        {
+          "version": "1.25.14",
+          "raw_version": "v1.25.14",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-09-13T21:03:07Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.14"
+        },
+        {
+          "version": "1.25.15",
+          "raw_version": "v1.25.15",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-10-18T16:20:06Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.15"
+        },
+        {
+          "version": "1.25.16",
+          "raw_version": "v1.25.16",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-11-16T11:30:38Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.16"
+        },
+        {
+          "version": "1.26.0",
+          "raw_version": "v1.26.0",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2022-12-09T04:00:59Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.0"
+        },
+        {
+          "version": "1.26.1",
+          "raw_version": "v1.26.1",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-01-18T21:14:47Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.1"
+        },
+        {
+          "version": "1.26.2",
+          "raw_version": "v1.26.2",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-02-28T23:09:55Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.2"
+        },
+        {
+          "version": "1.26.3",
+          "raw_version": "v1.26.3",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-03-17T19:20:24Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.3"
+        },
+        {
+          "version": "1.26.4",
+          "raw_version": "v1.26.4",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-04-12T17:55:54Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.4"
+        },
+        {
+          "version": "1.26.5",
+          "raw_version": "v1.26.5",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-05-17T21:55:19Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.5"
+        },
+        {
+          "version": "1.26.6",
+          "raw_version": "v1.26.6",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-06-14T20:31:05Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.6"
+        },
+        {
+          "version": "1.26.7",
+          "raw_version": "v1.26.7",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-07-19T19:54:38Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.7"
+        },
+        {
+          "version": "1.26.8",
+          "raw_version": "v1.26.8",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-08-24T05:35:47Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.8"
+        },
+        {
+          "version": "1.26.9",
+          "raw_version": "v1.26.9",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-09-13T20:17:17Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.9"
+        },
+        {
+          "version": "1.26.10",
+          "raw_version": "v1.26.10",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-10-18T15:47:07Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.10"
+        },
+        {
+          "version": "1.26.11",
+          "raw_version": "v1.26.11",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-11-15T20:43:58Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.11"
+        },
+        {
+          "version": "1.26.12",
+          "raw_version": "v1.26.12",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-12-20T13:27:00Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.12"
+        },
+        {
+          "version": "1.26.13",
+          "raw_version": "v1.26.13",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-01-17T19:42:17Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.13"
+        },
+        {
+          "version": "1.26.14",
+          "raw_version": "v1.26.14",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-02-14T16:07:53Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.14"
+        },
+        {
+          "version": "1.26.15",
+          "raw_version": "v1.26.15",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-03-14T16:24:57Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.15"
+        },
+        {
+          "version": "1.27.0",
+          "raw_version": "v1.27.0",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-04-11T19:27:46Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.0"
+        },
+        {
+          "version": "1.27.1",
+          "raw_version": "v1.27.1",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-04-14T16:21:18Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.1"
+        },
+        {
+          "version": "1.27.2",
+          "raw_version": "v1.27.2",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-05-17T21:55:39Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.2"
+        },
+        {
+          "version": "1.27.3",
+          "raw_version": "v1.27.3",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-06-14T21:36:39Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.3"
+        },
+        {
+          "version": "1.27.4",
+          "raw_version": "v1.27.4",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-07-19T19:02:18Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.4"
+        },
+        {
+          "version": "1.27.5",
+          "raw_version": "v1.27.5",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-08-24T09:28:07Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.5"
+        },
+        {
+          "version": "1.27.6",
+          "raw_version": "v1.27.6",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-09-13T18:20:37Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.6"
+        },
+        {
+          "version": "1.27.7",
+          "raw_version": "v1.27.7",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-10-18T15:16:00Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.7"
+        },
+        {
+          "version": "1.27.8",
+          "raw_version": "v1.27.8",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-11-15T20:05:57Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.8"
+        },
+        {
+          "version": "1.27.9",
+          "raw_version": "v1.27.9",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-12-20T11:14:33Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.9"
+        },
+        {
+          "version": "1.27.10",
+          "raw_version": "v1.27.10",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-01-17T19:40:02Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.10"
+        },
+        {
+          "version": "1.27.11",
+          "raw_version": "v1.27.11",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-02-14T15:51:57Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.11"
+        },
+        {
+          "version": "1.27.12",
+          "raw_version": "v1.27.12",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-03-15T19:26:37Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.12"
+        },
+        {
+          "version": "1.27.13",
+          "raw_version": "v1.27.13",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-04-16T19:33:16Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.13"
+        },
+        {
+          "version": "1.27.14",
+          "raw_version": "v1.27.14",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-05-15T08:02:18Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.14"
+        },
+        {
+          "version": "1.27.15",
+          "raw_version": "v1.27.15",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-06-11T23:01:10Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.15"
+        },
+        {
+          "version": "1.27.16",
+          "raw_version": "v1.27.16",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-07-17T07:48:27Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.16"
+        },
+        {
+          "version": "1.28.0",
+          "raw_version": "v1.28.0",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+          "source_type": "github_releases",
+          "published_at": "2023-08-15T17:00:03Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.0"
+        },
+        {
+          "version": "1.28.1",
+          "raw_version": "v1.28.1",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-08-24T13:58:23Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.1"
+        },
+        {
+          "version": "1.28.2",
+          "raw_version": "v1.28.2",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-09-13T18:06:30Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.2"
+        },
+        {
+          "version": "1.28.3",
+          "raw_version": "v1.28.3",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-10-18T14:36:22Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.3"
+        },
+        {
+          "version": "1.28.4",
+          "raw_version": "v1.28.4",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-11-15T19:43:03Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.4"
+        },
+        {
+          "version": "1.28.5",
+          "raw_version": "v1.28.5",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-12-20T13:23:37Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.5"
+        },
+        {
+          "version": "1.28.6",
+          "raw_version": "v1.28.6",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-01-17T19:40:09Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.6"
+        },
+        {
+          "version": "1.28.7",
+          "raw_version": "v1.28.7",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-02-14T15:49:40Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.7"
+        },
+        {
+          "version": "1.28.8",
+          "raw_version": "v1.28.8",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-03-15T18:53:33Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.8"
+        },
+        {
+          "version": "1.28.9",
+          "raw_version": "v1.28.9",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-04-16T20:44:54Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.9"
+        },
+        {
+          "version": "1.28.10",
+          "raw_version": "v1.28.10",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-05-14T21:56:56Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.10"
+        },
+        {
+          "version": "1.28.11",
+          "raw_version": "v1.28.11",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-06-11T23:48:05Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.11"
+        },
+        {
+          "version": "1.28.12",
+          "raw_version": "v1.28.12",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-07-17T10:52:04Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.12"
+        },
+        {
+          "version": "1.28.13",
+          "raw_version": "v1.28.13",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-08-15T02:04:06Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.13"
+        },
+        {
+          "version": "1.28.14",
+          "raw_version": "v1.28.14",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-09-11T13:56:41Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.14"
+        },
+        {
+          "version": "1.28.15",
+          "raw_version": "v1.28.15",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-10-23T04:35:01Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.15"
+        },
+        {
+          "version": "1.29.0",
+          "raw_version": "v1.29.0",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2023-12-13T16:34:20Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.0"
+        },
+        {
+          "version": "1.29.1",
+          "raw_version": "v1.29.1",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-01-17T19:37:29Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.1"
+        },
+        {
+          "version": "1.29.2",
+          "raw_version": "v1.29.2",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-02-14T18:01:57Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.2"
+        },
+        {
+          "version": "1.29.3",
+          "raw_version": "v1.29.3",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-03-15T20:15:39Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.3"
+        },
+        {
+          "version": "1.29.4",
+          "raw_version": "v1.29.4",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-04-16T21:41:11Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.4"
+        },
+        {
+          "version": "1.29.5",
+          "raw_version": "v1.29.5",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-05-15T06:41:30Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.5"
+        },
+        {
+          "version": "1.29.6",
+          "raw_version": "v1.29.6",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-06-12T03:42:42Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.6"
+        },
+        {
+          "version": "1.29.7",
+          "raw_version": "v1.29.7",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-07-17T07:26:10Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.7"
+        },
+        {
+          "version": "1.29.8",
+          "raw_version": "v1.29.8",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-08-15T01:15:29Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.8"
+        },
+        {
+          "version": "1.29.9",
+          "raw_version": "v1.29.9",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-09-12T00:21:51Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.9"
+        },
+        {
+          "version": "1.29.10",
+          "raw_version": "v1.29.10",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-10-23T04:37:33Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.10"
+        },
+        {
+          "version": "1.29.11",
+          "raw_version": "v1.29.11",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-11-20T23:36:18Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.11"
+        },
+        {
+          "version": "1.29.12",
+          "raw_version": "v1.29.12",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2024-12-10T19:34:30Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.12"
+        },
+        {
+          "version": "1.29.13",
+          "raw_version": "v1.29.13",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2025-01-15T21:51:33Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.13"
+        },
+        {
+          "version": "1.29.14",
+          "raw_version": "v1.29.14",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+          "source_type": "github_releases",
+          "published_at": "2025-02-13T08:29:21Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.14"
+        },
+        {
+          "version": "1.29.15",
+          "raw_version": "v1.29.15",
+          "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-03-12T00:36:03Z",
+          "yanked": false,
+          "record_url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.15"
+        }
+      ],
+      "enumeration_complete": true,
+      "warnings": [],
+      "skipped_labels": [
+        "v1.38.0-alpha.2",
+        "v1.38.0-alpha.1",
+        "v1.37.0-rc.1",
+        "v1.37.0-rc.0",
+        "v1.37.0-beta.0",
+        "v1.37.0-alpha.3",
+        "v1.37.0-alpha.2",
+        "v1.37.0-alpha.1",
+        "v1.36.0-rc.1",
+        "v1.36.0-rc.0",
+        "v1.36.0-beta.0",
+        "v1.36.0-alpha.2",
+        "v1.36.0-alpha.1",
+        "v1.35.0-rc.1",
+        "v1.35.0-rc.0",
+        "v1.35.0-beta.0",
+        "v1.35.0-alpha.3",
+        "v1.35.0-alpha.2",
+        "v1.35.0-alpha.1",
+        "v1.34.0-rc.2",
+        "v1.34.0-rc.1",
+        "v1.34.0-rc.0",
+        "v1.34.0-beta.0",
+        "v1.34.0-alpha.3",
+        "v1.34.0-alpha.2",
+        "v1.34.0-alpha.1",
+        "v1.33.0-rc.1",
+        "v1.33.0-rc.0",
+        "v1.33.0-beta.0",
+        "v1.33.0-alpha.3",
+        "v1.33.0-alpha.2",
+        "v1.33.0-alpha.1",
+        "v1.32.0-rc.2",
+        "v1.32.0-rc.1",
+        "v1.32.0-rc.0",
+        "v1.32.0-beta.0",
+        "v1.32.0-alpha.3",
+        "v1.32.0-alpha.2",
+        "v1.32.0-alpha.1",
+        "v1.31.0-rc.1",
+        "v1.31.0-rc.0",
+        "v1.31.0-beta.0",
+        "v1.31.0-alpha.3",
+        "v1.31.0-alpha.2",
+        "v1.31.0-alpha.1",
+        "v1.30.0-rc.2",
+        "v1.30.0-rc.1",
+        "v1.30.0-rc.0",
+        "v1.30.0-beta.0",
+        "v1.30.0-alpha.3",
+        "v1.30.0-alpha.2",
+        "v1.30.0-alpha.1",
+        "v1.29.0-rc.2",
+        "v1.29.0-rc.1",
+        "v1.29.0-rc.0",
+        "v1.29.0-alpha.3",
+        "v1.29.0-alpha.2",
+        "v1.29.0-alpha.1",
+        "v1.28.0-rc.1",
+        "v1.28.0-rc.0",
+        "v1.28.0-beta.0",
+        "v1.28.0-alpha.4",
+        "v1.28.0-alpha.3",
+        "v1.28.0-alpha.2",
+        "v1.28.0-alpha.1",
+        "v1.27.0-rc.1",
+        "v1.27.0-rc.0",
+        "v1.27.0-beta.0",
+        "v1.27.0-alpha.3",
+        "v1.27.0-alpha.2",
+        "v1.27.0-alpha.1",
+        "v1.26.0-rc.1",
+        "v1.26.0-rc.0",
+        "v1.26.0-beta.0",
+        "v1.26.0-alpha.3",
+        "v1.26.0-alpha.2",
+        "v1.26.0-alpha.1",
+        "v1.25.0-rc.1",
+        "v1.25.0-rc.0",
+        "v1.25.0-beta.0",
+        "v1.25.0-alpha.3",
+        "v1.25.0-alpha.2",
+        "v1.25.0-alpha.1",
+        "v1.24.0-rc.1",
+        "v1.24.0-rc.0",
+        "v1.24.0-beta.0",
+        "v1.24.0-alpha.4",
+        "v1.24.0-alpha.3",
+        "v1.24.0-alpha.2",
+        "v1.24.0-alpha.1",
+        "v1.23.0-rc.1",
+        "v1.23.0-rc.0",
+        "v1.23.0-beta.0",
+        "v1.23.0-alpha.4",
+        "v1.23.0-alpha.3",
+        "v1.23.0-alpha.2",
+        "v1.23.0-alpha.1",
+        "v1.22.0-rc.0",
+        "v1.22.0-beta.2",
+        "v1.22.0-beta.1",
+        "v1.22.0-beta.0",
+        "v1.22.0-alpha.3",
+        "v1.22.0-alpha.2",
+        "v1.22.0-alpha.1",
+        "v1.21.0-rc.0",
+        "v1.21.0-beta.1",
+        "v1.21.0-beta.0",
+        "v1.21.0-alpha.3",
+        "v1.21.0-alpha.2",
+        "v1.21.0-alpha.1",
+        "v1.20.0-rc.0",
+        "v1.20.0-beta.2",
+        "v1.20.0-beta.1",
+        "v1.20.0-beta.0",
+        "v1.20.0-alpha.3",
+        "v1.20.0-alpha.2",
+        "v1.20.0-alpha.1",
+        "v1.19.0-rc.4",
+        "v1.19.0-rc.3",
+        "v1.19.0-rc.2",
+        "v1.19.0-rc.1",
+        "v1.18.5-rc.1",
+        "v1.17.8-rc.1",
+        "v1.16.12-rc.1",
+        "v1.19.0-beta.2",
+        "v1.19.0-beta.1",
+        "v1.19.0-beta.0",
+        "v1.19.0-alpha.3",
+        "v1.19.0-alpha.2",
+        "v1.19.0-alpha.1",
+        "v1.18.0-rc.1",
+        "v1.18.0-beta.2",
+        "v1.18.0-beta.1",
+        "v1.18.0-alpha.5",
+        "v1.18.0-alpha.3",
+        "v1.18.0-alpha.2",
+        "v1.18.0-alpha.1",
+        "v1.17.0-rc.2",
+        "v1.17.0-rc.1",
+        "v1.17.0-beta.2",
+        "v1.17.0-beta.1",
+        "v1.17.0-alpha.3",
+        "v1.17.0-alpha.2",
+        "v1.17.0-alpha.1",
+        "v1.16.0-rc.2",
+        "v1.16.0-rc.1",
+        "v1.16.0-beta.2",
+        "v1.16.0-beta.1",
+        "v1.16.0-alpha.3",
+        "v1.16.0-alpha.2",
+        "v1.16.0-alpha.1",
+        "v1.15.0-rc.1",
+        "v1.15.0-beta.2",
+        "v1.15.0-beta.1",
+        "v1.15.0-alpha.3",
+        "v1.15.0-alpha.2",
+        "v1.15.0-alpha.1",
+        "v1.14.0-rc.1",
+        "v1.14.0-beta.2",
+        "v1.14.0-beta.1",
+        "v1.14.0-alpha.3",
+        "v1.14.0-alpha.2",
+        "v1.14.0-alpha.1",
+        "v1.13.0-rc.2",
+        "v1.13.0-rc.1",
+        "v1.13.0-beta.2",
+        "v1.13.0-beta.1",
+        "v1.13.0-alpha.3",
+        "v1.13.0-alpha.2",
+        "v1.13.0-alpha.1",
+        "v1.12.0-rc.2",
+        "v1.12.0-rc.1",
+        "v1.12.0-beta.2",
+        "v1.12.0-beta.1",
+        "v1.12.0-alpha.1",
+        "v1.11.0-rc.3",
+        "v1.11.0-rc.2",
+        "v1.11.0-rc.1",
+        "v1.11.0-beta.2",
+        "v1.11.0-beta.1",
+        "v1.11.0-alpha.2",
+        "v1.11.0-alpha.1",
+        "v1.10.0-rc.1",
+        "v1.10.0-beta.4",
+        "v1.10.0-beta.3",
+        "v1.10.0-beta.2",
+        "v1.10.0-beta.1",
+        "v1.10.0-alpha.3",
+        "v1.10.0-alpha.2",
+        "v1.10.0-alpha.1",
+        "v1.9.0-beta.2",
+        "v1.9.0-beta.1",
+        "v1.9.0-alpha.3",
+        "v1.9.0-alpha.2",
+        "v1.9.0-alpha.1",
+        "v1.8.0-rc.1",
+        "v1.8.0-beta.1",
+        "v1.8.0-alpha.3",
+        "v1.8.0-alpha.2",
+        "v1.7.0-rc.1",
+        "v1.8.0-alpha.1",
+        "v1.7.0-beta.2",
+        "v1.7.0-beta.1",
+        "v1.7.0-alpha.4",
+        "v1.7.0-alpha.3",
+        "v1.7.0-alpha.2",
+        "v1.7.0-alpha.1",
+        "v1.6.0-rc.1",
+        "v1.6.0-beta.4",
+        "v1.6.0-beta.3",
+        "v1.6.0-beta.2",
+        "v1.6.0-beta.1",
+        "v1.6.0-alpha.3",
+        "v1.6.0-alpha.2",
+        "v1.6.0-alpha.1",
+        "v1.5.0-beta.3",
+        "v1.5.0-beta.2",
+        "v1.5.0-beta.1",
+        "v1.5.0-alpha.2",
+        "v1.5.0-alpha.1",
+        "v1.4.2-beta.1",
+        "v1.4.1-beta.2",
+        "v1.4.0-beta.11",
+        "v1.4.0-beta.10",
+        "v1.4.0-beta.8",
+        "v1.4.0-beta.7",
+        "v1.4.0-beta.6",
+        "v1.4.0-beta.5",
+        "v1.4.0-beta.3",
+        "v1.4.0-beta.2",
+        "v1.4.0-beta.1",
+        "v1.4.0-alpha.3",
+        "v1.4.0-alpha.2",
+        "v1.4.0-alpha.1",
+        "v1.3.0-beta.3",
+        "v1.3.0-beta.2",
+        "v1.3.0-beta.1",
+        "v1.3.0-alpha.5",
+        "v1.3.0-alpha.4",
+        "v1.3.0-alpha.3",
+        "v1.3.0-alpha.2",
+        "v1.3.0-alpha.1",
+        "v1.2.0-beta.1",
+        "v1.2.0-beta.0",
+        "v1.2.0-alpha.8",
+        "v1.2.0-alpha.7",
+        "v1.2.0-alpha.6",
+        "v1.2.0-alpha.5",
+        "v1.2.0-alpha.4",
+        "v1.2.0-alpha.3",
+        "v1.1.1-beta.1",
+        "v1.2.0-alpha.2",
+        "v1.2.0-alpha.1",
+        "v1.0.5",
+        "v1.1.0-alpha.1",
+        "v1.0.2",
+        "v1.0.0",
+        "v0.21.2",
+        "v0.21.0",
+        "v0.20.1",
+        "v0.20.0",
+        "v0.19.1",
+        "v0.19.0",
+        "v0.18.0",
+        "v0.16.2",
+        "v0.16.1",
+        "v0.13.1",
+        "v0.13.0",
+        "v0.12.2",
+        "v0.12.1",
+        "v0.12.0",
+        "v0.10.0",
+        "v0.9.1",
+        "v0.9.0",
+        "v0.7.4",
+        "v0.7.3",
+        "v0.6.0",
+        "v0.5.2",
+        "v0.5.1",
+        "v0.5"
+      ]
+    },
+    {
+      "source_url": "https://kubernetes.io/releases/",
+      "source_type": "html_release_index",
+      "releases": [
+        {
+          "version": "1.24",
+          "raw_version": "1.24",
+          "source_url": "https://kubernetes.io/releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.24/"
+        },
+        {
+          "version": "1.25",
+          "raw_version": "1.25",
+          "source_url": "https://kubernetes.io/releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.25/"
+        },
+        {
+          "version": "1.26",
+          "raw_version": "1.26",
+          "source_url": "https://kubernetes.io/releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.26/"
+        },
+        {
+          "version": "1.27",
+          "raw_version": "1.27",
+          "source_url": "https://kubernetes.io/releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.27/"
+        },
+        {
+          "version": "1.28",
+          "raw_version": "1.28",
+          "source_url": "https://kubernetes.io/releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.28/"
+        },
+        {
+          "version": "1.29",
+          "raw_version": "1.29",
+          "source_url": "https://kubernetes.io/releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.29/"
+        }
+      ],
+      "enumeration_complete": false,
+      "warnings": [
+        "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+      ],
+      "skipped_labels": []
+    },
+    {
+      "source_url": "https://kubernetes.io/releases/notes/",
+      "source_type": "html_release_index",
+      "releases": [
+        {
+          "version": "1.24",
+          "raw_version": "1.24",
+          "source_url": "https://kubernetes.io/bn/releases/_print/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.24/"
+        },
+        {
+          "version": "1.25",
+          "raw_version": "1.25",
+          "source_url": "https://kubernetes.io/bn/releases/_print/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.25/"
+        },
+        {
+          "version": "1.26",
+          "raw_version": "1.26",
+          "source_url": "https://kubernetes.io/bn/releases/_print/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.26/"
+        },
+        {
+          "version": "1.27",
+          "raw_version": "1.27",
+          "source_url": "https://kubernetes.io/bn/releases/_print/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.27/"
+        },
+        {
+          "version": "1.28",
+          "raw_version": "1.28",
+          "source_url": "https://kubernetes.io/bn/releases/_print/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.28/"
+        },
+        {
+          "version": "1.29",
+          "raw_version": "1.29",
+          "source_url": "https://kubernetes.io/bn/releases/_print/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.29/"
+        }
+      ],
+      "enumeration_complete": false,
+      "warnings": [
+        "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+      ],
+      "skipped_labels": []
+    },
+    {
+      "source_url": "https://kubernetes.io/releases/patch-releases/",
+      "source_type": "html_release_index",
+      "releases": [
+        {
+          "version": "1.24",
+          "raw_version": "1.24",
+          "source_url": "https://kubernetes.io/releases/patch-releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.24/"
+        },
+        {
+          "version": "1.25",
+          "raw_version": "1.25",
+          "source_url": "https://kubernetes.io/releases/patch-releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.25/"
+        },
+        {
+          "version": "1.26",
+          "raw_version": "1.26",
+          "source_url": "https://kubernetes.io/releases/patch-releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.26/"
+        },
+        {
+          "version": "1.27",
+          "raw_version": "1.27",
+          "source_url": "https://kubernetes.io/releases/patch-releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.27/"
+        },
+        {
+          "version": "1.28",
+          "raw_version": "1.28",
+          "source_url": "https://kubernetes.io/releases/patch-releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.28/"
+        },
+        {
+          "version": "1.29",
+          "raw_version": "1.29",
+          "source_url": "https://kubernetes.io/releases/patch-releases/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://kubernetes.io/releases/1.29/"
+        }
+      ],
+      "enumeration_complete": false,
+      "warnings": [
+        "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+      ],
+      "skipped_labels": []
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.24",
+      "raw_version": "1.24",
+      "source_url": "https://kubernetes.io/bn/releases/_print/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://kubernetes.io/releases/1.24/"
+    },
+    {
+      "version": "1.25",
+      "raw_version": "1.25",
+      "source_url": "https://kubernetes.io/bn/releases/_print/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://kubernetes.io/releases/1.25/"
+    },
+    {
+      "version": "1.26",
+      "raw_version": "1.26",
+      "source_url": "https://kubernetes.io/bn/releases/_print/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://kubernetes.io/releases/1.26/"
+    },
+    {
+      "version": "1.27",
+      "raw_version": "1.27",
+      "source_url": "https://kubernetes.io/bn/releases/_print/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://kubernetes.io/releases/1.27/"
+    },
+    {
+      "version": "1.28",
+      "raw_version": "1.28",
+      "source_url": "https://kubernetes.io/bn/releases/_print/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://kubernetes.io/releases/1.28/"
+    },
+    {
+      "version": "1.29",
+      "raw_version": "1.29",
+      "source_url": "https://kubernetes.io/bn/releases/_print/",
+      "source_type": "html_release_index",
+      "published_at": null,
+      "yanked": false,
+      "record_url": "https://kubernetes.io/releases/1.29/"
+    }
+  ],
+  "documentation_milestones": [
+    "1.24",
+    "1.25",
+    "1.26",
+    "1.27",
+    "1.28",
+    "1.29"
+  ],
+  "endpoint_checks": {
+    "current_found": true,
+    "target_found": true
+  },
+  "coverage": {
+    "identity": "resolved_by_heuristics",
+    "catalog": "partial",
+    "discovery": "bounded_search",
+    "source_selection": "selected",
+    "publication": "catalog_records"
+  },
+  "warnings": [
+    "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+    "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+    "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+  ],
+  "open_questions": [],
+  "source_inventory": [
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:38:28.307951+00:00",
+      "content_sha256": "f78a410c752d4c2859ac69be6f2f004fb1389c7e58b8487d3753855be0a86083",
+      "from_cache": true,
+      "source_id": "source_3bfc0b957961"
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=1",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=1",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:17.694816+00:00",
+      "content_sha256": "79ed63f88579c0c2f86b272f23ba6e6a83f6b40692bc22002a5faaf99c39ca10",
+      "from_cache": true,
+      "source_id": "source_d80b22826eff"
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=2",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:18.042272+00:00",
+      "content_sha256": "eef07536101b3c4c75fa0135d362357036ba0e610359e2a2fc999f4250e6b046",
+      "from_cache": true,
+      "source_id": "source_9e0aecc5f65e"
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=3",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:18.450934+00:00",
+      "content_sha256": "3975eb2dade19db83fbccadc520364e40f9f9f884545f8044b608495d7b08eaa",
+      "from_cache": true,
+      "source_id": "source_7ad5859b619f"
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=4",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=4",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:18.885150+00:00",
+      "content_sha256": "317c66af19f45f4e00f6fbc447738af27e89e811cb6a2a55a383475b90cfd52c",
+      "from_cache": true,
+      "source_id": "source_c8f415ffc350"
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=5",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=5",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:19.243776+00:00",
+      "content_sha256": "a1c3408bb8fa4ecbf14cc3b1c7c318622dbb930efe7009963d782a24926196a6",
+      "from_cache": true,
+      "source_id": "source_3b67d3a304a4"
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=6",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=6",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:19.598264+00:00",
+      "content_sha256": "c78eeca8809c0d1438cb5393ee5fe8e394e3c80ddb20063884cdc7887385dbf2",
+      "from_cache": true,
+      "source_id": "source_6701e9d5a213"
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=7",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=7",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:19.883142+00:00",
+      "content_sha256": "31ec98d78eb1c68be5df5c4ccdf89a5b9fe7a418fa509b2c1700c447f763e293",
+      "from_cache": true,
+      "source_id": "source_c0070b0a7fdd"
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=8",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=8",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:20.251062+00:00",
+      "content_sha256": "8d09e73736ef8035a0ef208e80ff393db1ca702a1f7b991903ac4ca8ceec63f6",
+      "from_cache": true,
+      "source_id": "source_1fd9f7306853"
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=9",
+      "final_url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100&page=9",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:20.497165+00:00",
+      "content_sha256": "aa99551ad2a1d37339e77eb00810a09f560bb80bfbee2ff703975fc0ca4040ae",
+      "from_cache": true,
+      "source_id": "source_0233cc3af21d"
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+      "final_url": "https://api.github.com/search/repositories?q=%22Kubernetes%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:17.015681+00:00",
+      "content_sha256": "5e15150de03a8f8359ea6b090bbde89db2bc65d6b55878ed4dede275ca9428d9",
+      "from_cache": true,
+      "source_id": "source_c053ccb5655b"
+    },
+    {
+      "url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+      "final_url": "https://html.duckduckgo.com/html/?q=%22Kubernetes%22+official+releases+1.23+to+1.29",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:41.667588+00:00",
+      "content_sha256": "9aa62a0d47c48e1424c5fb6996cab2eb226779e3c64588c8cd51b236b4de8cc3",
+      "from_cache": true,
+      "source_id": "source_431ad5b0fc32"
+    },
+    {
+      "url": "https://kubernetes.io",
+      "final_url": "https://kubernetes.io",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:17.441210+00:00",
+      "content_sha256": "2f822b62e8791b850ef687451450acd617d84a6d52e55fd6f941743097911592",
+      "from_cache": true,
+      "source_id": "source_a6cea4f934d8"
+    },
+    {
+      "url": "https://kubernetes.io/bn/releases",
+      "final_url": "https://kubernetes.io/bn/releases/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:43.998717+00:00",
+      "content_sha256": "0dd9750b4bc25f2b0ad3a4c9f29a5a3304be9530207706075db290ab724733f1",
+      "from_cache": true,
+      "source_id": "source_efa8236419ee"
+    },
+    {
+      "url": "https://kubernetes.io/bn/releases/",
+      "final_url": "https://kubernetes.io/bn/releases/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:44.033280+00:00",
+      "content_sha256": "0dd9750b4bc25f2b0ad3a4c9f29a5a3304be9530207706075db290ab724733f1",
+      "from_cache": true,
+      "source_id": "source_2379040e65f7"
+    },
+    {
+      "url": "https://kubernetes.io/bn/releases/1.23/",
+      "final_url": "https://kubernetes.io/bn/releases/1.23/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:42.379235+00:00",
+      "content_sha256": "fa2f941c70ee77dec00e8d48ae02de4fa2fd3e0f1b725f0faa67cfd5c589f949",
+      "from_cache": true,
+      "source_id": "source_2d2e2f69d59e"
+    },
+    {
+      "url": "https://kubernetes.io/bn/releases/1.23/_print/",
+      "final_url": "https://kubernetes.io/bn/releases/1.23/_print/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:42.588660+00:00",
+      "content_sha256": "cdf4b3584ff0c16b3190b71e0bc00b46f7707283fd1701577d01c4834c58e4e6",
+      "from_cache": true,
+      "source_id": "source_752e2f01b93c"
+    },
+    {
+      "url": "https://kubernetes.io/bn/releases/_print/",
+      "final_url": "https://kubernetes.io/bn/releases/_print/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:44.331607+00:00",
+      "content_sha256": "699226b1b626808f78fc52cae17e3eaee75afcd5482a8a1946fef40bcb939a1a",
+      "from_cache": true,
+      "source_id": "source_6053151bac41"
+    },
+    {
+      "url": "https://kubernetes.io/bn/releases/notes/",
+      "final_url": "https://kubernetes.io/bn/releases/notes/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:43.719001+00:00",
+      "content_sha256": "2bf836ec28e1196da1a5a330461ee4b4e4e536403e3ddfc4983213cc555aa399",
+      "from_cache": true,
+      "source_id": "source_b881afa32a94"
+    },
+    {
+      "url": "https://kubernetes.io/de/releases/1.23/",
+      "final_url": "https://kubernetes.io/de/releases/1.23/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:42.641866+00:00",
+      "content_sha256": "9003652923f50ba34e2e9f10c211b6bce8d18bf2de6b5a3b233e60e5100e9cd5",
+      "from_cache": true,
+      "source_id": "source_e521f43bfa17"
+    },
+    {
+      "url": "https://kubernetes.io/de/releases/1.23/_print/",
+      "final_url": "https://kubernetes.io/de/releases/1.23/_print/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:42.896180+00:00",
+      "content_sha256": "759549db2782d2d6705d4460aa0f239c0232174d49d327a3d21bab6ce1be0c3a",
+      "from_cache": true,
+      "source_id": "source_383c293497f8"
+    },
+    {
+      "url": "https://kubernetes.io/es/releases/1.23/",
+      "final_url": "https://kubernetes.io/es/releases/1.23/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:43.203922+00:00",
+      "content_sha256": "6e4dfc4036c57bf360ebe39fa55ab7f1f925d0450be9efac9f46f98280a7cd81",
+      "from_cache": true,
+      "source_id": "source_751a92498846"
+    },
+    {
+      "url": "https://kubernetes.io/es/releases/1.23/_print/",
+      "final_url": "https://kubernetes.io/es/releases/1.23/_print/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:43.427201+00:00",
+      "content_sha256": "906fc122138e353b5a734805d981cc060a30618537acf16ac459bf2f176d0e57",
+      "from_cache": true,
+      "source_id": "source_214a99154671"
+    },
+    {
+      "url": "https://kubernetes.io/releases/",
+      "final_url": "https://kubernetes.io/releases/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:41.798461+00:00",
+      "content_sha256": "e8548d8015f62af4ee2dea6610a88898fad44a2cf3165c9ec4b79d23834aa507",
+      "from_cache": true,
+      "source_id": "source_24c5e5e15e1b"
+    },
+    {
+      "url": "https://kubernetes.io/releases/1.23/",
+      "final_url": "https://kubernetes.io/releases/1.23/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:42.323249+00:00",
+      "content_sha256": "546ee3e139506863c394aebda76f749de643d42801265a8deddb4474cdd3cf10",
+      "from_cache": true,
+      "source_id": "source_0a5d9e2b4a0c"
+    },
+    {
+      "url": "https://kubernetes.io/releases/download/",
+      "final_url": "https://kubernetes.io/releases/download/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:41.879450+00:00",
+      "content_sha256": "9c2761d52454b7bb2d64396192ab704654d697f0c1fb6609e5a6486b20ff0a2f",
+      "from_cache": true,
+      "source_id": "source_b978332dac14"
+    },
+    {
+      "url": "https://kubernetes.io/releases/notes/",
+      "final_url": "https://kubernetes.io/releases/notes/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:42.047669+00:00",
+      "content_sha256": "2a3985ebc36d4a1d58ba4451c75a0f046b85ebc64894b66bf1b7677627f61ed1",
+      "from_cache": true,
+      "source_id": "source_41a7f1ff7e62"
+    },
+    {
+      "url": "https://kubernetes.io/releases/patch-releases/",
+      "final_url": "https://kubernetes.io/releases/patch-releases/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:41.966817+00:00",
+      "content_sha256": "36ba52ed36ce52da23471b1b1c2cf6209ba4b74171e26411be681a35c5a35416",
+      "from_cache": true,
+      "source_id": "source_0ef7033694bd"
+    },
+    {
+      "url": "https://kubernetes.io/releases/patch-releases/#upcoming-monthly-releases",
+      "final_url": "https://kubernetes.io/releases/patch-releases/#upcoming-monthly-releases",
+      "status": 200,
+      "retrieved_at": "2026-10-09T05:04:42.192050+00:00",
+      "content_sha256": "36ba52ed36ce52da23471b1b1c2cf6209ba4b74171e26411be681a35c5a35416",
+      "from_cache": true,
+      "source_id": "source_0be3022cae50"
+    },
+    {
+      "url": "https://pypi.org/pypi/Kubernetes/json",
+      "final_url": "https://pypi.org/pypi/Kubernetes/json",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:15.268425+00:00",
+      "content_sha256": "269d18c8d12908a46aa0bc98365c4821ccd5346af9c003e2756a5e7733870245",
+      "from_cache": true,
+      "source_id": "source_b7eb98b820ef"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/v1/search?text=Kubernetes&size=5",
+      "final_url": "https://registry.npmjs.org/-/v1/search?text=Kubernetes&size=5",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:15.615782+00:00",
+      "content_sha256": "fbd5ed84a2f35577d0ef0e89de4d6d2f9ffcd1ef8541b2ee021b444160267a0e",
+      "from_cache": true,
+      "source_id": "source_2215f52fd38f"
+    },
+    {
+      "url": "https://registry.npmjs.org/@backstage%2Fplugin-kubernetes-common/latest",
+      "final_url": "https://registry.npmjs.org/@backstage%2Fplugin-kubernetes-common/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:16.399215+00:00",
+      "content_sha256": "aca62d6caa663fe4de57fedf412dd792b02068d3dbb6af899f09e985a016295b",
+      "from_cache": true,
+      "source_id": "source_cefb7f77cbfc"
+    },
+    {
+      "url": "https://registry.npmjs.org/@kubernetes%2Fclient-node/latest",
+      "final_url": "https://registry.npmjs.org/@kubernetes%2Fclient-node/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:15.945980+00:00",
+      "content_sha256": "b305aa90254c9b19e1b1b3f1c10b71bcc5ff7e3cbffc84acb0767ca4a67f7b65",
+      "from_cache": true,
+      "source_id": "source_00a9738bf81e"
+    },
+    {
+      "url": "https://registry.npmjs.org/@kubernetes-models%2Fapimachinery/latest",
+      "final_url": "https://registry.npmjs.org/@kubernetes-models%2Fapimachinery/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:16.604313+00:00",
+      "content_sha256": "5cdb7a981c50a5ae854d16aa5d56473807cdd49eb21138ee712034552d38dacd",
+      "from_cache": true,
+      "source_id": "source_6e9ae69a7352"
+    },
+    {
+      "url": "https://registry.npmjs.org/kubernetes-models/latest",
+      "final_url": "https://registry.npmjs.org/kubernetes-models/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:16.195061+00:00",
+      "content_sha256": "03f4cd71ca3c96b5435dd021ad848b24a3c818659026b1fdbf81bf7f861aa2f1",
+      "from_cache": true,
+      "source_id": "source_096ffa3fc4cc"
+    },
+    {
+      "url": "https://registry.npmjs.org/kubernetes-types/latest",
+      "final_url": "https://registry.npmjs.org/kubernetes-types/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:35:15.784842+00:00",
+      "content_sha256": "8b779eb406c466fbe4e764c05fa95bbc5a59928a740650f6b830044b9cfb7c13",
+      "from_cache": true,
+      "source_id": "source_50dfbb26a0dd"
+    },
+    {
+      "url": "https://registry.npmjs.org/kubernetes/latest",
+      "final_url": "https://registry.npmjs.org/kubernetes/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T02:38:28.087093+00:00",
+      "content_sha256": "85db627372aa6c754419cc1abbcb2f3c3b5dd729c2e73a953df3bbad10fbe138",
+      "from_cache": true,
+      "source_id": "source_0faf277eb82c"
+    }
+  ],
+  "llm_calls": 0,
+  "catalog_coverage": [
+    {
+      "source_url": "https://api.github.com/repos/kubernetes/kubernetes/releases",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 100,
+      "granularity": "detailed_releases",
+      "detailed_version_count": 100,
+      "enumeration_complete": true,
+      "matching_observed_catalogs": []
+    },
+    {
+      "source_url": "https://kubernetes.io/releases/",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 6,
+      "granularity": "endpoint_precision_only",
+      "detailed_version_count": 0,
+      "enumeration_complete": false,
+      "matching_observed_catalogs": [
+        "https://kubernetes.io/releases/notes/",
+        "https://kubernetes.io/releases/patch-releases/"
+      ]
+    },
+    {
+      "source_url": "https://kubernetes.io/releases/notes/",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 6,
+      "granularity": "endpoint_precision_only",
+      "detailed_version_count": 0,
+      "enumeration_complete": false,
+      "matching_observed_catalogs": [
+        "https://kubernetes.io/releases/",
+        "https://kubernetes.io/releases/patch-releases/"
+      ]
+    },
+    {
+      "source_url": "https://kubernetes.io/releases/patch-releases/",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 6,
+      "granularity": "endpoint_precision_only",
+      "detailed_version_count": 0,
+      "enumeration_complete": false,
+      "matching_observed_catalogs": [
+        "https://kubernetes.io/releases/",
+        "https://kubernetes.io/releases/notes/"
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "heuristic",
+    "tie_break_order": [
+      "web_search",
+      "github",
+      "registry",
+      "other"
+    ],
+    "note": "Source preference breaks equal scores; it is not ownership evidence."
+  },
+  "selected_catalog": "https://kubernetes.io/releases/notes/",
+  "network_requests": 0
+}

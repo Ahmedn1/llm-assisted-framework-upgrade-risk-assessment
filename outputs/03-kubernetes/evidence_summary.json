@@ -1,0 +1,3545 @@
+{
+  "project": "Kubernetes",
+  "upgrade": "1.23_to_1.29",
+  "evidence_summary": {
+    "high_confidence_risks": [
+      {
+        "path_id": "flow_control_manifests_or_clients_still_use_flowcontrol_apis",
+        "path_name": "Flow control manifests or clients still use flowcontrol.apiserver.k8s.io/v1beta1",
+        "risk_type": "removed_api",
+        "risk_level": "critical",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "aggregated_api_storage_migration_fails_when_resourceversion",
+        "path_name": "Aggregated API storage migration fails when resourceVersion is not preserved",
+        "risk_type": "operational_risk",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "control_plane_image_availability_required_for_upgrade_to_kub",
+        "path_name": "Control plane image availability required for upgrade to Kubernetes 1.24-1.29",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "cronjob_manifests_or_clients_still_use_batch_v1beta1",
+        "path_name": "CronJob manifests or clients still use batch/v1beta1",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "csistoragecapacity_manifests_or_clients_still_use_storage_k8",
+        "path_name": "CSIStorageCapacity manifests or clients still use storage.k8s.io/v1beta1 on 1.27+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "csistoragecapacity_objects_use_removed_storage_k8s_io_v1beta",
+        "path_name": "CSIStorageCapacity objects use removed storage.k8s.io/v1beta1 API",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "device_plugins_must_support_both_versions_before_node_upgrad",
+        "path_name": "Device plugins must support both versions before node upgrade",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "direct_docker_engine_integration_removed",
+        "path_name": "Direct Docker Engine integration removed",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_6d9f6a88c00951a6"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "docker_container_stats_monitor_stops_working_after_dockershi",
+        "path_name": "docker-container-stats monitor stops working after dockershim removal",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_6d9f6a88c00951a6"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "endpointslice_clients_still_using_discovery_k8s_io_v1beta1_b",
+        "path_name": "EndpointSlice clients still using discovery.k8s.io/v1beta1 break when upgrading to Kubernetes 1.25+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "event_creation_fails_or_is_invalid_if_reportinginstance_is_m",
+        "path_name": "Event creation fails or is invalid if reportingInstance is missing",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "flowschema_manifests_or_clients_still_using_v1beta2_break_on",
+        "path_name": "FlowSchema manifests or clients still using v1beta2 break on Kubernetes 1.29",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "hpa_manifests_or_clients_still_use_autoscaling_v2beta1",
+        "path_name": "HPA manifests or clients still use autoscaling/v2beta1",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "hpa_manifests_still_use_targetaverageutilization_without_the",
+        "path_name": "HPA manifests still use targetAverageUtilization without the required target.type structure on Kubernetes 1.26+",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "linux_node_upgrade_requires_cgroups_v2_support_for_kubelet_d",
+        "path_name": "Linux node upgrade requires cgroups v2 support for kubelet default change",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "objects_not_re_fetched_and_rewritten_using_the_latest_suppor",
+        "path_name": "Objects not re-fetched and rewritten using the latest supported API before upgrading",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "poddisruptionbudget_manifests_still_use_policy_v1beta1_when",
+        "path_name": "PodDisruptionBudget manifests still use policy/v1beta1 when upgrading past 1.25",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "podsecuritypolicy_manifests_still_use_policy_v1beta1_when_up",
+        "path_name": "PodSecurityPolicy manifests still use policy/v1beta1 when upgrading past 1.25",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "prioritylevelconfiguration_manifests_or_clients_still_use_fl",
+        "path_name": "PriorityLevelConfiguration manifests or clients still use flowcontrol.apiserver.k8s.io/v1beta2 at 1.29",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "prioritylevelconfiguration_uses_renamed_assuredconcurrencysh",
+        "path_name": "PriorityLevelConfiguration uses renamed assuredConcurrencyShares field",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "removed_flowcontrol_apiserver_k8s_io_v1beta2_api_for_flowsch",
+        "path_name": "Removed flowcontrol.apiserver.k8s.io/v1beta2 API for FlowSchema and PriorityLevelConfiguration",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "storageversionmigration_manifests_must_use_storagemigration",
+        "path_name": "StorageVersionMigration manifests must use storagemigration.k8s.io/v1 on Kubernetes 1.24+",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_events_k8s_io_v1beta1_event_api_breaks_at_kubernetes",
+        "path_name": "Use of events.k8s.io/v1beta1 Event API breaks at Kubernetes 1.25+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_source_component_in_new_events_k8s_io_v1_events_break",
+        "path_name": "Use of source.component in new events.k8s.io/v1 Events breaks on Kubernetes 1.25+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "commands_that_shell_out_to_docker_cli_stop_working_after_swi",
+        "path_name": "Commands that shell out to Docker CLI stop working after switching away from Docker Engine",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_6d9f6a88c00951a6"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "container_allowprivilegeescalation_field_requires_review_dur",
+        "path_name": "Container allowPrivilegeEscalation field requires review during upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_798ad4ef0b7b4091"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "control_plane_upgrade_requires_etcd_to_be_updated_first",
+        "path_name": "Control plane upgrade requires etcd to be updated first",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "controller_leader_migration_configuration_must_be_updated_fo",
+        "path_name": "Controller leader migration configuration must be updated for cloud-controller-manager ownership",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "graceful_kube_apiserver_shutdown_required_during_upgrade",
+        "path_name": "Graceful kube-apiserver shutdown required during upgrade",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "in_flight_server_requests_stall_during_etcd_static_pod_resta",
+        "path_name": "In-flight server requests stall during etcd static pod restart",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "leader_migration_must_be_enabled_during_the_controller_manag",
+        "path_name": "Leader migration must be enabled during the controller-manager handoff",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "pod_or_workload_still_mounts_etc_leadermigration_conf",
+        "path_name": "Pod or workload still mounts /etc/leadermigration.conf",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "pods_use_spec_runtimeclassname_and_relied_on_psp_set_configu",
+        "path_name": "Pods use .spec.runtimeClassName and relied on PSP-set configuration that must be preserved during the policy rollout",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_798ad4ef0b7b4091"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "rollback_from_n_1_to_n_requires_restoring_version_n_nodes_wi",
+        "path_name": "Rollback from N+1 to N requires restoring version-N nodes with Leader Migration enabled",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "static_pod_manifests_rewritten_during_control_plane_upgrade",
+        "path_name": "Static Pod manifests rewritten during control plane upgrade",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "storage_migration_requires_integer_resourceversion",
+        "path_name": "Storage migration requires integer resourceVersion",
+        "risk_type": "runtime_requirement",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      },
+      {
+        "path_id": "storageversionmigrator_requires_enabling_the_feature_gate_af",
+        "path_name": "StorageVersionMigrator requires enabling the feature gate after upgrading",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement"
+        ]
+      }
+    ],
+    "medium_confidence_risks": [
+      {
+        "path_id": "cloud_controller_manager_not_updated_to_mount_leader_migrati",
+        "path_name": "Cloud-controller-manager not updated to mount leader migration config",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "controllers_are_not_migrated_to_leader_migration_without_the",
+        "path_name": "Controllers are not migrated to leader migration without the migration config flag on controller managers",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "crd_storage_version_still_set_to_v1_during_upgrade_to_kubern",
+        "path_name": "CRD storage version still set to v1 during upgrade to Kubernetes 1.24+",
+        "risk_type": "data_migration",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "cronjob_manifests_or_clients_still_use_batch_v1beta1_2",
+        "path_name": "CronJob manifests or clients still use batch/v1beta1",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "csistoragecapacity_beta_api_removed_by_v1_27",
+        "path_name": "CSIStorageCapacity beta API removed by v1.27",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "custom_integrations_and_controllers_still_call_deprecated_ap",
+        "path_name": "Custom integrations and controllers still call deprecated APIs during 1.23 -> 1.29 upgrade",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "deprecated_api_versions_removed_in_v1_25",
+        "path_name": "Deprecated API versions removed in v1.25",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "deprecated_api_versions_removed_in_v1_26",
+        "path_name": "Deprecated API versions removed in v1.26",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "empty_poddisruptionbudget_selector_selects_all_pods_in_names",
+        "path_name": "Empty PodDisruptionBudget selector selects all pods in namespace in policy/v1",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "endpointslice_manifests_or_clients_still_use_discovery_k8s_i",
+        "path_name": "EndpointSlice manifests or clients still use discovery.k8s.io/v1beta1",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "event_creation_fails_or_produces_invalid_events_when_reporti",
+        "path_name": "Event creation fails or produces invalid events when reportingController is missing",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "event_manifests_or_clients_still_use_events_k8s_io_v1beta1",
+        "path_name": "Event manifests or clients still use events.k8s.io/v1beta1",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "events_api_firsttimestamp_field_renamed_to_deprecatedfirstti",
+        "path_name": "Events API firstTimestamp field renamed to deprecatedFirstTimestamp in v1 Events",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "flow_control_beta_api_removed_by_v1_29",
+        "path_name": "Flow control beta API removed by v1.29",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "glusterfs_dependency_removed_during_upgrade",
+        "path_name": "GlusterFS dependency removed during upgrade",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_621858c70e9fc2ac",
+          "doc_a0b95a1dbd591fbf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "involved in a conflict it won: c06",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "horizontalpodautoscaler_manifests_or_clients_still_use_autos",
+        "path_name": "HorizontalPodAutoscaler manifests or clients still use autoscaling/v2beta2 when upgrading to Kubernetes 1.26+",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "horizontalpodautoscaler_manifests_still_use_autoscaling_v2be",
+        "path_name": "HorizontalPodAutoscaler manifests still use autoscaling/v2beta1 after upgrade",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "horizontalpodautoscaler_manifests_still_using_autoscaling_v2",
+        "path_name": "HorizontalPodAutoscaler manifests still using autoscaling/v2beta2",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "hpa_manifests_still_use_targetaverageutilization_after_upgra",
+        "path_name": "HPA manifests still use targetAverageUtilization after upgrading to Kubernetes 1.25+",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "kubelet_metrics_collection_requires_enabling_the_replacement",
+        "path_name": "Kubelet metrics collection requires enabling the replacement monitor",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_6d9f6a88c00951a6"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "kubernetes_version_skew_policy_blocks_unsupported_upgrade_co",
+        "path_name": "Kubernetes version-skew policy blocks unsupported upgrade combinations",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "leader_migration_config_not_mounted_into_kube_controller_man",
+        "path_name": "Leader migration config not mounted into kube-controller-manager",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "multi_control_plane_upgrade_ordering_requirement",
+        "path_name": "Multi-control-plane upgrade ordering requirement",
+        "risk_type": "operational_risk",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "new_events_using_source_host_are_rejected_in_events_k8s_io_v",
+        "path_name": "New Events using source.host are rejected in events.k8s.io/v1",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "poddisruptionbudget_manifests_or_clients_still_use_policy_v1",
+        "path_name": "PodDisruptionBudget manifests or clients still use policy/v1beta1",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "runtimeclass_beta_api_removed_at_v1_25",
+        "path_name": "RuntimeClass beta API removed at v1.25",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "stored_etcd_objects_not_migrated_before_upgrading_through_1",
+        "path_name": "Stored etcd objects not migrated before upgrading through 1.24-1.29",
+        "risk_type": "data_migration",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "upgrade_blocked_or_unstable_if_node_swap_is_enabled",
+        "path_name": "Upgrade blocked or unstable if node swap is enabled",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_kubernetes_1_24_with_docker_engine_via_dockershim",
+        "path_name": "Upgrade to Kubernetes 1.24 with Docker Engine via dockershim",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_be2337c002d2658d"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "use_of_old_event_timestamp_field_in_new_events_k8s_io_v1_eve",
+        "path_name": "Use of old Event timestamp field in new events.k8s.io/v1 Events",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "uses_old_event_count_field_in_new_events_k8s_io_v1_events",
+        "path_name": "Uses old Event count field in new events.k8s.io/v1 Events",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "workloads_depend_on_the_openstack_in_tree_provider_after_upg",
+        "path_name": "Workloads depend on the OpenStack in-tree provider after upgrading to Kubernetes 1.26+",
+        "risk_type": "dependency_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_a0b95a1dbd591fbf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "workloads_rely_on_mutating_options_from_podsecuritypolicy_ro",
+        "path_name": "Workloads rely on mutating options from PodSecurityPolicy rollout",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_798ad4ef0b7b4091"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "workloads_rely_on_podsecuritypolicy_admission_enforcement",
+        "path_name": "Workloads rely on PodSecurityPolicy admission enforcement",
+        "risk_type": "removed_api",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "yaml_manifests_still_reference_deprecated_apis_during_upgrad",
+        "path_name": "YAML manifests still reference deprecated APIs during upgrade to 1.24-1.29",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "adjust_manifests_and_other_resources_for_kubernetes_api_chan",
+        "path_name": "Adjust manifests and other resources for Kubernetes API changes during 1.23 -> 1.29 upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "apparmor_annotation_carried_over_from_psp_era_mutation_needs",
+        "path_name": "AppArmor annotation carried over from PSP-era mutation needs review during 1.24+ upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_798ad4ef0b7b4091"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "applications_or_tooling_still_reading_the_deprecated_event_f",
+        "path_name": "Applications or tooling still reading the deprecated Event firstTimestamp field",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "cloud_provider_node_ipam_controller_must_move_to_cloud_contr",
+        "path_name": "Cloud provider Node IPAM controller must move to cloud-controller-manager during 1.24-1.29 upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "cloud_controller_manager_leader_migration_config_flag_still",
+        "path_name": "Cloud-controller-manager leader migration config flag still set after upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "cluster_node_upgrade_required_during_1_23_1_29_migration",
+        "path_name": "Cluster node upgrade required during 1.23 -> 1.29 migration",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "component_config_replacements_or_user_supplied_overwrites_re",
+        "path_name": "Component config replacements or user-supplied overwrites required during upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "control_plane_component_startup_failure_triggers_rollback_du",
+        "path_name": "Control plane component startup failure triggers rollback during upgrade",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "control_plane_upgrade_requires_updating_kube_scheduler",
+        "path_name": "Control plane upgrade requires updating kube-scheduler",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "crd_spec_versions_must_be_updated_for_kubernetes_1_24",
+        "path_name": "CRD spec.versions must be updated for Kubernetes 1.24+",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "deprecated_source_host_usage_must_be_migrated_to_reportingin",
+        "path_name": "Deprecated source.host usage must be migrated to reportingInstance",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "endpointslice_consumers_relying_on_topology_kubernetes_io_ho",
+        "path_name": "EndpointSlice consumers relying on topology[\"kubernetes.io/hostname\"]",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "endpointslice_topology_field_becomes_read_only_in_v1",
+        "path_name": "EndpointSlice topology field becomes read-only in v1",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "endpointslice_zone_topology_field_replacement",
+        "path_name": "EndpointSlice zone topology field replacement",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "event_action_field_becomes_required_for_new_event_creation",
+        "path_name": "Event action field becomes required for new Event creation",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "event_series_count_field_migration",
+        "path_name": "Event series count field migration",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "event_type_field_restricted_to_normal_and_warning",
+        "path_name": "Event type field restricted to Normal and Warning",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "events_created_without_a_reason_field_fail_validation_on_kub",
+        "path_name": "Events created without a reason field fail validation on Kubernetes 1.25+",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "failcgroupv1_default_changes_to_true_on_kubernetes_1_24_1_29",
+        "path_name": "FailCgroupV1 default changes to true on Kubernetes 1.24-1.29",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "horizontalpodautoscaler_utilization_target_requires_target_t",
+        "path_name": "HorizontalPodAutoscaler utilization target requires target.type=Utilization",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "hpa_autoscaling_manifest_missing_target_type_utilization_aft",
+        "path_name": "HPA autoscaling manifest missing target.type=Utilization after Kubernetes 1.25",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "kube_apiserver_may_need_a_planned_stop_before_kubeadm_upgrad",
+        "path_name": "kube-apiserver may need a planned stop before kubeadm upgrade apply",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "kube_apiserver_static_pod_may_need_graceful_stop_during_etcd",
+        "path_name": "kube-apiserver static pod may need graceful stop during etcd-upgrading kubeadm upgrade",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "kubeadm_managed_certificates_are_automatically_renewed_durin",
+        "path_name": "kubeadm-managed certificates are automatically renewed during upgrade",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "kubectl_must_be_upgraded_and_configured_for_1_24_cluster_ope",
+        "path_name": "kubectl must be upgraded and configured for 1.24+ cluster operations",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0c1c9052a23c4d57",
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "kubelet_configuration_is_upgraded_on_node_upgrade",
+        "path_name": "Kubelet configuration is upgraded on node upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "kubelet_stats_monitor_deprecated_in_favor_of_kubelet_metrics",
+        "path_name": "kubelet-stats monitor deprecated in favor of kubelet-metrics",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_6d9f6a88c00951a6"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "kubernetes_event_field_rename_involvedobject_regarding",
+        "path_name": "Kubernetes Event field rename: involvedObject -> regarding",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "linux_node_upgrade_requires_shell_access_to_every_node",
+        "path_name": "Linux node upgrade requires shell access to every node",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_a4cb82cc55a9d97e"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "missing_rbac_rules_are_created_during_upgrade",
+        "path_name": "Missing RBAC rules are created during upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "node_ipam_controller_disabled_in_kube_controller_manager_dur",
+        "path_name": "Node IPAM controller disabled in kube-controller-manager during control-plane migration",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "node_ipam_leader_migration_not_configured_after_upgrade",
+        "path_name": "Node IPAM leader-migration not configured after upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "node_upgrade_requires_a_newer_device_plugin_api_version",
+        "path_name": "Node upgrade requires a newer device plugin API version",
+        "risk_type": "runtime_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "nodes_must_run_the_1_37_kubelet_before_upgrading",
+        "path_name": "Nodes must run the 1.37 kubelet before upgrading",
+        "risk_type": "runtime_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "package_based_upgrade_requires_enabling_the_target_kubernete",
+        "path_name": "Package-based upgrade requires enabling the target Kubernetes minor repository",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_a4cb82cc55a9d97e",
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "judge: partial support"
+        ]
+      },
+      {
+        "path_id": "rbac_roles_or_clusterroles_lack_permissions_for_new_podsecur",
+        "path_name": "RBAC roles or clusterroles lack permissions for new PodSecurityPolicies",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_798ad4ef0b7b4091"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "re_enable_leader_migration_during_cloud_controller_manager_r",
+        "path_name": "Re-enable Leader Migration during cloud-controller-manager recovery or rollback",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "secret_encryption_config_automatic_reload_not_enabled",
+        "path_name": "Secret encryption config automatic reload not enabled",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "signalfx_smart_agent_deprecated_during_kubernetes_upgrade",
+        "path_name": "SignalFx Smart Agent deprecated during Kubernetes upgrade",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_6d9f6a88c00951a6"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "storageversionmigration_not_confirmed_complete_before_upgrad",
+        "path_name": "StorageVersionMigration not confirmed complete before upgrade",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes"
+        ]
+      },
+      {
+        "path_id": "upgrade_away_from_kubernetes_1_29_to_a_supported_version",
+        "path_name": "Upgrade away from Kubernetes 1.29 to a supported version",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4c7a2892b22c4f2f"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "uses_deprecated_series_lasttimestamp_field_that_should_be_re",
+        "path_name": "Uses deprecated series.lastTimestamp field that should be replaced by series.lastObservedTime",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "worker_nodes_adopt_upgraded_local_kubelet_configuration",
+        "path_name": "Worker nodes adopt upgraded local kubelet configuration",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_a4cb82cc55a9d97e"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "workloads_experience_restarts_during_kubernetes_upgrade_due",
+        "path_name": "Workloads experience restarts during Kubernetes upgrade due to container spec hash change",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "workloads_still_depending_on_etc_leadermigration_conf",
+        "path_name": "Workloads still depending on /etc/leadermigration.conf",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "force_enables_non_interactive_upgrade_execution",
+        "path_name": "--force enables non-interactive upgrade execution",
+        "risk_type": "operational_risk",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_3c537329f1c877f0"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "api_removal_simulation_via_runtime_config_disable_flag",
+        "path_name": "API removal simulation via --runtime-config disable flag",
+        "risk_type": "configuration_change",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "failcgroupv1_default_flips_to_true_in_kubelet_config",
+        "path_name": "FailCgroupV1 default flips to true in kubelet config",
+        "risk_type": "configuration_change",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "kubeadm_upgrade_plan_is_no_longer_needed_for_non_first_contr",
+        "path_name": "kubeadm upgrade plan is no longer needed for non-first control plane nodes",
+        "risk_type": "changed_behavior",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "kubernetes_server_version_requirement_may_block_the_tutorial",
+        "path_name": "Kubernetes server version requirement may block the tutorial or workload setup",
+        "risk_type": "runtime_requirement",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_e15dff77739485ad"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "remove_leader_migration_flags_after_handoff_is_complete",
+        "path_name": "Remove leader migration flags after handoff is complete",
+        "risk_type": "configuration_change",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      },
+      {
+        "path_id": "upgrade_to_kubernetes_1_24_on_a_single_node_or_control_plane",
+        "path_name": "Upgrade to Kubernetes 1.24+ on a single-node or control-plane-only cluster",
+        "risk_type": "runtime_requirement",
+        "risk_level": "low",
+        "confidence": "medium",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "entailment not checked (confidence capped at medium)"
+        ]
+      }
+    ],
+    "low_confidence_or_disputed_risks": [
+      {
+        "path_id": "dependence_on_original_podsecuritypolicies_after_removal",
+        "path_name": "Dependence on original PodSecurityPolicies after removal",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_798ad4ef0b7b4091"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "docker_container_stats_monitor_still_configured_after_upgrad",
+        "path_name": "docker-container-stats monitor still configured after upgrading to Kubernetes 1.24-1.29",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_6d9f6a88c00951a6"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "kube_controller_manager_still_configured_with_a_non_external",
+        "path_name": "kube-controller-manager still configured with a non-external --cloud-provider during control-plane upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "high",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "kubelet_defaults_to_cgroups_v2_only_on_linux_nodes",
+        "path_name": "Kubelet defaults to cgroups v2 only on Linux nodes",
+        "risk_type": "changed_behavior",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "unresolved conflict: c13",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "kubelet_minor_upgrade_requires_draining_nodes_first",
+        "path_name": "Kubelet minor upgrade requires draining nodes first",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "unresolved conflict: c13",
+          "source_disagreement",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "kubernetes_1_29_is_out_of_support_and_receives_no_future_fix",
+        "path_name": "Kubernetes 1.29 is out of support and receives no future fixes",
+        "risk_type": "operational_risk",
+        "risk_level": "high",
+        "confidence": "low",
+        "sources": [
+          "doc_4c7a2892b22c4f2f"
+        ],
+        "reasons": [
+          "unresolved conflict: c16",
+          "source_disagreement",
+          "single_source_severe_risk",
+          "structural: No application or deployment condition."
+        ]
+      },
+      {
+        "path_id": "leader_migration_enabled_on_kube_controller_manager_after_up",
+        "path_name": "Leader Migration enabled on kube-controller-manager after upgrading to N+1 with an external cloud provider",
+        "risk_type": "configuration_change",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "workloads_depend_on_dockershim_when_upgrading_past_kubernete",
+        "path_name": "Workloads depend on dockershim when upgrading past Kubernetes 1.24",
+        "risk_type": "runtime_requirement",
+        "risk_level": "high",
+        "confidence": "medium",
+        "sources": [
+          "doc_be2337c002d2658d"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition",
+          "single_source_severe_risk"
+        ]
+      },
+      {
+        "path_id": "api_server_certificate_key_rotation_during_upgrade",
+        "path_name": "API server certificate/key rotation during upgrade",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "high",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "meets every high-confidence requirement",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "automatic_certificate_renewal_occurs_during_upgrade_unless_e",
+        "path_name": "Automatic certificate renewal occurs during upgrade unless explicitly disabled",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_d69598557df7efee"
+        ],
+        "reasons": [
+          "unresolved conflict: c02",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "cloud_controller_manager_must_be_upgraded_in_sequence",
+        "path_name": "Cloud controller manager must be upgraded in sequence",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "unresolved conflict: c03",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "coredns_manifest_replacement_during_upgrade",
+        "path_name": "CoreDNS manifest replacement during upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "unresolved conflict: c04",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "encryptionconfiguration_key_rotation_requires_config_update",
+        "path_name": "EncryptionConfiguration key rotation requires config update before/with upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "statement adds detail absent from the quotes",
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "kube_controller_manager_upgrade_required_during_control_plan",
+        "path_name": "kube-controller-manager upgrade required during control-plane migration",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "unresolved conflict: c10",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "kube_proxy_manifest_replaced_during_upgrade",
+        "path_name": "kube-proxy manifest replaced during upgrade",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "unresolved conflict: c14",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "kubeadm_node_upgrade_performs_an_etcd_upgrade_by_default",
+        "path_name": "kubeadm node upgrade performs an etcd upgrade by default",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_d69598557df7efee"
+        ],
+        "reasons": [
+          "unresolved conflict: c05",
+          "marked uncertain at extraction",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "kubeadm_upgrade_automation_must_supply_upgradeconfiguration",
+        "path_name": "kubeadm upgrade automation must supply UpgradeConfiguration API config",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "kubeadm_worker_node_upgrade_requires_kubeadm_upgrade_node",
+        "path_name": "kubeadm worker node upgrade requires kubeadm upgrade node",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_a4cb82cc55a9d97e"
+        ],
+        "reasons": [
+          "unresolved conflict: c08",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "kubectl_convert_is_unavailable_after_upgrade_unless_installe",
+        "path_name": "kubectl convert is unavailable after upgrade unless installed separately",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_0c1c9052a23c4d57",
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "unresolved conflict: c12",
+          "judge: evidence contradicts the statement",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "kubelet_and_kubeadm_version_skew_due_to_mismatched_versions",
+        "path_name": "Kubelet and kubeadm version skew due to mismatched versions",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "kubelet_version_skew_must_stay_within_supported_kubeadm_rang",
+        "path_name": "Kubelet version skew must stay within supported kubeadm range",
+        "risk_type": "dependency_requirement",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_e21bbf9910d2478a"
+        ],
+        "reasons": [
+          "unresolved conflict: c13",
+          "judge: evidence unrelated the statement",
+          "role changed from required to uncertain",
+          "judge_disputed_condition",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "kubernetes_1_28_is_end_of_life_and_unsupported",
+        "path_name": "Kubernetes 1.28 is end-of-life and unsupported",
+        "risk_type": "operational_risk",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_62d66eef52fed3c0"
+        ],
+        "reasons": [
+          "unresolved conflict: c15",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "kubernetes_manifest_apiversion_must_be_updated_after_upgrade",
+        "path_name": "Kubernetes manifest apiVersion must be updated after upgrade to 1.24+",
+        "risk_type": "configuration_change",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_0c1c9052a23c4d57"
+        ],
+        "reasons": [
+          "unresolved conflict: c01",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "migrated_controllers_can_switch_ownership_during_a_1_23_1_29",
+        "path_name": "Migrated controllers can switch ownership during a 1.23 -> 1.29 upgrade",
+        "risk_type": "changed_behavior",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_4832a382fcc67aaf"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "prioritylevelconfiguration_objects_relying_on_old_assuredcon",
+        "path_name": "PriorityLevelConfiguration objects relying on old assuredConcurrencyShares defaulting behavior",
+        "risk_type": "changed_default",
+        "risk_level": "medium",
+        "confidence": "medium",
+        "sources": [
+          "doc_0fc64549a21ce742"
+        ],
+        "reasons": [
+          "judge: partial support",
+          "statement adds detail absent from the quotes",
+          "judge_disputed_condition"
+        ]
+      },
+      {
+        "path_id": "stored_cr_versions_not_migrated_during_upgrade",
+        "path_name": "Stored CR versions not migrated during upgrade",
+        "risk_type": "data_migration",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "unresolved conflict: c20",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "stored_secrets_not_re_encrypted_after_upgrade",
+        "path_name": "Stored Secrets not re-encrypted after upgrade",
+        "risk_type": "data_migration",
+        "risk_level": "medium",
+        "confidence": "low",
+        "sources": [
+          "doc_361a7e63b17498c5"
+        ],
+        "reasons": [
+          "unresolved conflict: c20",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "kubectl_not_configured_for_cluster_access_blocks_upgrade_wor",
+        "path_name": "kubectl not configured for cluster access blocks upgrade workflow",
+        "risk_type": "configuration_change",
+        "risk_level": "low",
+        "confidence": "low",
+        "sources": [
+          "doc_a4cb82cc55a9d97e"
+        ],
+        "reasons": [
+          "unresolved conflict: c11",
+          "source_disagreement"
+        ]
+      },
+      {
+        "path_id": "non_interactive_upgrade_flow_with_y_yes",
+        "path_name": "Non-interactive upgrade flow with -y/--yes",
+        "risk_type": "operational_risk",
+        "risk_level": "low",
+        "confidence": "low",
+        "sources": [
+          "doc_3c537329f1c877f0"
+        ],
+        "reasons": [
+          "unresolved conflict: c21",
+          "source_disagreement"
+        ]
+      }
+    ],
+    "sources_with_disagreements": [
+      {
+        "conflict_id": "c01",
+        "subject": "apiVersion",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f002",
+            "source_id": "doc_b81bfc9d0630760f",
+            "url": "https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/storage-version-migration-v1/",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "storagemigration.k8s.io/v1",
+            "quote": "apiVersion: storagemigration.k8s.io/v1"
+          },
+          {
+            "fact_id": "f182",
+            "source_id": "doc_0c1c9052a23c4d57",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/#update-manifests",
+            "trust_tier": "official",
+            "change": "renamed",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "a revised apiVersion",
+            "quote": "but with a revised apiVersion ."
+          },
+          {
+            "fact_id": "f327",
+            "source_id": "doc_361a7e63b17498c5",
+            "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/#update-the-preferred-storage-schema-of-a-crd",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "storagemigration.k8s.io/v1",
+            "quote": "kind : StorageVersionMigration apiVersion : storagemigration.k8s.io/v1"
+          },
+          {
+            "fact_id": "f329",
+            "source_id": "doc_361a7e63b17498c5",
+            "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/#update-the-preferred-storage-schema-of-a-crd",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "example.com/v2",
+            "quote": "Create CR resource file with name cr2.yaml as follows: apiVersion : example.com/v2"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kubernetes_manifest_apiversion_must_be_updated_after_upgrade"
+        ]
+      },
+      {
+        "conflict_id": "c02",
+        "subject": "--certificate-renewal",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f022",
+            "source_id": "doc_3c537329f1c877f0",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "true",
+            "quote": "--certificate-renewal\u00a0\u00a0\u00a0\u00a0\u00a0Default: true Perform the renewal of certificates used by component changed during upgrades."
+          },
+          {
+            "fact_id": "f036",
+            "source_id": "doc_3c537329f1c877f0",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "true",
+            "quote": "--certificate-renewal Default: true Perform the renewal of certificates used by component changed during upgrades."
+          },
+          {
+            "fact_id": "f044",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#kubeadm-upgrade-guidance",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "false",
+            "quote": "To opt-out, it is possible to pass the flag --certificate-renewal=false ."
+          },
+          {
+            "fact_id": "f045",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#options",
+            "trust_tier": "official",
+            "change": "default_changed",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "true",
+            "quote": "--certificate-renewal\u00a0\u00a0\u00a0\u00a0\u00a0Default: true Perform the renewal of certificates used by component changed during upgrades."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "automatic_certificate_renewal_occurs_during_upgrade_unless_e"
+        ]
+      },
+      {
+        "conflict_id": "c03",
+        "subject": "cloud controller manager",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f176",
+            "source_id": "doc_0c1c9052a23c4d57",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "cloud controller manager, if you use one"
+          },
+          {
+            "fact_id": "f189",
+            "source_id": "doc_4832a382fcc67aaf",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#before-you-begin",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "should not yet be deployed at version N",
+            "quote": "and cloud-controller-manager should not yet be deployed."
+          },
+          {
+            "fact_id": "f209",
+            "source_id": "doc_4832a382fcc67aaf",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#upgrade-control-plane",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "The nodes of version N run kube-controller-manager only, and these of version N + 1 run both kube-controller-manager and cloud-controller-manager ."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "cloud_controller_manager_must_be_upgraded_in_sequence"
+        ]
+      },
+      {
+        "conflict_id": "c04",
+        "subject": "coredns",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f062",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#synopsis",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "/coredns         Upgrade the CoreDNS addon"
+          },
+          {
+            "fact_id": "f232",
+            "source_id": "doc_e21bbf9910d2478a",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#how-it-works",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "new manifests applied",
+            "quote": "Applies the new CoreDNS and kube-proxy manifests"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "coredns_manifest_replacement_during_upgrade"
+        ]
+      },
+      {
+        "conflict_id": "c05",
+        "subject": "--etcd-upgrade",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f023",
+            "source_id": "doc_3c537329f1c877f0",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "true",
+            "quote": "--etcd-upgrade\u00a0\u00a0\u00a0\u00a0\u00a0Default: true Perform the upgrade of etcd."
+          },
+          {
+            "fact_id": "f039",
+            "source_id": "doc_3c537329f1c877f0",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "true",
+            "quote": "--etcd-upgrade Default: true Perform the upgrade of etcd."
+          },
+          {
+            "fact_id": "f046",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#options",
+            "trust_tier": "official",
+            "change": "default_changed",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "true",
+            "quote": "--etcd-upgrade\u00a0\u00a0\u00a0\u00a0\u00a0Default: true Perform the upgrade of etcd."
+          },
+          {
+            "fact_id": "f052",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#options",
+            "trust_tier": "official",
+            "change": "default_changed",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "true",
+            "quote": "--etcd-upgrade\u00a0\u00a0\u00a0\u00a0\u00a0Default: true Perform the upgrade of etcd."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kubeadm_node_upgrade_performs_an_etcd_upgrade_by_default"
+        ]
+      },
+      {
+        "conflict_id": "c06",
+        "subject": "GlusterFS",
+        "kind": "severity",
+        "claims": [
+          {
+            "fact_id": "f337",
+            "source_id": "doc_a0b95a1dbd591fbf",
+            "url": "https://github.com/kubernetes/kubernetes/commits/master/CHANGELOG/CHANGELOG-1.26.md#repo-content-pjax-container",
+            "trust_tier": "official",
+            "change": "removed",
+            "versions": [
+              "1.26"
+            ],
+            "value": null,
+            "quote": "Correct the changelog for GlusterFS removal in 1.26."
+          },
+          {
+            "fact_id": "f330",
+            "source_id": "doc_621858c70e9fc2ac",
+            "url": "https://github.com/kubernetes/kubernetes/commits/master/CHANGELOG/CHANGELOG-1.25.md#repo-content-pjax-container",
+            "trust_tier": "official",
+            "change": "deprecated",
+            "versions": [
+              "1.25"
+            ],
+            "value": null,
+            "quote": "Move glusterfs 1.25 deprecation notice to the deprecation section."
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f337",
+        "reason": "official source https://github.com/kubernetes/kubernetes/commits/master/CHANGELOG/CHANGELOG-1.26.md#repo-content-pjax-container preferred under the conflict policy.",
+        "affected_paths": [
+          "glusterfs_dependency_removed_during_upgrade"
+        ]
+      },
+      {
+        "conflict_id": "c07",
+        "subject": "kubeadm",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f057",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#synopsis",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "/kubeadm         Upload the kubeadm ClusterConfiguration to a ConfigMap"
+          },
+          {
+            "fact_id": "f170",
+            "source_id": "doc_0c1c9052a23c4d57",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/#upgrade-kubeadm",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "If your cluster was deployed using the kubeadm tool, refer to Upgrading kubeadm clusters"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c08",
+        "subject": "kubeadm upgrade node",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f043",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#kubeadm-upgrade-guidance",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "In Kubernetes v1.15.0 and later, kubeadm upgrade apply and kubeadm upgrade node will also automatically renew the kubeadm managed certificates on this node, including those stored in kubeconfig files."
+          },
+          {
+            "fact_id": "f269",
+            "source_id": "doc_a4cb82cc55a9d97e",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-linux-nodes/#call-kubeadm-upgrade",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "sudo kubeadm upgrade node"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kubeadm_worker_node_upgrade_requires_kubeadm_upgrade_node"
+        ]
+      },
+      {
+        "conflict_id": "c09",
+        "subject": "--kubeconfig",
+        "kind": "value",
+        "claims": [
+          {
+            "fact_id": "f040",
+            "source_id": "doc_3c537329f1c877f0",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "/etc/kubernetes/admin.conf",
+            "quote": "--kubeconfig string Default: \"/etc/kubernetes/admin.conf\" The kubeconfig file to use when talking to the cluster."
+          },
+          {
+            "fact_id": "f073",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#options",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "\"/etc/kubernetes/admin.conf\"",
+            "quote": "--kubeconfig string\u00a0\u00a0\u00a0\u00a0\u00a0Default: \"/etc/kubernetes/admin.conf\" The kubeconfig file to use when talking to the cluster."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c10",
+        "subject": "kube-controller-manager",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f174",
+            "source_id": "doc_0c1c9052a23c4d57",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "kube-controller-manager"
+          },
+          {
+            "fact_id": "f197",
+            "source_id": "doc_4832a382fcc67aaf",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#initial-leader-migration-configuration",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "At this moment, with in-tree cloud provider, kube-controller-manager runs route , service , and cloud-node-lifecycle ."
+          },
+          {
+            "fact_id": "f208",
+            "source_id": "doc_4832a382fcc67aaf",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#upgrade-control-plane",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "The nodes of version N run kube-controller-manager only, and these of version N + 1 run both kube-controller-manager and cloud-controller-manager ."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kube_controller_manager_upgrade_required_during_control_plan"
+        ]
+      },
+      {
+        "conflict_id": "c11",
+        "subject": "kubectl command-line tool",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f265",
+            "source_id": "doc_a4cb82cc55a9d97e",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-linux-nodes/#before-you-begin",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "the kubectl command-line tool must be configured to communicate with your cluster"
+          },
+          {
+            "fact_id": "f271",
+            "source_id": "doc_e15dff77739485ad",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-windows-nodes/#before-you-begin",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "the kubectl command-line tool must be configured to communicate with your cluster"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kubectl_not_configured_for_cluster_access_blocks_upgrade_wor"
+        ]
+      },
+      {
+        "conflict_id": "c12",
+        "subject": "kubectl convert",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f145",
+            "source_id": "doc_0fc64549a21ce742",
+            "url": "https://kubernetes.io/docs/reference/using-api/deprecation-guide/#migrate-to-non-deprecated-apis",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "You can use the kubectl convert command to automatically convert an existing object"
+          },
+          {
+            "fact_id": "f146",
+            "source_id": "doc_0fc64549a21ce742",
+            "url": "https://kubernetes.io/docs/reference/using-api/deprecation-guide/#migrate-to-non-deprecated-apis",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "This conversion may use non-ideal default values."
+          },
+          {
+            "fact_id": "f181",
+            "source_id": "doc_0c1c9052a23c4d57",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/#update-manifests",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "You can use kubectl convert command to convert manifests between different API versions."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kubectl_convert_is_unavailable_after_upgrade_unless_installe"
+        ]
+      },
+      {
+        "conflict_id": "c13",
+        "subject": "kubelet",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f058",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#synopsis",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "/kubelet         Upload the kubelet configuration to a ConfigMap"
+          },
+          {
+            "fact_id": "f191",
+            "source_id": "doc_4832a382fcc67aaf",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#before-you-begin",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "starts kube-controller-manager and cloud-controller-manager as static pods defined by their manifests",
+            "quote": "This guide assumes that kubelet of each control plane node starts kube-controller-manager and cloud-controller-manager as static pods defined by their manifests."
+          },
+          {
+            "fact_id": "f239",
+            "source_id": "doc_e21bbf9910d2478a",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#additional-information",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "drain the node before a minor version upgrade",
+            "quote": "If you are performing a minor version upgrade for any kubelet, you must first drain the node (or nodes) that you are upgrading."
+          },
+          {
+            "fact_id": "f242",
+            "source_id": "doc_e21bbf9910d2478a",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#additional-information",
+            "trust_tier": "official",
+            "change": "requirement_added",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "may be older than kubeadm if within the range of supported versions",
+            "quote": "You can instead use a version of kubelet that is older than kubeadm, provided it is within the range of supported versions."
+          },
+          {
+            "fact_id": "f260",
+            "source_id": "doc_e21bbf9910d2478a",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/",
+            "trust_tier": "official",
+            "change": "behavior_changed",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "defaults to supporting only cgroups v2",
+            "quote": "On Linux nodes, the kubelet defaults to supporting only cgroups v2."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kubelet_defaults_to_cgroups_v2_only_on_linux_nodes",
+          "kubelet_minor_upgrade_requires_draining_nodes_first",
+          "kubelet_version_skew_must_stay_within_supported_kubeadm_rang"
+        ]
+      },
+      {
+        "conflict_id": "c14",
+        "subject": "kube-proxy",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f063",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#synopsis",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "/kube-proxy      Upgrade the kube-proxy addon"
+          },
+          {
+            "fact_id": "f233",
+            "source_id": "doc_e21bbf9910d2478a",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#how-it-works",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "new manifests applied",
+            "quote": "Applies the new CoreDNS and kube-proxy manifests"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kube_proxy_manifest_replaced_during_upgrade"
+        ]
+      },
+      {
+        "conflict_id": "c15",
+        "subject": "Kubernetes 1.28",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f366",
+            "source_id": "doc_26eeacc8590c1c64",
+            "url": "https://kubernetes.io/bn/releases/1.28/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "This release has reached End of Life on 2024-10-22."
+          },
+          {
+            "fact_id": "f367",
+            "source_id": "doc_26eeacc8590c1c64",
+            "url": "https://kubernetes.io/bn/releases/1.28/",
+            "trust_tier": "official",
+            "change": "security_fix",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "Kubernetes 1.28 is no longer receiving security updates or bug fixes."
+          },
+          {
+            "fact_id": "f368",
+            "source_id": "doc_26eeacc8590c1c64",
+            "url": "https://kubernetes.io/bn/releases/1.28/",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "1.28"
+            ],
+            "value": "a supported version",
+            "quote": "Upgrade to a supported version ."
+          },
+          {
+            "fact_id": "f373",
+            "source_id": "doc_62d66eef52fed3c0",
+            "url": "https://kubernetes.io/es/releases/1.28/",
+            "trust_tier": "official",
+            "change": "known_issue",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "Este lanzamiento lleg\u00f3 al fin de su vida \u00fatil el 2024-10-22."
+          },
+          {
+            "fact_id": "f374",
+            "source_id": "doc_62d66eef52fed3c0",
+            "url": "https://kubernetes.io/es/releases/1.28/",
+            "trust_tier": "official",
+            "change": "known_issue",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "Kubernetes 1.28 ya no recibe actualizaciones de seguridad ni correcciones de errores."
+          },
+          {
+            "fact_id": "f375",
+            "source_id": "doc_62d66eef52fed3c0",
+            "url": "https://kubernetes.io/es/releases/1.28/",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.28"
+            ],
+            "value": "a version supported",
+            "quote": "Actualiza a una versi\u00f3n soportada ."
+          },
+          {
+            "fact_id": "f383",
+            "source_id": "doc_179ed84a04f5dec2",
+            "url": "https://kubernetes.io/ja/releases/1.28/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "\u3053\u306e\u30ea\u30ea\u30fc\u30b9\u306f2024-10-22\u306b\u30b5\u30dd\u30fc\u30c8\u7d42\u4e86(End of Life)\u3092\u8fce\u3048\u307e\u3057\u305f\u3002"
+          },
+          {
+            "fact_id": "f384",
+            "source_id": "doc_179ed84a04f5dec2",
+            "url": "https://kubernetes.io/ja/releases/1.28/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "Kubernetes 1.28\u306f\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u66f4\u65b0\u3084\u30d0\u30b0\u4fee\u6b63\u3092\u53d7\u3051\u3089\u308c\u306a\u304f\u306a\u308a\u307e\u3057\u305f\u3002"
+          },
+          {
+            "fact_id": "f390",
+            "source_id": "doc_45d68c56cd99bc6f",
+            "url": "https://kubernetes.io/pl/releases/1.28/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "Kubernetes 1.28 nie otrzymuje ju\u017c aktualizacji bezpiecze\u0144stwa ani poprawek b\u0142\u0119d\u00f3w."
+          },
+          {
+            "fact_id": "f391",
+            "source_id": "doc_45d68c56cd99bc6f",
+            "url": "https://kubernetes.io/pl/releases/1.28/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "To wydanie osi\u0105gn\u0119\u0142o koniec cyklu \u017cycia (End of Life) dnia 2024-10-22."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kubernetes_1_28_is_end_of_life_and_unsupported"
+        ]
+      },
+      {
+        "conflict_id": "c16",
+        "subject": "Kubernetes 1.29",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f369",
+            "source_id": "doc_1883c9fa04b0eab4",
+            "url": "https://kubernetes.io/bn/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "This release has reached End of Life on 2025-02-28."
+          },
+          {
+            "fact_id": "f370",
+            "source_id": "doc_1883c9fa04b0eab4",
+            "url": "https://kubernetes.io/bn/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "Kubernetes 1.29 is no longer receiving security updates or bug fixes."
+          },
+          {
+            "fact_id": "f371",
+            "source_id": "doc_1883c9fa04b0eab4",
+            "url": "https://kubernetes.io/bn/releases/1.29/",
+            "trust_tier": "official",
+            "change": "replacement_recommended",
+            "versions": [
+              "1.29"
+            ],
+            "value": "a supported version",
+            "quote": "Upgrade to a supported version ."
+          },
+          {
+            "fact_id": "f372",
+            "source_id": "doc_1883c9fa04b0eab4",
+            "url": "https://kubernetes.io/bn/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "This page provides an overview of the Kubernetes 1.29 release series."
+          },
+          {
+            "fact_id": "f377",
+            "source_id": "doc_4c7a2892b22c4f2f",
+            "url": "https://kubernetes.io/es/releases/1.29/",
+            "trust_tier": "official",
+            "change": "known_issue",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "Kubernetes 1.29 ya no recibe actualizaciones de seguridad ni correcciones de errores."
+          },
+          {
+            "fact_id": "f385",
+            "source_id": "doc_03c6818ca3f49394",
+            "url": "https://kubernetes.io/ja/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "\u3053\u306e\u30ea\u30ea\u30fc\u30b9\u306f2025-02-28\u306b\u30b5\u30dd\u30fc\u30c8\u7d42\u4e86(End of Life)\u3092\u8fce\u3048\u307e\u3057\u305f\u3002"
+          },
+          {
+            "fact_id": "f386",
+            "source_id": "doc_03c6818ca3f49394",
+            "url": "https://kubernetes.io/ja/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "Kubernetes 1.29\u306f\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u66f4\u65b0\u3084\u30d0\u30b0\u4fee\u6b63\u3092\u53d7\u3051\u3089\u308c\u306a\u304f\u306a\u308a\u307e\u3057\u305f\u3002"
+          },
+          {
+            "fact_id": "f392",
+            "source_id": "doc_e680d9a83e6e5436",
+            "url": "https://kubernetes.io/pl/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "Kubernetes 1.29 nie otrzymuje ju\u017c aktualizacji bezpiecze\u0144stwa ani poprawek b\u0142\u0119d\u00f3w."
+          },
+          {
+            "fact_id": "f393",
+            "source_id": "doc_e680d9a83e6e5436",
+            "url": "https://kubernetes.io/pl/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "Zaktualizuj do wspieranej wersji ."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "kubernetes_1_29_is_out_of_support_and_receives_no_future_fix"
+        ]
+      },
+      {
+        "conflict_id": "c17",
+        "subject": "LOG DE ALTERA\u00c7\u00d5ES",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f397",
+            "source_id": "doc_f1162617da179978",
+            "url": "https://kubernetes.io/pt-br/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "LOG DE ALTERA\u00c7\u00d5ES"
+          },
+          {
+            "fact_id": "f394",
+            "source_id": "doc_eda7769628ebc930",
+            "url": "https://kubernetes.io/pt-br/releases/1.28/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "LOG DE ALTERA\u00c7\u00d5ES"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f397",
+        "reason": "official source https://kubernetes.io/pt-br/releases/1.29/ preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c18",
+        "subject": "Related Links",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f389",
+            "source_id": "doc_f7883c99089f7960",
+            "url": "https://kubernetes.io/ko/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "\ubcc0\uacbd \uc774\ub825\nGitHub Tag (1.29.14)\nRelease Announcement Blog"
+          },
+          {
+            "fact_id": "f421",
+            "source_id": "doc_fadb2d5f86ebecfa",
+            "url": "https://kubernetes.io/releases/1.27/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.27"
+            ],
+            "value": null,
+            "quote": "Related Links"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f389",
+        "reason": "official source https://kubernetes.io/ko/releases/1.29/ preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c19",
+        "subject": "Release Announcement Blog",
+        "kind": "versions",
+        "claims": [
+          {
+            "fact_id": "f399",
+            "source_id": "doc_f1162617da179978",
+            "url": "https://kubernetes.io/pt-br/releases/1.29/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.29"
+            ],
+            "value": null,
+            "quote": "Release Announcement Blog"
+          },
+          {
+            "fact_id": "f380",
+            "source_id": "doc_be4e18b92bd63aea",
+            "url": "https://kubernetes.io/fa/releases/1.28/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "Release Announcement Blog"
+          },
+          {
+            "fact_id": "f382",
+            "source_id": "doc_1d161ae8e6650f55",
+            "url": "https://kubernetes.io/hi/releases/1.28/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "Release Announcement Blog"
+          },
+          {
+            "fact_id": "f396",
+            "source_id": "doc_eda7769628ebc930",
+            "url": "https://kubernetes.io/pt-br/releases/1.28/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.28"
+            ],
+            "value": null,
+            "quote": "Release Announcement Blog"
+          }
+        ],
+        "resolution": "resolved",
+        "winner_fact_id": "f399",
+        "reason": "official source https://kubernetes.io/pt-br/releases/1.29/ preferred under the conflict policy.",
+        "affected_paths": []
+      },
+      {
+        "conflict_id": "c20",
+        "subject": "StorageVersionMigration",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f001",
+            "source_id": "doc_4224aa9b9d8f7c79",
+            "url": "https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "StorageVersionMigration represents a migration of stored data to the latest storage version."
+          },
+          {
+            "fact_id": "f013",
+            "source_id": "doc_b81bfc9d0630760f",
+            "url": "https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/storage-version-migration-v1/#response",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "Status Description Response 200 OK StorageVersionMigration 201 Created StorageVersionMigration 202 Accepted StorageVersionMigration"
+          },
+          {
+            "fact_id": "f314",
+            "source_id": "doc_361a7e63b17498c5",
+            "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/#re-encrypt-kubernetes-secrets-using-storage-version-migration",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "used to re-encrypt previously created secret my-secret with new key key2",
+            "quote": "To ensure that previously created secret my-secret is re-encrypted with new key key2 , you will use Storage Version Migration ."
+          },
+          {
+            "fact_id": "f316",
+            "source_id": "doc_361a7e63b17498c5",
+            "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/#re-encrypt-kubernetes-secrets-using-storage-version-migration",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "create and apply a migration object to migrate Secrets",
+            "quote": "Create a StorageVersionMigration manifest named migrate-secret.yaml"
+          },
+          {
+            "fact_id": "f319",
+            "source_id": "doc_361a7e63b17498c5",
+            "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/#update-the-preferred-storage-schema-of-a-crd",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "Create a StorageVersionMigration manifest named migrate-crd.yaml"
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "stored_cr_versions_not_migrated_during_upgrade",
+          "stored_secrets_not_re_encrypted_after_upgrade"
+        ]
+      },
+      {
+        "conflict_id": "c21",
+        "subject": "-y, --yes",
+        "kind": "risk_vs_context",
+        "claims": [
+          {
+            "fact_id": "f034",
+            "source_id": "doc_3c537329f1c877f0",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options",
+            "trust_tier": "official",
+            "change": "migration_step",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": "non-interactive mode",
+            "quote": "-y, --yes Perform the upgrade and do not prompt for confirmation (non-interactive mode)."
+          },
+          {
+            "fact_id": "f077",
+            "source_id": "doc_d69598557df7efee",
+            "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#options",
+            "trust_tier": "official",
+            "change": "context",
+            "versions": [
+              "1.24",
+              "1.25",
+              "1.26",
+              "1.27",
+              "1.28",
+              "1.29"
+            ],
+            "value": null,
+            "quote": "-y, --yes Perform the upgrade and do not prompt for confirmation (non-interactive mode)."
+          }
+        ],
+        "resolution": "unresolved",
+        "winner_fact_id": null,
+        "reason": "Sources tie on trust tier, specificity and recency.",
+        "affected_paths": [
+          "non_interactive_upgrade_flow_with_y_yes"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Unconfirmed condition in 'docker-container-stats monitor stops working after dockershim removal': The environment still depends on Docker-based nodes / dockershim for this monitor.",
+      "Unconfirmed condition in 'kube-apiserver static pod may need graceful stop during etcd-upgrading kubeadm upgrade': The upgrade is an etcd-upgrading kubeadm upgrade that relies on the apiserver staying up uninterrupted",
+      "Unconfirmed condition in 'kubeadm node upgrade performs an etcd upgrade by default': The deployment has not already accounted for an automatic etcd upgrade during the Kubernetes upgrade.",
+      "Unresolved disagreement about apiVersion (risk_vs_context) between https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/storage-version-migration-v1/, https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/#update-manifests, https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/#update-the-preferred-storage-schema-of-a-crd [c01]",
+      "Unresolved disagreement about --certificate-renewal (risk_vs_context) between https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options, https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#kubeadm-upgrade-guidance, https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#options [c02]",
+      "Unresolved disagreement about cloud controller manager (risk_vs_context) between https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/, https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#before-you-begin, https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#upgrade-control-plane [c03]",
+      "Unresolved disagreement about coredns (risk_vs_context) between https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#synopsis, https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#how-it-works [c04]",
+      "Unresolved disagreement about --etcd-upgrade (risk_vs_context) between https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options, https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#options [c05]",
+      "Unresolved disagreement about kubeadm (risk_vs_context) between https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#synopsis, https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/#upgrade-kubeadm [c07]",
+      "Unresolved disagreement about kubeadm upgrade node (risk_vs_context) between https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#kubeadm-upgrade-guidance, https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-linux-nodes/#call-kubeadm-upgrade [c08]",
+      "Unresolved disagreement about --kubeconfig (value) between https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options, https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#options [c09]",
+      "Unresolved disagreement about kube-controller-manager (risk_vs_context) between https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/, https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#initial-leader-migration-configuration, https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#upgrade-control-plane [c10]",
+      "Unresolved disagreement about kubectl command-line tool (risk_vs_context) between https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-linux-nodes/#before-you-begin, https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-windows-nodes/#before-you-begin [c11]",
+      "Unresolved disagreement about kubectl convert (risk_vs_context) between https://kubernetes.io/docs/reference/using-api/deprecation-guide/#migrate-to-non-deprecated-apis, https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/#update-manifests [c12]",
+      "Unresolved disagreement about kubelet (risk_vs_context) between https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#synopsis, https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/#before-you-begin, https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/, https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#additional-information [c13]",
+      "Unresolved disagreement about kube-proxy (risk_vs_context) between https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#synopsis, https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#how-it-works [c14]",
+      "Unresolved disagreement about Kubernetes 1.28 (risk_vs_context) between https://kubernetes.io/bn/releases/1.28/, https://kubernetes.io/es/releases/1.28/, https://kubernetes.io/ja/releases/1.28/, https://kubernetes.io/pl/releases/1.28/ [c15]",
+      "Unresolved disagreement about Kubernetes 1.29 (risk_vs_context) between https://kubernetes.io/bn/releases/1.29/, https://kubernetes.io/es/releases/1.29/, https://kubernetes.io/ja/releases/1.29/, https://kubernetes.io/pl/releases/1.29/ [c16]",
+      "Unresolved disagreement about StorageVersionMigration (risk_vs_context) between https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/, https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/storage-version-migration-v1/#response, https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/#re-encrypt-kubernetes-secrets-using-storage-version-migration, https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/#update-the-preferred-storage-schema-of-a-crd [c20]",
+      "Unresolved disagreement about -y, --yes (risk_vs_context) between https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/#options, https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/#options [c21]",
+      "66 critical or high risks rest on a single source (flagged single_source_severe_risk); confirm them with a second source: 'Flow control manifests or clients still use flowcontrol.apiserver.k8s.io/v1beta1'; 'Aggregated API storage migration fails when resourceVersion is not preserved'; 'Cloud-controller-manager not updated to mount leader migration config' and 63 more."
+    ]
+  }
+}

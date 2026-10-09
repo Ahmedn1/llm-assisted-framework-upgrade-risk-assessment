@@ -1,0 +1,13 @@
+.venv/
+.venv-d1/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+*.cache/
+.env
+
+# Published results live directly in outputs/; collected document text is regenerable (see README).
+outputs/**/evidence.json
+outputs/rerun/
+outputs/*.log
+outputs/*.jsonl

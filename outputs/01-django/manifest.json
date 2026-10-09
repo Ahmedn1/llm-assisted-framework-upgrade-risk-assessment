@@ -1,0 +1,223 @@
+{
+  "generated_at": "2026-10-09T15:11:23.886323+00:00",
+  "input": {
+    "project": "Django",
+    "current_version": "3.2",
+    "target_version": "4.2"
+  },
+  "configuration": {
+    "offline": false,
+    "refresh": false,
+    "scorer": "heuristic",
+    "web_search": "auto",
+    "evidence_search": "none",
+    "max_documents": 100,
+    "resolver_requests": 100,
+    "collector_requests": 200,
+    "max_urls": 500,
+    "max_depth": 2,
+    "execution_path": "deterministic",
+    "section_relevance": true,
+    "risk_extraction": true,
+    "section_relevance_max_sections": 200,
+    "decision_backend": {
+      "adapter": "OpenD1Client",
+      "model": "LiquidAI/d1-3B@051bcc464b01b9f92942b364d9586b0ef5912432"
+    },
+    "risk_extraction_options": {
+      "max_sections": 150,
+      "structured_mode": "json_schema",
+      "max_output_tokens": 8192,
+      "token_parameter": "max_completion_tokens"
+    },
+    "risk_verification": {
+      "judge": "decision",
+      "max_conditions": 300
+    },
+    "models": {
+      "relevance": {
+        "kind": "d1",
+        "model": "LiquidAI/d1-3B",
+        "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+        "base_url": null,
+        "api_key_set": false,
+        "resolved_from": {
+          "backend": "default",
+          "model": "default",
+          "revision": "default pin",
+          "base_url": null,
+          "api_key": null
+        }
+      },
+      "extraction": {
+        "kind": "llm",
+        "model": "gpt-5.4-mini",
+        "base_url": "https://api.openai.com/v1",
+        "api_key_set": true,
+        "resolved_from": {
+          "model": "LLM_MODEL_NAME",
+          "base_url": "LLM_BASE_URL",
+          "api_key": "LLM_API_KEY"
+        }
+      },
+      "judge": {
+        "kind": "d1",
+        "model": "LiquidAI/d1-3B",
+        "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+        "base_url": null,
+        "api_key_set": false,
+        "resolved_from": {
+          "backend": "default",
+          "model": "default",
+          "revision": "default pin",
+          "base_url": null,
+          "api_key": null
+        }
+      }
+    }
+  },
+  "files": {
+    "resolution": "resolution.json",
+    "evidence": "evidence.json",
+    "source_inventory": "source_inventory.json",
+    "candidate_sections": "candidate_sections.json",
+    "risk_model": "risk_model.json",
+    "extracted_facts": "extracted_facts.json",
+    "grounding_report": "grounding_report.json",
+    "evidence_summary": "evidence_summary.json",
+    "final_output": "final_output.json",
+    "report": "report.html"
+  },
+  "section_relevance": {
+    "section_relevance_decision_calls": 200,
+    "section_relevance_scored": 200,
+    "section_relevance_failed": 0,
+    "section_relevance_not_scored": 153,
+    "section_relevance_labels": {
+      "risk_candidate": 43,
+      "context": 113,
+      "not_relevant": 44
+    }
+  },
+  "risk_extraction": {
+    "risk_paths": 214,
+    "contextual_facts": 329,
+    "overall_confidence": "medium",
+    "extraction_llm_calls": 238,
+    "rejected_facts": 8,
+    "extraction_failures": 1
+  },
+  "risk_verification": {
+    "overall_confidence": "medium",
+    "judge": "decision",
+    "high_confidence_risks": 47,
+    "medium_confidence_risks": 144,
+    "low_confidence_or_disputed_risks": 23,
+    "sources_with_disagreements": 29
+  },
+  "summary": {
+    "resolver_status": "resolved",
+    "selected_catalog": "https://pypi.org/pypi/Django/json",
+    "version_count": 56,
+    "milestones": [
+      "4.0",
+      "4.1",
+      "4.2"
+    ],
+    "resolver_coverage": {
+      "identity": "resolved_by_heuristics",
+      "catalog": "enumerated",
+      "discovery": "bounded_search",
+      "source_selection": "selected",
+      "publication": "catalog_records"
+    },
+    "resolver_warnings": [
+      "Git tags identify source references; they do not prove that a corresponding package or binary was published.",
+      "Non-stable, unsupported, or unavailable version labels were skipped; inspect catalogs[].skipped_labels."
+    ],
+    "resolver_network_requests": 0,
+    "collector_status": "partial",
+    "document_count": 157,
+    "retrieval_failures": 3,
+    "failure_examples": [
+      {
+        "url": "https://github.com/django/django/releases/tag/v4.0",
+        "retrieval_url": "https://api.github.com/repos/django/django/releases/tags/v4.0",
+        "error": "HTTP 404 for https://api.github.com/repos/django/django/releases/tags/v4.0"
+      },
+      {
+        "url": "https://github.com/django/django/releases/tag/v4.1",
+        "retrieval_url": "https://api.github.com/repos/django/django/releases/tags/v4.1",
+        "error": "HTTP 404 for https://api.github.com/repos/django/django/releases/tags/v4.1"
+      },
+      {
+        "url": "https://github.com/django/django/releases/tag/v4.2",
+        "retrieval_url": "https://api.github.com/repos/django/django/releases/tags/v4.2",
+        "error": "HTTP 404 for https://api.github.com/repos/django/django/releases/tags/v4.2"
+      }
+    ],
+    "validation_failures": 0,
+    "inference_failures": 0,
+    "pipeline_status": "completed_partial",
+    "document_types": {
+      "registry_metadata": 57,
+      "supporting_document": 47,
+      "upgrade_guide": 3,
+      "release_notes": 49,
+      "api_documentation": 1
+    },
+    "versions_with_candidate_evidence": 56,
+    "versions_with_direct_evidence": 56,
+    "versions_with_direct_release_notes": 0,
+    "versions_without_evidence": [],
+    "versions_with_only_registry_metadata": [
+      "4.0.1",
+      "4.0.2",
+      "4.0.3",
+      "4.0.4",
+      "4.0.5",
+      "4.0.6",
+      "4.0.7",
+      "4.0.8",
+      "4.0.9",
+      "4.0.10",
+      "4.1.1",
+      "4.1.2",
+      "4.1.4",
+      "4.1.5",
+      "4.1.6",
+      "4.1.7"
+    ],
+    "upgrade_guide_urls": [
+      "https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/",
+      "https://www.djangoproject.com/weblog/2013/mar/22/kickstarting-schema-migrations-django/",
+      "https://docs.djangoproject.com/en/dev/howto/upgrade-version/"
+    ],
+    "pending_urls": 146,
+    "skipped_urls": 790,
+    "collector_network_requests": 3,
+    "collector_warnings": [],
+    "llm_calls": 0,
+    "section_relevance_decision_calls": 200,
+    "section_relevance_scored": 200,
+    "section_relevance_failed": 0,
+    "section_relevance_not_scored": 153,
+    "section_relevance_labels": {
+      "risk_candidate": 43,
+      "context": 113,
+      "not_relevant": 44
+    },
+    "risk_paths": 214,
+    "contextual_facts": 329,
+    "overall_confidence": "medium",
+    "extraction_llm_calls": 238,
+    "rejected_facts": 8,
+    "extraction_failures": 1,
+    "verification_overall_confidence": "medium",
+    "verification_judge": "decision",
+    "verification_high_confidence_risks": 47,
+    "verification_medium_confidence_risks": 144,
+    "verification_low_confidence_or_disputed_risks": 23,
+    "verification_sources_with_disagreements": 29
+  }
+}

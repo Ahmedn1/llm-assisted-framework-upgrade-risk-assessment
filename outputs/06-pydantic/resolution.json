@@ -1,0 +1,2444 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-09T16:44:14.707889+00:00",
+  "input": {
+    "project": "Pydantic",
+    "current_version": "1",
+    "target_version": "2",
+    "source_urls": [],
+    "version_mode": "family"
+  },
+  "status": "resolved",
+  "identity": {
+    "id": "github:pydantic/pydantic",
+    "name": "pydantic",
+    "repository": "pydantic/pydantic",
+    "homepage": "https://pydantic.dev/docs/validation",
+    "score": 15,
+    "confidence": "heuristic",
+    "evidence": [
+      {
+        "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+        "field": "full_name",
+        "value": "pydantic/pydantic"
+      },
+      {
+        "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+        "field": "description",
+        "value": "Data validation using Python type hints"
+      },
+      {
+        "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+        "field": "homepage",
+        "value": "https://pydantic.dev/docs/validation"
+      },
+      {
+        "url": "https://api.github.com/repos/pydantic/pydantic",
+        "field": "full_name",
+        "value": "pydantic/pydantic"
+      },
+      {
+        "url": "https://api.github.com/repos/pydantic/pydantic",
+        "field": "description",
+        "value": "Data validation using Python type hints"
+      },
+      {
+        "url": "https://api.github.com/repos/pydantic/pydantic",
+        "field": "homepage",
+        "value": "https://pydantic.dev/docs/validation"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+        "field": "search_result",
+        "value": "https://github.com/pydantic/pydantic/releases"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+        "field": "search_result",
+        "value": "https://github.com/pydantic/pydantic/releases?after=v1.6.1"
+      },
+      {
+        "url": "https://pydantic.dev/docs/validation/latest/get-started/",
+        "field": "repository_backlink",
+        "value": "https://github.com/pydantic/pydantic"
+      },
+      {
+        "url": "https://api.github.com/repos/pydantic/pydantic",
+        "field": "full_name",
+        "value": "pydantic/pydantic"
+      },
+      {
+        "url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+        "field": "search_result",
+        "value": "https://pydantic.dev/articles/pydantic-v2-final"
+      },
+      {
+        "url": "https://pydantic.dev/articles/pydantic-v2-final",
+        "field": "title",
+        "value": "Announcement: Pydantic V2 Release"
+      },
+      {
+        "url": "https://pydantic.dev/articles/pydantic-v2-final",
+        "field": "repository_link",
+        "value": "pydantic/pydantic"
+      },
+      {
+        "url": "https://api.github.com/repos/pydantic/pydantic",
+        "field": "full_name",
+        "value": "pydantic/pydantic"
+      }
+    ]
+  },
+  "version_policy": {
+    "stable_numeric_versions_only": true,
+    "interval": "exclude current family; include all target-family releases",
+    "milestone_precision": 1,
+    "note": "Milestones group discovered versions for documentation collection; they are not installation steps. Family mode does not assess changes within the current family."
+  },
+  "candidates": [
+    {
+      "kind": "github",
+      "name": "pydantic",
+      "url": "https://github.com/pydantic/pydantic",
+      "description": "Data validation using Python type hints",
+      "repository": "pydantic/pydantic",
+      "homepage": "https://pydantic.dev/docs/validation",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "pydantic/pydantic"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Data validation using Python type hints"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://pydantic.dev/docs/validation"
+        },
+        {
+          "url": "https://api.github.com/repos/pydantic/pydantic",
+          "field": "full_name",
+          "value": "pydantic/pydantic"
+        },
+        {
+          "url": "https://api.github.com/repos/pydantic/pydantic",
+          "field": "description",
+          "value": "Data validation using Python type hints"
+        },
+        {
+          "url": "https://api.github.com/repos/pydantic/pydantic",
+          "field": "homepage",
+          "value": "https://pydantic.dev/docs/validation"
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+          "field": "search_result",
+          "value": "https://github.com/pydantic/pydantic/releases"
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+          "field": "search_result",
+          "value": "https://github.com/pydantic/pydantic/releases?after=v1.6.1"
+        },
+        {
+          "url": "https://pydantic.dev/docs/validation/latest/get-started/",
+          "field": "repository_backlink",
+          "value": "https://github.com/pydantic/pydantic"
+        },
+        {
+          "url": "https://api.github.com/repos/pydantic/pydantic",
+          "field": "full_name",
+          "value": "pydantic/pydantic"
+        }
+      ],
+      "score": 15,
+      "reasons": [
+        "Exact normalized project-name match (+4)",
+        "Repository name matches the requested project (+3)",
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Announcement: Pydantic V2 Release",
+      "url": "https://pydantic.dev/articles/pydantic-v2-final",
+      "description": "Official release note for Pydantic V2 - with migration guide",
+      "repository": "pydantic/pydantic",
+      "homepage": "https://pydantic.dev/articles/pydantic-v2-final",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+          "field": "search_result",
+          "value": "https://pydantic.dev/articles/pydantic-v2-final"
+        },
+        {
+          "url": "https://pydantic.dev/articles/pydantic-v2-final",
+          "field": "title",
+          "value": "Announcement: Pydantic V2 Release"
+        },
+        {
+          "url": "https://pydantic.dev/articles/pydantic-v2-final",
+          "field": "repository_link",
+          "value": "pydantic/pydantic"
+        },
+        {
+          "url": "https://api.github.com/repos/pydantic/pydantic",
+          "field": "full_name",
+          "value": "pydantic/pydantic"
+        }
+      ],
+      "score": 13,
+      "reasons": [
+        "Repository name matches the requested project (+3)",
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "monty",
+      "url": "https://github.com/pydantic/monty",
+      "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+      "repository": "pydantic/monty",
+      "homepage": "https://pydantic.dev/docs/monty/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "pydantic/monty"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "A minimal, secure Python interpreter written in Rust for use by AI"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://pydantic.dev/docs/monty/"
+        },
+        {
+          "url": "https://pydantic.dev/docs/monty/get-started/",
+          "field": "repository_backlink",
+          "value": "https://github.com/pydantic/monty"
+        },
+        {
+          "url": "https://api.github.com/repos/pydantic/monty",
+          "field": "full_name",
+          "value": "pydantic/monty"
+        }
+      ],
+      "score": 8,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "pydantic-ai",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+      "repository": "pydantic/pydantic-ai",
+      "homepage": "https://pydantic.dev/pydantic-ai",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "pydantic/pydantic-ai"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://pydantic.dev/pydantic-ai"
+        },
+        {
+          "url": "https://pydantic.dev/pydantic-ai",
+          "field": "repository_backlink",
+          "value": "https://github.com/pydantic/pydantic-ai"
+        },
+        {
+          "url": "https://api.github.com/repos/pydantic/pydantic-ai",
+          "field": "full_name",
+          "value": "pydantic/pydantic-ai"
+        }
+      ],
+      "score": 8,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Homepage links back to this repository (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Changelog | Pydantic Docs",
+      "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/",
+      "description": "Changelog | Pydantic Docs",
+      "repository": "",
+      "homepage": "https://pydantic.dev/docs/validation/latest/get-started/changelog/",
+      "evidence": [
+        {
+          "url": "https://pydantic.dev/docs/validation/latest/get-started/",
+          "field": "project_release_link",
+          "value": "https://pydantic.dev/docs/validation/latest/get-started/changelog/"
+        },
+        {
+          "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/",
+          "field": "title",
+          "value": "Changelog | Pydantic Docs"
+        }
+      ],
+      "score": 6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "logfire",
+      "url": "https://github.com/pydantic/logfire",
+      "description": "AI observability platform for production LLM and agent systems.",
+      "repository": "pydantic/logfire",
+      "homepage": "https://pydantic.dev/logfire/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "pydantic/logfire"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "AI observability platform for production LLM and agent systems."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://pydantic.dev/logfire/"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "pypi",
+      "name": "pydantic",
+      "url": "https://pypi.org/pypi/Pydantic/json",
+      "description": "Data validation using Python type hints",
+      "repository": "sponsors/samuelcolvin",
+      "homepage": "https://github.com/pydantic/pydantic",
+      "evidence": [
+        {
+          "url": "https://pypi.org/pypi/Pydantic/json",
+          "field": "info.name",
+          "value": "pydantic"
+        },
+        {
+          "url": "https://pypi.org/pypi/Pydantic/json",
+          "field": "info.summary",
+          "value": "Data validation using Python type hints"
+        },
+        {
+          "url": "https://pypi.org/pypi/Pydantic/json",
+          "field": "info.project_urls.Changelog",
+          "value": "https://pydantic.dev/docs/validation/latest/get-started/changelog/"
+        },
+        {
+          "url": "https://pypi.org/pypi/Pydantic/json",
+          "field": "info.project_urls.Documentation",
+          "value": "https://pydantic.dev/docs/validation/latest/get-started/"
+        },
+        {
+          "url": "https://pypi.org/pypi/Pydantic/json",
+          "field": "info.project_urls.Funding",
+          "value": "https://github.com/sponsors/samuelcolvin"
+        },
+        {
+          "url": "https://pypi.org/pypi/Pydantic/json",
+          "field": "info.project_urls.Homepage",
+          "value": "https://github.com/pydantic/pydantic"
+        },
+        {
+          "url": "https://pypi.org/pypi/Pydantic/json",
+          "field": "info.project_urls.Source",
+          "value": "https://github.com/pydantic/pydantic"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Exact normalized project-name match (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "pypi",
+      "name": "pydantic",
+      "url": "https://pypi.org/pypi/pydantic/json",
+      "description": "Data validation using Python type hints",
+      "repository": "sponsors/samuelcolvin",
+      "homepage": "https://github.com/pydantic/pydantic",
+      "evidence": [
+        {
+          "url": "https://pypi.org/pypi/pydantic/json",
+          "field": "info.name",
+          "value": "pydantic"
+        },
+        {
+          "url": "https://pypi.org/pypi/pydantic/json",
+          "field": "info.summary",
+          "value": "Data validation using Python type hints"
+        },
+        {
+          "url": "https://pypi.org/pypi/pydantic/json",
+          "field": "info.project_urls.Changelog",
+          "value": "https://pydantic.dev/docs/validation/latest/get-started/changelog/"
+        },
+        {
+          "url": "https://pypi.org/pypi/pydantic/json",
+          "field": "info.project_urls.Documentation",
+          "value": "https://pydantic.dev/docs/validation/latest/get-started/"
+        },
+        {
+          "url": "https://pypi.org/pypi/pydantic/json",
+          "field": "info.project_urls.Funding",
+          "value": "https://github.com/sponsors/samuelcolvin"
+        },
+        {
+          "url": "https://pypi.org/pypi/pydantic/json",
+          "field": "info.project_urls.Homepage",
+          "value": "https://github.com/pydantic/pydantic"
+        },
+        {
+          "url": "https://pypi.org/pypi/pydantic/json",
+          "field": "info.project_urls.Source",
+          "value": "https://github.com/pydantic/pydantic"
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+          "field": "search_result",
+          "value": "https://pypi.org/project/pydantic/"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Exact normalized project-name match (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "npm",
+      "name": "pydantic",
+      "url": "https://registry.npmjs.org/pydantic",
+      "description": "security holding package",
+      "repository": "",
+      "homepage": "",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/pydantic/latest",
+          "field": "name",
+          "value": "pydantic"
+        },
+        {
+          "url": "https://registry.npmjs.org/pydantic/latest",
+          "field": "repository",
+          "value": "npm/security-holder"
+        },
+        {
+          "url": "https://registry.npmjs.org/pydantic/latest",
+          "field": "description",
+          "value": "security holding package"
+        }
+      ],
+      "score": 4,
+      "reasons": [
+        "Exact normalized project-name match (+4)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "mihomo",
+      "url": "https://github.com/MetaCubeX/mihomo",
+      "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
+      "repository": "MetaCubeX/mihomo",
+      "homepage": "https://wiki.metacubex.one",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "MetaCubeX/mihomo"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://wiki.metacubex.one"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "FastAPI-boilerplate",
+      "url": "https://github.com/benavlabs/FastAPI-boilerplate",
+      "description": "An extendable async API using FastAPI, Pydantic V2, SQLAlchemy 2.0, PostgreSQL and Redis.",
+      "repository": "benavlabs/FastAPI-boilerplate",
+      "homepage": "https://benavlabs.github.io/FastAPI-boilerplate/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "benavlabs/FastAPI-boilerplate"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "An extendable async API using FastAPI, Pydantic V2, SQLAlchemy 2.0, PostgreSQL and Redis."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://benavlabs.github.io/FastAPI-boilerplate/"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "datamodel-code-generator",
+      "url": "https://github.com/datamodel-code-generator/datamodel-code-generator",
+      "description": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
+      "repository": "datamodel-code-generator/datamodel-code-generator",
+      "homepage": "https://datamodel-code-generator.koxudaxi.dev/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "datamodel-code-generator/datamodel-code-generator"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://datamodel-code-generator.koxudaxi.dev/"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "fastapi-best-architecture",
+      "url": "https://github.com/fastapi-practices/fastapi-best-architecture",
+      "description": "Enterprise-level backend architecture solution with fastapi\u3001sqlalchemy,\u3001celery\u3001pydantic\u3001grafana\u3001docker...",
+      "repository": "fastapi-practices/fastapi-best-architecture",
+      "homepage": "https://docs.fba.wu-clan.cc",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "fastapi-practices/fastapi-best-architecture"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Enterprise-level backend architecture solution with fastapi\u3001sqlalchemy,\u3001celery\u3001pydantic\u3001grafana\u3001docker..."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://docs.fba.wu-clan.cc"
+        }
+      ],
+      "score": 2,
+      "reasons": [
+        "Description explicitly names the requested project (+2)"
+      ],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "FastUI",
+      "url": "https://github.com/pydantic/FastUI",
+      "description": "Build better UIs faster.",
+      "repository": "pydantic/FastUI",
+      "homepage": "https://fastui-demo.onrender.com",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "pydantic/FastUI"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "Build better UIs faster."
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://fastui-demo.onrender.com"
+        }
+      ],
+      "score": 0,
+      "reasons": [],
+      "rejected": false
+    },
+    {
+      "kind": "html",
+      "name": "Profile of Pydantic \u00b7 PyPI",
+      "url": "https://pypi.org/org/pydantic/",
+      "description": "The Python Package Index (PyPI) is a repository of software for the Python programming language.",
+      "repository": "",
+      "homepage": "https://pypi.org/org/pydantic/",
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+          "field": "search_result",
+          "value": "https://pypi.org/org/pydantic/"
+        },
+        {
+          "url": "https://pypi.org/org/pydantic/",
+          "field": "title",
+          "value": "Profile of Pydantic \u00b7 PyPI"
+        }
+      ],
+      "score": 0,
+      "reasons": [],
+      "rejected": false
+    },
+    {
+      "kind": "github",
+      "name": "ormar",
+      "url": "https://github.com/ormar-orm/ormar",
+      "description": "python async orm with fastapi in mind and pydantic validation",
+      "repository": "ormar-orm/ormar",
+      "homepage": "https://collerek.github.io/ormar/",
+      "evidence": [
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "full_name",
+          "value": "ormar-orm/ormar"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "description",
+          "value": "python async orm with fastapi in mind and pydantic validation"
+        },
+        {
+          "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+          "field": "homepage",
+          "value": "https://collerek.github.io/ormar/"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Description explicitly names the requested project (+2)",
+        "Description suggests a client, integration, or example rather than the requested software (-8)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@pydantic/logfire-cli-darwin-arm64",
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-arm64",
+      "description": "Native binary for @pydantic/logfire-cli-darwin-arm64.",
+      "repository": "pydantic/logfire-cli",
+      "homepage": "https://pydantic.dev/logfire",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-arm64/latest",
+          "field": "name",
+          "value": "@pydantic/logfire-cli-darwin-arm64"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-arm64/latest",
+          "field": "repository",
+          "value": "git+https://github.com/pydantic/logfire-cli.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-arm64/latest",
+          "field": "description",
+          "value": "Native binary for @pydantic/logfire-cli-darwin-arm64."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Pydantic&size=5",
+          "field": "package.name",
+          "value": "@pydantic/logfire-cli-darwin-arm64"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@pydantic/logfire-cli-darwin-x64",
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-x64",
+      "description": "Native binary for @pydantic/logfire-cli-darwin-x64.",
+      "repository": "pydantic/logfire-cli",
+      "homepage": "https://pydantic.dev/logfire",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-x64/latest",
+          "field": "name",
+          "value": "@pydantic/logfire-cli-darwin-x64"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-x64/latest",
+          "field": "repository",
+          "value": "git+https://github.com/pydantic/logfire-cli.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-x64/latest",
+          "field": "description",
+          "value": "Native binary for @pydantic/logfire-cli-darwin-x64."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Pydantic&size=5",
+          "field": "package.name",
+          "value": "@pydantic/logfire-cli-darwin-x64"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@pydantic/logfire-cli-linux-arm64",
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-arm64",
+      "description": "Native binary for @pydantic/logfire-cli-linux-arm64.",
+      "repository": "pydantic/logfire-cli",
+      "homepage": "https://pydantic.dev/logfire",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-arm64/latest",
+          "field": "name",
+          "value": "@pydantic/logfire-cli-linux-arm64"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-arm64/latest",
+          "field": "repository",
+          "value": "git+https://github.com/pydantic/logfire-cli.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-arm64/latest",
+          "field": "description",
+          "value": "Native binary for @pydantic/logfire-cli-linux-arm64."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Pydantic&size=5",
+          "field": "package.name",
+          "value": "@pydantic/logfire-cli-linux-arm64"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@pydantic/logfire-cli-linux-x64",
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-x64",
+      "description": "Native binary for @pydantic/logfire-cli-linux-x64.",
+      "repository": "pydantic/logfire-cli",
+      "homepage": "https://pydantic.dev/logfire",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-x64/latest",
+          "field": "name",
+          "value": "@pydantic/logfire-cli-linux-x64"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-x64/latest",
+          "field": "repository",
+          "value": "git+https://github.com/pydantic/logfire-cli.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-x64/latest",
+          "field": "description",
+          "value": "Native binary for @pydantic/logfire-cli-linux-x64."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Pydantic&size=5",
+          "field": "package.name",
+          "value": "@pydantic/logfire-cli-linux-x64"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@pydantic/logfire-cli-win32-x64",
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-win32-x64",
+      "description": "Native binary for @pydantic/logfire-cli-win32-x64.",
+      "repository": "pydantic/logfire-cli",
+      "homepage": "https://pydantic.dev/logfire",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-win32-x64/latest",
+          "field": "name",
+          "value": "@pydantic/logfire-cli-win32-x64"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-win32-x64/latest",
+          "field": "repository",
+          "value": "git+https://github.com/pydantic/logfire-cli.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-win32-x64/latest",
+          "field": "description",
+          "value": "Native binary for @pydantic/logfire-cli-win32-x64."
+        },
+        {
+          "url": "https://registry.npmjs.org/-/v1/search?text=Pydantic&size=5",
+          "field": "package.name",
+          "value": "@pydantic/logfire-cli-win32-x64"
+        }
+      ],
+      "score": -6,
+      "reasons": [
+        "Project name matches a homepage host label (+4; heuristic, not ownership proof)",
+        "Description explicitly names the requested project (+2)",
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    },
+    {
+      "kind": "npm",
+      "name": "@pydantic/monty",
+      "url": "https://registry.npmjs.org/@pydantic%2Fmonty",
+      "description": "Python sandbox running in crash-isolated subprocess workers",
+      "repository": "pydantic/monty",
+      "homepage": "https://github.com/pydantic/monty#readme",
+      "evidence": [
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Fmonty/latest",
+          "field": "name",
+          "value": "@pydantic/monty"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Fmonty/latest",
+          "field": "repository",
+          "value": "git+https://github.com/pydantic/monty.git"
+        },
+        {
+          "url": "https://registry.npmjs.org/@pydantic%2Fmonty/latest",
+          "field": "description",
+          "value": "Python sandbox running in crash-isolated subprocess workers"
+        },
+        {
+          "url": "https://pydantic.dev/docs/monty/get-started/",
+          "field": "package_link",
+          "value": "https://www.npmjs.com/package/@pydantic/monty"
+        }
+      ],
+      "score": -12,
+      "reasons": [
+        "Package name does not identify the requested component; a shared repository is insufficient (-12)"
+      ],
+      "rejected": true
+    }
+  ],
+  "catalogs": [
+    {
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases",
+      "source_type": "github_releases",
+      "releases": [
+        {
+          "version": "2.0",
+          "raw_version": "v2.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-06-30T16:30:12Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.0"
+        },
+        {
+          "version": "2.0.1",
+          "raw_version": "v2.0.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-07-04T17:13:07Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.0.1"
+        },
+        {
+          "version": "2.0.2",
+          "raw_version": "v2.0.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-07-05T17:24:27Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.0.2"
+        },
+        {
+          "version": "2.0.3",
+          "raw_version": "v2.0.3",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-07-14T08:36:41Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.0.3"
+        },
+        {
+          "version": "2.1.0",
+          "raw_version": "v2.1.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-07-25T16:34:31Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.1.0"
+        },
+        {
+          "version": "2.1.1",
+          "raw_version": "v2.1.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-07-25T22:56:51Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.1.1"
+        },
+        {
+          "version": "2.2.0",
+          "raw_version": "v2.2.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-08-17T12:02:41Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.2.0"
+        },
+        {
+          "version": "2.2.1",
+          "raw_version": "v2.2.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-08-18T16:12:27Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.2.1"
+        },
+        {
+          "version": "2.3.0",
+          "raw_version": "v2.3.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-08-23T18:25:22Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.3.0"
+        },
+        {
+          "version": "2.4.0",
+          "raw_version": "v2.4.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-09-25T13:50:03Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.4.0"
+        },
+        {
+          "version": "2.4.1",
+          "raw_version": "v2.4.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-09-26T14:14:32Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.4.1"
+        },
+        {
+          "version": "2.4.2",
+          "raw_version": "v2.4.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-09-27T17:38:44Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.4.2"
+        },
+        {
+          "version": "2.5.0",
+          "raw_version": "v2.5.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-11-13T16:37:56Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.0"
+        },
+        {
+          "version": "2.5.1",
+          "raw_version": "v2.5.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-11-15T13:36:12Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.1"
+        },
+        {
+          "version": "2.5.2",
+          "raw_version": "v2.5.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-11-22T13:31:59Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.2"
+        },
+        {
+          "version": "2.5.3",
+          "raw_version": "v2.5.3",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2023-12-22T10:12:36Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.3"
+        },
+        {
+          "version": "2.6.0",
+          "raw_version": "v2.6.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-01-29T14:29:18Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.0"
+        },
+        {
+          "version": "2.6.1",
+          "raw_version": "v2.6.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-02-05T13:48:26Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.1"
+        },
+        {
+          "version": "2.6.2",
+          "raw_version": "v2.6.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-02-23T16:05:59Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.2"
+        },
+        {
+          "version": "2.6.3",
+          "raw_version": "v2.6.3",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-02-27T18:14:23Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.3"
+        },
+        {
+          "version": "2.6.4",
+          "raw_version": "v2.6.4",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-03-12T13:02:29Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.4"
+        },
+        {
+          "version": "2.7.0",
+          "raw_version": "v2.7.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-04-11T16:40:40Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.0"
+        },
+        {
+          "version": "2.7.1",
+          "raw_version": "v2.7.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-04-23T13:11:29Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.1"
+        },
+        {
+          "version": "2.7.2",
+          "raw_version": "v2.7.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-05-28T18:01:23Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.2"
+        },
+        {
+          "version": "2.7.3",
+          "raw_version": "v2.7.3",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-06-03T18:36:12Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.3"
+        },
+        {
+          "version": "2.7.4",
+          "raw_version": "v2.7.4",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-06-12T13:46:41Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.4"
+        },
+        {
+          "version": "2.8.0",
+          "raw_version": "v2.8.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-07-01T15:44:06Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.8.0"
+        },
+        {
+          "version": "2.8.1",
+          "raw_version": "v2.8.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-07-03T22:58:15Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.8.1"
+        },
+        {
+          "version": "2.8.2",
+          "raw_version": "v2.8.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-07-04T02:47:21Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.8.2"
+        },
+        {
+          "version": "2.9.0",
+          "raw_version": "v2.9.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-09-05T15:40:01Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.9.0"
+        },
+        {
+          "version": "2.9.1",
+          "raw_version": "v2.9.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-09-09T08:35:33Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.9.1"
+        },
+        {
+          "version": "2.9.2",
+          "raw_version": "v2.9.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-09-17T14:59:21Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.9.2"
+        },
+        {
+          "version": "2.10.0",
+          "raw_version": "v2.10.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-11-20T20:32:21Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.0"
+        },
+        {
+          "version": "2.10.1",
+          "raw_version": "v2.10.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-11-22T00:50:58Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.1"
+        },
+        {
+          "version": "2.10.2",
+          "raw_version": "v2.10.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-11-26T12:44:35Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.2"
+        },
+        {
+          "version": "2.10.3",
+          "raw_version": "v2.10.3",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-12-03T15:43:34Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.3"
+        },
+        {
+          "version": "2.10.4",
+          "raw_version": "v2.10.4",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2024-12-18T16:58:15Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.4"
+        },
+        {
+          "version": "2.10.5",
+          "raw_version": "v2.10.5",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-01-10T17:31:00Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.5"
+        },
+        {
+          "version": "2.10.6",
+          "raw_version": "v2.10.6",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-01-24T01:32:59Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.6"
+        },
+        {
+          "version": "2.11.0",
+          "raw_version": "v2.11.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-03-27T18:01:20Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.0"
+        },
+        {
+          "version": "2.11.1",
+          "raw_version": "v2.11.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-03-28T21:04:48Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.1"
+        },
+        {
+          "version": "2.11.2",
+          "raw_version": "v2.11.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-04-03T13:14:22Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.2"
+        },
+        {
+          "version": "2.11.3",
+          "raw_version": "v2.11.3",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-04-08T13:26:59Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.3"
+        },
+        {
+          "version": "2.11.4",
+          "raw_version": "v2.11.4",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-04-29T20:25:45Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.4"
+        },
+        {
+          "version": "2.11.5",
+          "raw_version": "v2.11.5",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-05-23T08:58:29Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.5"
+        },
+        {
+          "version": "2.11.6",
+          "raw_version": "v2.11.6",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-06-13T09:01:33Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.6"
+        },
+        {
+          "version": "2.11.7",
+          "raw_version": "v2.11.7",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-06-14T08:34:13Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.7"
+        },
+        {
+          "version": "2.11.8",
+          "raw_version": "v2.11.8",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-09-13T01:38:42Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.8"
+        },
+        {
+          "version": "2.11.9",
+          "raw_version": "v2.11.9",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-09-13T10:52:42Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.9"
+        },
+        {
+          "version": "2.12.0",
+          "raw_version": "v2.12.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-10-07T15:57:20Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.0"
+        },
+        {
+          "version": "2.12.1",
+          "raw_version": "v2.12.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-10-13T21:00:11Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.1"
+        },
+        {
+          "version": "2.12.2",
+          "raw_version": "v2.12.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-10-14T15:02:03Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.2"
+        },
+        {
+          "version": "2.12.3",
+          "raw_version": "v2.12.3",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-10-17T15:03:32Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.3"
+        },
+        {
+          "version": "2.12.4",
+          "raw_version": "v2.12.4",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-11-05T10:49:30Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.4"
+        },
+        {
+          "version": "2.12.5",
+          "raw_version": "v2.12.5",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2025-11-26T15:01:16Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.5"
+        },
+        {
+          "version": "2.13.0",
+          "raw_version": "v2.13.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2026-04-13T10:53:00Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.0"
+        },
+        {
+          "version": "2.13.1",
+          "raw_version": "v2.13.1",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2026-04-15T14:58:10Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.1"
+        },
+        {
+          "version": "2.13.2",
+          "raw_version": "v2.13.2",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2026-04-20T07:08:37Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.2"
+        },
+        {
+          "version": "2.13.3",
+          "raw_version": "v2.13.3",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2026-04-20T14:48:11Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.3"
+        },
+        {
+          "version": "2.13.4",
+          "raw_version": "v2.13.4",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2026-05-06T13:44:39Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.4"
+        },
+        {
+          "version": "2.13.5",
+          "raw_version": "v2.13.5",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2026-08-28T14:06:45Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.5"
+        },
+        {
+          "version": "2.14.0",
+          "raw_version": "v2.14.0",
+          "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+          "source_type": "github_releases",
+          "published_at": "2026-10-08T16:12:06Z",
+          "yanked": false,
+          "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.14.0"
+        }
+      ],
+      "enumeration_complete": true,
+      "warnings": [],
+      "skipped_labels": [
+        "v2.14.0b2",
+        "v2.14.0b1",
+        "v2.14.0a1",
+        "v2.13.0b3",
+        "v2.13.0b2",
+        "v2.13.0b1",
+        "v2.12.0b1",
+        "v2.12.0a1",
+        "v2.11.0b2",
+        "v2.11.0b1",
+        "v2.11.0a2",
+        "v2.11.0a1",
+        "v2.10.0b2",
+        "v2.10.0b1",
+        "v2.9.0b2",
+        "v2.9.0b1",
+        "v2.8.0b1",
+        "v2.7.0b1",
+        "v2.6.0b1",
+        "v2.5.0b1",
+        "v2.0b3",
+        "v2.0b2",
+        "v2.0b1",
+        "v2.0a4",
+        "v2.0a3",
+        "v2.0a2",
+        "v2.0a1",
+        "v1.10.0b1",
+        "v1.10.0a2",
+        "v1.10.0a1",
+        "v1.9.0a2",
+        "v1.9.0a1",
+        "v1.0b2",
+        "v1.0b1",
+        "v0.27a1",
+        "v0.20a1"
+      ]
+    },
+    {
+      "source_url": "https://pydantic.dev/articles/pydantic-v2-final",
+      "source_type": "html_release_index",
+      "releases": [
+        {
+          "version": "2.10",
+          "raw_version": "v2.10",
+          "source_url": "https://pydantic.dev/docs/validation/dev/get-started/changelog/",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://pydantic.dev/articles/pydantic-v2-10-release"
+        },
+        {
+          "version": "2.14",
+          "raw_version": "v2.14",
+          "source_url": "https://pydantic.dev/articles/pydantic-v2-final",
+          "source_type": "html_release_index",
+          "published_at": null,
+          "yanked": false,
+          "record_url": "https://pydantic.dev/articles/pydantic-v2-14-release"
+        }
+      ],
+      "enumeration_complete": false,
+      "warnings": [
+        "HTML discovery is bounded and heuristic; it cannot establish catalog completeness."
+      ],
+      "skipped_labels": []
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.0",
+      "raw_version": "v2.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-06-30T16:30:12Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.0"
+    },
+    {
+      "version": "2.0.1",
+      "raw_version": "v2.0.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-07-04T17:13:07Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.0.1"
+    },
+    {
+      "version": "2.0.2",
+      "raw_version": "v2.0.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-07-05T17:24:27Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.0.2"
+    },
+    {
+      "version": "2.0.3",
+      "raw_version": "v2.0.3",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-07-14T08:36:41Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.0.3"
+    },
+    {
+      "version": "2.1.0",
+      "raw_version": "v2.1.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-07-25T16:34:31Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.1.0"
+    },
+    {
+      "version": "2.1.1",
+      "raw_version": "v2.1.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-07-25T22:56:51Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.1.1"
+    },
+    {
+      "version": "2.2.0",
+      "raw_version": "v2.2.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-08-17T12:02:41Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.2.0"
+    },
+    {
+      "version": "2.2.1",
+      "raw_version": "v2.2.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-08-18T16:12:27Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.2.1"
+    },
+    {
+      "version": "2.3.0",
+      "raw_version": "v2.3.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-08-23T18:25:22Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.3.0"
+    },
+    {
+      "version": "2.4.0",
+      "raw_version": "v2.4.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-09-25T13:50:03Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.4.0"
+    },
+    {
+      "version": "2.4.1",
+      "raw_version": "v2.4.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-09-26T14:14:32Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.4.1"
+    },
+    {
+      "version": "2.4.2",
+      "raw_version": "v2.4.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-09-27T17:38:44Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.4.2"
+    },
+    {
+      "version": "2.5.0",
+      "raw_version": "v2.5.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-11-13T16:37:56Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.0"
+    },
+    {
+      "version": "2.5.1",
+      "raw_version": "v2.5.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-11-15T13:36:12Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.1"
+    },
+    {
+      "version": "2.5.2",
+      "raw_version": "v2.5.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-11-22T13:31:59Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.2"
+    },
+    {
+      "version": "2.5.3",
+      "raw_version": "v2.5.3",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2023-12-22T10:12:36Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.3"
+    },
+    {
+      "version": "2.6.0",
+      "raw_version": "v2.6.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-01-29T14:29:18Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.0"
+    },
+    {
+      "version": "2.6.1",
+      "raw_version": "v2.6.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-02-05T13:48:26Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.1"
+    },
+    {
+      "version": "2.6.2",
+      "raw_version": "v2.6.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-02-23T16:05:59Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.2"
+    },
+    {
+      "version": "2.6.3",
+      "raw_version": "v2.6.3",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-02-27T18:14:23Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.3"
+    },
+    {
+      "version": "2.6.4",
+      "raw_version": "v2.6.4",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-03-12T13:02:29Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.4"
+    },
+    {
+      "version": "2.7.0",
+      "raw_version": "v2.7.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-04-11T16:40:40Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.0"
+    },
+    {
+      "version": "2.7.1",
+      "raw_version": "v2.7.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-04-23T13:11:29Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.1"
+    },
+    {
+      "version": "2.7.2",
+      "raw_version": "v2.7.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-05-28T18:01:23Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.2"
+    },
+    {
+      "version": "2.7.3",
+      "raw_version": "v2.7.3",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-06-03T18:36:12Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.3"
+    },
+    {
+      "version": "2.7.4",
+      "raw_version": "v2.7.4",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-06-12T13:46:41Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.4"
+    },
+    {
+      "version": "2.8.0",
+      "raw_version": "v2.8.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-07-01T15:44:06Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.8.0"
+    },
+    {
+      "version": "2.8.1",
+      "raw_version": "v2.8.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-07-03T22:58:15Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.8.1"
+    },
+    {
+      "version": "2.8.2",
+      "raw_version": "v2.8.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-07-04T02:47:21Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.8.2"
+    },
+    {
+      "version": "2.9.0",
+      "raw_version": "v2.9.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-09-05T15:40:01Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.9.0"
+    },
+    {
+      "version": "2.9.1",
+      "raw_version": "v2.9.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-09-09T08:35:33Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.9.1"
+    },
+    {
+      "version": "2.9.2",
+      "raw_version": "v2.9.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-09-17T14:59:21Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.9.2"
+    },
+    {
+      "version": "2.10.0",
+      "raw_version": "v2.10.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-11-20T20:32:21Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.0"
+    },
+    {
+      "version": "2.10.1",
+      "raw_version": "v2.10.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-11-22T00:50:58Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.1"
+    },
+    {
+      "version": "2.10.2",
+      "raw_version": "v2.10.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-11-26T12:44:35Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.2"
+    },
+    {
+      "version": "2.10.3",
+      "raw_version": "v2.10.3",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-12-03T15:43:34Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.3"
+    },
+    {
+      "version": "2.10.4",
+      "raw_version": "v2.10.4",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2024-12-18T16:58:15Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.4"
+    },
+    {
+      "version": "2.10.5",
+      "raw_version": "v2.10.5",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-01-10T17:31:00Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.5"
+    },
+    {
+      "version": "2.10.6",
+      "raw_version": "v2.10.6",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-01-24T01:32:59Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.6"
+    },
+    {
+      "version": "2.11.0",
+      "raw_version": "v2.11.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-03-27T18:01:20Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.0"
+    },
+    {
+      "version": "2.11.1",
+      "raw_version": "v2.11.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-03-28T21:04:48Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.1"
+    },
+    {
+      "version": "2.11.2",
+      "raw_version": "v2.11.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-04-03T13:14:22Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.2"
+    },
+    {
+      "version": "2.11.3",
+      "raw_version": "v2.11.3",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-04-08T13:26:59Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.3"
+    },
+    {
+      "version": "2.11.4",
+      "raw_version": "v2.11.4",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-04-29T20:25:45Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.4"
+    },
+    {
+      "version": "2.11.5",
+      "raw_version": "v2.11.5",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-05-23T08:58:29Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.5"
+    },
+    {
+      "version": "2.11.6",
+      "raw_version": "v2.11.6",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-06-13T09:01:33Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.6"
+    },
+    {
+      "version": "2.11.7",
+      "raw_version": "v2.11.7",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-06-14T08:34:13Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.7"
+    },
+    {
+      "version": "2.11.8",
+      "raw_version": "v2.11.8",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-09-13T01:38:42Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.8"
+    },
+    {
+      "version": "2.11.9",
+      "raw_version": "v2.11.9",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-09-13T10:52:42Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.9"
+    },
+    {
+      "version": "2.12.0",
+      "raw_version": "v2.12.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-10-07T15:57:20Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.0"
+    },
+    {
+      "version": "2.12.1",
+      "raw_version": "v2.12.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-10-13T21:00:11Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.1"
+    },
+    {
+      "version": "2.12.2",
+      "raw_version": "v2.12.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-10-14T15:02:03Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.2"
+    },
+    {
+      "version": "2.12.3",
+      "raw_version": "v2.12.3",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-10-17T15:03:32Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.3"
+    },
+    {
+      "version": "2.12.4",
+      "raw_version": "v2.12.4",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-11-05T10:49:30Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.4"
+    },
+    {
+      "version": "2.12.5",
+      "raw_version": "v2.12.5",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2025-11-26T15:01:16Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.5"
+    },
+    {
+      "version": "2.13.0",
+      "raw_version": "v2.13.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2026-04-13T10:53:00Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.0"
+    },
+    {
+      "version": "2.13.1",
+      "raw_version": "v2.13.1",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2026-04-15T14:58:10Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.1"
+    },
+    {
+      "version": "2.13.2",
+      "raw_version": "v2.13.2",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2026-04-20T07:08:37Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.2"
+    },
+    {
+      "version": "2.13.3",
+      "raw_version": "v2.13.3",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2026-04-20T14:48:11Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.3"
+    },
+    {
+      "version": "2.13.4",
+      "raw_version": "v2.13.4",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2026-05-06T13:44:39Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.4"
+    },
+    {
+      "version": "2.13.5",
+      "raw_version": "v2.13.5",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2026-08-28T14:06:45Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.5"
+    },
+    {
+      "version": "2.14.0",
+      "raw_version": "v2.14.0",
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "source_type": "github_releases",
+      "published_at": "2026-10-08T16:12:06Z",
+      "yanked": false,
+      "record_url": "https://github.com/pydantic/pydantic/releases/tag/v2.14.0"
+    }
+  ],
+  "documentation_milestones": [
+    "2"
+  ],
+  "endpoint_checks": {
+    "current_found": true,
+    "target_found": true
+  },
+  "coverage": {
+    "identity": "resolved_by_heuristics",
+    "catalog": "enumerated",
+    "discovery": "bounded_search",
+    "source_selection": "selected",
+    "publication": "catalog_records"
+  },
+  "warnings": [
+    "HTML discovery is bounded and heuristic; it cannot establish catalog completeness.",
+    "Non-stable, unsupported, or unavailable version labels were skipped; inspect catalogs[].skipped_labels."
+  ],
+  "open_questions": [],
+  "source_inventory": [
+    {
+      "url": "https://api.github.com/repos/pydantic/monty",
+      "final_url": "https://api.github.com/repos/pydantic/monty",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:25.609912+00:00",
+      "content_sha256": "8192f4b02ba22055ce9db58bafaf47897ce9ea636df538a4587a1718cda7f508",
+      "from_cache": true,
+      "source_id": "source_22d02dc40c80"
+    },
+    {
+      "url": "https://api.github.com/repos/pydantic/pydantic",
+      "final_url": "https://api.github.com/repos/pydantic/pydantic",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:22.823581+00:00",
+      "content_sha256": "b77eeb2559271ca773c22842a558ca4a9502219960f78088ed967796cebabb8f",
+      "from_cache": true,
+      "source_id": "source_b1ff952a8618"
+    },
+    {
+      "url": "https://api.github.com/repos/pydantic/pydantic-ai",
+      "final_url": "https://api.github.com/repos/pydantic/pydantic-ai",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:25.439401+00:00",
+      "content_sha256": "20485a0165b72f281fd5e3634194632cbb4001ae1a5e551b70049425636aa66c",
+      "from_cache": true,
+      "source_id": "source_944b91baf69a"
+    },
+    {
+      "url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "final_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=1",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:26.087791+00:00",
+      "content_sha256": "e733b995b61f2ea6ea4345ad4d3cb4aab83b8c898311b9780dd39a42121c6d1f",
+      "from_cache": true,
+      "source_id": "source_c54653228bb5"
+    },
+    {
+      "url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=2",
+      "final_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=2",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:26.568802+00:00",
+      "content_sha256": "a74f3a003ef61b1e10629693c5dd63feb14816861be4e7bb45bc6c77cec2bec3",
+      "from_cache": true,
+      "source_id": "source_36d569a5aa59"
+    },
+    {
+      "url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=3",
+      "final_url": "https://api.github.com/repos/pydantic/pydantic/releases?per_page=100&page=3",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:26.811382+00:00",
+      "content_sha256": "192328acd933aef8300ea5f41bf38cce3c19440ab51af75e3787eb4bb3485cc0",
+      "from_cache": true,
+      "source_id": "source_df87ab8faf53"
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+      "final_url": "https://api.github.com/search/repositories?q=%22Pydantic%22+in%3Aname%2Cdescription+fork%3Afalse&sort=stars&per_page=10",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:21.529785+00:00",
+      "content_sha256": "b64e0d1d94e82715656cb3ee42d172816ee8c1ea03ec4ea6f9eaf39461155000",
+      "from_cache": true,
+      "source_id": "source_dcd3c5469554"
+    },
+    {
+      "url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+      "final_url": "https://html.duckduckgo.com/html/?q=%22Pydantic%22+official+releases+1+to+2",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:22.605160+00:00",
+      "content_sha256": "099cda9ae4115929bf62d2c65fb63a88c929a2e1d6d2c20378b3226fd4597cf9",
+      "from_cache": true,
+      "source_id": "source_63922564326f"
+    },
+    {
+      "url": "https://pydantic.dev/articles/pydantic-v2-10-release",
+      "final_url": "https://pydantic.dev/articles/pydantic-v2-10-release",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:28.117258+00:00",
+      "content_sha256": "4943ad76fbf0b7b93197609f1b1fe93646270b158e1114da5099df57b2ad5500",
+      "from_cache": true,
+      "source_id": "source_3dcc20bcae4f"
+    },
+    {
+      "url": "https://pydantic.dev/articles/pydantic-v2-14-release",
+      "final_url": "https://pydantic.dev/articles/pydantic-v2-14-release",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:26.880281+00:00",
+      "content_sha256": "3de10560ff2208141ebc617c539a4f5ee231ab658f5276b71ca8c7f0aa122dc8",
+      "from_cache": true,
+      "source_id": "source_ef8bcff9c8e4"
+    },
+    {
+      "url": "https://pydantic.dev/articles/pydantic-v2-14-release.md",
+      "final_url": "https://pydantic.dev/articles/pydantic-v2-14-release.md",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:26.945505+00:00",
+      "content_sha256": "db57cda1bbacd67605ad51fda85e928f96f56b969b111db803cbffdef7003f9c",
+      "from_cache": true,
+      "source_id": "source_3c1385bb42c2"
+    },
+    {
+      "url": "https://pydantic.dev/articles/pydantic-v2-final",
+      "final_url": "https://pydantic.dev/articles/pydantic-v2-final",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:23.142486+00:00",
+      "content_sha256": "2a4900d6094149bfbce5113fa2ffee639630772665700d9bba00c5324c110ce4",
+      "from_cache": true,
+      "source_id": "source_f6f19f9bb464"
+    },
+    {
+      "url": "https://pydantic.dev/docs/",
+      "final_url": "https://pydantic.dev/docs/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:26.996692+00:00",
+      "content_sha256": "beb0300b763aada1763aa140bd633913d5fdf0a83ccffd57ca788815874583fa",
+      "from_cache": true,
+      "source_id": "source_687669a596db"
+    },
+    {
+      "url": "https://pydantic.dev/docs/monty/",
+      "final_url": "https://pydantic.dev/docs/monty/get-started/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:24.703319+00:00",
+      "content_sha256": "50463af67f85e207ff1c700509e2ada31ffc66e390a7654c298fd9bcaa6874ce",
+      "from_cache": true,
+      "source_id": "source_03b668fe205b"
+    },
+    {
+      "url": "https://pydantic.dev/docs/validation",
+      "final_url": "https://pydantic.dev/docs/validation/latest/get-started/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:23.377809+00:00",
+      "content_sha256": "510aa305bd0bcaf91194c3e3c5821157ab32f06bbc4842e30863e99b64d807e1",
+      "from_cache": true,
+      "source_id": "source_394d6e646cfb"
+    },
+    {
+      "url": "https://pydantic.dev/docs/validation/2.10/concepts/experimental/",
+      "final_url": "https://pydantic.dev/docs/validation/2.10/concepts/experimental/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:28.233933+00:00",
+      "content_sha256": "97bcdeb65174fd40c99a14e736a02e2b17cb7ccbb9926a5616d82e54b8ab025e",
+      "from_cache": true,
+      "source_id": "source_0435ca9e5ca7"
+    },
+    {
+      "url": "https://pydantic.dev/docs/validation/dev/api/pydantic/standard_library_types/",
+      "final_url": "https://pydantic.dev/docs/validation/dev/api/pydantic/standard_library_types/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:27.163897+00:00",
+      "content_sha256": "b623923106af9e34b19be188959c94ef8e1af216ad6b2599608b9366983a5fd1",
+      "from_cache": true,
+      "source_id": "source_c985319b2290"
+    },
+    {
+      "url": "https://pydantic.dev/docs/validation/dev/get-started/changelog/",
+      "final_url": "https://pydantic.dev/docs/validation/dev/get-started/changelog/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:27.415409+00:00",
+      "content_sha256": "075a372b762453c179cee8f7edb0fb6b1016628d9445106f4cc1587e0e0e47c7",
+      "from_cache": true,
+      "source_id": "source_814ea37d3005"
+    },
+    {
+      "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/",
+      "final_url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:23.559576+00:00",
+      "content_sha256": "7db38abdc27f1f08f53bb7d601929f4d5c215ec05272d0a5d64655544723fca8",
+      "from_cache": true,
+      "source_id": "source_f123c8714d48"
+    },
+    {
+      "url": "https://pydantic.dev/logfire/",
+      "final_url": "https://pydantic.dev/logfire",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:24.285013+00:00",
+      "content_sha256": "d8d00e376b8b944f3a3179fea8a923c7c6564b0fe05da547e5ff19ce2a39dc58",
+      "from_cache": true,
+      "source_id": "source_bb56a2c568c2"
+    },
+    {
+      "url": "https://pydantic.dev/pydantic-ai",
+      "final_url": "https://pydantic.dev/pydantic-ai",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:25.210061+00:00",
+      "content_sha256": "49cd09c10104c3cc038ac6a6eca1a04ff27fa159dfd99b6232685b5b40879796",
+      "from_cache": true,
+      "source_id": "source_814e86f21558"
+    },
+    {
+      "url": "https://pypi.org/org/pydantic/",
+      "final_url": "https://pypi.org/org/pydantic/",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:22.882823+00:00",
+      "content_sha256": "7241dada86c87d2e16f3c710951ecb816c138d2eb7c4b636d009bf1b982db3ae",
+      "from_cache": true,
+      "source_id": "source_e813b367ec5b"
+    },
+    {
+      "url": "https://pypi.org/pypi/Pydantic/json",
+      "final_url": "https://pypi.org/pypi/Pydantic/json",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:18.999970+00:00",
+      "content_sha256": "b2eb30a5e0f8f5dfeda2d7f8f20f130430d6ed997279554559d607ccf2f3254f",
+      "from_cache": true,
+      "source_id": "source_18f10791d64a"
+    },
+    {
+      "url": "https://pypi.org/pypi/pydantic/json",
+      "final_url": "https://pypi.org/pypi/pydantic/json",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:22.839620+00:00",
+      "content_sha256": "b2eb30a5e0f8f5dfeda2d7f8f20f130430d6ed997279554559d607ccf2f3254f",
+      "from_cache": true,
+      "source_id": "source_7a7b8aa6736f"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/v1/search?text=Pydantic&size=5",
+      "final_url": "https://registry.npmjs.org/-/v1/search?text=Pydantic&size=5",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:19.487065+00:00",
+      "content_sha256": "66aa9824c04a1186e8c185df93df6bf3b7c93df1371212fa60bb1245af275437",
+      "from_cache": true,
+      "source_id": "source_742547fe6587"
+    },
+    {
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-arm64/latest",
+      "final_url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-arm64/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:20.038836+00:00",
+      "content_sha256": "5d8a1caf6051388ce59a0b3454bedbbd6f5065002110dc9f973d0c7c811c5616",
+      "from_cache": true,
+      "source_id": "source_45059af94b73"
+    },
+    {
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-x64/latest",
+      "final_url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-darwin-x64/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:20.817592+00:00",
+      "content_sha256": "5bcb30e2dfd2ce7092b397264103e851d8a12431512576b56bf0fc0cc2c78580",
+      "from_cache": true,
+      "source_id": "source_f7caddfa66f4"
+    },
+    {
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-arm64/latest",
+      "final_url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-arm64/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:19.684179+00:00",
+      "content_sha256": "00111cbe9091faf154f69f2c3745d74f10899ca0542fb7d1cf49b4cc68652a73",
+      "from_cache": true,
+      "source_id": "source_33f545196644"
+    },
+    {
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-x64/latest",
+      "final_url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-linux-x64/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:20.300121+00:00",
+      "content_sha256": "b149483887bd23b2e613a0cce580f85d7c3dc9e26564c222794db9b047b649ba",
+      "from_cache": true,
+      "source_id": "source_c5330f67424d"
+    },
+    {
+      "url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-win32-x64/latest",
+      "final_url": "https://registry.npmjs.org/@pydantic%2Flogfire-cli-win32-x64/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:20.444117+00:00",
+      "content_sha256": "38d52fd6663e09c17df46f83710f5463ae6dc6d990fee73624b5c1a0fafdb2bd",
+      "from_cache": true,
+      "source_id": "source_e12a5025d2dc"
+    },
+    {
+      "url": "https://registry.npmjs.org/@pydantic%2Fmonty/latest",
+      "final_url": "https://registry.npmjs.org/@pydantic%2Fmonty/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:25.146657+00:00",
+      "content_sha256": "d01722f38824482dfb376a04425857ca571899ef38d699d8c6d67cd976e8e566",
+      "from_cache": true,
+      "source_id": "source_d4896ffb01f4"
+    },
+    {
+      "url": "https://registry.npmjs.org/pydantic/latest",
+      "final_url": "https://registry.npmjs.org/pydantic/latest",
+      "status": 200,
+      "retrieved_at": "2026-10-09T14:09:19.180847+00:00",
+      "content_sha256": "aa1d043c1fffe5459e706b92882946e321db18391456944883faf8998c1a506e",
+      "from_cache": true,
+      "source_id": "source_9a271cd60996"
+    }
+  ],
+  "llm_calls": 0,
+  "catalog_coverage": [
+    {
+      "source_url": "https://api.github.com/repos/pydantic/pydantic/releases",
+      "endpoint_checks": {
+        "current_found": true,
+        "target_found": true
+      },
+      "interval_version_count": 62,
+      "granularity": "detailed_releases",
+      "detailed_version_count": 62,
+      "enumeration_complete": true,
+      "matching_observed_catalogs": []
+    },
+    {
+      "source_url": "https://pydantic.dev/articles/pydantic-v2-final",
+      "endpoint_checks": {
+        "current_found": false,
+        "target_found": true
+      },
+      "interval_version_count": 2,
+      "granularity": "detailed_releases",
+      "detailed_version_count": 2,
+      "enumeration_complete": false,
+      "matching_observed_catalogs": []
+    }
+  ],
+  "scoring": {
+    "mode": "heuristic",
+    "tie_break_order": [
+      "web_search",
+      "github",
+      "registry",
+      "other"
+    ],
+    "note": "Source preference breaks equal scores; it is not ownership evidence."
+  },
+  "selected_catalog": "https://api.github.com/repos/pydantic/pydantic/releases",
+  "network_requests": 0
+}

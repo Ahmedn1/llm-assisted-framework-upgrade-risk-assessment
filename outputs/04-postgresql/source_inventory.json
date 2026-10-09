@@ -1,0 +1,3303 @@
+{
+  "project": "PostgreSQL",
+  "current_version": "13",
+  "target_version": "16",
+  "resolved_versions": [
+    "14.0",
+    "14.1",
+    "14.2",
+    "14.3",
+    "14.4",
+    "14.5",
+    "14.6",
+    "14.7",
+    "14.8",
+    "14.9",
+    "14.10",
+    "14.11",
+    "14.12",
+    "14.13",
+    "14.14",
+    "14.15",
+    "14.16",
+    "14.17",
+    "14.18",
+    "14.19",
+    "14.20",
+    "14.21",
+    "14.22",
+    "14.23",
+    "14.24",
+    "15.0",
+    "15.1",
+    "15.2",
+    "15.3",
+    "15.4",
+    "15.5",
+    "15.6",
+    "15.7",
+    "15.8",
+    "15.9",
+    "15.10",
+    "15.11",
+    "15.12",
+    "15.13",
+    "15.14",
+    "15.15",
+    "15.16",
+    "15.17",
+    "15.18",
+    "15.19",
+    "16.0",
+    "16.1",
+    "16.2",
+    "16.3",
+    "16.4",
+    "16.5",
+    "16.6",
+    "16.7",
+    "16.8",
+    "16.9",
+    "16.10",
+    "16.11",
+    "16.12",
+    "16.13",
+    "16.14",
+    "16.15"
+  ],
+  "documentation_milestones": [
+    "14",
+    "15",
+    "16"
+  ],
+  "collection_path": "deterministic",
+  "generated_at": "2026-10-09T15:44:07.566177+00:00",
+  "sources": [
+    {
+      "source_id": "doc_7d97947739a435dd",
+      "title": "PostgreSQL: Documentation: 14: pg_upgrade",
+      "url": "https://www.postgresql.org/docs/14/pgupgrade.html",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T04:54:06.340465+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.0/. Candidate sections: 7 data_migration, 5 migration_step, 3 configuration_change, 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0",
+        "14.1",
+        "14.2",
+        "14.3",
+        "14.4",
+        "14.5",
+        "14.6",
+        "14.7",
+        "14.8",
+        "14.9",
+        "14.10",
+        "14.11",
+        "14.12",
+        "14.13",
+        "14.14",
+        "14.15",
+        "14.16",
+        "14.17",
+        "14.18",
+        "14.19",
+        "14.20",
+        "14.21",
+        "14.22",
+        "14.23",
+        "14.24",
+        "15.0",
+        "15.1",
+        "15.2",
+        "15.3",
+        "15.4",
+        "15.5",
+        "15.6",
+        "15.7",
+        "15.8",
+        "15.9",
+        "15.10",
+        "15.11",
+        "15.12",
+        "15.13",
+        "15.14",
+        "15.15",
+        "15.16",
+        "15.17",
+        "15.18",
+        "15.19"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 10,
+      "out_of_range_sections": 0,
+      "content_sha256": "423ec1ad23a5d6d76d7af975f5d72ea11c516da314db472e83c63bca31d14171",
+      "rank": 1
+    },
+    {
+      "source_id": "doc_765ba2112f506c34",
+      "title": "PostgreSQL: Documentation: 14: 19.6.\u00a0Upgrading a PostgreSQL Cluster",
+      "url": "https://www.postgresql.org/docs/14/upgrading.html",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T04:54:06.588338+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.0/. Mentions in-range versions 14.24.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0",
+        "14.1",
+        "14.2",
+        "14.3",
+        "14.4",
+        "14.5",
+        "14.6",
+        "14.7",
+        "14.8",
+        "14.9",
+        "14.10",
+        "14.11",
+        "14.12",
+        "14.13",
+        "14.14",
+        "14.15",
+        "14.16",
+        "14.17",
+        "14.18",
+        "14.19",
+        "14.20",
+        "14.21",
+        "14.22",
+        "14.23",
+        "14.24"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 4,
+      "content_sha256": "e1e3bdb6ee40cec50d9620e04f137ac9b551a94bfb6cc66106f7a893d182e24f",
+      "rank": 2
+    },
+    {
+      "source_id": "doc_13d80a5b382794fc",
+      "title": "PostgreSQL: Documentation: 15: pg_upgrade",
+      "url": "https://www.postgresql.org/docs/15/pgupgrade.html",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T04:56:08.279945+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.0/. Candidate sections: 7 data_migration, 5 migration_step, 3 configuration_change, 2 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "14.0",
+        "14.1",
+        "14.2",
+        "14.3",
+        "14.4",
+        "14.5",
+        "14.6",
+        "14.7",
+        "14.8",
+        "14.9",
+        "14.10",
+        "14.11",
+        "14.12",
+        "14.13",
+        "14.14",
+        "14.15",
+        "14.16",
+        "14.17",
+        "14.18",
+        "14.19",
+        "14.20",
+        "14.21",
+        "14.22",
+        "14.23",
+        "14.24",
+        "15.0",
+        "15.1",
+        "15.2",
+        "15.3",
+        "15.4",
+        "15.5",
+        "15.6",
+        "15.7",
+        "15.8",
+        "15.9",
+        "15.10",
+        "15.11",
+        "15.12",
+        "15.13",
+        "15.14",
+        "15.15",
+        "15.16",
+        "15.17",
+        "15.18",
+        "15.19"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 10,
+      "out_of_range_sections": 0,
+      "content_sha256": "c8263121606ffedb412b02cfd6af9f9922cbf4d06c5c480fc39fd00b7dd1f141",
+      "rank": 3
+    },
+    {
+      "source_id": "doc_d407d21e1dc4493a",
+      "title": "PostgreSQL: Documentation: 15: 19.6.\u00a0Upgrading a PostgreSQL Cluster",
+      "url": "https://www.postgresql.org/docs/15/upgrading.html",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T04:56:08.595659+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.0/. Mentions in-range versions 15.19.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "15.0",
+        "15.1",
+        "15.2",
+        "15.3",
+        "15.4",
+        "15.5",
+        "15.6",
+        "15.7",
+        "15.8",
+        "15.9",
+        "15.10",
+        "15.11",
+        "15.12",
+        "15.13",
+        "15.14",
+        "15.15",
+        "15.16",
+        "15.17",
+        "15.18",
+        "15.19"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 4,
+      "content_sha256": "878ba69aba01f0d152aaa94c5c55cb36621b80d5cb31781e98fcda60299e7f35",
+      "rank": 4
+    },
+    {
+      "source_id": "doc_3f82ee177708f198",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.0/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:23.667604+00:00",
+      "why_relevant": "Release record for 14.0 in the selected catalog. Candidate sections: 18 unclassified_change, 5 removal, 5 data_migration, 4 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.0"
+      ],
+      "version_association_bases": [
+        "milestone_sibling_guess",
+        "resolver_release_record"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 31,
+      "out_of_range_sections": 0,
+      "content_sha256": "2b8a0f3ae3588bc20e7d3f7733800721f7a32b98aef91636a884cffc31727bdd",
+      "rank": 5
+    },
+    {
+      "source_id": "doc_05cf85bbe418323d",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.1/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:23.915479+00:00",
+      "why_relevant": "Release record for 14.1 in the selected catalog. Mentions in-range versions 14.1. Candidate sections: 2 data_migration, 1 unclassified_change, 1 migration_step, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.1"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "f4bf8234517acdbeace40d03bc6e2e1627219deb809e79d5dfb39c1747d1d788",
+      "rank": 6
+    },
+    {
+      "source_id": "doc_dde7e414243e9eaf",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.10/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:26.167990+00:00",
+      "why_relevant": "Release record for 14.10 in the selected catalog. Mentions in-range versions 14.10, 14.9. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.9",
+        "14.10"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "4a5cd7baf3ceebd8e534cad9d5307aace0447109aadd58086b961cd5574a0757",
+      "rank": 7
+    },
+    {
+      "source_id": "doc_694d6632e3da0133",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.11/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:26.421694+00:00",
+      "why_relevant": "Release record for 14.11 in the selected catalog. Mentions in-range versions 14.10, 14.11, 16.0. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.10",
+        "14.11",
+        "16.0"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "55eaf100259c327541501a98d2102044906c782d62862474d08954b14f3146c6",
+      "rank": 8
+    },
+    {
+      "source_id": "doc_ed825f9c9f34a385",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.12/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:26.667476+00:00",
+      "why_relevant": "Release record for 14.12 in the selected catalog. Mentions in-range versions 14.11, 14.12. Candidate sections: 2 security, 1 unclassified_change, 1 migration_step, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.11",
+        "14.12"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "e133ffd04d8e804c059cb185ea91571c1a48718a85c7c2ec94e9704b9f3a10a3",
+      "rank": 9
+    },
+    {
+      "source_id": "doc_67de47f980455b38",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.13/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:27.004331+00:00",
+      "why_relevant": "Release record for 14.13 in the selected catalog. Mentions in-range versions 14.12, 14.13. Candidate sections: 2 migration_step, 1 unclassified_change, 1 configuration_change, 1 data_migration.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.12",
+        "14.13"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "896c8c7202c740f8f39553e0311c4c241429bb62b1de9cd1e3873e6273068a6b",
+      "rank": 10
+    },
+    {
+      "source_id": "doc_18ee7e3319a82e9f",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.14/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:27.165574+00:00",
+      "why_relevant": "Release record for 14.14 in the selected catalog. Mentions in-range versions 14.12, 14.14. Candidate sections: 1 unclassified_change, 1 migration_step, 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.12",
+        "14.14"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "2716e311735fb71ca5edfdfa1dce9ac991800957fdb9e43ff44b2012c3258d1e",
+      "rank": 11
+    },
+    {
+      "source_id": "doc_dd990d8d0f873dbd",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.15/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:27.417437+00:00",
+      "why_relevant": "Release record for 14.15 in the selected catalog. Mentions in-range versions 14.14, 14.15. Candidate sections: 1 unclassified_change, 1 migration_step, 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.14",
+        "14.15"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "a6baa8763f978f0dba76141ce5a585dbe15b38df6e7db74b79e04f892f602639",
+      "rank": 12
+    },
+    {
+      "source_id": "doc_584a0431e2fe7056",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.16/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:27.668678+00:00",
+      "why_relevant": "Release record for 14.16 in the selected catalog. Mentions in-range versions 14.14, 14.16. Candidate sections: 2 migration_step, 1 unclassified_change, 1 changed_default, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.14",
+        "14.16"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "da13f9d4d19213e51ed9759185ad6dac43dc896bd2cd65ac365c2056bddc3546",
+      "rank": 13
+    },
+    {
+      "source_id": "doc_524bdb399b778cdf",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.17/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:27.915989+00:00",
+      "why_relevant": "Release record for 14.17 in the selected catalog. Mentions in-range versions 14.14, 14.17. Candidate sections: 1 unclassified_change, 1 migration_step, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.14",
+        "14.17"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "27e2cd61fad31df3cb12b4ee82ad47bfa715b155e178d946fcb4f737e0bc50d1",
+      "rank": 14
+    },
+    {
+      "source_id": "doc_ad74e42777c349de",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.18/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:28.233614+00:00",
+      "why_relevant": "Release record for 14.18 in the selected catalog. Mentions in-range versions 14.14, 14.18, 15.4. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.14",
+        "14.18",
+        "15.4"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "ac2b5c7cf82b49c75b4890aa1506e61868cef038ed5c8f02f52b4c30f152035d",
+      "rank": 15
+    },
+    {
+      "source_id": "doc_4b02c2f5d9d30bab",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.19/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:28.420204+00:00",
+      "why_relevant": "Release record for 14.19 in the selected catalog. Mentions in-range versions 14.18, 14.19. Candidate sections: 2 data_migration, 1 unclassified_change, 1 migration_step, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.18",
+        "14.19"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "8a24e6429176d771964dcb52fc4effcf2ea67ad447ad3d53445796aaaa99d4c5",
+      "rank": 16
+    },
+    {
+      "source_id": "doc_bddde400d3992345",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.2/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:24.164141+00:00",
+      "why_relevant": "Release record for 14.2 in the selected catalog. Mentions in-range versions 14.1, 14.2. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.1",
+        "14.2"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "265c25b1a5ba7aeccd4fffff152ccfc3c312e483dc8d053d9c85a4e5d627f908",
+      "rank": 17
+    },
+    {
+      "source_id": "doc_bc6c812638708ae1",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.20/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:28.669037+00:00",
+      "why_relevant": "Release record for 14.20 in the selected catalog. Mentions in-range versions 14.19, 14.20. Candidate sections: 1 unclassified_change, 1 migration_step, 1 dependency_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.19",
+        "14.20"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "41d325fa3c0be7e62c1b6e26ec70adb0ec1153766e062182480d23d090b928ef",
+      "rank": 18
+    },
+    {
+      "source_id": "doc_1d592a6dfe472091",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.21/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:28.932361+00:00",
+      "why_relevant": "Release record for 14.21 in the selected catalog. Mentions in-range versions 14.19, 14.21. Candidate sections: 1 unclassified_change, 1 migration_step, 1 removal, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.19",
+        "14.21"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "bf3359c08dfe15eb837ca4e0ffe1325466f2df061837733889c8f6dd4a443774",
+      "rank": 19
+    },
+    {
+      "source_id": "doc_caa1e15e9d980f18",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.22/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:29.170914+00:00",
+      "why_relevant": "Release record for 14.22 in the selected catalog. Mentions in-range versions 14.19, 14.22. Candidate sections: 1 unclassified_change, 1 migration_step, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.19",
+        "14.22"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "8524570cd095bf1c471752e5c7130c3acb7e091a15b547c6afe7e0395efe2ba6",
+      "rank": 20
+    },
+    {
+      "source_id": "doc_29add4c342a8a247",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.23/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:29.427241+00:00",
+      "why_relevant": "Release record for 14.23 in the selected catalog. Mentions in-range versions 14.19, 14.23. Candidate sections: 2 migration_step, 1 unclassified_change, 1 deprecation, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.19",
+        "14.23"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "f306f2fc3dff129f2af03db757bb6c730dd5967990e80394544d10e0f53d4377",
+      "rank": 21
+    },
+    {
+      "source_id": "doc_be50b1555b6ed88c",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.24/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:29.669588+00:00",
+      "why_relevant": "Release record for 14.24 in the selected catalog. Mentions in-range versions 14.19, 14.24. Candidate sections: 2 migration_step, 2 data_migration, 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.19",
+        "14.24"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "385c7f2d7bd855f6fa326196210b34c2fda4079239d1bcabbb865d2a687267b4",
+      "rank": 22
+    },
+    {
+      "source_id": "doc_664d01cc02d86d9a",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.3/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:24.414001+00:00",
+      "why_relevant": "Release record for 14.3 in the selected catalog. Mentions in-range versions 14.2, 14.3. Candidate sections: 2 migration_step, 1 unclassified_change, 1 breaking_change, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.2",
+        "14.3"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "4608a7d5625dba23c692db33d69042d98f2a8fc7effef8202808aac0be968161",
+      "rank": 23
+    },
+    {
+      "source_id": "doc_8d9144a1f5c05b0e",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.4/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:24.663425+00:00",
+      "why_relevant": "Release record for 14.4 in the selected catalog. Mentions in-range versions 14.3, 14.4. Candidate sections: 2 migration_step, 1 unclassified_change, 1 configuration_change, 1 data_migration.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.3",
+        "14.4"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "609b3a1ed134a69071170919c6bbec1967acfbaa6268631b7f69ec1e74f01dd4",
+      "rank": 24
+    },
+    {
+      "source_id": "doc_5ee7be904a3962d9",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.5/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:24.915365+00:00",
+      "why_relevant": "Release record for 14.5 in the selected catalog. Mentions in-range versions 14.4, 14.5. Candidate sections: 2 migration_step, 1 unclassified_change, 1 breaking_change, 1 data_migration.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.4",
+        "14.5"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "29c1fe1c125ea244a83d33f4c3e26e06d60ab79a721c564c2533497b7ab1468d",
+      "rank": 25
+    },
+    {
+      "source_id": "doc_d2b0fb8f72ca7897",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.6/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:25.166986+00:00",
+      "why_relevant": "Release record for 14.6 in the selected catalog. Mentions in-range versions 14.4, 14.6. Candidate sections: 2 migration_step, 1 unclassified_change, 1 breaking_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.4",
+        "14.6"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "5af7ec22f4fddafccb096d18a5254fd5b6061e28460a106423980b6817eb9a9b",
+      "rank": 26
+    },
+    {
+      "source_id": "doc_498cfe41472ba259",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.7/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:25.415799+00:00",
+      "why_relevant": "Release record for 14.7 in the selected catalog. Mentions in-range versions 14.4, 14.7. Candidate sections: 2 migration_step, 1 unclassified_change, 1 dependency_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.4",
+        "14.7"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "65ee0c5760d435e72b16607256e69c1d4a2fa2c57f1802d3f36710212d941813",
+      "rank": 27
+    },
+    {
+      "source_id": "doc_8de4810e1199b204",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.8/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:25.667373+00:00",
+      "why_relevant": "Release record for 14.8 in the selected catalog. Mentions in-range versions 14.4, 14.8. Candidate sections: 2 migration_step, 1 unclassified_change, 1 removal, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.4",
+        "14.8"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "15eaaa1657fb382aa402fa0eb0033bfeac3688ac7a70fb320236404c117fe44c",
+      "rank": 28
+    },
+    {
+      "source_id": "doc_f5883b38f2898889",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/14.9/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:25.923706+00:00",
+      "why_relevant": "Release record for 14.9 in the selected catalog. Mentions in-range versions 14.4, 14.9. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 breaking_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "14.4",
+        "14.9"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "919f6dcceb6c5f54c1d3c5ae00fae61ad79f3c7301dc60fe61126e7619629d47",
+      "rank": 29
+    },
+    {
+      "source_id": "doc_14443e063ef11a7c",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.0/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:29.929842+00:00",
+      "why_relevant": "Release record for 15.0 in the selected catalog. Candidate sections: 17 unclassified_change, 9 configuration_change, 3 removal, 3 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.0"
+      ],
+      "version_association_bases": [
+        "milestone_sibling_guess",
+        "resolver_release_record"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 30,
+      "out_of_range_sections": 0,
+      "content_sha256": "eba57efd3ee9ae241ad8f2db6a85e583131dc235d548d3f78219048646c4964b",
+      "rank": 30
+    },
+    {
+      "source_id": "doc_058e5e4f204409c1",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.1/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:30.170305+00:00",
+      "why_relevant": "Release record for 15.1 in the selected catalog. Mentions in-range versions 15.0, 15.1. Candidate sections: 1 unclassified_change, 1 migration_step, 1 deprecation, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.0",
+        "15.1"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "f15dd11dfb84e28a55696f79bd7f4d7e45f9081de0925f85a83de9b1ff2dc2d9",
+      "rank": 31
+    },
+    {
+      "source_id": "doc_14017e06f8718a74",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.10/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:32.526436+00:00",
+      "why_relevant": "Release record for 15.10 in the selected catalog. Mentions in-range versions 15.10, 15.9. Candidate sections: 1 unclassified_change, 1 migration_step, 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.9",
+        "15.10"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "d415bfa98290efcadf5e82bcd992779a9652f8994da04e14c2520f602b492c71",
+      "rank": 32
+    },
+    {
+      "source_id": "doc_06bf7f7d614eaaee",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.11/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:32.679076+00:00",
+      "why_relevant": "Release record for 15.11 in the selected catalog. Mentions in-range versions 15.11, 15.9. Candidate sections: 2 migration_step, 1 unclassified_change, 1 changed_default, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.9",
+        "15.11"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "9f8b23430978880acac5cb7d08de746417f144350500717c0ff0b978cd1334c9",
+      "rank": 33
+    },
+    {
+      "source_id": "doc_26ec1d2c87a3fda8",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.12/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:32.925677+00:00",
+      "why_relevant": "Release record for 15.12 in the selected catalog. Mentions in-range versions 15.12, 15.9. Candidate sections: 1 unclassified_change, 1 migration_step, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.9",
+        "15.12"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "484a177e76f8e4448b51a1479269a7b3fca62b5aa62dd004460bfd01c16be508",
+      "rank": 34
+    },
+    {
+      "source_id": "doc_887c265c954fc121",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.13/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:33.172450+00:00",
+      "why_relevant": "Release record for 15.13 in the selected catalog. Mentions in-range versions 15.13, 15.4, 15.9. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.4",
+        "15.9",
+        "15.13"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "d3692e037f177476011a777b353c8f24f4c8983dca148ff8345b882c6762a28b",
+      "rank": 35
+    },
+    {
+      "source_id": "doc_e0e50bd8f3d9efce",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.14/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:33.422954+00:00",
+      "why_relevant": "Release record for 15.14 in the selected catalog. Mentions in-range versions 15.13, 15.14. Candidate sections: 2 data_migration, 1 unclassified_change, 1 migration_step, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.13",
+        "15.14"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "9805180bbccacaf1ef1807fa7742dea904198c1a1a6f10784c2331d633804b26",
+      "rank": 36
+    },
+    {
+      "source_id": "doc_899db0a953cb1139",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.15/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:33.671786+00:00",
+      "why_relevant": "Release record for 15.15 in the selected catalog. Mentions in-range versions 15.14, 15.15. Candidate sections: 1 unclassified_change, 1 migration_step, 1 dependency_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.14",
+        "15.15"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "691cae151032c5681e57b3a174bfb27d54b8161abdb2a06ed6eb3bab112e037d",
+      "rank": 37
+    },
+    {
+      "source_id": "doc_6ec8ddd7ba62bddf",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.16/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:33.922022+00:00",
+      "why_relevant": "Release record for 15.16 in the selected catalog. Mentions in-range versions 15.14, 15.16. Candidate sections: 1 unclassified_change, 1 migration_step, 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.14",
+        "15.16"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "2ff781d228625b592bc4ab2a40e48499eb765e4b53ac3ad47ffce6fcc9fad505",
+      "rank": 38
+    },
+    {
+      "source_id": "doc_0c187a6f72fd7459",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.17/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:34.174899+00:00",
+      "why_relevant": "Release record for 15.17 in the selected catalog. Mentions in-range versions 15.14, 15.17. Candidate sections: 1 unclassified_change, 1 migration_step, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.14",
+        "15.17"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "4e0869f19a33ceb5dfdd8a6d5f8bb163403160fa57b8810b856eff47890a2bb4",
+      "rank": 39
+    },
+    {
+      "source_id": "doc_d79dff5de4db2819",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.18/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:34.424883+00:00",
+      "why_relevant": "Release record for 15.18 in the selected catalog. Mentions in-range versions 15.14, 15.18. Candidate sections: 2 migration_step, 1 unclassified_change, 1 deprecation, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.14",
+        "15.18"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "e76868dc97d101a12daef2b2051459a37b5b9d8e4ae5b1f098876db28a6392cc",
+      "rank": 40
+    },
+    {
+      "source_id": "doc_7ad7699201b16aa9",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.19/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:34.675293+00:00",
+      "why_relevant": "Release record for 15.19 in the selected catalog. Mentions in-range versions 15.14, 15.19. Candidate sections: 2 migration_step, 2 data_migration, 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.14",
+        "15.19"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "d539ccaf641dbad579d539350539aac0d06951839a1cad98514abfc7e92d063b",
+      "rank": 41
+    },
+    {
+      "source_id": "doc_30bf344e65b3fa19",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.2/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:30.425550+00:00",
+      "why_relevant": "Release record for 15.2 in the selected catalog. Mentions in-range versions 15.1, 15.2. Candidate sections: 2 migration_step, 1 unclassified_change, 1 dependency_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.1",
+        "15.2"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "5a7348ed4fa5969704dd4e63a12dbab1b31d585f5bf325fdd663d7b2660b65b4",
+      "rank": 42
+    },
+    {
+      "source_id": "doc_a642c0d24200a111",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.3/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:30.694092+00:00",
+      "why_relevant": "Release record for 15.3 in the selected catalog. Mentions in-range versions 15.1, 15.3. Candidate sections: 2 migration_step, 1 unclassified_change, 1 removal, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.1",
+        "15.3"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "7e8dab34e590b25d26b66ebbe873ed723785f123879b789487bb85c6cec64c76",
+      "rank": 43
+    },
+    {
+      "source_id": "doc_3a2a26f43bf6f50a",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.4/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:30.919348+00:00",
+      "why_relevant": "Release record for 15.4 in the selected catalog. Mentions in-range versions 15.1, 15.4. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 breaking_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.1",
+        "15.4"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "7251eef25cbab3566a6db7209f39c53b9daefcc9343b421fafe97fc69e8a3c31",
+      "rank": 44
+    },
+    {
+      "source_id": "doc_8b3d33915a457c28",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.5/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:31.170673+00:00",
+      "why_relevant": "Release record for 15.5 in the selected catalog. Mentions in-range versions 15.4, 15.5. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.4",
+        "15.5"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "afefe35961de92525b378c7b646d3e4ac1de69711ab4cb81f5ec06bb032c0304",
+      "rank": 45
+    },
+    {
+      "source_id": "doc_d404ca11a8b3f841",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.6/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:31.421090+00:00",
+      "why_relevant": "Release record for 15.6 in the selected catalog. Mentions in-range versions 15.5, 15.6, 16.0. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.5",
+        "15.6",
+        "16.0"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "0313a9caa6ec78cf617cdd30a315c94c40dbbf9b5e2fe3864814fa61259450c7",
+      "rank": 46
+    },
+    {
+      "source_id": "doc_6f9f07e5979436fc",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.7/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:31.669085+00:00",
+      "why_relevant": "Release record for 15.7 in the selected catalog. Mentions in-range versions 15.6, 15.7. Candidate sections: 2 security, 1 unclassified_change, 1 migration_step, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.6",
+        "15.7"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "8bb3d472802faabef8e7665babc66e97abb4de62da325bd7d696df69ddd70a70",
+      "rank": 47
+    },
+    {
+      "source_id": "doc_ed11f083339adc50",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.8/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:31.920431+00:00",
+      "why_relevant": "Release record for 15.8 in the selected catalog. Mentions in-range versions 15.7, 15.8. Candidate sections: 2 migration_step, 1 unclassified_change, 1 configuration_change, 1 data_migration.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.7",
+        "15.8"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "9cac3a13585b55f05f2bd4ac01594218bd9fee4e4901401d14726d6c9bc7a3c2",
+      "rank": 48
+    },
+    {
+      "source_id": "doc_b9409f9f236b905f",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/15.9/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:32.177452+00:00",
+      "why_relevant": "Release record for 15.9 in the selected catalog. Mentions in-range versions 15.7, 15.9. Candidate sections: 1 unclassified_change, 1 migration_step, 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.7",
+        "15.9"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "0ff104a6995f770865299bb2d64668b61c1309a9b58a4627c206aba02a750536",
+      "rank": 49
+    },
+    {
+      "source_id": "doc_5f3d9e732537b6d2",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.0/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:34.928908+00:00",
+      "why_relevant": "Release record for 16.0 in the selected catalog. Candidate sections: 16 unclassified_change, 4 configuration_change, 4 data_migration, 4 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.0"
+      ],
+      "version_association_bases": [
+        "milestone_sibling_guess",
+        "resolver_release_record"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 26,
+      "out_of_range_sections": 0,
+      "content_sha256": "82d1a739065eab36b2038c0dac63e1ec1b6f075991fb54f6609d115ab4709e00",
+      "rank": 50
+    },
+    {
+      "source_id": "doc_1ff04517fe48b098",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.1/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:35.173951+00:00",
+      "why_relevant": "Release record for 16.1 in the selected catalog. Mentions in-range versions 16.1. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.1"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "4025366228071de6fb87ce2c0f46b7755d4a7b865df498d39c87214654a02dc8",
+      "rank": 51
+    },
+    {
+      "source_id": "doc_554a4689382d19f3",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.10/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:37.423874+00:00",
+      "why_relevant": "Release record for 16.10 in the selected catalog. Mentions in-range versions 16.10, 16.9. Candidate sections: 2 data_migration, 1 unclassified_change, 1 migration_step, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.9",
+        "16.10"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "99330c6c1ade460eb00c88a395a41541ded8e0db48bd316c0ce23265c512a26b",
+      "rank": 52
+    },
+    {
+      "source_id": "doc_7d73f6b4014c5c65",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.11/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:37.678404+00:00",
+      "why_relevant": "Release record for 16.11 in the selected catalog. Mentions in-range versions 16.10, 16.11. Candidate sections: 1 unclassified_change, 1 migration_step, 1 dependency_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.10",
+        "16.11"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "79db4c9f35dc9fc50651b23b95c6b4b9dce62d64374c98dcfc6285a60d7fa06f",
+      "rank": 53
+    },
+    {
+      "source_id": "doc_7b239a16392732b2",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.12/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:37.941644+00:00",
+      "why_relevant": "Release record for 16.12 in the selected catalog. Mentions in-range versions 16.10, 16.12. Candidate sections: 1 unclassified_change, 1 migration_step, 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.10",
+        "16.12"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "86f22ea40da6bb6448992e5adb887724c68795257f7c2f787532b842c49bcf1d",
+      "rank": 54
+    },
+    {
+      "source_id": "doc_771380117040f13d",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.13/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:38.184377+00:00",
+      "why_relevant": "Release record for 16.13 in the selected catalog. Mentions in-range versions 16.10, 16.13. Candidate sections: 1 unclassified_change, 1 migration_step, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.10",
+        "16.13"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "8d6e39a14c4df16be20d8a4ef5b39c56217587903ce77623058019bef01c2438",
+      "rank": 55
+    },
+    {
+      "source_id": "doc_feaead9656ec622d",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.14/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:38.430171+00:00",
+      "why_relevant": "Release record for 16.14 in the selected catalog. Mentions in-range versions 16.10, 16.14. Candidate sections: 2 migration_step, 1 unclassified_change, 1 deprecation, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.10",
+        "16.14"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "15f569ec84437707c3f98d10365bfd2f9cd662b08f21948d07a53b12ed7af7e8",
+      "rank": 56
+    },
+    {
+      "source_id": "doc_bbf31c0fb6706fab",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.15/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:38.678005+00:00",
+      "why_relevant": "Release record for 16.15 in the selected catalog. Mentions in-range versions 16.10, 16.15. Candidate sections: 2 migration_step, 2 data_migration, 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.10",
+        "16.15"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "dc0301d887599a27739b2eccb83a70dc63cb977e6ae1f8e248655190600fefb0",
+      "rank": 57
+    },
+    {
+      "source_id": "doc_f9df38706629d79d",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.2/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:35.425530+00:00",
+      "why_relevant": "Release record for 16.2 in the selected catalog. Mentions in-range versions 16.0, 16.1, 16.2. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.0",
+        "16.1",
+        "16.2"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "c82d4f725945b1b0a10eaa5897780135965a785c4821f539a9761ca15b2efd96",
+      "rank": 58
+    },
+    {
+      "source_id": "doc_020df2435c6dcec3",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.3/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:35.675372+00:00",
+      "why_relevant": "Release record for 16.3 in the selected catalog. Mentions in-range versions 16.1, 16.2, 16.3. Candidate sections: 2 migration_step, 2 security, 1 unclassified_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.1",
+        "16.2",
+        "16.3"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "fdf04d50f897dfc1332e9a752edaafff7550f5417f9f2bf54caf46a5cf56047e",
+      "rank": 59
+    },
+    {
+      "source_id": "doc_9db55e11d7d7aab3",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.4/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:35.928223+00:00",
+      "why_relevant": "Release record for 16.4 in the selected catalog. Mentions in-range versions 16.3, 16.4. Candidate sections: 2 migration_step, 1 unclassified_change, 1 configuration_change, 1 data_migration.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.3",
+        "16.4"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "29a06ced4b38067a2f0d9435954b30d59be13e07c1a9e3c54764857f954eab34",
+      "rank": 60
+    },
+    {
+      "source_id": "doc_68a8a0cd8616b994",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.5/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:36.176127+00:00",
+      "why_relevant": "Release record for 16.5 in the selected catalog. Mentions in-range versions 16.3, 16.5. Candidate sections: 1 unclassified_change, 1 migration_step, 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.3",
+        "16.5"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "4356678109743121425690c23b2e15e5705cb2c321970a249cab94c5edc1442b",
+      "rank": 61
+    },
+    {
+      "source_id": "doc_f1cf95a69dffc37e",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.6/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:36.430698+00:00",
+      "why_relevant": "Release record for 16.6 in the selected catalog. Mentions in-range versions 16.5, 16.6. Candidate sections: 1 unclassified_change, 1 migration_step, 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.5",
+        "16.6"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "0dda09f5d8cb489a6bb468d41d4884aa9a8a14f630313b57435678d9a1d67091",
+      "rank": 62
+    },
+    {
+      "source_id": "doc_15fbc03dde1a1c15",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.7/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:36.681080+00:00",
+      "why_relevant": "Release record for 16.7 in the selected catalog. Mentions in-range versions 16.5, 16.7. Candidate sections: 2 migration_step, 1 unclassified_change, 1 dependency_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.5",
+        "16.7"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "085af62d7bd2fafc0a44b9db0a3750c166491b921264d626916848b66148f34f",
+      "rank": 63
+    },
+    {
+      "source_id": "doc_2fc2faf7effac48b",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.8/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:36.922520+00:00",
+      "why_relevant": "Release record for 16.8 in the selected catalog. Mentions in-range versions 16.5, 16.8. Candidate sections: 1 unclassified_change, 1 migration_step, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "16.5",
+        "16.8"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "72ad05874f1a7a16a8bde3c0466ca9eefcd859d05918ffda37555cece3ade328",
+      "rank": 64
+    },
+    {
+      "source_id": "doc_4685e5bd98b63b32",
+      "title": "PostgreSQL: Release Notes",
+      "url": "https://www.postgresql.org/docs/release/16.9/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T04:48:37.184428+00:00",
+      "why_relevant": "Release record for 16.9 in the selected catalog. Mentions in-range versions 15.4, 16.5, 16.9. Candidate sections: 2 migration_step, 2 data_migration, 1 unclassified_change, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "15.4",
+        "16.5",
+        "16.9"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "42e67e26f8f1a64c4b970a06cd90a992d2c0b88437229f7eadd2e6ff451e18c6",
+      "rank": 65
+    },
+    {
+      "source_id": "doc_b7feffede532eb66",
+      "title": "PostgreSQL: Documentation: 14: E.24.\u00a0Release 14.1",
+      "url": "https://www.postgresql.org/docs/14/release-14-1.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:05.135043+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.1/. Mentions in-range versions 14.1.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.1",
+        "14.2",
+        "14.3"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "f4bf8234517acdbeace40d03bc6e2e1627219deb809e79d5dfb39c1747d1d788",
+      "rank": 66
+    },
+    {
+      "source_id": "doc_05838a68fd6b36ba",
+      "title": "PostgreSQL: Documentation: 14: E.15.\u00a0Release 14.10",
+      "url": "https://www.postgresql.org/docs/14/release-14-10.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:09.092122+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.10/. Mentions in-range versions 14.10, 14.9.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.9",
+        "14.10",
+        "14.11",
+        "14.12"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "4a5cd7baf3ceebd8e534cad9d5307aace0447109aadd58086b961cd5574a0757",
+      "rank": 67
+    },
+    {
+      "source_id": "doc_b671424422ae70ed",
+      "title": "PostgreSQL: Documentation: 14: E.14.\u00a0Release 14.11",
+      "url": "https://www.postgresql.org/docs/14/release-14-11.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:09.340584+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.11/. Mentions in-range versions 14.10, 14.11, 16.0.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.10",
+        "14.11",
+        "14.12",
+        "14.13",
+        "14.14",
+        "16.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "55eaf100259c327541501a98d2102044906c782d62862474d08954b14f3146c6",
+      "rank": 68
+    },
+    {
+      "source_id": "doc_f0fa0712450e0f7a",
+      "title": "PostgreSQL: Documentation: 14: E.13.\u00a0Release 14.12",
+      "url": "https://www.postgresql.org/docs/14/release-14-12.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:09.595037+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.12/. Mentions in-range versions 14.11, 14.12.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.11",
+        "14.12",
+        "14.13",
+        "14.14",
+        "14.15",
+        "14.16",
+        "14.17",
+        "14.18"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "e133ffd04d8e804c059cb185ea91571c1a48718a85c7c2ec94e9704b9f3a10a3",
+      "rank": 69
+    },
+    {
+      "source_id": "doc_db3bc1c01eb0980b",
+      "title": "PostgreSQL: Documentation: 14: E.12.\u00a0Release 14.13",
+      "url": "https://www.postgresql.org/docs/14/release-14-13.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:09.841113+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.13/. Mentions in-range versions 14.12, 14.13.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.12",
+        "14.13"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "896c8c7202c740f8f39553e0311c4c241429bb62b1de9cd1e3873e6273068a6b",
+      "rank": 70
+    },
+    {
+      "source_id": "doc_b4bac6251b91f4cf",
+      "title": "PostgreSQL: Documentation: 14: E.11.\u00a0Release 14.14",
+      "url": "https://www.postgresql.org/docs/14/release-14-14.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:10.093433+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.14/. Mentions in-range versions 14.12, 14.14.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.12",
+        "14.14",
+        "14.15",
+        "14.16",
+        "14.17",
+        "14.18",
+        "14.19"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "2716e311735fb71ca5edfdfa1dce9ac991800957fdb9e43ff44b2012c3258d1e",
+      "rank": 71
+    },
+    {
+      "source_id": "doc_a8833fbccff648ac",
+      "title": "PostgreSQL: Documentation: 14: E.10.\u00a0Release 14.15",
+      "url": "https://www.postgresql.org/docs/14/release-14-15.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:10.339858+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.15/. Mentions in-range versions 14.14, 14.15.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.14",
+        "14.15"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "a6baa8763f978f0dba76141ce5a585dbe15b38df6e7db74b79e04f892f602639",
+      "rank": 72
+    },
+    {
+      "source_id": "doc_2331e9993066ad01",
+      "title": "PostgreSQL: Documentation: 14: E.9.\u00a0Release 14.16",
+      "url": "https://www.postgresql.org/docs/14/release-14-16.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:10.592196+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.16/. Mentions in-range versions 14.14, 14.16.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.14",
+        "14.16"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "da13f9d4d19213e51ed9759185ad6dac43dc896bd2cd65ac365c2056bddc3546",
+      "rank": 73
+    },
+    {
+      "source_id": "doc_6726a421bdea3334",
+      "title": "PostgreSQL: Documentation: 14: E.8.\u00a0Release 14.17",
+      "url": "https://www.postgresql.org/docs/14/release-14-17.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:10.841736+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.17/. Mentions in-range versions 14.14, 14.17.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.14",
+        "14.17"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "27e2cd61fad31df3cb12b4ee82ad47bfa715b155e178d946fcb4f737e0bc50d1",
+      "rank": 74
+    },
+    {
+      "source_id": "doc_bb110b20cdbf3e15",
+      "title": "PostgreSQL: Documentation: 14: E.7.\u00a0Release 14.18",
+      "url": "https://www.postgresql.org/docs/14/release-14-18.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:11.089988+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.18/. Mentions in-range versions 14.14, 14.18, 15.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.14",
+        "14.18",
+        "14.19",
+        "14.20",
+        "14.21",
+        "14.22",
+        "14.23",
+        "14.24",
+        "15.4"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "ac2b5c7cf82b49c75b4890aa1506e61868cef038ed5c8f02f52b4c30f152035d",
+      "rank": 75
+    },
+    {
+      "source_id": "doc_2004e05cadb94377",
+      "title": "PostgreSQL: Documentation: 14: E.6.\u00a0Release 14.19",
+      "url": "https://www.postgresql.org/docs/14/release-14-19.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:11.342272+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.19/. Mentions in-range versions 14.18, 14.19.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.18",
+        "14.19",
+        "14.20",
+        "14.21",
+        "14.22",
+        "14.23",
+        "14.24"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8a24e6429176d771964dcb52fc4effcf2ea67ad447ad3d53445796aaaa99d4c5",
+      "rank": 76
+    },
+    {
+      "source_id": "doc_661cddde8b71146e",
+      "title": "PostgreSQL: Documentation: 14: E.23.\u00a0Release 14.2",
+      "url": "https://www.postgresql.org/docs/14/release-14-2.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:07.092052+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.2/. Mentions in-range versions 14.1, 14.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.1",
+        "14.2",
+        "14.3",
+        "14.4"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "265c25b1a5ba7aeccd4fffff152ccfc3c312e483dc8d053d9c85a4e5d627f908",
+      "rank": 77
+    },
+    {
+      "source_id": "doc_977b7f6c8c185c52",
+      "title": "PostgreSQL: Documentation: 14: E.5.\u00a0Release 14.20",
+      "url": "https://www.postgresql.org/docs/14/release-14-20.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:56:07.203249+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.20/. Mentions in-range versions 14.19, 14.20.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.19",
+        "14.20"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "41d325fa3c0be7e62c1b6e26ec70adb0ec1153766e062182480d23d090b928ef",
+      "rank": 78
+    },
+    {
+      "source_id": "doc_c381f5244bd41e53",
+      "title": "PostgreSQL: Documentation: 14: E.4.\u00a0Release 14.21",
+      "url": "https://www.postgresql.org/docs/14/release-14-21.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:56:07.294390+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.21/. Mentions in-range versions 14.19, 14.21.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.19",
+        "14.21"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "bf3359c08dfe15eb837ca4e0ffe1325466f2df061837733889c8f6dd4a443774",
+      "rank": 79
+    },
+    {
+      "source_id": "doc_594e5135c3a3d287",
+      "title": "PostgreSQL: Documentation: 14: E.3.\u00a0Release 14.22",
+      "url": "https://www.postgresql.org/docs/14/release-14-22.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:56:07.553298+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.22/. Mentions in-range versions 14.19, 14.22.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.19",
+        "14.22"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8524570cd095bf1c471752e5c7130c3acb7e091a15b547c6afe7e0395efe2ba6",
+      "rank": 80
+    },
+    {
+      "source_id": "doc_eb147bf1101ff27a",
+      "title": "PostgreSQL: Documentation: 14: E.2.\u00a0Release 14.23",
+      "url": "https://www.postgresql.org/docs/14/release-14-23.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:56:07.861155+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.23/. Mentions in-range versions 14.19, 14.23.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.19",
+        "14.23"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "f306f2fc3dff129f2af03db757bb6c730dd5967990e80394544d10e0f53d4377",
+      "rank": 81
+    },
+    {
+      "source_id": "doc_07b9feae3b503eff",
+      "title": "PostgreSQL: Documentation: 14: E.1.\u00a0Release 14.24",
+      "url": "https://www.postgresql.org/docs/14/release-14-24.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:56:08.046962+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.24/. Mentions in-range versions 14.19, 14.24.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.19",
+        "14.24"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "385c7f2d7bd855f6fa326196210b34c2fda4079239d1bcabbb865d2a687267b4",
+      "rank": 82
+    },
+    {
+      "source_id": "doc_c668f3f6a6b3008e",
+      "title": "PostgreSQL: Documentation: 14: E.22.\u00a0Release 14.3",
+      "url": "https://www.postgresql.org/docs/14/release-14-3.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:07.341701+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.3/. Mentions in-range versions 14.2, 14.3.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.2",
+        "14.3",
+        "14.4",
+        "14.5",
+        "14.6",
+        "14.7",
+        "14.8",
+        "14.9"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "4608a7d5625dba23c692db33d69042d98f2a8fc7effef8202808aac0be968161",
+      "rank": 83
+    },
+    {
+      "source_id": "doc_a089a60fed9a8444",
+      "title": "PostgreSQL: Documentation: 14: E.21.\u00a0Release 14.4",
+      "url": "https://www.postgresql.org/docs/14/release-14-4.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:07.589004+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.4/. Mentions in-range versions 14.3, 14.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.3",
+        "14.4",
+        "14.5",
+        "14.6",
+        "14.7",
+        "14.8",
+        "14.9",
+        "14.10"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "609b3a1ed134a69071170919c6bbec1967acfbaa6268631b7f69ec1e74f01dd4",
+      "rank": 84
+    },
+    {
+      "source_id": "doc_f396eef8d36028e2",
+      "title": "PostgreSQL: Documentation: 14: E.20.\u00a0Release 14.5",
+      "url": "https://www.postgresql.org/docs/14/release-14-5.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:07.846389+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.5/. Mentions in-range versions 14.4, 14.5.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.4",
+        "14.5"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "29c1fe1c125ea244a83d33f4c3e26e06d60ab79a721c564c2533497b7ab1468d",
+      "rank": 85
+    },
+    {
+      "source_id": "doc_51a0a598c7c012df",
+      "title": "PostgreSQL: Documentation: 14: E.19.\u00a0Release 14.6",
+      "url": "https://www.postgresql.org/docs/14/release-14-6.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:08.091032+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.6/. Mentions in-range versions 14.4, 14.6.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.4",
+        "14.6"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "5af7ec22f4fddafccb096d18a5254fd5b6061e28460a106423980b6817eb9a9b",
+      "rank": 86
+    },
+    {
+      "source_id": "doc_f414ff5f943989b9",
+      "title": "PostgreSQL: Documentation: 14: E.18.\u00a0Release 14.7",
+      "url": "https://www.postgresql.org/docs/14/release-14-7.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:08.344178+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.7/. Mentions in-range versions 14.4, 14.7.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.4",
+        "14.7"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "65ee0c5760d435e72b16607256e69c1d4a2fa2c57f1802d3f36710212d941813",
+      "rank": 87
+    },
+    {
+      "source_id": "doc_3dc3cb5351d9ff64",
+      "title": "PostgreSQL: Documentation: 14: E.17.\u00a0Release 14.8",
+      "url": "https://www.postgresql.org/docs/14/release-14-8.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:08.591876+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.8/. Mentions in-range versions 14.4, 14.8.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.4",
+        "14.8"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "15eaaa1657fb382aa402fa0eb0033bfeac3688ac7a70fb320236404c117fe44c",
+      "rank": 88
+    },
+    {
+      "source_id": "doc_aeaea197c9102567",
+      "title": "PostgreSQL: Documentation: 14: E.16.\u00a0Release 14.9",
+      "url": "https://www.postgresql.org/docs/14/release-14-9.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:08.839351+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.9/. Mentions in-range versions 14.4, 14.9.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.4",
+        "14.9",
+        "14.10",
+        "14.11"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "919f6dcceb6c5f54c1d3c5ae00fae61ad79f3c7301dc60fe61126e7619629d47",
+      "rank": 89
+    },
+    {
+      "source_id": "doc_624abdbb3a62f703",
+      "title": "PostgreSQL: Documentation: 14: E.25.\u00a0Release 14",
+      "url": "https://www.postgresql.org/docs/14/release-14.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T04:54:06.102005+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/14.0/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "14.0",
+        "14.1",
+        "14.2",
+        "14.3",
+        "14.4",
+        "14.5",
+        "14.6",
+        "14.7",
+        "14.8",
+        "14.9",
+        "14.10",
+        "14.11",
+        "14.12",
+        "14.13",
+        "14.14",
+        "14.15",
+        "14.16",
+        "14.17",
+        "14.18",
+        "14.19",
+        "14.20",
+        "14.21",
+        "14.22",
+        "14.23",
+        "14.24"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "2b8a0f3ae3588bc20e7d3f7733800721f7a32b98aef91636a884cffc31727bdd",
+      "rank": 90
+    },
+    {
+      "source_id": "doc_22c7754aaf4ffb1a",
+      "title": "PostgreSQL: Documentation: 15: 9.29.\u00a0Event Trigger Functions",
+      "url": "https://www.postgresql.org/docs/15/functions-event-triggers.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T09:29:52.430858+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.0/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.1",
+        "15.2",
+        "15.3",
+        "15.4",
+        "15.5",
+        "15.6",
+        "15.7",
+        "15.8",
+        "15.9",
+        "15.10",
+        "15.11",
+        "15.12",
+        "15.13",
+        "15.14",
+        "15.15",
+        "15.16",
+        "15.17",
+        "15.18",
+        "15.19"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 4,
+      "content_sha256": "d70827cdd99c10eb4266bd589743f0a3e8fb1186adf7b6e97959834f96b6dfa5",
+      "rank": 91
+    },
+    {
+      "source_id": "doc_2e165dd974c382a7",
+      "title": "PostgreSQL: Documentation: 15: E.19.\u00a0Release 15.1",
+      "url": "https://www.postgresql.org/docs/15/release-15-1.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:52.391889+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.1/. Mentions in-range versions 15.0, 15.1.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.1",
+        "15.2",
+        "15.3",
+        "15.4",
+        "15.5"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "f15dd11dfb84e28a55696f79bd7f4d7e45f9081de0925f85a83de9b1ff2dc2d9",
+      "rank": 92
+    },
+    {
+      "source_id": "doc_25dbf82ebbd2a980",
+      "title": "PostgreSQL: Documentation: 15: E.18.\u00a0Release 15.2",
+      "url": "https://www.postgresql.org/docs/15/release-15-2.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:52.491647+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.2/. Mentions in-range versions 15.1, 15.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.1",
+        "15.2"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "5a7348ed4fa5969704dd4e63a12dbab1b31d585f5bf325fdd663d7b2660b65b4",
+      "rank": 93
+    },
+    {
+      "source_id": "doc_f9db46a8b97ea61b",
+      "title": "PostgreSQL: Documentation: 15: E.17.\u00a0Release 15.3",
+      "url": "https://www.postgresql.org/docs/15/release-15-3.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:52.749281+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.3/. Mentions in-range versions 15.1, 15.3.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.1",
+        "15.3"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "7e8dab34e590b25d26b66ebbe873ed723785f123879b789487bb85c6cec64c76",
+      "rank": 94
+    },
+    {
+      "source_id": "doc_4c36f87cde8abe3a",
+      "title": "PostgreSQL: Documentation: 15: E.16.\u00a0Release 15.4",
+      "url": "https://www.postgresql.org/docs/15/release-15-4.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:52.992474+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.4/. Mentions in-range versions 15.1, 15.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.1",
+        "15.4",
+        "15.5",
+        "15.6"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "7251eef25cbab3566a6db7209f39c53b9daefcc9343b421fafe97fc69e8a3c31",
+      "rank": 95
+    },
+    {
+      "source_id": "doc_1acedecdd18b4b1b",
+      "title": "PostgreSQL: Documentation: 15: E.15.\u00a0Release 15.5",
+      "url": "https://www.postgresql.org/docs/15/release-15-5.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:53.242074+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.5/. Mentions in-range versions 15.4, 15.5.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.4",
+        "15.5",
+        "15.6",
+        "15.7"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "afefe35961de92525b378c7b646d3e4ac1de69711ab4cb81f5ec06bb032c0304",
+      "rank": 96
+    },
+    {
+      "source_id": "doc_304da2e12c051cb0",
+      "title": "PostgreSQL: Documentation: 15: E.14.\u00a0Release 15.6",
+      "url": "https://www.postgresql.org/docs/15/release-15-6.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:53.498210+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.6/. Mentions in-range versions 15.5, 15.6, 16.0.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.5",
+        "15.6",
+        "15.7",
+        "15.8",
+        "15.9",
+        "16.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "0313a9caa6ec78cf617cdd30a315c94c40dbbf9b5e2fe3864814fa61259450c7",
+      "rank": 97
+    },
+    {
+      "source_id": "doc_32f82b65bb2828a8",
+      "title": "PostgreSQL: Documentation: 15: E.13.\u00a0Release 15.7",
+      "url": "https://www.postgresql.org/docs/15/release-15-7.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:53.743143+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.7/. Mentions in-range versions 15.6, 15.7.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.6",
+        "15.7",
+        "15.8",
+        "15.9"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8bb3d472802faabef8e7665babc66e97abb4de62da325bd7d696df69ddd70a70",
+      "rank": 98
+    },
+    {
+      "source_id": "doc_07ad5dbaf6c178f7",
+      "title": "PostgreSQL: Documentation: 15: E.12.\u00a0Release 15.8",
+      "url": "https://www.postgresql.org/docs/15/release-15-8.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:54.006754+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.8/. Mentions in-range versions 15.7, 15.8.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.7",
+        "15.8"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "9cac3a13585b55f05f2bd4ac01594218bd9fee4e4901401d14726d6c9bc7a3c2",
+      "rank": 99
+    },
+    {
+      "source_id": "doc_674004a0d3a80b1c",
+      "title": "PostgreSQL: Documentation: 15: E.20.\u00a0Release 15",
+      "url": "https://www.postgresql.org/docs/15/release-15.html",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T09:29:52.135420+00:00",
+      "why_relevant": "Linked from https://www.postgresql.org/docs/release/15.0/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site postgresql.org."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "15.0",
+        "15.1",
+        "15.2",
+        "15.3",
+        "15.4",
+        "15.5",
+        "15.6",
+        "15.7",
+        "15.8",
+        "15.9",
+        "15.10",
+        "15.11",
+        "15.12",
+        "15.13",
+        "15.14",
+        "15.15",
+        "15.16",
+        "15.17",
+        "15.18",
+        "15.19"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "eba57efd3ee9ae241ad8f2db6a85e583131dc235d548d3f78219048646c4964b",
+      "rank": 100
+    }
+  ],
+  "excluded_sources": [],
+  "trust_policy": {
+    "official": "Project site, project repository or the selected package registry record.",
+    "probable_official": "Repository name matches but owner differs; not verified.",
+    "official_repository_discussion": "Issues/PRs in the project repository: context, not release statements.",
+    "third_party": "Supporting context only; never overrides official sources."
+  },
+  "notes": [
+    "source_id equals the evidence document id, so evidence.json and candidate_sections.json join on it.",
+    "Fetch-level request log (including robots.txt checks) remains in evidence.json source_inventory."
+  ]
+}

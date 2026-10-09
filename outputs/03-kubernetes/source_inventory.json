@@ -1,0 +1,2751 @@
+{
+  "project": "Kubernetes",
+  "current_version": "1.23",
+  "target_version": "1.29",
+  "resolved_versions": [
+    "1.24",
+    "1.25",
+    "1.26",
+    "1.27",
+    "1.28",
+    "1.29"
+  ],
+  "documentation_milestones": [
+    "1.24",
+    "1.25",
+    "1.26",
+    "1.27",
+    "1.28",
+    "1.29"
+  ],
+  "collection_path": "deterministic",
+  "generated_at": "2026-10-09T15:31:15.537739+00:00",
+  "sources": [
+    {
+      "source_id": "doc_4224aa9b9d8f7c79",
+      "title": "Storagemigration | Kubernetes",
+      "url": "https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:12.793542+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 1 migration_step, 1 data_migration, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "b86845f7d1dd49eb63626f0805611f8b1ae3a70d916d817034473c4bf28f6de3",
+      "rank": 1
+    },
+    {
+      "source_id": "doc_b81bfc9d0630760f",
+      "title": "StorageVersionMigration | Kubernetes",
+      "url": "https://kubernetes.io/docs/reference/kubernetes-api/storagemigration/storage-version-migration-v1/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:13.417218+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 36 migration_step, 12 changed_default, 9 unclassified_change, 6 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 57,
+      "out_of_range_sections": 0,
+      "content_sha256": "f1543009c10ad4c84d4dd47286ab7cc37c86609ebf76c32eea1acd2bca7138c1",
+      "rank": 2
+    },
+    {
+      "source_id": "doc_3c537329f1c877f0",
+      "title": "kubeadm upgrade phases | Kubernetes",
+      "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:14.461338+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 37 unclassified_change, 9 configuration_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 46,
+      "out_of_range_sections": 0,
+      "content_sha256": "6020a1c6acb735931f3d896e41e9684c5091635ff1f2e65ac289bfff87ec601e",
+      "rank": 3
+    },
+    {
+      "source_id": "doc_d69598557df7efee",
+      "title": "kubeadm upgrade | Kubernetes",
+      "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:13.933306+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 9 unclassified_change, 6 configuration_change, 3 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 16,
+      "out_of_range_sections": 0,
+      "content_sha256": "d56cd898a9a37e1a165fcf3f777af9520f89451780b6a2e629a9651755e6922c",
+      "rank": 4
+    },
+    {
+      "source_id": "doc_0fc64549a21ce742",
+      "title": "Deprecated API Migration Guide | Kubernetes",
+      "url": "https://kubernetes.io/docs/reference/using-api/deprecation-guide/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:01.033203+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Mentions in-range versions 1.25, 1.26, 1.27, 1.29. Candidate sections: 13 migration_step, 11 deprecation, 10 api_change, 3 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 20,
+      "out_of_range_sections": 22,
+      "content_sha256": "f4898b0b300ff43a31a6c5d12df96d4f6f27da25b6f1a752a5de6995954ecc96",
+      "rank": 5
+    },
+    {
+      "source_id": "doc_0c1c9052a23c4d57",
+      "title": "Upgrade A Cluster | Kubernetes",
+      "url": "https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:11.674500+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 5 migration_step, 4 unclassified_change, 1 deprecation, 1 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 10,
+      "out_of_range_sections": 0,
+      "content_sha256": "b30d74ffe513197fce8d44b854943936acbbbb783d175e99e5b6f0dc36216a4c",
+      "rank": 6
+    },
+    {
+      "source_id": "doc_4832a382fcc67aaf",
+      "title": "Migrate Replicated Control Plane To Use Cloud Controller Manager | Kubernetes",
+      "url": "https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:07.783329+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Mentions in-range versions 1.24. Candidate sections: 11 migration_step, 6 configuration_change, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 12,
+      "out_of_range_sections": 0,
+      "content_sha256": "36be40dee0d2c37750fc0b591ffe4a77872d68240b7375c892d5d029c2d50212",
+      "rank": 7
+    },
+    {
+      "source_id": "doc_e21bbf9910d2478a",
+      "title": "Upgrading kubeadm clusters | Kubernetes",
+      "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:09.504169+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Mentions in-range versions 1.28. Candidate sections: 9 unclassified_change, 6 migration_step, 2 changed_default, 2 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 16,
+      "out_of_range_sections": 0,
+      "content_sha256": "f026a06c07bb53ee309fa50b6c3a80a06033f8e74f208f57ae7fd4eaca2d3d63",
+      "rank": 8
+    },
+    {
+      "source_id": "doc_a4cb82cc55a9d97e",
+      "title": "Upgrading Linux nodes | Kubernetes",
+      "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-linux-nodes/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:10.139363+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 8 unclassified_change, 3 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 11,
+      "out_of_range_sections": 0,
+      "content_sha256": "71fc24d06edb75099764bb0df8e063237bce8ea13e4097a9b183192f38222633",
+      "rank": 9
+    },
+    {
+      "source_id": "doc_e15dff77739485ad",
+      "title": "Upgrading Windows nodes | Kubernetes",
+      "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-windows-nodes/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:10.653311+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 5 unclassified_change, 4 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 9,
+      "out_of_range_sections": 0,
+      "content_sha256": "f0b8712c0b49ad27d83dbdec91f695ec17fa30bc546309e3b0184e541158df99",
+      "rank": 10
+    },
+    {
+      "source_id": "doc_be2337c002d2658d",
+      "title": "Migrating from dockershim | Kubernetes",
+      "url": "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:10.931272+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Mentions in-range versions 1.24. Candidate sections: 2 migration_step, 1 deprecation, 1 removal, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "1be8db375107c1e1eed36dc5a70464b6f7e13047c60c2b1559f7dd3cb7d98db0",
+      "rank": 11
+    },
+    {
+      "source_id": "doc_6d9f6a88c00951a6",
+      "title": "Migrating telemetry and security agents from dockershim | Kubernetes",
+      "url": "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:11.207497+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 7 unclassified_change, 6 migration_step, 4 dependency_requirement, 4 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 15,
+      "out_of_range_sections": 0,
+      "content_sha256": "303baefa1122c0f7e7ca8d14d4468268bfcc3cbec0570c196522ae35f9016482",
+      "rank": 12
+    },
+    {
+      "source_id": "doc_798ad4ef0b7b4091",
+      "title": "Migrate from PodSecurityPolicy to the Built-In PodSecurity Admission Controller | Kubernetes",
+      "url": "https://kubernetes.io/docs/tasks/configure-pod-container/migrate-from-psp/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:04:58.261718+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 13 security, 4 migration_step, 4 unclassified_change, 2 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 18,
+      "out_of_range_sections": 0,
+      "content_sha256": "4dfde8f6011b29e2bf5316eeb06f588e30d6bc1a44d62c12b5b0740d5aba85de",
+      "rank": 13
+    },
+    {
+      "source_id": "doc_361a7e63b17498c5",
+      "title": "Migrate Kubernetes Objects Using Storage Version Migration | Kubernetes",
+      "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:05:12.317933+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/docs/reference/issues-security/official-cve-feed/. Candidate sections: 4 configuration_change, 4 migration_step, 3 data_migration, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 5,
+      "out_of_range_sections": 0,
+      "content_sha256": "55ae2932380c42d5122550d05e8e70c231a016034d1c8f5012139189f9ef0730",
+      "rank": 14
+    },
+    {
+      "source_id": "doc_45217ed78f371cb9",
+      "title": "kubernetes/CHANGELOG/CHANGELOG-1.23.md at master \u00b7 kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.23.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T15:30:56.387393+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.23/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "82f02140eb0e81c7ddb961eb825c115779af7c4702a0acd240b1b2acad5151d1",
+      "rank": 15
+    },
+    {
+      "source_id": "doc_8fc1d479070a7283",
+      "title": "kubernetes/CHANGELOG/CHANGELOG-1.24.md at master \u00b7 kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.24.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T05:04:48.206221+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.24/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "dbebd6df27ecdc1833b698401c57e5bb6b296d2efd2f329a5b9e396859d87818",
+      "rank": 16
+    },
+    {
+      "source_id": "doc_2f1cf155540b24b6",
+      "title": "kubernetes/CHANGELOG/CHANGELOG-1.25.md at master \u00b7 kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T05:04:56.740354+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.25/. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.25"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "82f02140eb0e81c7ddb961eb825c115779af7c4702a0acd240b1b2acad5151d1",
+      "rank": 17
+    },
+    {
+      "source_id": "doc_2f1d78d071cfdd04",
+      "title": "kubernetes/CHANGELOG/CHANGELOG-1.26.md at master \u00b7 kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T05:04:59.716841+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.26/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.26"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "82f02140eb0e81c7ddb961eb825c115779af7c4702a0acd240b1b2acad5151d1",
+      "rank": 18
+    },
+    {
+      "source_id": "doc_fec17eb4f4963abe",
+      "title": "kubernetes/CHANGELOG/CHANGELOG-1.27.md at master \u00b7 kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T05:05:02.974066+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.27/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.27"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "18f5cf52975f22c7722a3bbb0f269faed1f3a10886f03bea720ae9a4d198a7c2",
+      "rank": 19
+    },
+    {
+      "source_id": "doc_5dc82cf6f00e7cf0",
+      "title": "kubernetes/CHANGELOG/CHANGELOG-1.28.md at master \u00b7 kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T05:05:05.359327+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.28/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "71b59d2517e7821e8255f02162b28a693b383d1ad5474b885f7ccbc47a9ad8fe",
+      "rank": 20
+    },
+    {
+      "source_id": "doc_fac1f22dd0b950bd",
+      "title": "kubernetes/CHANGELOG/CHANGELOG-1.29.md at master \u00b7 kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T05:05:07.071104+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.29/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "82f02140eb0e81c7ddb961eb825c115779af7c4702a0acd240b1b2acad5151d1",
+      "rank": 21
+    },
+    {
+      "source_id": "doc_621858c70e9fc2ac",
+      "title": "History for CHANGELOG/CHANGELOG-1.25.md - kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/commits/master/CHANGELOG/CHANGELOG-1.25.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T08:04:24.323450+00:00",
+      "why_relevant": "Linked from https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md. Mentions in-range versions 1.25. Candidate sections: 1 deprecation, 1 known_issue, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.25"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "7ac995967c7806571e820f6dd8be4de84d2cc4e99b2ff6505beb14c605f67266",
+      "rank": 22
+    },
+    {
+      "source_id": "doc_a0b95a1dbd591fbf",
+      "title": "History for CHANGELOG/CHANGELOG-1.26.md - kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/commits/master/CHANGELOG/CHANGELOG-1.26.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T08:04:25.929468+00:00",
+      "why_relevant": "Linked from https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md. Mentions in-range versions 1.26. Candidate sections: 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.26"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "60b165a67dc216c1816a09ea9928797f18cd3034ab5706b0836ec09538326d06",
+      "rank": 23
+    },
+    {
+      "source_id": "doc_88c05bcff4faedec",
+      "title": "History for CHANGELOG/CHANGELOG-1.29.md - kubernetes/kubernetes \u00b7 GitHub",
+      "url": "https://github.com/kubernetes/kubernetes/commits/master/CHANGELOG/CHANGELOG-1.29.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T08:04:27.372145+00:00",
+      "why_relevant": "Linked from https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md. Candidate sections: 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "db6206d133e3510fcfacc3756ff27dccbfdc28bedcbe7494977a819e97c3cc48",
+      "rank": 24
+    },
+    {
+      "source_id": "doc_74a804e0655658de",
+      "title": "Kubernetes 1.27 | Kubernetes",
+      "url": "https://kubernetes.io/bn/releases/1.27/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:10.284373+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.27. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.27"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "efa16dcb4f7b80fbe6aab68ae6f2af79355ca825e6c08761664a58f24162c151",
+      "rank": 25
+    },
+    {
+      "source_id": "doc_26eeacc8590c1c64",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/bn/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:06.186961+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "fcec7fee203bd3cfcbfbf7869b05fda73faa933014d65f5a7502ffd345ab2fe0",
+      "rank": 26
+    },
+    {
+      "source_id": "doc_1883c9fa04b0eab4",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/bn/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:01.698181+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "032157afb59cd875502c3f360a98f0e68d6a0db2bb0e0cbe5e27bbf0a4526b58",
+      "rank": 27
+    },
+    {
+      "source_id": "doc_9dbf0e89220c6e70",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/de/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:07.029382+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "763323c811333ed489a801c3bffdadd9bd63622894af065c0cf28c393120eb45",
+      "rank": 28
+    },
+    {
+      "source_id": "doc_cff5cfd6f3891b5c",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/de/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:02.723285+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1b9617781d0cd09d8fe72c154a264279f07ae81a22204927439dc6310523a36e",
+      "rank": 29
+    },
+    {
+      "source_id": "doc_62d66eef52fed3c0",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/es/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:09.545474+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "a9ddfe7b0421a21b97043eaa9f56c9ba065ab41e05459d4a29d1cccaabff72f9",
+      "rank": 30
+    },
+    {
+      "source_id": "doc_4c7a2892b22c4f2f",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/es/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:05.204654+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "8c05c9deab32be9e43d402ae9673b0e12cd853a7dfd385a47eb654e00280e7b6",
+      "rank": 31
+    },
+    {
+      "source_id": "doc_be4e18b92bd63aea",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/fa/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:08.558690+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "48abc2023cf13f954118ccd637e3f8cc07f9a0f6c7caad2524a5728469f49e97",
+      "rank": 32
+    },
+    {
+      "source_id": "doc_7c975b04200174e1",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/fa/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:04.269780+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "0bcd1d45a9113882572c325c8038c86d7a8b72a4eba9bd3aeb6e6c38ac147b21",
+      "rank": 33
+    },
+    {
+      "source_id": "doc_02449afba62a19d2",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/fr/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:06.715148+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "763323c811333ed489a801c3bffdadd9bd63622894af065c0cf28c393120eb45",
+      "rank": 34
+    },
+    {
+      "source_id": "doc_64c78b675ca5d332",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/fr/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:02.182169+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1b9617781d0cd09d8fe72c154a264279f07ae81a22204927439dc6310523a36e",
+      "rank": 35
+    },
+    {
+      "source_id": "doc_1d161ae8e6650f55",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/hi/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:07.233812+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "211f4100af94b21e49fb12d4b073b810d60b3da77fbc3678f9ee54b54503f52c",
+      "rank": 36
+    },
+    {
+      "source_id": "doc_9fb6ae8298a77d17",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/hi/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:02.927178+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "2806c6bc3b9b6483169bcd7ee62c448946e230b8371e1d9eef194ae0ead0c2ec",
+      "rank": 37
+    },
+    {
+      "source_id": "doc_be9d2b9be0a76183",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/id/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:07.476567+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "763323c811333ed489a801c3bffdadd9bd63622894af065c0cf28c393120eb45",
+      "rank": 38
+    },
+    {
+      "source_id": "doc_0aa44941de0d148a",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/id/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:03.172907+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1b9617781d0cd09d8fe72c154a264279f07ae81a22204927439dc6310523a36e",
+      "rank": 39
+    },
+    {
+      "source_id": "doc_89b0d7347fe3d703",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/it/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:07.844209+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "763323c811333ed489a801c3bffdadd9bd63622894af065c0cf28c393120eb45",
+      "rank": 40
+    },
+    {
+      "source_id": "doc_5947532564e8b4f3",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/it/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:03.419670+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1b9617781d0cd09d8fe72c154a264279f07ae81a22204927439dc6310523a36e",
+      "rank": 41
+    },
+    {
+      "source_id": "doc_179ed84a04f5dec2",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/ja/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:08.046248+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "e3b186ce589170e0f4231eb585cde1084ea1cbbaa9a9d44ef90f6d368c63d344",
+      "rank": 42
+    },
+    {
+      "source_id": "doc_03c6818ca3f49394",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/ja/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:03.745933+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "ff43eacecdffea93264d97b508ff8b5e1c0635e9a273107b75ad27734a1d9fba",
+      "rank": 43
+    },
+    {
+      "source_id": "doc_854889a83b221d44",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/ko/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:08.289076+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "50b8c72cd4d7609825fee0ce3ce3c654a1a42257e9e015897c5a9bbfae135f18",
+      "rank": 44
+    },
+    {
+      "source_id": "doc_f7883c99089f7960",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/ko/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:03.950567+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "009b2a60ab32d7c4f0d2a7f6c46af6ba5aeea1e68811475e6788dbd15c40e8bc",
+      "rank": 45
+    },
+    {
+      "source_id": "doc_45d68c56cd99bc6f",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/pl/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:08.793778+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "d0123b60a784bdefdc0ed34bcd63de1f6a773aec7b4b0c71a344ce915aa19cc8",
+      "rank": 46
+    },
+    {
+      "source_id": "doc_e680d9a83e6e5436",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/pl/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:04.462278+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "ae91b1b1c9227a021223fa196eccde50639d1470ab48e1812edf6467389eaf6e",
+      "rank": 47
+    },
+    {
+      "source_id": "doc_eda7769628ebc930",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/pt-br/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:09.075998+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "e764e5f20642ba20f40edfb716f42eb6f5ec7e4c1c009df7bd4953a8b4589995",
+      "rank": 48
+    },
+    {
+      "source_id": "doc_f1162617da179978",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/pt-br/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:04.770610+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "80ed740d03a78e373d4e7607a04e4733c42513dff2e4a90533b24198352f8aee",
+      "rank": 49
+    },
+    {
+      "source_id": "doc_24c5e5e15e1b47cd",
+      "title": "Releases | Kubernetes",
+      "url": "https://kubernetes.io/releases/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:04:41.798461+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.24/. Mentions in-range versions 1.24, 1.25, 1.26, 1.27, 1.28, 1.29. Candidate sections: 4 unclassified_change, 1 known_issue, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 5,
+      "out_of_range_sections": 4,
+      "content_sha256": "dbab495b7f67a2bb4ca491d692ead454a38bc4b061c7e6301cff83c7f60c76a8",
+      "rank": 50
+    },
+    {
+      "source_id": "doc_0a5d9e2b4a0c7c4a",
+      "title": "Kubernetes 1.23 | Kubernetes",
+      "url": "https://kubernetes.io/releases/1.23/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:04:42.323249+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 3,
+      "content_sha256": "46ffc71746f2fae78d79bb48f86851800827415bfe88590b2403e3ae845290ad",
+      "rank": 51
+    },
+    {
+      "source_id": "doc_05cf2af5d5bbeaa2",
+      "title": "Kubernetes 1.24 | Kubernetes",
+      "url": "https://kubernetes.io/releases/1.24/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:04:44.925568+00:00",
+      "why_relevant": "Release record for 1.24 in the selected catalog. Mentions in-range versions 1.24. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "44a97f4a3e92e2d11010859a15230c57ec1e3a9b21237f325cd420cb952215e3",
+      "rank": 52
+    },
+    {
+      "source_id": "doc_663ad88e6609d8ab",
+      "title": "Kubernetes 1.25 | Kubernetes",
+      "url": "https://kubernetes.io/releases/1.25/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:04:45.177795+00:00",
+      "why_relevant": "Release record for 1.25 in the selected catalog. Mentions in-range versions 1.25. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "afb212ff7c2a0fa87207653d537f5136d53bcdcbf605501b5a1010a99852a2bd",
+      "rank": 53
+    },
+    {
+      "source_id": "doc_0d1afee1987781cc",
+      "title": "Kubernetes 1.26 | Kubernetes",
+      "url": "https://kubernetes.io/releases/1.26/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:04:45.543166+00:00",
+      "why_relevant": "Release record for 1.26 in the selected catalog. Mentions in-range versions 1.26. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "58b1deba8f83dcf9373669c69b2c2506d25b2bbb599a529702846cb8ad303b11",
+      "rank": 54
+    },
+    {
+      "source_id": "doc_fadb2d5f86ebecfa",
+      "title": "Kubernetes 1.27 | Kubernetes",
+      "url": "https://kubernetes.io/releases/1.27/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:04:45.682366+00:00",
+      "why_relevant": "Release record for 1.27 in the selected catalog. Mentions in-range versions 1.27. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "cc7d35edefa858c90c83cea53a9e5446fcae43c48a1b7986853cfebfa3e67210",
+      "rank": 55
+    },
+    {
+      "source_id": "doc_d00a22fd49666929",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:04:45.926997+00:00",
+      "why_relevant": "Release record for 1.28 in the selected catalog. Mentions in-range versions 1.28. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "763323c811333ed489a801c3bffdadd9bd63622894af065c0cf28c393120eb45",
+      "rank": 56
+    },
+    {
+      "source_id": "doc_fce68a1143428395",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:04:46.179744+00:00",
+      "why_relevant": "Release record for 1.29 in the selected catalog. Mentions in-range versions 1.29. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "1b9617781d0cd09d8fe72c154a264279f07ae81a22204927439dc6310523a36e",
+      "rank": 57
+    },
+    {
+      "source_id": "doc_0ef7033694bd06fc",
+      "title": "Patch Releases | Kubernetes",
+      "url": "https://kubernetes.io/releases/patch-releases/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:04:41.966817+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/. Mentions in-range versions 1.24, 1.25, 1.26, 1.27, 1.28, 1.29. Candidate sections: 6 unclassified_change, 2 security, 1 dependency_requirement, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 4,
+      "content_sha256": "b6d738967ea23e377c0788bd69185ab3fac00f64803231e33f2b0f9611b8100f",
+      "rank": 58
+    },
+    {
+      "source_id": "doc_b7bbc99e23167ff6",
+      "title": "Release Managers | Kubernetes",
+      "url": "https://kubernetes.io/releases/release-managers/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T15:30:59.096937+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/patch-releases/. Candidate sections: 6 unclassified_change, 5 security, 1 configuration_change, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 12,
+      "out_of_range_sections": 0,
+      "content_sha256": "c664bafc8dbb554f58f7c40319ddb485cb3a134f09ec4f4736867947bb6c6171",
+      "rank": 59
+    },
+    {
+      "source_id": "doc_2abd00556a0a3707",
+      "title": "Kubernetes Release Cycle | Kubernetes",
+      "url": "https://kubernetes.io/releases/release/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T15:30:58.756725+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/patch-releases/. Candidate sections: 14 unclassified_change, 4 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 18,
+      "out_of_range_sections": 0,
+      "content_sha256": "7469de681fc3fd5bfd3ebddd65d39c305b5dc2ba4fa021f73798cbb481a69b94",
+      "rank": 60
+    },
+    {
+      "source_id": "doc_8a9bd073895efeb6",
+      "title": "Version Skew Policy | Kubernetes",
+      "url": "https://kubernetes.io/releases/version-skew-policy/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T05:05:20.096748+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/. Mentions in-range versions 1.25. Candidate sections: 13 unclassified_change, 1 security, 1 known_issue, 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 17,
+      "out_of_range_sections": 0,
+      "content_sha256": "f83fbc4c1fd974ae124d3fca8facb0f67ada5ed8890689eb5e957ef424a16424",
+      "rank": 61
+    },
+    {
+      "source_id": "doc_586da7c49b78344a",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/ru/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:09.278461+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "763323c811333ed489a801c3bffdadd9bd63622894af065c0cf28c393120eb45",
+      "rank": 62
+    },
+    {
+      "source_id": "doc_920f240dceedd5a3",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/ru/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:04.975946+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1b9617781d0cd09d8fe72c154a264279f07ae81a22204927439dc6310523a36e",
+      "rank": 63
+    },
+    {
+      "source_id": "doc_c1467ad56a3cebba",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/uk/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:09.661831+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "f2d588c5cf918480378d305b1c64fe0e4a8e2ca158f08ada248c9afb543127a0",
+      "rank": 64
+    },
+    {
+      "source_id": "doc_27f938a96dd30144",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/uk/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:05.590967+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "f40cd5f10906cc58d6c28c034d39745c4788ca8cf13cc8a00cb19d50e35b1655",
+      "rank": 65
+    },
+    {
+      "source_id": "doc_b248cce001c8dc9e",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/vi/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:10.097096+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "763323c811333ed489a801c3bffdadd9bd63622894af065c0cf28c393120eb45",
+      "rank": 66
+    },
+    {
+      "source_id": "doc_8b8053b359128ec0",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/vi/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:05.998730+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1b9617781d0cd09d8fe72c154a264279f07ae81a22204927439dc6310523a36e",
+      "rank": 67
+    },
+    {
+      "source_id": "doc_51f1dbbf2c4c13be",
+      "title": "Kubernetes 1.28 | Kubernetes",
+      "url": "https://kubernetes.io/zh-cn/releases/1.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:06.518363+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.28. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "e2135e9781c99a03ba0b679884bb21f6b06690559b35729651890c1e91036472",
+      "rank": 68
+    },
+    {
+      "source_id": "doc_653de903737ca25f",
+      "title": "Kubernetes 1.29 | Kubernetes",
+      "url": "https://kubernetes.io/zh-cn/releases/1.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T09:23:01.803865+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 1.29. Candidate sections: 2 unclassified_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "2815b903c0674de7bcb9d66261f935f71cb063861571b4c6f9ab1eb19c555dd8",
+      "rank": 69
+    },
+    {
+      "source_id": "doc_188e48fbf76733b8",
+      "title": "https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/CHANGELOG/CHANGELOG-1.25.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/CHANGELOG/CHANGELOG-1.25.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T08:04:24.899371+00:00",
+      "why_relevant": "Linked from https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md. Mentions in-range versions 1.24, 1.25, 1.26, 1.27. Candidate sections: 1 breaking_change, 1 deprecation, 1 removal, 1 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "cffc1e4a568f4063eb570a83a33d9fc03efb4708734a3d9fb32be675ab51a89a",
+      "rank": 70
+    },
+    {
+      "source_id": "doc_4ccde643c47b51b9",
+      "title": "https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/CHANGELOG/CHANGELOG-1.26.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/CHANGELOG/CHANGELOG-1.26.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T08:04:26.404064+00:00",
+      "why_relevant": "Linked from https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md. Mentions in-range versions 1.24, 1.25, 1.26, 1.27, 1.29. Candidate sections: 1 deprecation, 1 removal, 1 changed_default, 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "757487015864ae85c7b71edea16c509f084f546ed461891d41988a17a97897bb",
+      "rank": 71
+    },
+    {
+      "source_id": "doc_884aca2d985c9ba1",
+      "title": "https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/CHANGELOG/CHANGELOG-1.29.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/CHANGELOG/CHANGELOG-1.29.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T08:04:27.787630+00:00",
+      "why_relevant": "Linked from https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md. Mentions in-range versions 1.24, 1.25, 1.26, 1.27, 1.28, 1.29. Candidate sections: 1 deprecation, 1 removal, 1 changed_default, 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1bdc5247c69b55717d338de79a75e528924a194de970566294791272e85a8991",
+      "rank": 72
+    },
+    {
+      "source_id": "doc_e3f8bc64ba865b67",
+      "title": "Kubernetes v1.23.17",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.23.17",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T15:31:03.201852+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.23/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 1,
+      "content_sha256": "7ed444dad80bf248b1ffed474f936eb2e492b7ff5012f5a202abac0fde858444",
+      "rank": 73
+    },
+    {
+      "source_id": "doc_5836faa7a65c92f5",
+      "title": "Kubernetes v1.24.17",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.24.17",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:04:48.440814+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.24/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "1.24"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 1,
+      "content_sha256": "f5f5a5eeecbc73c49a8468b7e2c399da9d577214a05483994acb5cc8a23ac783",
+      "rank": 74
+    },
+    {
+      "source_id": "doc_92968bcd03a514b7",
+      "title": "Kubernetes v1.25.16",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.25.16",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:04:56.956372+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.25/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "1.25"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 1,
+      "content_sha256": "525a82d605cd64389bc2dec83d4737a70abc0bb82479ef6d472f6baa0339857e",
+      "rank": 75
+    },
+    {
+      "source_id": "doc_6132f9641376a91c",
+      "title": "Kubernetes v1.26.15",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.26.15",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:04:59.910309+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.26/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "1.26"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 1,
+      "content_sha256": "df1d4c3f808e804ea3893ea05036fd1e616dae1be28b5bf478e841099e8c51a2",
+      "rank": 76
+    },
+    {
+      "source_id": "doc_8930fdc2d03ac3ca",
+      "title": "Kubernetes v1.27.16",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.27.16",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:05:03.155226+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.27/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "1.27"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 1,
+      "content_sha256": "ebd873aed61be1d3578f3fff5ac474410cbd239737b2ca9f172d27b715ad208e",
+      "rank": 77
+    },
+    {
+      "source_id": "doc_d770e0aa542afa0c",
+      "title": "Kubernetes v1.28.15",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.28.15",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:05:05.519892+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.28/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "1.28"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 1,
+      "content_sha256": "e6d4bf00b54006c3ea86b24a4e0d2b7c7779ef8c6042a61db5db666cf8279274",
+      "rank": 78
+    },
+    {
+      "source_id": "doc_07ea7a42cb9724a9",
+      "title": "Kubernetes v1.29.14",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.29.14",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:05:07.233468+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/1.29/.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository kubernetes/kubernetes."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 1,
+      "content_sha256": "3e0c42dfda8cf18d95469d06d8eb4898c8eacf3ced16fb72d6a051973370c365",
+      "rank": 79
+    },
+    {
+      "source_id": "doc_3a18c4b7e9801238",
+      "title": "Kubernetes Deprecation Policy | Kubernetes",
+      "url": "https://kubernetes.io/docs/reference/deprecation-policy/",
+      "source_type": "deprecation_notice",
+      "retrieved_at": "2026-10-09T05:05:19.555358+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/version-skew-policy/. Candidate sections: 10 deprecation, 10 removal, 5 configuration_change, 4 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "deprecation_notice",
+      "roles": [
+        "deprecation_notice"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 15,
+      "out_of_range_sections": 0,
+      "content_sha256": "91485f9e40a109ec02dc34c637e1ccf47ede340afc6192b7230a3ab4073f0bfe",
+      "rank": 80
+    },
+    {
+      "source_id": "doc_d3611dbebfbf83f8",
+      "title": "Resource Management for Pods and Containers | Kubernetes",
+      "url": "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:16.675936+00:00",
+      "why_relevant": "Linked from https://kubernetes.io. Mentions in-range versions 1.27. Candidate sections: 7 configuration_change, 2 migration_step, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "1.27"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 9,
+      "out_of_range_sections": 0,
+      "content_sha256": "8bb8c4c4a541882f32d0a070d142450b4270030f0bca51d3983d82728303a1de",
+      "rank": 81
+    },
+    {
+      "source_id": "doc_03a8eb020ca05e69",
+      "title": "Extending Kubernetes | Kubernetes",
+      "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:19.254969+00:00",
+      "why_relevant": "Linked from https://kubernetes.io. Mentions in-range versions 1.26. Candidate sections: 3 api_change, 2 configuration_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "1.26"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "6bf63474722e804a59d7d9522e729ae76e88841f4b8faf62d5e201ebf936c08b",
+      "rank": 82
+    },
+    {
+      "source_id": "doc_fb91f3263e9011cc",
+      "title": "Service | Kubernetes",
+      "url": "https://kubernetes.io/docs/concepts/services-networking/service/",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:15.597634+00:00",
+      "why_relevant": "Linked from https://kubernetes.io. Mentions in-range versions 1.24, 1.26. Candidate sections: 12 configuration_change, 3 removal, 2 migration_step, 2 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "1.24",
+        "1.26"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 18,
+      "out_of_range_sections": 0,
+      "content_sha256": "a24e41cd2f88b80640140dba3bfaf2b8f326593256516e80e74541e4288069aa",
+      "rank": 83
+    },
+    {
+      "source_id": "doc_9fac40336c92827b",
+      "title": "Persistent Volumes | Kubernetes",
+      "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:15.950258+00:00",
+      "why_relevant": "Linked from https://kubernetes.io. Mentions in-range versions 1.24, 1.25, 1.26. Candidate sections: 7 configuration_change, 6 migration_step, 6 deprecation, 5 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 17,
+      "out_of_range_sections": 0,
+      "content_sha256": "482fdc7a1db263b0d40b860be628f7425a6a3662e4549afd83f70c40fe1428f0",
+      "rank": 84
+    },
+    {
+      "source_id": "doc_bc994bade3e5e8be",
+      "title": "Jobs | Kubernetes",
+      "url": "https://kubernetes.io/docs/concepts/workloads/controllers/job/",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T05:05:17.049585+00:00",
+      "why_relevant": "Linked from https://kubernetes.io. Mentions in-range versions 1.27, 1.28. Candidate sections: 14 configuration_change, 7 changed_default, 6 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "1.27",
+        "1.28"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 24,
+      "out_of_range_sections": 0,
+      "content_sha256": "88cf73c240064de86f56145aea6cd5bd7165201ac8ebf56dccea6cb47291f298",
+      "rank": 85
+    },
+    {
+      "source_id": "doc_940c81f03177c7e9",
+      "title": "Official CVE Feed | Kubernetes",
+      "url": "https://kubernetes.io/docs/reference/issues-security/official-cve-feed/",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T15:30:59.203014+00:00",
+      "why_relevant": "Linked from https://kubernetes.io/releases/patch-releases/. Candidate sections: 1 configuration_change, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site kubernetes.io."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "56fdba8b785d79f7d2fa68050ea8f22ebab3fc6343121622be51c78500295ffd",
+      "rank": 86
+    }
+  ],
+  "excluded_sources": [
+    {
+      "source_id": "doc_41a7f1ff7e620eed",
+      "url": "https://kubernetes.io/releases/notes/",
+      "title": "Notes | Kubernetes",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_e6e6f80f5fa655a2",
+      "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md",
+      "title": "kubernetes/CHANGELOG/CHANGELOG-1.37.md at master \u00b7 kubernetes/kubernetes \u00b7 GitHub",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_40a2038a0f9c326c",
+      "url": "https://github.com/kubernetes/kubernetes/commits/master/CHANGELOG/CHANGELOG-1.37.md",
+      "title": "History for CHANGELOG/CHANGELOG-1.37.md - kubernetes/kubernetes \u00b7 GitHub",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_6009dae92c40eab7",
+      "url": "https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/CHANGELOG/CHANGELOG-1.37.md",
+      "title": "https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/CHANGELOG/CHANGELOG-1.37.md",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_a6cea4f934d8c938",
+      "url": "https://kubernetes.io",
+      "title": "Kubernetes",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_55ae5b2fc76bf461",
+      "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+      "title": "Learn Kubernetes Basics | Kubernetes",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_eceb960849e96838",
+      "url": "https://kubernetes.io/docs/concepts/overview/",
+      "title": "Overview | Kubernetes",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_b978332dac147ffe",
+      "url": "https://kubernetes.io/releases/download/",
+      "title": "Download Kubernetes | Kubernetes",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_d9a16560db2b044d",
+      "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+      "title": "Deployments | Kubernetes",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_38cc788d90235580",
+      "url": "https://kubernetes.io/docs/concepts/configuration/secret/",
+      "title": "Secrets | Kubernetes",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_869e3f86ec801a80",
+      "url": "https://kubernetes.io/docs/concepts/architecture/self-healing/",
+      "title": "Kubernetes Self-Healing | Kubernetes",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_cdcbb8339d01bdc4",
+      "url": "https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/",
+      "title": "Horizontal Pod Autoscaling | Kubernetes",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_6bc3b0fb58fe2f65",
+      "url": "https://kubernetes.io/docs/concepts/workloads/autoscaling/vertical-pod-autoscale/",
+      "title": "Vertical Pod Autoscaling | Kubernetes",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_2ee7651f17a2c7c5",
+      "url": "https://kubernetes.io/docs/concepts/services-networking/dual-stack/",
+      "title": "IPv4/IPv6 dual-stack | Kubernetes",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    }
+  ],
+  "trust_policy": {
+    "official": "Project site, project repository or the selected package registry record.",
+    "probable_official": "Repository name matches but owner differs; not verified.",
+    "official_repository_discussion": "Issues/PRs in the project repository: context, not release statements.",
+    "third_party": "Supporting context only; never overrides official sources."
+  },
+  "notes": [
+    "source_id equals the evidence document id, so evidence.json and candidate_sections.json join on it.",
+    "Fetch-level request log (including robots.txt checks) remains in evidence.json source_inventory."
+  ]
+}

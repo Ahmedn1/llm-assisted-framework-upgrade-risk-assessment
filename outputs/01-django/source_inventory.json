@@ -1,0 +1,5074 @@
+{
+  "project": "Django",
+  "current_version": "3.2",
+  "target_version": "4.2",
+  "resolved_versions": [
+    "4.0",
+    "4.0.1",
+    "4.0.2",
+    "4.0.3",
+    "4.0.4",
+    "4.0.5",
+    "4.0.6",
+    "4.0.7",
+    "4.0.8",
+    "4.0.9",
+    "4.0.10",
+    "4.1",
+    "4.1.1",
+    "4.1.2",
+    "4.1.3",
+    "4.1.4",
+    "4.1.5",
+    "4.1.6",
+    "4.1.7",
+    "4.1.8",
+    "4.1.9",
+    "4.1.10",
+    "4.1.11",
+    "4.1.12",
+    "4.1.13",
+    "4.2",
+    "4.2.1",
+    "4.2.2",
+    "4.2.3",
+    "4.2.4",
+    "4.2.5",
+    "4.2.6",
+    "4.2.7",
+    "4.2.8",
+    "4.2.9",
+    "4.2.10",
+    "4.2.11",
+    "4.2.12",
+    "4.2.13",
+    "4.2.14",
+    "4.2.15",
+    "4.2.16",
+    "4.2.17",
+    "4.2.18",
+    "4.2.19",
+    "4.2.20",
+    "4.2.21",
+    "4.2.22",
+    "4.2.23",
+    "4.2.24",
+    "4.2.25",
+    "4.2.26",
+    "4.2.27",
+    "4.2.28",
+    "4.2.29",
+    "4.2.30"
+  ],
+  "documentation_milestones": [
+    "4.0",
+    "4.1",
+    "4.2"
+  ],
+  "collection_path": "deterministic",
+  "generated_at": "2026-10-09T15:11:57.822138+00:00",
+  "sources": [
+    {
+      "source_id": "doc_a70c7e82084bbebb",
+      "title": "How to upgrade Django to a newer version | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/howto/upgrade-version/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T08:03:32.393826+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2026/apr/07/security-releases/. Mentions in-range versions 4.0, 4.1, 4.2. Candidate sections: 6 migration_step, 3 deprecation, 3 configuration_change, 2 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "4.0",
+        "4.1",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 0,
+      "content_sha256": "3a160502d1846828fa1f966645dfaa94c42ce0048260207afd3c8cc51d5f42d0",
+      "rank": 1
+    },
+    {
+      "source_id": "doc_c7f09603fb30dbbf",
+      "title": "Django 4.0 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.0/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:04:53.979389+00:00",
+      "why_relevant": "Linked from https://docs.djangoproject.com/en/6.1/releases/4.0/. Mentions in-range versions 4.0, 4.1, 4.2. Candidate sections: 18 unclassified_change, 14 configuration_change, 9 migration_step, 7 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.0",
+        "4.1",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 40,
+      "out_of_range_sections": 2,
+      "content_sha256": "5c38c49e7552405c92c254cad18a4eeaf179a4172deb5bf047cab3a122c5e477",
+      "rank": 2
+    },
+    {
+      "source_id": "doc_14d4f374ec1fec6c",
+      "title": "Django 4.1.8 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.1.8/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:48.437430+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/apr/05/bugfix-release/. Mentions in-range versions 4.1, 4.1.8, 4.2. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.8",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "d4ac13490608a64e641383ec33246bc4c84669efb23d1c6f5669ed912e5c6d6b",
+      "rank": 3
+    },
+    {
+      "source_id": "doc_1dbd312c2af0bcaf",
+      "title": "Django 4.1 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.1/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:04:54.317554+00:00",
+      "why_relevant": "Linked from https://docs.djangoproject.com/en/6.1/releases/4.1/. Mentions in-range versions 4.0, 4.1, 4.1.3, 4.2. Candidate sections: 20 unclassified_change, 7 removal, 6 deprecation, 6 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.0",
+        "4.1",
+        "4.1.3",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 37,
+      "out_of_range_sections": 1,
+      "content_sha256": "6e652eaf747103c500c5b1d33e1a3ed2bb7c93ccf4c9cc60887556fff257693a",
+      "rank": 4
+    },
+    {
+      "source_id": "doc_19b282c0c44e7c84",
+      "title": "Django 4.2.12 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.12/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:40.253916+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/may/07/bugfix-releases/. Mentions in-range versions 4.2, 4.2.12. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.12"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "35c07e5dd0e2457d4e4e0f4e75fa8b8c72e5e73b78c0b104de4251f621830d34",
+      "rank": 5
+    },
+    {
+      "source_id": "doc_0fe406ce6ec8016a",
+      "title": "Django 4.2.13 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.13/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:39.316804+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/may/07/bugfix-releases/. Mentions in-range versions 4.2, 4.2.13. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.13"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "c7d6814e1f1d2376b66fed01d4941af854123fe7c2fd945595af01a0d70ce509",
+      "rank": 6
+    },
+    {
+      "source_id": "doc_d8c48d8910c4641d",
+      "title": "Django 4.2.19 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.19/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:37.379263+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/feb/05/bugfix-releases/. Mentions in-range versions 4.2, 4.2.18, 4.2.19. Candidate sections: 2 known_issue, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.18",
+        "4.2.19"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "6f9fa40971413d58510fca1ccad20b3102de53dfcfb022e18af64e6c0c46d41a",
+      "rank": 7
+    },
+    {
+      "source_id": "doc_702a4764577cd5a4",
+      "title": "Django 4.2.2 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.2/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:47.141608+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/jun/05/bugfix-release/. Mentions in-range versions 4.2, 4.2.2. Candidate sections: 2 unclassified_change, 1 migration_step, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "d4b6f456be8384506d18077af9862d75c71b59e4b75b23c6b67dbd843545af80",
+      "rank": 8
+    },
+    {
+      "source_id": "doc_32b1be22c3a2cdc8",
+      "title": "Django 4.2.21 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.21/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:36.129151+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/may/07/security-releases/. Mentions in-range versions 4.2, 4.2.20, 4.2.21. Candidate sections: 2 known_issue, 2 security, 1 unclassified_change, 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.20",
+        "4.2.21"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "9c2a8aad2b9301f5ab849d18c36f9dbba0248d40b03e492910832a645291dbd9",
+      "rank": 9
+    },
+    {
+      "source_id": "doc_fb510039f977099e",
+      "title": "Django 4.2.29 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.29/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:32.698421+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2026/mar/03/security-releases/. Mentions in-range versions 4.2, 4.2.29. Candidate sections: 3 security, 1 unclassified_change, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.29"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "610c1cfb3ebdfeb7df6d279b32e6919a8588b5b087c85820d3eec080acc79cee",
+      "rank": 10
+    },
+    {
+      "source_id": "doc_564382482b9e90c4",
+      "title": "Django 4.2.4 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.4/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:45.706661+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/aug/01/bugfix-release/. Mentions in-range versions 4.2, 4.2.4. Candidate sections: 2 unclassified_change, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.4"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "ebb28b7ea20e046b7700584a5e0860520dd59d7cfa196ceed457535a4ef05437",
+      "rank": 11
+    },
+    {
+      "source_id": "doc_1c937e18ca484fe1",
+      "title": "Django 4.2.8 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.2.8/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:42.276179+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/dec/04/bugfix-release/. Mentions in-range versions 4.2, 4.2.7, 4.2.8. Candidate sections: 2 unclassified_change, 1 migration_step, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.7",
+        "4.2.8"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "62e4d70355badb1d807c8d134c20469f95d1eeb22bc52c828dfd4c7618db64b1",
+      "rank": 12
+    },
+    {
+      "source_id": "doc_e0e0df9636049c90",
+      "title": "Django 4.2 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/6.1/releases/4.2/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:04:54.476082+00:00",
+      "why_relevant": "Linked from https://docs.djangoproject.com/en/6.1/releases/4.2/. Mentions in-range versions 4.1, 4.2, 4.2.8. Candidate sections: 18 unclassified_change, 7 migration_step, 6 deprecation, 6 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.2",
+        "4.2.8"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 34,
+      "out_of_range_sections": 2,
+      "content_sha256": "8b9fb9893c3c71616b0b66abfaa84ebdd4bc9ec2ec4dec8b7c201b46d37561c6",
+      "rank": 13
+    },
+    {
+      "source_id": "doc_8b7c9cda7bfbfec5",
+      "title": "Django 3.2.19 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/3.2.19/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:48.026103+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/may/03/security-releases/. Mentions in-range versions 4.1, 4.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 3,
+      "content_sha256": "f8e280c3488dd39236825b4c5f90b33bd182054e0c75fc828f2072fe57a297fd",
+      "rank": 14
+    },
+    {
+      "source_id": "doc_576e8dc6db019fd6",
+      "title": "Django 3.2.20 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/3.2.20/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:46.617212+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/jul/03/security-releases/. Mentions in-range versions 4.1, 4.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 3,
+      "content_sha256": "88db8d33e3184cffa0711ed9df634f7a803ffd97acadef90df05c4099e462b83",
+      "rank": 15
+    },
+    {
+      "source_id": "doc_c5779256391bb4a7",
+      "title": "Django 3.2.21 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/3.2.21/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:45.184380+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/sep/04/security-releases/. Mentions in-range versions 4.1, 4.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 3,
+      "content_sha256": "039ebdfd5fa8eb0d47d4efdfa6c241f0fad1a1268f1073993066f0411f55f075",
+      "rank": 16
+    },
+    {
+      "source_id": "doc_1694d9ef38250ce1",
+      "title": "Django 3.2.22 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/3.2.22/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:44.257022+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/oct/04/security-releases/. Mentions in-range versions 4.1, 4.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 3,
+      "content_sha256": "fbc1797a066991e076199f3dd81824e2bf9f5beaded3b3bf6f6bf945e196e29d",
+      "rank": 17
+    },
+    {
+      "source_id": "doc_1c075c23bb3171fd",
+      "title": "Django 3.2.23 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/3.2.23/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:43.251968+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/nov/01/security-releases/. Mentions in-range versions 4.1, 4.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 3,
+      "content_sha256": "6148e256af0a0b7ab75ecb364c84ec6afa13d7e6e4606e586cd235f61b80c520",
+      "rank": 18
+    },
+    {
+      "source_id": "doc_4e374d7372b9a40d",
+      "title": "Django 3.2.24 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/3.2.24/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:41.654310+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/feb/06/security-releases/. Mentions in-range versions 4.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 3,
+      "content_sha256": "3bd239411c1f3d17c8111feda335dd0ebf1ac7f449f746769d996cb4fd004c6e",
+      "rank": 19
+    },
+    {
+      "source_id": "doc_2ba081134b2e4299",
+      "title": "Django 3.2.25 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/3.2.25/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:41.152913+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/mar/04/security-releases/. Mentions in-range versions 4.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 4,
+      "content_sha256": "d23fcb04e5e2796e34d2124d29a586eb3ed618e498c441041eb18961f9974ea2",
+      "rank": 20
+    },
+    {
+      "source_id": "doc_4c799d45cb5696aa",
+      "title": "Django 4.0 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.0/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:04:52.853528+00:00",
+      "why_relevant": "Linked from https://docs.djangoproject.com/en/dev/releases/4.0/. Mentions in-range versions 4.0, 4.1, 4.2. Candidate sections: 18 unclassified_change, 14 configuration_change, 9 migration_step, 7 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.0",
+        "4.1",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 40,
+      "out_of_range_sections": 2,
+      "content_sha256": "0908f053cabba67e369a3423adb702616c4f5cad90b35250b36fd79586d46322",
+      "rank": 21
+    },
+    {
+      "source_id": "doc_1f4757a122ba4c0e",
+      "title": "Django 4.1.10 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.1.10/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:46.419395+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/jul/03/security-releases/. Mentions in-range versions 4.1, 4.1.10, 4.2. Candidate sections: 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.10",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "f3c5d3a3faa75d1800a766a416eeeb7c6b66dd1c60e6cbb7d92adea633e153e1",
+      "rank": 22
+    },
+    {
+      "source_id": "doc_cfa0e517c8ad09a6",
+      "title": "Django 4.1.11 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.1.11/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:44.937677+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/sep/04/security-releases/. Mentions in-range versions 4.1, 4.1.11, 4.2. Candidate sections: 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.11",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "f143cf891faaa5616665f11985d17c426caf9da4c40e52b74db8bc392a559c4a",
+      "rank": 23
+    },
+    {
+      "source_id": "doc_0a8628fa257cc159",
+      "title": "Django 4.1.12 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.1.12/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:44.022195+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/oct/04/security-releases/. Mentions in-range versions 4.1, 4.1.12, 4.2. Candidate sections: 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.12",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "e17f0088da4bc68cab44d9243c68c42ae905e989fd062625d1ff5018a9277129",
+      "rank": 24
+    },
+    {
+      "source_id": "doc_a487abff803362fb",
+      "title": "Django 4.1.13 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.1.13/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:42.710925+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/nov/01/security-releases/. Mentions in-range versions 4.1, 4.1.13, 4.2. Candidate sections: 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.13",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "ec85b1c413c32caf72c5910daaf2d9b11ba57d8813ec39ab7a537efad014908b",
+      "rank": 25
+    },
+    {
+      "source_id": "doc_f6266b1ef707cdec",
+      "title": "Django 4.1.9 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.1.9/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:47.777456+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/may/03/security-releases/. Mentions in-range versions 4.1, 4.1.9, 4.2. Candidate sections: 2 security, 1 unclassified_change, 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.9",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "9cd7d046c7b7abdcd7b269d35010b52c2c01f4aef2ab49da60d10bf0e8d11e71",
+      "rank": 26
+    },
+    {
+      "source_id": "doc_28350517cbaea960",
+      "title": "Django 4.1 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.1/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:04:53.079716+00:00",
+      "why_relevant": "Linked from https://docs.djangoproject.com/en/dev/releases/4.1/. Mentions in-range versions 4.0, 4.1, 4.1.3, 4.2. Candidate sections: 20 unclassified_change, 7 removal, 6 deprecation, 6 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.0",
+        "4.1",
+        "4.1.3",
+        "4.2"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 37,
+      "out_of_range_sections": 1,
+      "content_sha256": "563229aed0eefdc8b4de3d47d8b319557b080996f2722cee7ae723bd6a530344",
+      "rank": 27
+    },
+    {
+      "source_id": "doc_d198df28fa627659",
+      "title": "Django 4.2.1 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.1/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:47.530137+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/may/03/security-releases/. Mentions in-range versions 4.2, 4.2.1. Candidate sections: 2 security, 1 unclassified_change, 1 behavior_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.1"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "9156e789bcffe24706f0e178a7f09358948af9853a2bf7fb7dc78f443c32ea0f",
+      "rank": 28
+    },
+    {
+      "source_id": "doc_6bb023d224dbdd58",
+      "title": "Django 4.2.10 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.10/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:41.407228+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/feb/06/security-releases/. Mentions in-range versions 4.2, 4.2.10. Candidate sections: 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.10"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "5a8b15c0a2ef55726233a74ddc5aeb9dbdc7e71f93689d250e8950dd77e6e9fe",
+      "rank": 29
+    },
+    {
+      "source_id": "doc_7f2bda166654f96d",
+      "title": "Django 4.2.11 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.11/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:40.902663+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/mar/04/security-releases/. Mentions in-range versions 4.2, 4.2.10, 4.2.11. Candidate sections: 2 known_issue, 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.10",
+        "4.2.11"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "9330decb1eed6b664e1809d0f86b2c552ac3731fd77e765f97ce0e711a718efb",
+      "rank": 30
+    },
+    {
+      "source_id": "doc_b0661b7dcf22ff9b",
+      "title": "Django 4.2.14 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.14/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:39.052041+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/jul/09/security-releases/. Mentions in-range versions 4.2, 4.2.14. Candidate sections: 5 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.14"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "294aa02c60aa3ae69154ac3bd50be51908f9cec92b88ba067ef01a35f2c59f64",
+      "rank": 31
+    },
+    {
+      "source_id": "doc_89f137338d67d38d",
+      "title": "Django 4.2.15 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.15/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:38.796919+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/aug/06/security-releases/. Mentions in-range versions 4.2, 4.2.14, 4.2.15. Candidate sections: 5 security, 2 known_issue, 1 unclassified_change, 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.14",
+        "4.2.15"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 7,
+      "out_of_range_sections": 0,
+      "content_sha256": "2e724754e9f4c755c85df7411f655126e48278e76a244e618c387112fa09af54",
+      "rank": 32
+    },
+    {
+      "source_id": "doc_b667aadeb068268f",
+      "title": "Django 4.2.16 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.16/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:38.596504+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/sep/03/security-releases/. Mentions in-range versions 4.2, 4.2.16. Candidate sections: 3 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.16"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "51b93669c158fb7d12bad4fb77bc95b06f3bc045d8e9c745163ed50062d674df",
+      "rank": 33
+    },
+    {
+      "source_id": "doc_7b1dd3bfd104c026",
+      "title": "Django 4.2.17 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.17/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:37.820078+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/dec/04/security-releases/. Mentions in-range versions 4.2, 4.2.17. Candidate sections: 3 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.17"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "4e7047671a238b0f5f4d61b005f108ce182b6774389099f074327a335864cbb0",
+      "rank": 34
+    },
+    {
+      "source_id": "doc_b72b647c60742676",
+      "title": "Django 4.2.18 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.18/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:37.578995+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/jan/14/security-releases/. Mentions in-range versions 4.2, 4.2.18. Candidate sections: 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.18"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "522af6f7ba0033b188bda27860c4357e73261693f1356eea05d6d93d063851f4",
+      "rank": 35
+    },
+    {
+      "source_id": "doc_723abc8097a70bc8",
+      "title": "Django 4.2.20 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.20/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:36.607702+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/mar/06/security-releases/. Mentions in-range versions 4.2, 4.2.20. Candidate sections: 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.20"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "379542aa9e6a5ce7d28fe123c0c7f5b28f55ca9a0148de9fa3396c30f392aff2",
+      "rank": 36
+    },
+    {
+      "source_id": "doc_92f183b6a986b0f4",
+      "title": "Django 4.2.22 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.22/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:35.491456+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/jun/04/security-releases/. Mentions in-range versions 4.2, 4.2.22. Candidate sections: 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.22"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "c4aadbb5048999c4eab3889b197b4d519bfa51d1da3b19d27841cc3f98584dca",
+      "rank": 37
+    },
+    {
+      "source_id": "doc_6cf2961d26c51c34",
+      "title": "Django 4.2.23 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.23/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:35.311231+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/jun/10/bugfix-releases/. Mentions in-range versions 4.2, 4.2.23. Candidate sections: 2 unclassified_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.23"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "f44a5cc77659097a6218ef65fee3acf4f7c1ceeb8a7253fbb0e88980efc2f7b9",
+      "rank": 38
+    },
+    {
+      "source_id": "doc_21a804f10e28b05c",
+      "title": "Django 4.2.24 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.24/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:34.498602+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/sep/03/security-releases/. Mentions in-range versions 4.2, 4.2.24. Candidate sections: 2 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.24"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "6c8f1bcc628c2a7e6b2036eb288f41d1eddfb933290eaab14863ad212dd94e54",
+      "rank": 39
+    },
+    {
+      "source_id": "doc_89a139daf66b3fe5",
+      "title": "Django 4.2.25 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.25/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:34.266595+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/oct/01/security-releases/. Mentions in-range versions 4.2, 4.2.25. Candidate sections: 3 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.25"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "433b1dd1e9ef1f51818ea5b893bd30ace95ed36d5edf05824cac04ccc0d7ae33",
+      "rank": 40
+    },
+    {
+      "source_id": "doc_31a078332fbaf5b2",
+      "title": "Django 4.2.26 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.26/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:34.089271+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/nov/05/security-releases/. Mentions in-range versions 4.2, 4.2.26. Candidate sections: 3 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "8e029df39e8218b1b3ba063d8cfb446bc984b6b3eac21f8536fe8c07258d6862",
+      "rank": 41
+    },
+    {
+      "source_id": "doc_d0c1198a1f5f56fd",
+      "title": "Django 4.2.27 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.27/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:33.368418+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/dec/02/security-releases/. Mentions in-range versions 4.2, 4.2.26, 4.2.27. Candidate sections: 3 security, 1 unclassified_change, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.26",
+        "4.2.27"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 5,
+      "out_of_range_sections": 0,
+      "content_sha256": "b330aedc3f387c8785187e3a81f73663474163586250ad9daebb294aa3d5ebf8",
+      "rank": 42
+    },
+    {
+      "source_id": "doc_2879ae2ff88ab30c",
+      "title": "Django 4.2.28 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.28/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:32.871133+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2026/feb/03/security-releases/. Mentions in-range versions 4.2, 4.2.28. Candidate sections: 7 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.28"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 0,
+      "content_sha256": "e3115f47bf196ebc435c9d0f4211dc14cd8c0a04cdf962796e839329126335ba",
+      "rank": 43
+    },
+    {
+      "source_id": "doc_f9c4a562e77c6a59",
+      "title": "Django 4.2.3 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.3/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:46.119751+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/jul/03/security-releases/. Mentions in-range versions 4.2, 4.2.3. Candidate sections: 2 security, 1 unclassified_change, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.3"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "19125b7a3b4df63bc61bc2210961b121a285ccc234f1cf6974dc93d4f3055119",
+      "rank": 44
+    },
+    {
+      "source_id": "doc_a77e08215fb26de4",
+      "title": "Django 4.2.30 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.30/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:32.241671+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2026/apr/07/security-releases/. Mentions in-range versions 4.2, 4.2.30. Candidate sections: 6 security, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 7,
+      "out_of_range_sections": 0,
+      "content_sha256": "b3be01b8b06dfaebf67924f41a110c817c34bfe784341b0c32353139b2e2ce63",
+      "rank": 45
+    },
+    {
+      "source_id": "doc_9829534b29d85ed2",
+      "title": "Django 4.2.5 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.5/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:44.704139+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/sep/04/security-releases/. Mentions in-range versions 4.2, 4.2.2, 4.2.5. Candidate sections: 2 security, 1 unclassified_change, 1 deprecation, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.2",
+        "4.2.5"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "fd6eec2d56c57e2046ee4c43cb61ba3a00a02d321de5602985c981c793fd0487",
+      "rank": 46
+    },
+    {
+      "source_id": "doc_913d5d4c62df6c3d",
+      "title": "Django 4.2.6 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.6/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:43.754128+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/oct/04/security-releases/. Mentions in-range versions 4.2, 4.2.5, 4.2.6. Candidate sections: 2 security, 1 unclassified_change, 1 deprecation, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.5",
+        "4.2.6"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "6669d094dcc455354ab46ac7dff91a01944a0edacbe68dd314808c9030af8066",
+      "rank": 47
+    },
+    {
+      "source_id": "doc_8b37bcde8b1b9f18",
+      "title": "Django 4.2.7 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.7/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:42.439617+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/nov/01/security-releases/. Mentions in-range versions 4.2, 4.2.7. Candidate sections: 2 security, 1 unclassified_change, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.7"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "322d7d548256dc0ff549e4e90e52b284559d3eaaf89b1a3678399f969c233928",
+      "rank": 48
+    },
+    {
+      "source_id": "doc_26a6e7264a08138f",
+      "title": "Django 4.2.9 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2.9/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:03:41.906151+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/jan/02/bugfix-release/. Mentions in-range versions 4.2, 4.2.8, 4.2.9. Candidate sections: 2 unclassified_change, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.8",
+        "4.2.9"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "dbf555e46a3bc39b52fbdca011f2252e3678a9995768d7de9ed2c7ddc44e3d73",
+      "rank": 49
+    },
+    {
+      "source_id": "doc_bd1e15d877d5fd41",
+      "title": "Django 4.2 release notes | Django documentation | Django",
+      "url": "https://docs.djangoproject.com/en/dev/releases/4.2/",
+      "source_type": "official_release_notes",
+      "retrieved_at": "2026-10-09T08:04:53.313741+00:00",
+      "why_relevant": "Linked from https://docs.djangoproject.com/en/dev/releases/4.2/. Mentions in-range versions 4.1, 4.2, 4.2.8. Candidate sections: 18 unclassified_change, 7 migration_step, 6 deprecation, 6 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "4.1",
+        "4.2",
+        "4.2.8"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "milestone_sibling_guess",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 34,
+      "out_of_range_sections": 2,
+      "content_sha256": "0f267080276d3416ca281d031b8b374d0538acf486b5f53b08d50231dad4c20f",
+      "rank": 50
+    },
+    {
+      "source_id": "doc_95e2adb471d9ae2d",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.1/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:42.000957+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.1, 4.0.10, 4.0.2, 4.0.4, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.1",
+        "4.0.2",
+        "4.0.4",
+        "4.0.6",
+        "4.0.7",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1958198b7e93d14c91d702c021a724b7825be1d35ebde0b28d4ce7259bde9da4",
+      "rank": 51
+    },
+    {
+      "source_id": "doc_a593239422028a4b",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.10/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:44.253711+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0.10, 4.1.10, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0.10",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "ce38a24285a8abc5c211c9de90d683bc240ad52a40cc633476e1a02729af658e",
+      "rank": 52
+    },
+    {
+      "source_id": "doc_7231036fffb4dea6",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.2/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:42.251167+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.2, 4.0.4, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.2",
+        "4.0.4",
+        "4.0.6",
+        "4.0.7",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "b786b0830e52c706b4959236f1bb36a45e1e3e560b24b0808abe4439e11bd24e",
+      "rank": 53
+    },
+    {
+      "source_id": "doc_f2a826f3dabb2014",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.3/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:42.594920+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.3, 4.0.4, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.3",
+        "4.0.4",
+        "4.0.6",
+        "4.0.7",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "a2de7efee34532109275646da07872cad73cebac2952d63538d6482963ae71e2",
+      "rank": 54
+    },
+    {
+      "source_id": "doc_c9ba559af6b1ae04",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.4/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:42.755850+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.4, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.4",
+        "4.0.6",
+        "4.0.7",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "610d308208eccad2d3e7fa73f1ab5c0ab49986f2873e9f9a67656646a97343f1",
+      "rank": 55
+    },
+    {
+      "source_id": "doc_61e8ba84d6af5818",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.5/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:43.000897+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.5",
+        "4.0.6",
+        "4.0.7",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "9e8b342146cd08048113fce1155d708868e54b23a67a4c7613133398c024edf5",
+      "rank": 56
+    },
+    {
+      "source_id": "doc_7ff5ed450e8e945f",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.6/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:43.252044+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.6",
+        "4.0.7",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "59bd0fb9ebab1a0629aa615d9cbe3052a93ea95d093d4cd1dfc8435217f835ff",
+      "rank": 57
+    },
+    {
+      "source_id": "doc_d2a6bf3a7fcfb13a",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.7/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:43.505461+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.7, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.7",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "ee47f730a598f7c12b86aa2991af39a8794e54897333f6ee25c9c2f1ae0381f7",
+      "rank": 58
+    },
+    {
+      "source_id": "doc_e51ff919695bc65d",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.8/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:43.752964+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "d072551bf67f37355b38282eac8feb6311dbbcc07cbfaa795095478ad0654994",
+      "rank": 59
+    },
+    {
+      "source_id": "doc_3227f301cb4cbd78",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0.9/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:44.009983+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.9, 4.1, 4.1.10, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "8a009f1d94b6be357e4fda320fd4c231b5f40576aae1f0c7da39301b620ccdd4",
+      "rank": 60
+    },
+    {
+      "source_id": "doc_5da3b66f87b5d0c1",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.0/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:41.767673+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.1, 4.0.10, 4.0.2, 4.0.4, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.1",
+        "4.0.2",
+        "4.0.4",
+        "4.0.6",
+        "4.0.7",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "6715fde5826a46233dc0958cca58aebdaaa8a6f2c5a4f93cdb8b4e5cff7f95f9",
+      "rank": 61
+    },
+    {
+      "source_id": "doc_4bc41a062e4489d2",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.1/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:44.752550+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.8, 4.0.9, 4.1, 4.1.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "d839568f2bddf67d29924c78e6a9aafb16050e0c9d39932710272212489ffdb0",
+      "rank": 62
+    },
+    {
+      "source_id": "doc_44ebee6ed9ff8d54",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.10/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:47.005273+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.2, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1c170a0964cce35e7b3cd9e49be7d758392411591ddcd8d5e306fa54cc8fb48e",
+      "rank": 63
+    },
+    {
+      "source_id": "doc_3dc14c38e029839d",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.11/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:47.255924+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.11, 4.1.12, 4.1.13, 4.2, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "ebb84306db19048b6be74951e28b522fe66b3e07d4ab9aef0f3e3a6bec6a51dc",
+      "rank": 64
+    },
+    {
+      "source_id": "doc_263dd693d3f3bb01",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.12/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:47.502644+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.12, 4.1.13, 4.2, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "547fe0191fce7cd4ac1af423d1da21666aaa8554ab37085a1cef50167cc134b5",
+      "rank": 65
+    },
+    {
+      "source_id": "doc_76fd13022750d75f",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.13/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:47.753915+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1.13, 4.2, 4.2.16, 4.2.22, 4.2.24, 4.2.26. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1.13",
+        "4.2",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "478b9dd9027b449f827592d02229f1e343d08b20a33ad29e6e9195dc443907cd",
+      "rank": 66
+    },
+    {
+      "source_id": "doc_4a00e078e47a1ae4",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.2/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:44.999234+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.9, 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "9e27fbd034c6b9fa4fbf26e233b4fb76e31191723544be00b9222a6cd4c9971a",
+      "rank": 67
+    },
+    {
+      "source_id": "doc_3f20e3078cbadd8c",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.3/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:45.252266+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.9, 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.3, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.3",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "663aca1212522d2c17f58fdaddb8e541bbc4805001c486f16a341206afe9de83",
+      "rank": 68
+    },
+    {
+      "source_id": "doc_b4a634b421acce2a",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.4/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:45.501143+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.9, 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.4, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.4",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "af6270805d09ca3d8bf6a843e55bdab9090d29813466c739a1b4f38ffad7921d",
+      "rank": 69
+    },
+    {
+      "source_id": "doc_b3feed58a24e202e",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.5/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:45.754048+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.9, 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.5, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.5",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "128381dd4582af60631325b935074cc1de9e7ae1020758311a3f23a9fb2e5c1e",
+      "rank": 70
+    },
+    {
+      "source_id": "doc_dc62cdf649e7b802",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.6/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:46.001204+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.10",
+        "4.1",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "d13f2a13ce0735ed8eb6df0f19b242ab3f21c1bad5a7e7ccef534d394cfa681e",
+      "rank": 71
+    },
+    {
+      "source_id": "doc_77474f42a4c11e0d",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.7/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:46.253986+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "2de9b7cfeb3c0bda06a156877fe4fd04a1740612aa9d82e86662d926454160ee",
+      "rank": 72
+    },
+    {
+      "source_id": "doc_0ab4c9b3fcb48598",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.8/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:46.530704+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.8, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.8",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "0b9bc8dbeb80ea18837090074e9ca6b1796298b100a1ffa0f9bf6743546dd069",
+      "rank": 73
+    },
+    {
+      "source_id": "doc_0f3213dca5a7f051",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1.9/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:46.750772+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.9, 4.2, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "bd6e8338f20cf37849f2ab39b1112f0389cca2d27a93508ae06d00d9f9543f17",
+      "rank": 74
+    },
+    {
+      "source_id": "doc_c4858357c4071d90",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.1/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:44.517938+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.10, 4.0.8, 4.0.9, 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.2, 4.1.6, 4.1.7, 4.1.9, 4.2, 4.2.1, 4.2.16, 4.2.22, 4.2.24, 4.2.26, 4.2.3, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.2",
+        "4.1.6",
+        "4.1.7",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.16",
+        "4.2.22",
+        "4.2.24",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "c4e508acae320c27ab1462536f791ef92cbb9cd9d9d285ac1a1c507a90a5be3d",
+      "rank": 75
+    },
+    {
+      "source_id": "doc_5f34ec2f7128a9c9",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.1/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:48.255432+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.2, 4.2.1, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.3, 4.2.30, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "0b58f7cdaa0c230a2b21cf423b584f68eb629ea1965b5056425345b6ca4db2d1",
+      "rank": 76
+    },
+    {
+      "source_id": "doc_8fa919858d4c6e25",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.10/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:50.505390+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "0ee189ef68e9daa857d22fc43d37c5a42c6ae593469815fa2efda5d59db07e12",
+      "rank": 77
+    },
+    {
+      "source_id": "doc_12fb9a4960cd93da",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.11/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:50.757015+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "94bb74c773cfe0ffde57e2bab2daa063244aa137f75094e402d65ee3842addac",
+      "rank": 78
+    },
+    {
+      "source_id": "doc_8102817dcf482ab2",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.12/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:51.005785+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.12, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.12",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "ad7c6f7bc19ccd926fd8d740fb18874fb9abd4b9a669118fa517143b4ad5e1d6",
+      "rank": 79
+    },
+    {
+      "source_id": "doc_4db8f6c16a5137de",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.13/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:51.253192+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.13, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.13",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "643bcf21aa7b1b227e20245d5bf9d4d8fbed7f3bf01f7dd40096166a9084122d",
+      "rank": 80
+    },
+    {
+      "source_id": "doc_d6dfdc407ecea686",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.14/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:51.505826+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "aef2d6a67f0a262ae9b5bbcaec9cbed05d3e70d6d3e93c10f6821b847425ae9c",
+      "rank": 81
+    },
+    {
+      "source_id": "doc_63a5cf3c5508c472",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.15/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:51.755437+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "5da10ba6b0a820b46d8c7a133724a004a6dd2efa6e05dd01aa8eba9ce7171643",
+      "rank": 82
+    },
+    {
+      "source_id": "doc_7ced384916b79a22",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.16/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:52.008380+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "0306399a8849fa0cf17b4a37ae8d770442618cbe76cd314dd3a5e8ecbf9fe8ef",
+      "rank": 83
+    },
+    {
+      "source_id": "doc_04e3d6624652b425",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.17/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:52.253947+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "c748195b92401b34cfad1f9c10de6800c083d711b0760f29210e6f1516037af0",
+      "rank": 84
+    },
+    {
+      "source_id": "doc_af76e8a143aed0d9",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.18/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:52.506926+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "e43438e5cf9f1b0ad7548bebb097e0e182f3f0851c8a62dcbd39d8d8181b7e1c",
+      "rank": 85
+    },
+    {
+      "source_id": "doc_4dd3f6a4817283d6",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.19/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:52.760120+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.19, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.19",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "e2de704da5dc1643a9c2187647a643a7678901e2179d3f58110d0150d9c9a117",
+      "rank": 86
+    },
+    {
+      "source_id": "doc_8fecc11a3d5f3022",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.2/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:48.504015+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.2, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.2, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.3, 4.2.30, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.2",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "27a48871576efea668b2ae52895ac6589e7cee6d8472c2c9a7e01f944265a4d5",
+      "rank": 87
+    },
+    {
+      "source_id": "doc_b767b00e7545f1b0",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.20/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:53.005952+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "a52921d3338399dd5a7397979d9e8435ba7ef7603ff118e3eca73610cf4d1ab4",
+      "rank": 88
+    },
+    {
+      "source_id": "doc_05876e13878cfe84",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.21/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:53.258623+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "cb6b025bb9bb5cb3eb088afb15a373859eebbec02620a387dc8d3042ef030346",
+      "rank": 89
+    },
+    {
+      "source_id": "doc_c7453830d0c52e3a",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.22/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:53.506119+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "156ca3198c3dcdaf5a8b0903641f43ccb19eb353f357bcbdb407dc965157c6e8",
+      "rank": 90
+    },
+    {
+      "source_id": "doc_47f2223692bcf6d8",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.23/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:53.756439+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.23, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.23",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1dca9848a7c3b959355282e095dfd27b146947b6e444a170854ffb89e0364fb5",
+      "rank": 91
+    },
+    {
+      "source_id": "doc_3f35e796e648db31",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.24/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:54.011751+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "8f8998170f4662737edeab282738a538db922dda2f7e3ed5c743fff003873434",
+      "rank": 92
+    },
+    {
+      "source_id": "doc_2b86088d5815b042",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.25/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:54.261831+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "527a8890ead4be0fce050fe41f60d723fe74a6b510ae23fa2ae1baac6217d6d1",
+      "rank": 93
+    },
+    {
+      "source_id": "doc_7dab789a4a75ee6d",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.26/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:54.512385+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "99d95ccdf260f48a1cd388622a95a98d8fd000797cadc48e76dabfc50856115f",
+      "rank": 94
+    },
+    {
+      "source_id": "doc_47cb42ce11779759",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.27/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:54.769962+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.27, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "2e621ff7d5251428cd8adec1cf7c759f1d67683922654c159820cc36a6b28884",
+      "rank": 95
+    },
+    {
+      "source_id": "doc_f10b58719f9d1c17",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.28/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:55.008768+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.28, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "9413a98768db591fe2df4533433b7000e46a617c47444d97901aabe337eb59e8",
+      "rank": 96
+    },
+    {
+      "source_id": "doc_71713c1139e963cb",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.29/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:55.266816+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.29, 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "b0bac3720bcec9a6906919c101c38656268774dea92c070985d06a14ba8dcf4b",
+      "rank": 97
+    },
+    {
+      "source_id": "doc_8f8733539a7269fa",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.3/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:48.752720+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.11, 4.1.12, 4.1.13, 4.2, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.3, 4.2.30, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "31b9ba0097ae5f738dbaf4f3254ed6746d4ccb4c3a2a02fd06063ee93cd92312",
+      "rank": 98
+    },
+    {
+      "source_id": "doc_157d720d5545a556",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.30/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:55.506239+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2.30. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "f0505c9a40d22692d80945c900c7d91a0c63ce4d067d43d1e81425c390996471",
+      "rank": 99
+    },
+    {
+      "source_id": "doc_b1970ff37791dd69",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.4/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:49.003884+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.11, 4.1.12, 4.1.13, 4.2, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30, 4.2.4, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.4",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "265c234725dd2a7017baf14a12e1a30bd42b69ff1fd4754460f00b5d992fa198",
+      "rank": 100
+    },
+    {
+      "source_id": "doc_b50c7512485adaaf",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.5/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:49.252024+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.12, 4.1.13, 4.2, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "413d6e1c111b53203f149b83b0bdc6f5fb29d6eb13d6df9034804cde14da3af2",
+      "rank": 101
+    },
+    {
+      "source_id": "doc_809f0b424352cbce",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.6/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:49.504955+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.13, 4.2, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.13",
+        "4.2",
+        "4.2.6",
+        "4.2.7",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "734cc17e53fba934e3e2ca09167401a28167763579ac40460b5f3b97c6853156",
+      "rank": 102
+    },
+    {
+      "source_id": "doc_0d0961e85782d2c3",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.7/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:49.753892+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.7",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "3c144900cefa52ee455a3c488ac10c46a26368370a06c83c6ab67806780f47d1",
+      "rank": 103
+    },
+    {
+      "source_id": "doc_1e1be0e32a89900a",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.8/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:50.016265+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30, 4.2.8. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.8",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "645afee2c94937fead49591a1d157bd6946d3143206b110fa804cc4d605e34b7",
+      "rank": 104
+    },
+    {
+      "source_id": "doc_50cb96393d487d4f",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2.9/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:50.254877+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.2, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30, 4.2.9. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.9",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "efa8011c378e6766eeab5b4feb620724f90cf3fd5bdb9c88764cf72cb5c66fdc",
+      "rank": 105
+    },
+    {
+      "source_id": "doc_f4e4fb5430dd12f3",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/4.2/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T05:02:48.011208+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.9, 4.2, 4.2.1, 4.2.10, 4.2.11, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.20, 4.2.21, 4.2.22, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.3, 4.2.30, 4.2.5, 4.2.6, 4.2.7. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.3",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.10",
+        "4.2.11",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "registry_version",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1d4fad94b00e6a897fb0b7495607985338b2be35a458c8ad72ae4a2b7bad1622",
+      "rank": 106
+    },
+    {
+      "source_id": "doc_4bb8cb86700657eb",
+      "title": "Django",
+      "url": "https://pypi.org/pypi/Django/json",
+      "source_type": "package_registry_metadata",
+      "retrieved_at": "2026-10-09T02:35:06.344457+00:00",
+      "why_relevant": "Collected as supporting context. Mentions in-range versions 4.0, 4.0.1, 4.0.10, 4.0.2, 4.0.3, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.1, 4.1.1, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.1.2, 4.1.3, 4.1.4, 4.1.5, 4.1.6, 4.1.7, 4.1.8, 4.1.9, 4.2, 4.2.1, 4.2.10, 4.2.11, 4.2.12, 4.2.13, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.19, 4.2.2, 4.2.20, 4.2.21, 4.2.22, 4.2.23, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.3, 4.2.30, 4.2.4, 4.2.5, 4.2.6, 4.2.7, 4.2.8, 4.2.9. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Package registry record selected as the release catalog."
+      },
+      "document_type": "registry_metadata",
+      "roles": [
+        "registry_metadata"
+      ],
+      "versions": [
+        "4.0",
+        "4.0.1",
+        "4.0.2",
+        "4.0.3",
+        "4.0.4",
+        "4.0.5",
+        "4.0.6",
+        "4.0.7",
+        "4.0.8",
+        "4.0.9",
+        "4.0.10",
+        "4.1",
+        "4.1.1",
+        "4.1.2",
+        "4.1.3",
+        "4.1.4",
+        "4.1.5",
+        "4.1.6",
+        "4.1.7",
+        "4.1.8",
+        "4.1.9",
+        "4.1.10",
+        "4.1.11",
+        "4.1.12",
+        "4.1.13",
+        "4.2",
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.2.4",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "4.2.8",
+        "4.2.9",
+        "4.2.10",
+        "4.2.11",
+        "4.2.12",
+        "4.2.13",
+        "4.2.14",
+        "4.2.15",
+        "4.2.16",
+        "4.2.17",
+        "4.2.18",
+        "4.2.19",
+        "4.2.20",
+        "4.2.21",
+        "4.2.22",
+        "4.2.23",
+        "4.2.24",
+        "4.2.25",
+        "4.2.26",
+        "4.2.27",
+        "4.2.28",
+        "4.2.29",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "74b9d358167f675c2a36893b43f5ac377f066b00a380f33b6b7d8fb3ff15a27b",
+      "rank": 107
+    },
+    {
+      "source_id": "doc_d52583aaf754fb62",
+      "title": "Django bugfix release: 4.1.8 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2023/apr/05/bugfix-release/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T08:03:48.280950+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/apr/05/bugfix-release/. Mentions in-range versions 4.1.8.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.1.8"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "d02328e99a92c915cc3f370d3e21ba690f833f9bac143fe8d85aeffe05755eb0",
+      "rank": 108
+    },
+    {
+      "source_id": "doc_86ca7a0ba1c6868e",
+      "title": "Django bugfix release: 4.2.4 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2023/aug/01/bugfix-release/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T08:03:45.455469+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/aug/01/bugfix-release/. Mentions in-range versions 4.2.4.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2.4"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "11fe51ade5d5305edcf7ef8ec62295e8acedc72bcf8c53ce2e17387f3bd191b0",
+      "rank": 109
+    },
+    {
+      "source_id": "doc_fa977f046c31d113",
+      "title": "Django bugfix release: 4.2.8 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2023/dec/04/bugfix-release/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:05.612331+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/dec/04/bugfix-release/. Mentions in-range versions 4.2.8.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2.8"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "8ac2573d95dd3b64dccaad0051c5ea65039b1216f0220a2e22bebee3d0079f2b",
+      "rank": 110
+    },
+    {
+      "source_id": "doc_b72472464fab054c",
+      "title": "Django security releases issued: 4.2.3, 4.1.10, and 3.2.20 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2023/jul/03/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T08:03:45.957211+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/jul/03/security-releases/. Mentions in-range versions 4.1, 4.1.10, 4.2, 4.2.3. Candidate sections: 3 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.10",
+        "4.2",
+        "4.2.3"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "40bc43d793d7cbf1a86bf5af2986b80ea16328399cd41415f5d10e24c0467a62",
+      "rank": 111
+    },
+    {
+      "source_id": "doc_6538a5fbd17d5e6a",
+      "title": "Django bugfix release: 4.2.2 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2023/jun/05/bugfix-release/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T08:03:46.895311+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/jun/05/bugfix-release/. Mentions in-range versions 4.2.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "ad66b5c8e86f608796ea4ca7d239af4e9ec74660dd15dbb205dc706c34ea063d",
+      "rank": 112
+    },
+    {
+      "source_id": "doc_f442f8c583c6fb06",
+      "title": "Django security releases issued: 4.2.1, 4.1.9, and 3.2.19 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2023/may/03/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T08:03:47.393976+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/may/03/security-releases/. Mentions in-range versions 4.1, 4.1.9, 4.2, 4.2.1. Candidate sections: 3 security, 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.9",
+        "4.2",
+        "4.2.1"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "0398ee23f65bc5c641c25b1723e81bd1446ebe0d7b9deab52c92671f5c9f4c7b",
+      "rank": 113
+    },
+    {
+      "source_id": "doc_656a49306ec6b855",
+      "title": "Django security releases issued: 4.2.7, 4.1.13, and 3.2.23 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2023/nov/01/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:05.893462+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/nov/01/security-releases/. Mentions in-range versions 4.1, 4.1.13, 4.2, 4.2.7. Candidate sections: 3 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.13",
+        "4.2",
+        "4.2.7"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "925e6023aeb188fc30323b6050919b7d9588c203ca5fdb2c624ee5ebf4795d74",
+      "rank": 114
+    },
+    {
+      "source_id": "doc_6082dd48ae720bdd",
+      "title": "Django security releases issued: 4.2.6, 4.1.12, and 3.2.22 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2023/oct/04/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T08:03:43.607944+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/oct/04/security-releases/. Mentions in-range versions 4.1, 4.1.12, 4.2, 4.2.6. Candidate sections: 3 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.12",
+        "4.2",
+        "4.2.6"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "ce1c068ecff01dd894dadb02b8a496e4d61283d81a3b6d350eef3dbdf1bace56",
+      "rank": 115
+    },
+    {
+      "source_id": "doc_e806e35a722d0674",
+      "title": "Django security releases issued: 4.2.5, 4.1.11, and 3.2.21 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2023/sep/04/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T08:03:44.542278+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2023/sep/04/security-releases/. Mentions in-range versions 4.1, 4.1.11, 4.2, 4.2.5. Candidate sections: 3 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.1",
+        "4.1.11",
+        "4.2",
+        "4.2.5"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "42995649decda12aac48eddc1ecf20c8dd495b1c0fe449b9c1981d669d020f52",
+      "rank": 116
+    },
+    {
+      "source_id": "doc_4304faf7058ecd1a",
+      "title": "Django bugfix release issued: 5.0.4 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/apr/03/bugfix-release/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:03.387447+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/apr/03/bugfix-release/. Mentions in-range versions 4.2.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 2,
+      "content_sha256": "99dced847593a84dd6bfe8b23e3be30427e9a3172b751489fe1cd92c48ada1fd",
+      "rank": 117
+    },
+    {
+      "source_id": "doc_2ae74b4932fdc5d0",
+      "title": "Django security releases issued: 5.0.8 and 4.2.15 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/aug/06/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:01.013103+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/aug/06/security-releases/. Mentions in-range versions 4.2, 4.2.15. Candidate sections: 10 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.15"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 10,
+      "out_of_range_sections": 0,
+      "content_sha256": "b264a9fc9b9468048e9d8ac70416651fe2bac71a397d96f2acc24bd499f55a8b",
+      "rank": 118
+    },
+    {
+      "source_id": "doc_c85c4f82f749dfa2",
+      "title": "Django security releases issued: 5.1.4, 5.0.10, and 4.2.17 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/dec/04/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:58.647143+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/dec/04/security-releases/. Mentions in-range versions 4.2, 4.2.17. Candidate sections: 6 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.17"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "3d72a3aa9a670e0c506b19123fc8f5bcd88c19077066b17075db59f856169ffe",
+      "rank": 119
+    },
+    {
+      "source_id": "doc_f30cf3488f1c62e1",
+      "title": "Django security releases issued: 5.0.2, 4.2.10, and 3.2.24 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/feb/06/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:03.913420+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/feb/06/security-releases/. Mentions in-range versions 4.2, 4.2.10. Candidate sections: 3 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.10"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "01ed4d33e21ab72e806111637238eeba9cb4ac2d5f78f38ea1334f0808c476ab",
+      "rank": 120
+    },
+    {
+      "source_id": "doc_60dd41bdbe7ce0a8",
+      "title": "Django bugfix releases issued: 4.2.9 and 5.0.1 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/jan/02/bugfix-release/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:04.171165+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/jan/02/bugfix-release/. Mentions in-range versions 4.2.9.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2.9"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "b3f713403f131a49bc2368a8e612c14be08725ea86912ec6f8a56def440849a6",
+      "rank": 121
+    },
+    {
+      "source_id": "doc_1fc8f1a7e7219d0f",
+      "title": "Django security releases issued: 5.0.7 and 4.2.14 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/jul/09/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:01.290724+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/jul/09/security-releases/. Mentions in-range versions 4.2, 4.2.14. Candidate sections: 10 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.14"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 10,
+      "out_of_range_sections": 0,
+      "content_sha256": "005506866079d4d087d6f4ddb802d3786f23e86feb98bef6842855527554a29e",
+      "rank": 122
+    },
+    {
+      "source_id": "doc_81634985dccb3df8",
+      "title": "Django security releases issued: 5.0.3, 4.2.11, and 3.2.25 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/mar/04/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:03.638357+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/mar/04/security-releases/. Mentions in-range versions 4.2, 4.2.11. Candidate sections: 3 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.11"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "a7dcfcf29cafa7da3a7b7e76494591a57f58663fb40328aaae66011ea3060d28",
+      "rank": 123
+    },
+    {
+      "source_id": "doc_d7ed9a02ab25b709",
+      "title": "Django bugfix releases issued: 5.0.5 and 4.2.12 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/may/06/bugfix-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:02.036553+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/may/06/bugfix-releases/. Mentions in-range versions 4.2.12.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2.12"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1c354360f1f90429caebfdc5240cccc2b80f65558c4cbeb30c99d3b97e76077c",
+      "rank": 124
+    },
+    {
+      "source_id": "doc_ace407a920e4d6f8",
+      "title": "Django bugfix releases issued: 5.0.6 and 4.2.13 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/may/07/bugfix-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:01.730736+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/may/07/bugfix-releases/. Mentions in-range versions 4.2.12, 4.2.13.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2.12",
+        "4.2.13"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "27d77518c3125f82c1e733e07a28a341647295f794e5365e459691077124ff20",
+      "rank": 125
+    },
+    {
+      "source_id": "doc_c2a6ef5cc919a4cb",
+      "title": "Django security releases issued: 5.1.1, 5.0.9, and 4.2.16 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2024/sep/03/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:50:00.704394+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2024/sep/03/security-releases/. Mentions in-range versions 4.2, 4.2.16. Candidate sections: 6 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.16"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "1fdb5d933d74cb6dab86e1a64b57865be4a6184b48d515a27e40fe0df8f650ad",
+      "rank": 126
+    },
+    {
+      "source_id": "doc_0327e54568b7a612",
+      "title": "Django security releases issued: 5.2.9, 5.1.15, and 4.2.27 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/dec/02/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:51.980401+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/dec/02/security-releases/. Mentions in-range versions 4.2, 4.2.27. Candidate sections: 6 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.27"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "0a19f1857ef87cb87491947bdbeb21a61e0692aaa3f45f6b3f76911148f4969f",
+      "rank": 127
+    },
+    {
+      "source_id": "doc_531e025be96c46ed",
+      "title": "Django bugfix releases issued: 5.1.6, 5.0.12, and 4.2.19 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/feb/05/bugfix-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:57.768990+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/feb/05/bugfix-releases/. Mentions in-range versions 4.2.19.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2.19"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "21b522f244de1fb6ecb5c36e71d659514fda1a2c367be53d73133a1d1aeb7b2e",
+      "rank": 128
+    },
+    {
+      "source_id": "doc_c7146510b152fee3",
+      "title": "Django security releases issued: 5.1.5, 5.0.11, and 4.2.18 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/jan/14/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:58.343678+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/jan/14/security-releases/. Mentions in-range versions 4.2, 4.2.18. Candidate sections: 4 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.18"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "0f1ab7e374487204082e37ce32a02eb70311f9a5deea1d505817adec9fc960cb",
+      "rank": 129
+    },
+    {
+      "source_id": "doc_17901ebd2b9ca85c",
+      "title": "Django security releases issued: 5.2.2, 5.1.10, and 4.2.22 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/jun/04/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:55.190808+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/jun/10/bugfix-releases/. Mentions in-range versions 4.2, 4.2.22. Candidate sections: 4 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.22"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "4b222dadae4fb8420b2012b5dfb249f3b91f330987728b016a772f0490445eea",
+      "rank": 130
+    },
+    {
+      "source_id": "doc_c22f1eadc89bb42c",
+      "title": "Django bugfix releases issued: 5.2.3, 5.1.11, and 4.2.23 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/jun/10/bugfix-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:54.940159+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/jun/10/bugfix-releases/. Mentions in-range versions 4.2, 4.2.23. Candidate sections: 2 security, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.23"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "e422023fb952a5959f890b3ab8fc4879467719dc1202b42628e88ff61130951f",
+      "rank": 131
+    },
+    {
+      "source_id": "doc_a9c4e5d5e2eb888d",
+      "title": "Django security releases issued: 5.1.7, 5.0.13 and 4.2.20 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/mar/06/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:57.498274+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/mar/06/security-releases/. Mentions in-range versions 4.2, 4.2.20. Candidate sections: 4 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.20"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "c6d16c4f967d65b49184475e0ac6a535e207e0e34d420addc46d47c4b8306aec",
+      "rank": 132
+    },
+    {
+      "source_id": "doc_7a5d9f8ec47d1ebe",
+      "title": "Django security releases issued: 5.2.1, 5.1.9 and 4.2.21 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/may/07/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:56.903300+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/may/07/security-releases/. Mentions in-range versions 4.2, 4.2.21. Candidate sections: 4 security, 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.21"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "82085f0a50752ac88876ce78b348d1d74b83a352e252fbf6b4cd409c21d68989",
+      "rank": 133
+    },
+    {
+      "source_id": "doc_f9ddcf86a39ef860",
+      "title": "Django security releases issued: 5.2.8, 5.1.14, and 4.2.26 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/nov/05/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:52.525530+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/nov/05/security-releases/. Mentions in-range versions 4.2, 4.2.26. Candidate sections: 6 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.26"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "6e06309e96518dd0cc748113a9795578efa63b4981644e6a4a9a7db03f663bd4",
+      "rank": 134
+    },
+    {
+      "source_id": "doc_3392bb52f9f86dfc",
+      "title": "Django security releases issued: 5.2.7, 5.1.13, and 4.2.25 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/oct/01/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:52.793581+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/oct/01/security-releases/. Mentions in-range versions 4.2, 4.2.25. Candidate sections: 6 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.25"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "2e92233bd6540dd93402a51bf4b2bceef6286c10caae50afbc38c33388300720",
+      "rank": 135
+    },
+    {
+      "source_id": "doc_cc17c04f705bf113",
+      "title": "Django security releases issued: 5.2.6, 5.1.12, and 4.2.24 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2025/sep/03/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:53.054117+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2025/sep/03/security-releases/. Mentions in-range versions 4.2, 4.2.24. Candidate sections: 4 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.24"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "db394b7118063d8ffd0461a9f1389af16e903dd5035dd9989046fa4787deb739",
+      "rank": 136
+    },
+    {
+      "source_id": "doc_0cea0b7e35f58f81",
+      "title": "Django security releases issued: 6.0.4, 5.2.13, and 4.2.30 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2026/apr/07/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:49.776623+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2026/apr/07/security-releases/. Mentions in-range versions 4.2, 4.2.30. Candidate sections: 13 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.30"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 13,
+      "out_of_range_sections": 0,
+      "content_sha256": "00556de9bf891310d7c6f12f78793d6a08337d6a6d7812d60c61490376a8328e",
+      "rank": 137
+    },
+    {
+      "source_id": "doc_7eecb3af0586b901",
+      "title": "Django security releases issued: 6.0.2, 5.2.11, and 4.2.28 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2026/feb/03/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:50.197349+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2026/feb/03/security-releases/. Mentions in-range versions 4.2, 4.2.28. Candidate sections: 14 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.28"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 14,
+      "out_of_range_sections": 0,
+      "content_sha256": "0093e4489a3e3b45b504328a9ad219dbcbdffc7b66ea75238b0ad811d8f99c01",
+      "rank": 138
+    },
+    {
+      "source_id": "doc_136a25f0f955668b",
+      "title": "Django security releases issued: 6.0.3, 5.2.12, and 4.2.29 | Weblog | Django",
+      "url": "https://www.djangoproject.com/weblog/2026/mar/03/security-releases/",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T07:49:49.940726+00:00",
+      "why_relevant": "Linked from https://www.djangoproject.com/weblog/2026/mar/03/security-releases/. Mentions in-range versions 4.2, 4.2.29. Candidate sections: 6 security, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site djangoproject.com."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "4.2",
+        "4.2.29"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "f57dae1db9b6be9a6e50b5873e3b05db74138e653f7ed73dcb58617163899dff",
+      "rank": 139
+    }
+  ],
+  "excluded_sources": [
+    {
+      "source_id": "doc_7331003f4e8f8f20",
+      "url": "https://www.djangoproject.com/",
+      "title": "The web framework for perfectionists with deadlines | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_9b1fa830bd3c364a",
+      "url": "https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/",
+      "title": "Django IRC Channels migration to Libera.Chat | Weblog | Django",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_258685f7eaca8d96",
+      "url": "https://www.djangoproject.com/weblog/2013/mar/22/kickstarting-schema-migrations-django/",
+      "title": "Kickstarting Schema Migrations for Django | Weblog | Django",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_e5c2b39f0ca26858",
+      "url": "https://www.djangoproject.com/weblog/2026/oct/06/security-releases/",
+      "title": "Django security releases issued: 6.1.2, 6.0.9, and 5.2.18 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_80a18f1deb1b253d",
+      "url": "https://www.djangoproject.com/weblog/2026/sep/02/bugfix-releases/",
+      "title": "Django bugfix release issued: 6.1.1 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_80d766bfb6c802bc",
+      "url": "https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/",
+      "title": "Django is moving to an annual release cycle | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_aad5aef91c8bcf91",
+      "url": "https://www.djangoproject.com/weblog/2026/aug/04/security-releases/",
+      "title": "Django security releases issued: 6.0.8 and 5.2.17 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_998062b98235125b",
+      "url": "https://www.djangoproject.com/weblog/2026/jul/07/security-releases/",
+      "title": "Django security releases issued: 6.0.7 and 5.2.16 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_d835d46e7de9ef3d",
+      "url": "https://www.djangoproject.com/weblog/2026/jun/03/security-releases/",
+      "title": "Django security releases issued: 6.0.6 and 5.2.15 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_c82424eb22d343fa",
+      "url": "https://www.djangoproject.com/weblog/2026/may/05/security-releases/",
+      "title": "Django security releases issued: 6.0.5 and 5.2.14 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_dd89ca84c77aabd3",
+      "url": "https://www.djangoproject.com/weblog/2026/jan/06/bugfix-releases/",
+      "title": "Django bugfix releases issued: 5.2.10, 6.0.1 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_ad770459fb20164f",
+      "url": "https://www.djangoproject.com/weblog/2025/nov/19/twenty-years-of-django-releases/",
+      "title": "Twenty years of Django releases | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_1cfa5d18041e79e8",
+      "url": "https://www.djangoproject.com/weblog/2025/aug/06/bugfix-releases/",
+      "title": "Django bugfix release issued: 5.2.5 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_660875ceaba0a2a8",
+      "url": "https://www.djangoproject.com/weblog/2025/jul/02/bugfix-releases/",
+      "title": "Django bugfix release issued: 5.2.4 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_5d9b55ca37965415",
+      "url": "https://www.djangoproject.com/weblog/2025/may/22/why-need-3rd-party-app-rest-api-with-django/",
+      "title": "Why, in 2025, do we still need a 3rd party app to write a REST API with Django? | Weblog | Django",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_eb70a4a18285c53e",
+      "url": "https://www.djangoproject.com/weblog/2025/apr/02/security-releases/",
+      "title": "Django security releases issued: 5.1.8 and 5.0.14 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_cd36fa742cd8ee2f",
+      "url": "https://www.djangoproject.com/weblog/2024/nov/05/bugfix-release/",
+      "title": "Django bugfix release issued: 5.1.3 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_9117726b0af45ba7",
+      "url": "https://www.djangoproject.com/weblog/2024/oct/08/bugfix-releases/",
+      "title": "Django bugfix release issued: 5.1.2 | Weblog | Django",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    }
+  ],
+  "trust_policy": {
+    "official": "Project site, project repository or the selected package registry record.",
+    "probable_official": "Repository name matches but owner differs; not verified.",
+    "official_repository_discussion": "Issues/PRs in the project repository: context, not release statements.",
+    "third_party": "Supporting context only; never overrides official sources."
+  },
+  "notes": [
+    "source_id equals the evidence document id, so evidence.json and candidate_sections.json join on it.",
+    "Fetch-level request log (including robots.txt checks) remains in evidence.json source_inventory."
+  ]
+}

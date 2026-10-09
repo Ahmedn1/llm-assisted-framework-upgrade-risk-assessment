@@ -1,0 +1,2779 @@
+{
+  "project": "Pydantic",
+  "current_version": "1",
+  "target_version": "2",
+  "resolved_versions": [
+    "2.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.1.0",
+    "2.1.1",
+    "2.2.0",
+    "2.2.1",
+    "2.3.0",
+    "2.4.0",
+    "2.4.1",
+    "2.4.2",
+    "2.5.0",
+    "2.5.1",
+    "2.5.2",
+    "2.5.3",
+    "2.6.0",
+    "2.6.1",
+    "2.6.2",
+    "2.6.3",
+    "2.6.4",
+    "2.7.0",
+    "2.7.1",
+    "2.7.2",
+    "2.7.3",
+    "2.7.4",
+    "2.8.0",
+    "2.8.1",
+    "2.8.2",
+    "2.9.0",
+    "2.9.1",
+    "2.9.2",
+    "2.10.0",
+    "2.10.1",
+    "2.10.2",
+    "2.10.3",
+    "2.10.4",
+    "2.10.5",
+    "2.10.6",
+    "2.11.0",
+    "2.11.1",
+    "2.11.2",
+    "2.11.3",
+    "2.11.4",
+    "2.11.5",
+    "2.11.6",
+    "2.11.7",
+    "2.11.8",
+    "2.11.9",
+    "2.12.0",
+    "2.12.1",
+    "2.12.2",
+    "2.12.3",
+    "2.12.4",
+    "2.12.5",
+    "2.13.0",
+    "2.13.1",
+    "2.13.2",
+    "2.13.3",
+    "2.13.4",
+    "2.13.5",
+    "2.14.0"
+  ],
+  "documentation_milestones": [
+    "2"
+  ],
+  "collection_path": "deterministic",
+  "generated_at": "2026-10-09T16:44:43.279754+00:00",
+  "sources": [
+    {
+      "source_id": "doc_b3984db95429b34e",
+      "title": "V1 \u2192 V2 Migration Map | Pydantic Docs",
+      "url": "https://pydantic.dev/docs/ai/overview/migration/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T14:09:52.618546+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/docs/ai/comparisons/migrate-from-other-frameworks/. Candidate sections: 6 removal, 4 behavior_change, 4 migration_step, 4 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "2.0"
+      ],
+      "version_association_bases": [
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 15,
+      "out_of_range_sections": 0,
+      "content_sha256": "a9c4321e01ea63ef3e40cbed179681cd9e2bdf4426ed853fc373f81a2913b887",
+      "rank": 1
+    },
+    {
+      "source_id": "doc_01caba462692fdb8",
+      "title": "Migration Guide | Pydantic Docs",
+      "url": "https://pydantic.dev/docs/validation/latest/get-started/migration/",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T14:09:46.917118+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/docs/validation/latest/get-started/. Candidate sections: 12 unclassified_change, 11 removal, 10 migration_step, 6 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 35,
+      "out_of_range_sections": 0,
+      "content_sha256": "0cc446346e235ef4f9eefb8d5eea61b5a54825851b8d1a7f7da51413323fd702",
+      "rank": 2
+    },
+    {
+      "source_id": "doc_f123c8714d48ded3",
+      "title": "Changelog | Pydantic Docs",
+      "url": "https://pydantic.dev/docs/validation/latest/get-started/changelog/",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T14:09:23.559576+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/docs/validation/latest/get-started/. Mentions in-range versions 2.0, 2.0.1, 2.0.2, 2.0.3, 2.1.0, 2.1.1, 2.10.0, 2.10.1, 2.10.2, 2.10.3, 2.10.4, 2.10.5, 2.10.6, 2.11.0, 2.11.1, 2.11.2, 2.11.3, 2.11.4, 2.11.5, 2.11.6, 2.11.7, 2.11.8, 2.11.9, 2.12.0, 2.12.1, 2.12.2, 2.12.3, 2.12.4, 2.12.5, 2.13.0, 2.13.1, 2.13.2, 2.13.3, 2.13.4, 2.14.0, 2.2.0, 2.2.1, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.5.0, 2.5.1, 2.5.2, 2.5.3, 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.6.4, 2.7.0, 2.7.1, 2.7.2, 2.7.3, 2.7.4, 2.8.0, 2.8.1, 2.8.2, 2.9.0, 2.9.1, 2.9.2. Candidate sections: 229 unclassified_change, 21 migration_step, 17 deprecation, 15 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "2.0",
+        "2.0.1",
+        "2.0.2",
+        "2.0.3",
+        "2.1.0",
+        "2.1.1",
+        "2.2.0",
+        "2.2.1",
+        "2.3.0",
+        "2.4.0",
+        "2.4.1",
+        "2.4.2",
+        "2.5.0",
+        "2.5.1",
+        "2.5.2",
+        "2.5.3",
+        "2.6.0",
+        "2.6.1",
+        "2.6.2",
+        "2.6.3",
+        "2.6.4",
+        "2.7.0",
+        "2.7.1",
+        "2.7.2",
+        "2.7.3",
+        "2.7.4",
+        "2.8.0",
+        "2.8.1",
+        "2.8.2",
+        "2.9.0",
+        "2.9.1",
+        "2.9.2",
+        "2.10.0",
+        "2.10.1",
+        "2.10.2",
+        "2.10.3",
+        "2.10.4",
+        "2.10.5",
+        "2.10.6",
+        "2.11.0",
+        "2.11.1",
+        "2.11.2",
+        "2.11.3",
+        "2.11.4",
+        "2.11.5",
+        "2.11.6",
+        "2.11.7",
+        "2.11.8",
+        "2.11.9",
+        "2.12.0",
+        "2.12.1",
+        "2.12.2",
+        "2.12.3",
+        "2.12.4",
+        "2.12.5",
+        "2.13.0",
+        "2.13.1",
+        "2.13.2",
+        "2.13.3",
+        "2.13.4",
+        "2.14.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 289,
+      "out_of_range_sections": 108,
+      "content_sha256": "365a5975ef9d47f13923f0fec1ed5773f668340bb403f69d900051104cea4d85",
+      "rank": 3
+    },
+    {
+      "source_id": "doc_7a23fed3faeb3185",
+      "title": "v2.0 2023-06-30",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:28.453434+00:00",
+      "why_relevant": "Release record for 2.0 in the selected catalog. Mentions in-range versions 2.0, 2.0.1. Candidate sections: 1 deprecation, 1 removal, 1 configuration_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.0",
+        "2.0.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "d7482022f5c73bd5669d79968d86f908e19740d74fd6e2f3e62b99c5d3e8dec6",
+      "rank": 4
+    },
+    {
+      "source_id": "doc_ed401ef908c133b4",
+      "title": "v2.0.1 2023-07-04",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.0.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:28.798499+00:00",
+      "why_relevant": "Release record for 2.0.1 in the selected catalog. Mentions in-range versions 2.0.1, 2.0.2. Candidate sections: 1 removal, 1 configuration_change, 1 migration_step, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.0.1",
+        "2.0.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "40ba4ada2eee6f6cf339de3c32fbd48c1c99b503e2096b5db67449b327101e20",
+      "rank": 5
+    },
+    {
+      "source_id": "doc_f4fa1dad2b03ea40",
+      "title": "v2.0.2 2023-07-05",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.0.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:28.913989+00:00",
+      "why_relevant": "Release record for 2.0.2 in the selected catalog. Mentions in-range versions 2.0.2. Candidate sections: 1 api_change, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.0.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "f7d066eac5f53df4417c46cbec1d889c4fae3dd980d231d98ed755f9134625bf",
+      "rank": 6
+    },
+    {
+      "source_id": "doc_fceb8c34ab35cb74",
+      "title": "v2.0.3",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.0.3",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:29.167672+00:00",
+      "why_relevant": "Release record for 2.0.3 in the selected catalog. Mentions in-range versions 2.0.3, 2.2.0, 2.3.0. Candidate sections: 1 migration_step, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.0.3",
+        "2.2.0",
+        "2.3.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "b598969508b124719c5f8e4fee648e1786a6807d728bd3fa81c8261043b37ddb",
+      "rank": 7
+    },
+    {
+      "source_id": "doc_99c24e0de7325c6a",
+      "title": "v2.1.0 2023-07-25",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.1.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:29.413960+00:00",
+      "why_relevant": "Release record for 2.1.0 in the selected catalog. Mentions in-range versions 2.1.0, 2.4.0, 2.8.0. Candidate sections: 1 configuration_change, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.1.0",
+        "2.4.0",
+        "2.8.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "c4b8956f27b5a1678f0d2f47d494602434d25b447057368501354b811a3a66b1",
+      "rank": 8
+    },
+    {
+      "source_id": "doc_d3c2e98638f511b3",
+      "title": "v2.1.1 2023-07-25",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.1.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:29.673338+00:00",
+      "why_relevant": "Release record for 2.1.1 in the selected catalog. Mentions in-range versions 2.1.1. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.1.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "235343e3589a7d3c50c1cf6608767016546cd3c7afa4dd7e3149f6fd9a7da413",
+      "rank": 9
+    },
+    {
+      "source_id": "doc_b3b2bfaf075b08f1",
+      "title": "v2.10.0 2024-11-20",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:36.419609+00:00",
+      "why_relevant": "Release record for 2.10.0 in the selected catalog. Mentions in-range versions 2.10.0, 2.9.0. Candidate sections: 5 unclassified_change, 2 migration_step, 1 configuration_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.9.0",
+        "2.10.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 7,
+      "out_of_range_sections": 0,
+      "content_sha256": "eaa84f12db7ff10f52b6e8b92fc84fe0fc4f6ed26fcb040bd7f09ff901d16361",
+      "rank": 10
+    },
+    {
+      "source_id": "doc_57465c36df8de8fc",
+      "title": "v2.10.1 2024-11-21",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:36.684187+00:00",
+      "why_relevant": "Release record for 2.10.1 in the selected catalog. Mentions in-range versions 2.10.1. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.10.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "55c1b4d222c415ca13c0eb22ca1fc7ff6c9eca680c09911b7b7fdd0c4ffae482",
+      "rank": 11
+    },
+    {
+      "source_id": "doc_745a3dc7df65214e",
+      "title": "v2.10.2 2024-11-26",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:36.930068+00:00",
+      "why_relevant": "Release record for 2.10.2 in the selected catalog. Mentions in-range versions 2.10.2. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.10.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "c8fca377c380034f9789a629dfd27eadca628ac1cade9185a68e3873f6e111ec",
+      "rank": 12
+    },
+    {
+      "source_id": "doc_51a339f56140caab",
+      "title": "v2.10.3 2024-12-03",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.3",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:37.176718+00:00",
+      "why_relevant": "Release record for 2.10.3 in the selected catalog. Mentions in-range versions 2.10.3. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.10.3",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "6745948b90e790e3504d4d4b5fece1b0599c8dd61e0a1b9f6590ee315342dd8a",
+      "rank": 13
+    },
+    {
+      "source_id": "doc_1d64f43687ffd5f6",
+      "title": "v2.10.4 2024-12-18",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.4",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:37.428964+00:00",
+      "why_relevant": "Release record for 2.10.4 in the selected catalog. Mentions in-range versions 2.10.4. Candidate sections: 2 unclassified_change, 1 removal, 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.10.4",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "e2ec0960d6808162f651ed4bdcb9207bcd4dfde0f40044bda4ae9295f33a436a",
+      "rank": 14
+    },
+    {
+      "source_id": "doc_de13f0ed13a5f7ca",
+      "title": "v2.10.5 2024-12-18",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.5",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:37.677235+00:00",
+      "why_relevant": "Release record for 2.10.5 in the selected catalog. Mentions in-range versions 2.10.5. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.10.5",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "29b188ad098846c99f1e9f341405985db6d9b9293459d4d5e52344e581c042b2",
+      "rank": 15
+    },
+    {
+      "source_id": "doc_43c25ea18d3055f6",
+      "title": "v2.10.6 2025-01-23",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.10.6",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:37.939563+00:00",
+      "why_relevant": "Release record for 2.10.6 in the selected catalog. Mentions in-range versions 2.10.6. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.10.6",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "ac00d90ba2cff796b0abf14999fac7e7742c3f84aad21eb0114e6019ac034bb6",
+      "rank": 16
+    },
+    {
+      "source_id": "doc_62c45efe6dde7a20",
+      "title": "v2.11.0 2025-03-27",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:38.220440+00:00",
+      "why_relevant": "Release record for 2.11.0 in the selected catalog. Mentions in-range versions 2.11.0. Candidate sections: 4 unclassified_change, 2 removal, 1 dependency_requirement, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 7,
+      "out_of_range_sections": 0,
+      "content_sha256": "23587bf2763b6720f33ce55d1ce59c2f5237ab868d9c5ed2223701cd0c0d5498",
+      "rank": 17
+    },
+    {
+      "source_id": "doc_b5d9a33e5a663410",
+      "title": "v2.11.1 2025-03-28",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:38.430028+00:00",
+      "why_relevant": "Release record for 2.11.1 in the selected catalog. Mentions in-range versions 2.11.1. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "a02285d748ee8e591970c665470c08851407f09cb62bee30412dd74ac6a83a4f",
+      "rank": 18
+    },
+    {
+      "source_id": "doc_c7ca9316019ffac8",
+      "title": "v2.11.2 2025-04-03",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:38.658478+00:00",
+      "why_relevant": "Release record for 2.11.2 in the selected catalog. Mentions in-range versions 2.11.2. Candidate sections: 1 unclassified_change, 1 deprecation, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "5cde770912bd15d9728bb5d576d095b7243bc0af3c9fc800f95a7f3b7f50149a",
+      "rank": 19
+    },
+    {
+      "source_id": "doc_761b96d04387aad3",
+      "title": "v2.11.3 2025-04-08",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.3",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:38.936175+00:00",
+      "why_relevant": "Release record for 2.11.3 in the selected catalog. Mentions in-range versions 2.11.3. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.3",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "888b304cd8714b0e8be55eaf0962d8a7936fc527e7bf26c8f5b630940d6a7e20",
+      "rank": 20
+    },
+    {
+      "source_id": "doc_0790f84bd602dfde",
+      "title": "v2.11.4 2025-04-29",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.4",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:39.213784+00:00",
+      "why_relevant": "Release record for 2.11.4 in the selected catalog. Mentions in-range versions 2.11.4. Candidate sections: 2 unclassified_change, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.4",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "a26c39d41f5de3184dfa26a81646ae08dbebcf4bcb602c5e4a44678835e246ef",
+      "rank": 21
+    },
+    {
+      "source_id": "doc_86b055bde1313b07",
+      "title": "v2.11.5 2025-05-22",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.5",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:39.446962+00:00",
+      "why_relevant": "Release record for 2.11.5 in the selected catalog. Mentions in-range versions 2.11.5. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.5",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "68339023408939f7ef62103ee177796101d3100656f936d6f8dde4687497b5c4",
+      "rank": 22
+    },
+    {
+      "source_id": "doc_e70bd73104f3e7a0",
+      "title": "v2.11.6 2025-06-13",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.6",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:39.678668+00:00",
+      "why_relevant": "Release record for 2.11.6 in the selected catalog. Mentions in-range versions 2.11.6. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.6",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "e42aaa9bfd6dff8056078990fa0f16bd5dab4ac028639f6c65992c071ce3330e",
+      "rank": 23
+    },
+    {
+      "source_id": "doc_0d8021806af820dc",
+      "title": "v2.11.7 2025-06-14",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.7",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:39.965455+00:00",
+      "why_relevant": "Release record for 2.11.7 in the selected catalog. Mentions in-range versions 2.11.7. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.7",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "9baa6dc713c3b152c4ab81b8b4cd0eafda6eb20ae7fcbe492057bfd448ca57a3",
+      "rank": 24
+    },
+    {
+      "source_id": "doc_701350909b01eda1",
+      "title": "v2.11.8 2025-09-13",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.8",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:40.179133+00:00",
+      "why_relevant": "Release record for 2.11.8 in the selected catalog. Mentions in-range versions 2.11.8. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.8",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "e50449a0d0467c367619e97df85c12e7b0a0986aff118cc98d893c7bffb786f4",
+      "rank": 25
+    },
+    {
+      "source_id": "doc_2d6e5d0611f8ca34",
+      "title": "v2.11.9 2025-09-13",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.11.9",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:40.510975+00:00",
+      "why_relevant": "Release record for 2.11.9 in the selected catalog. Mentions in-range versions 2.11.9. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.11.9",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "332a623997d5ca61d03cca6961f08d1948822625f565bac51ab145b63839b8d1",
+      "rank": 26
+    },
+    {
+      "source_id": "doc_52c97420a0e89c57",
+      "title": "v2.12.0 2025-10-07",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:40.675586+00:00",
+      "why_relevant": "Release record for 2.12.0 in the selected catalog. Mentions in-range versions 2.12.0. Candidate sections: 5 unclassified_change, 1 breaking_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.12.0",
+        "2.12.3",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "a964553f8a427f4fb49969d32224b0c021ae398273801f5660d19cff3661768c",
+      "rank": 27
+    },
+    {
+      "source_id": "doc_02d87d741782477e",
+      "title": "v2.12.1 2025-10-13",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:40.924343+00:00",
+      "why_relevant": "Release record for 2.12.1 in the selected catalog. Mentions in-range versions 2.12.0, 2.12.1. Candidate sections: 2 unclassified_change, 1 known_issue, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.12.0",
+        "2.12.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "9405cdf3f76c9e6cfd4c88d6e5ee2a4a1dc237f92fda079489c176a793ecdd0e",
+      "rank": 28
+    },
+    {
+      "source_id": "doc_15af4a194edfac0f",
+      "title": "v2.12.2 2025-10-14",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:41.232962+00:00",
+      "why_relevant": "Release record for 2.12.2 in the selected catalog. Mentions in-range versions 2.12.2. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.12.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1f65134f76cb86fb15b296e76f274a17da711e7ba88697e88245a8c27defc6bc",
+      "rank": 29
+    },
+    {
+      "source_id": "doc_0d85675adc1b1721",
+      "title": "v2.12.3 2025-10-17",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.3",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:41.438879+00:00",
+      "why_relevant": "Release record for 2.12.3 in the selected catalog. Mentions in-range versions 2.12.0, 2.12.3. Candidate sections: 1 deprecation, 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.12.0",
+        "2.12.3",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "30f6463f30556241e327f17115952933e906a4cacafaed176a32d5c99bd93e43",
+      "rank": 30
+    },
+    {
+      "source_id": "doc_d5194d2e9e5e59e1",
+      "title": "v2.12.4 2025-11-05",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.4",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:41.675952+00:00",
+      "why_relevant": "Release record for 2.12.4 in the selected catalog. Mentions in-range versions 2.12.4. Candidate sections: 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.12.4",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "43ce02c3dcd84330a6a4c1eda3a46682ad5ff321e96d82053bebf116670ba358",
+      "rank": 31
+    },
+    {
+      "source_id": "doc_f4e9b9db5335daec",
+      "title": "v2.12.5 2025-11-26",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.12.5",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:41.947927+00:00",
+      "why_relevant": "Release record for 2.12.5 in the selected catalog. Mentions in-range versions 2.12.5. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.12.5",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "4ef784416f751a8ead3deb4ac68251f9531599cd9bd4584bcf27f91980728a7a",
+      "rank": 32
+    },
+    {
+      "source_id": "doc_128119e72f7eaddf",
+      "title": "v2.13.0 2026-04-13",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:42.248264+00:00",
+      "why_relevant": "Release record for 2.13.0 in the selected catalog. Mentions in-range versions 2.13.0. Candidate sections: 5 unclassified_change, 1 breaking_change, 1 migration_step, 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 7,
+      "out_of_range_sections": 0,
+      "content_sha256": "1d959fc484066dc300317b2b11242973b530e571cd9a13292aa98f09dc2bd020",
+      "rank": 33
+    },
+    {
+      "source_id": "doc_becd410dc93f5a2e",
+      "title": "v2.13.1 2026-04-15",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:42.455877+00:00",
+      "why_relevant": "Release record for 2.13.1 in the selected catalog. Mentions in-range versions 2.13.1. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.13.0",
+        "2.13.1"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "9cd15bde7f4ef091166b3de2a34c61391ea0b6c59db4210219931c20dc9a95ae",
+      "rank": 34
+    },
+    {
+      "source_id": "doc_7c2888763e80e785",
+      "title": "v2.13.2 2026-04-17",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:42.748960+00:00",
+      "why_relevant": "Release record for 2.13.2 in the selected catalog. Mentions in-range versions 2.13.2. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.13.0",
+        "2.13.2"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "f8cf12fd1411d80c11a5857515b1605bc90319c6de484ef04ba20c2cdb6ff836",
+      "rank": 35
+    },
+    {
+      "source_id": "doc_4d50930b3f0e5034",
+      "title": "v2.13.3 2026-04-20",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.3",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:42.970144+00:00",
+      "why_relevant": "Release record for 2.13.3 in the selected catalog. Mentions in-range versions 2.13.3. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.13.0",
+        "2.13.3"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1ea5b38e9c6ef6b2f0ea4ebe0556591ae604430a1578541afbfa034c8d1a5f95",
+      "rank": 36
+    },
+    {
+      "source_id": "doc_e03819a37be3c0d2",
+      "title": "v2.13.4 2026-05-06",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.4",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:43.200343+00:00",
+      "why_relevant": "Release record for 2.13.4 in the selected catalog. Mentions in-range versions 2.13.4. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.13.0",
+        "2.13.4"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "c075fc3482bbc2edbe90c7491e4259b5d2386c63c7fa2004b6ef7db79318bcb8",
+      "rank": 37
+    },
+    {
+      "source_id": "doc_c4761d4ea3fad7d7",
+      "title": "v2.13.5 2026-08-28",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.13.5",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:11:38.619822+00:00",
+      "why_relevant": "Release record for 2.13.5 in the selected catalog. Mentions in-range versions 2.13.5. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.13.5"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "2a929a03ae14e29451f105a59a816d193a4bab72346ef20bfa689a804f399478",
+      "rank": 38
+    },
+    {
+      "source_id": "doc_376e4793d1c6d384",
+      "title": "v2.14.0 2026-10-08",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.14.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:11:38.762096+00:00",
+      "why_relevant": "Release record for 2.14.0 in the selected catalog. Mentions in-range versions 2.14.0. Candidate sections: 3 unclassified_change, 1 breaking_change, 1 removal, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.8.0",
+        "2.9.0",
+        "2.10.0",
+        "2.12.0",
+        "2.12.3",
+        "2.13.0",
+        "2.14.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "868c303c84e2601a83de660ec847d5b7c78f7a67d481464d1348d64539ee3f94",
+      "rank": 39
+    },
+    {
+      "source_id": "doc_a8320f6e7d435436",
+      "title": "v2.2.0 2023-08-17",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.2.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:29.919995+00:00",
+      "why_relevant": "Release record for 2.2.0 in the selected catalog. Mentions in-range versions 2.2.0, 2.5.0. Candidate sections: 2 unclassified_change, 1 deprecation, 1 dependency_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.2.0",
+        "2.5.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "aee921e4454c829e098da37fd385a741f90667315bd990bd77b7377cbce997c4",
+      "rank": 40
+    },
+    {
+      "source_id": "doc_3016e6496f204a32",
+      "title": "v2.2.1 2023-08-18",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.2.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:30.173058+00:00",
+      "why_relevant": "Release record for 2.2.1 in the selected catalog. Mentions in-range versions 2.2.1, 2.6.1. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.2.1",
+        "2.6.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "43bd2f7bd4d289974d7c9c221c479a0ef22bcec4b8b1bc817c2a8a200ab8f770",
+      "rank": 41
+    },
+    {
+      "source_id": "doc_5be8b1635c4d9472",
+      "title": "v2.3.0 2023-08-23",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.3.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:30.538733+00:00",
+      "why_relevant": "Release record for 2.3.0 in the selected catalog. Mentions in-range versions 2.2.1, 2.3.0. Candidate sections: 1 migration_step, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.2.1",
+        "2.3.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "543934d4b74b417fccc9ed363a61d5a294f346ae410248a68bbc5cf452f9370f",
+      "rank": 42
+    },
+    {
+      "source_id": "doc_1a2926249de057a2",
+      "title": "v2.4.0 2023-09-25",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.4.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:30.657570+00:00",
+      "why_relevant": "Release record for 2.4.0 in the selected catalog. Mentions in-range versions 2.10.0, 2.4.0. Candidate sections: 3 unclassified_change, 1 deprecation, 1 migration_step, 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.4.0",
+        "2.10.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "10ff0cbec1dca866ab026516208ba6c635defaf0b54c5e191ce962d3e71e8c7d",
+      "rank": 43
+    },
+    {
+      "source_id": "doc_407bed8b17b30fa1",
+      "title": "v2.4.1 2023-09-26",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.4.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:30.921786+00:00",
+      "why_relevant": "Release record for 2.4.1 in the selected catalog. Mentions in-range versions 2.10.1, 2.4.1. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.4.1",
+        "2.10.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "48a5f1262d5565bf3d15da07d566867ebefa11876c634ef0c082a7357cf2315a",
+      "rank": 44
+    },
+    {
+      "source_id": "doc_413ce395fa44f536",
+      "title": "v2.4.2 2023-09-27",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.4.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:31.193021+00:00",
+      "why_relevant": "Release record for 2.4.2 in the selected catalog. Mentions in-range versions 2.4.2. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.4.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "a7995b781f890d4740637609228649ae753dc9a24af11ed0330f5aceb519ba7a",
+      "rank": 45
+    },
+    {
+      "source_id": "doc_4aa81a1d8e805702",
+      "title": "v2.5.0 2023-11-13",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:31.427406+00:00",
+      "why_relevant": "Release record for 2.5.0 in the selected catalog. Mentions in-range versions 2.10.1, 2.5.0. Candidate sections: 5 unclassified_change, 2 migration_step, 1 configuration_change, 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.5.0",
+        "2.10.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 0,
+      "content_sha256": "b953affa9c94cf8852efd42b0290509f2ae2807ac704839c5c53554f11fc7f2d",
+      "rank": 46
+    },
+    {
+      "source_id": "doc_8812c618e1796b56",
+      "title": "v2.5.1 2023-11-15",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:31.674331+00:00",
+      "why_relevant": "Release record for 2.5.1 in the selected catalog. Mentions in-range versions 2.5.1. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.5.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "e5fbeaa85666550b6dbd1e89a4128141f233f1ab1ce8aa37f73cb1cbdc792aaa",
+      "rank": 47
+    },
+    {
+      "source_id": "doc_7d60c5dd90c72215",
+      "title": "v2.5.2 2023-11-22",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:31.927626+00:00",
+      "why_relevant": "Release record for 2.5.2 in the selected catalog. Mentions in-range versions 2.5.2. Candidate sections: 4 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.5.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "523f652d690f9f5e6965964b4232c30a8403fd7f852d1f9c5d7f0f83e0766489",
+      "rank": 48
+    },
+    {
+      "source_id": "doc_c0c33290c9284d61",
+      "title": "v2.5.3 2023-12-22",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.5.3",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:32.188884+00:00",
+      "why_relevant": "Release record for 2.5.3 in the selected catalog. Mentions in-range versions 2.5.3. Candidate sections: 3 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.5.3",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "4dbc5d2805d5b71702af84eb79551e225c36e66f5597e900e70c071e5c5479f9",
+      "rank": 49
+    },
+    {
+      "source_id": "doc_57318cbf918c6f83",
+      "title": "v2.6.0 2024-01-29",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:32.484925+00:00",
+      "why_relevant": "Release record for 2.6.0 in the selected catalog. Mentions in-range versions 2.0, 2.4.1, 2.6.0. Candidate sections: 5 unclassified_change, 3 migration_step, 1 behavior_change, 1 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.0",
+        "2.4.1",
+        "2.6.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 0,
+      "content_sha256": "f72469fb8355c2516a56b192a721a96df4fd04c9eade13c658672a92eaccfd5a",
+      "rank": 50
+    },
+    {
+      "source_id": "doc_04f0153f2f85ee9a",
+      "title": "v2.6.1 2024-02-05",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:32.679968+00:00",
+      "why_relevant": "Release record for 2.6.1 in the selected catalog. Mentions in-range versions 2.6.1. Candidate sections: 1 unclassified_change, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.6.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "4b0201fc9a1a6ad02d04fba2de68396d3d1b85284ffbe0ea05668475c24dbc8b",
+      "rank": 51
+    },
+    {
+      "source_id": "doc_dfbe0087836379dc",
+      "title": "v2.6.2 2024-02-23",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:32.974997+00:00",
+      "why_relevant": "Release record for 2.6.2 in the selected catalog. Mentions in-range versions 2.6.2. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.6.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "d2b9b85a28531c2ce21ca1e72f0a159f6a5556c6300e417f88c007c386af7440",
+      "rank": 52
+    },
+    {
+      "source_id": "doc_20f9e2ca9f5fd659",
+      "title": "v2.6.3 2024-02-27",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.3",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:33.221140+00:00",
+      "why_relevant": "Release record for 2.6.3 in the selected catalog. Mentions in-range versions 2.6.3. Candidate sections: 1 configuration_change, 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.6.3",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "2bb73cc41c0d11187e653be8d521e7c4bf54819aed8c414e985743350ccb8f71",
+      "rank": 53
+    },
+    {
+      "source_id": "doc_236885c07ae3330c",
+      "title": "v2.6.4 (2024-03-12)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.6.4",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:33.442286+00:00",
+      "why_relevant": "Release record for 2.6.4 in the selected catalog. Mentions in-range versions 2.6.4. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.6.4",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "30134bf2daee5bf27e00b52b962b468b51dde3ef0e9ca3a30e4eae5ad471c03a",
+      "rank": 54
+    },
+    {
+      "source_id": "doc_b62a6863dffd0064",
+      "title": "v2.7.0 (2024-04-11)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:33.676700+00:00",
+      "why_relevant": "Release record for 2.7.0 in the selected catalog. Mentions in-range versions 2.7.0. Candidate sections: 4 unclassified_change, 3 deprecation, 2 configuration_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.7.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 7,
+      "out_of_range_sections": 0,
+      "content_sha256": "7351de31e31a46c003c7074672165c4bdf50a731e6968af5fdd670e32f2270b9",
+      "rank": 55
+    },
+    {
+      "source_id": "doc_02725133614973fb",
+      "title": "v2.7.1 (2024-04-23)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:33.917125+00:00",
+      "why_relevant": "Release record for 2.7.1 in the selected catalog. Mentions in-range versions 2.7.1. Candidate sections: 5 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.7.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 5,
+      "out_of_range_sections": 0,
+      "content_sha256": "a35f135e2d9c73b34e9b018e3a853ee2b7ea7b5af8d9a71224ca1b797710df4d",
+      "rank": 56
+    },
+    {
+      "source_id": "doc_3a75a37538ce768d",
+      "title": "v2.7.2 (2024-05-28)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:34.185642+00:00",
+      "why_relevant": "Release record for 2.7.2 in the selected catalog. Mentions in-range versions 2.7.2. Candidate sections: 1 unclassified_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.7.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "80395a77dfe0a6d78a4829843ae0b44b7361dd792850ae79e60209f4f9e2e16f",
+      "rank": 57
+    },
+    {
+      "source_id": "doc_b926f766d241123a",
+      "title": "v2.7.3 (2024-06-03)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.3",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:34.421676+00:00",
+      "why_relevant": "Release record for 2.7.3 in the selected catalog. Mentions in-range versions 2.7.3. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.7.3",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "5fe12d4cde66366040715afa7d90f604baae539b75f07ba5527740e1d509dd9b",
+      "rank": 58
+    },
+    {
+      "source_id": "doc_84a619a246617d73",
+      "title": "v2.7.4 (2024-06-12)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.7.4",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:34.687728+00:00",
+      "why_relevant": "Release record for 2.7.4 in the selected catalog. Mentions in-range versions 2.7.4. Candidate sections: 2 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.7.4",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "aa260371151bec2442e7cae9526d90f8480f77d869727bad7b36a345bfe6a601",
+      "rank": 59
+    },
+    {
+      "source_id": "doc_87f43cea323b9822",
+      "title": "v2.8.0 (2024-07-01)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.8.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:34.942837+00:00",
+      "why_relevant": "Release record for 2.8.0 in the selected catalog. Mentions in-range versions 2.8.0. Candidate sections: 4 unclassified_change, 1 deprecation, 1 breaking_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.8.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 7,
+      "out_of_range_sections": 0,
+      "content_sha256": "108c515002230292b0b05e70242d55145798ff82859abc7fdf8c19c0c87020bc",
+      "rank": 60
+    },
+    {
+      "source_id": "doc_ce8fcb38e076f541",
+      "title": "v2.8.1 (2024-07-03)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.8.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:35.190849+00:00",
+      "why_relevant": "Release record for 2.8.1 in the selected catalog. Mentions in-range versions 2.8.1, 2.9.0. Candidate sections: 2 unclassified_change, 1 breaking_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.8.1",
+        "2.9.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "3af9ff70cf7f46afd773987b780c209fff2917fce3f3d57ec6ce411efccc47ee",
+      "rank": 61
+    },
+    {
+      "source_id": "doc_74c34e563afd2965",
+      "title": "v2.8.2 (2024-07-03)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.8.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:35.557614+00:00",
+      "why_relevant": "Release record for 2.8.2 in the selected catalog. Mentions in-range versions 2.8.2. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.8.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "1636e00923434b70021a20fa912471b4b0521edbe0332857df40a9158c86ddde",
+      "rank": 62
+    },
+    {
+      "source_id": "doc_1766c715e3ede43b",
+      "title": "v2.9.0 (2024-09-05)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.9.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:35.686352+00:00",
+      "why_relevant": "Release record for 2.9.0 in the selected catalog. Mentions in-range versions 2.9.0. Candidate sections: 7 unclassified_change, 2 deprecation, 2 migration_step, 2 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.9.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 9,
+      "out_of_range_sections": 0,
+      "content_sha256": "bb4bcf5158c58a788e797b93d49c4d2acae7b8b40999d7c7ca3d5d05f180fa55",
+      "rank": 63
+    },
+    {
+      "source_id": "doc_9f7670d5091902c3",
+      "title": "v2.9.1 (2024-09-09)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.9.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:35.934258+00:00",
+      "why_relevant": "Release record for 2.9.1 in the selected catalog. Mentions in-range versions 2.9.0, 2.9.1. Candidate sections: 1 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.9.0",
+        "2.9.1",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "46c5cada09784aad871c3f7cb87a7b21da13b594c045304774a89fef8440eae4",
+      "rank": 64
+    },
+    {
+      "source_id": "doc_b575e22436fcded1",
+      "title": "v2.9.2 (2024-09-17)",
+      "url": "https://github.com/pydantic/pydantic/releases/tag/v2.9.2",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T14:09:36.177197+00:00",
+      "why_relevant": "Release record for 2.9.2 in the selected catalog. Mentions in-range versions 2.9.2. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository pydantic/pydantic."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "2.9.2",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "38ba3e8fc503784a8425146910d21a4f80b361623db8890c2d47b2a942d15c49",
+      "rank": 65
+    },
+    {
+      "source_id": "doc_0efee2854b5055b5",
+      "title": "Fields | Pydantic Docs",
+      "url": "https://pydantic.dev/docs/validation/2.7/concepts/fields/",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T14:09:51.841209+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/articles/pydantic-v2-7-release. Mentions in-range versions 2.0. Candidate sections: 5 deprecation, 1 changed_default, 1 api_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "2.0"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 0,
+      "content_sha256": "461b0b631bfdaf269de6f41076ec2520a07ac48327f362dcd0463770dfd4ba78",
+      "rank": 66
+    },
+    {
+      "source_id": "doc_ddc6768aa0b47f3f",
+      "title": "Pydantic Validation | Pydantic Docs",
+      "url": "https://pydantic.dev/docs/validation/latest/get-started/",
+      "source_type": "official_api_documentation",
+      "retrieved_at": "2026-10-09T14:09:46.439032+00:00",
+      "why_relevant": "Project homepage selected by the resolver.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "api_documentation",
+      "roles": [
+        "api_documentation"
+      ],
+      "versions": [
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "40faf75be311514209cf65cf9a040f22e8e4ee7be2f825b94caace47f5497620",
+      "rank": 67
+    },
+    {
+      "source_id": "doc_3dcc20bcae4fc73e",
+      "title": "Announcement: Pydantic v2.10 Release",
+      "url": "https://pydantic.dev/articles/pydantic-v2-10-release",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:28.117258+00:00",
+      "why_relevant": "Linked from https://github.com/pydantic/pydantic/releases/tag/v2.10.0. Mentions in-range versions 2.10.0. Candidate sections: 4 migration_step, 4 configuration_change, 2 deprecation.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.10.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 8,
+      "out_of_range_sections": 0,
+      "content_sha256": "73b909d3110f45960d942f2b69e99c800fdb82e8c3a74455f07b4a4805b8f962",
+      "rank": 68
+    },
+    {
+      "source_id": "doc_d949b058d66b01d6",
+      "title": "https://pydantic.dev/articles/pydantic-v2-10-release.md",
+      "url": "https://pydantic.dev/articles/pydantic-v2-10-release.md",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:45.696262+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/articles/pydantic-v2-10-release. Mentions in-range versions 2.10.0. Candidate sections: 1 deprecation, 1 configuration_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.0",
+        "2.10.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "5e61e2bd26b7ad66c3b2a144d77fa4db4d84fd01e4c8e173057428045d0a0833",
+      "rank": 69
+    },
+    {
+      "source_id": "doc_3b90bf555cd06596",
+      "title": "Announcement: Pydantic v2.11 Release",
+      "url": "https://pydantic.dev/articles/pydantic-v2-11-release",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:48.314901+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/docs/validation/latest/get-started/changelog/. Mentions in-range versions 2.10.6, 2.11.0, 2.7.2, 2.8.2, 2.9.2. Candidate sections: 4 configuration_change, 3 deprecation, 2 api_change, 1 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.7.2",
+        "2.8.2",
+        "2.9.2",
+        "2.10.6",
+        "2.11.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 9,
+      "out_of_range_sections": 1,
+      "content_sha256": "348923803e9e45f103f74991ce3fd52195bd008b117bfa2d110ebd0224e2e713",
+      "rank": 70
+    },
+    {
+      "source_id": "doc_cd8cd4a069b91725",
+      "title": "Announcement: Pydantic v2.12 Release",
+      "url": "https://pydantic.dev/articles/pydantic-v2-12-release",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:44.456481+00:00",
+      "why_relevant": "Linked from https://github.com/pydantic/pydantic/releases/tag/v2.12.0. Candidate sections: 4 behavior_change, 3 breaking_change, 2 migration_step, 2 changed_default.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.12.0",
+        "2.12.3",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 10,
+      "out_of_range_sections": 1,
+      "content_sha256": "5a1cb536f019b3b533340505b43a47731bbd98031849115ab139aab8400a65fe",
+      "rank": 71
+    },
+    {
+      "source_id": "doc_27f01fa7f58cfae3",
+      "title": "https://pydantic.dev/articles/pydantic-v2-12-release.md",
+      "url": "https://pydantic.dev/articles/pydantic-v2-12-release.md",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:45.923372+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/articles/pydantic-v2-12-release. Mentions in-range versions 2.12.0, 2.12.3. Candidate sections: 1 breaking_change, 1 deprecation, 1 changed_default, 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.0",
+        "2.12.0",
+        "2.12.3"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "c4779f4e6cf423c711b59c6b8c181bd3960c6014d70b02cf7b1ecca4f7ab48a7",
+      "rank": 72
+    },
+    {
+      "source_id": "doc_2944272e37f0f0a4",
+      "title": "Pydantic v2.13: Polymorphic Serialization, exclude_if for Computed Fields & More",
+      "url": "https://pydantic.dev/articles/pydantic-v2-13-release",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:44.651286+00:00",
+      "why_relevant": "Linked from https://github.com/pydantic/pydantic/releases/tag/v2.13.0. Candidate sections: 2 migration_step, 1 breaking_change, 1 configuration_change, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "bd62da976ba102419f8b5992c48112057296ce4cf2c24eaf6fc9826fb557f69b",
+      "rank": 73
+    },
+    {
+      "source_id": "doc_8c0338d7db4ae82e",
+      "title": "https://pydantic.dev/articles/pydantic-v2-13-release.md",
+      "url": "https://pydantic.dev/articles/pydantic-v2-13-release.md",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:46.141481+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/articles/pydantic-v2-13-release. Mentions in-range versions 2.13.0. Candidate sections: 1 breaking_change, 1 configuration_change, 1 migration_step, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.0",
+        "2.13.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "84173647d9ab187aa9d0515fe9d2a515f931c518888be8faa4563ba8b8049759",
+      "rank": 74
+    },
+    {
+      "source_id": "doc_ef8bcff9c8e4a7e1",
+      "title": "Pydantic v2.14: Python 3.15 Support, Lazy Imports, TypeForm & More",
+      "url": "https://pydantic.dev/articles/pydantic-v2-14-release",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:26.880281+00:00",
+      "why_relevant": "Linked from https://github.com/pydantic/pydantic/releases/tag/v2.14.0. Candidate sections: 5 migration_step, 2 removal, 2 deprecation, 2 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.8.0",
+        "2.9.0",
+        "2.10.0",
+        "2.12.0",
+        "2.12.3",
+        "2.13.0",
+        "2.14.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 9,
+      "out_of_range_sections": 0,
+      "content_sha256": "2cbeac14356ae8badaf6985520db45890a2b6a3b68a655a294f6887bfe832bb7",
+      "rank": 75
+    },
+    {
+      "source_id": "doc_3c1385bb42c21d77",
+      "title": "https://pydantic.dev/articles/pydantic-v2-14-release.md",
+      "url": "https://pydantic.dev/articles/pydantic-v2-14-release.md",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:26.945505+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/articles/pydantic-v2-14-release. Mentions in-range versions 2.14.0. Candidate sections: 1 breaking_change, 1 deprecation, 1 removal, 1 behavior_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.0",
+        "2.8.0",
+        "2.9.0",
+        "2.10.0",
+        "2.12.0",
+        "2.12.3",
+        "2.13.0",
+        "2.14.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "0b3dd051d625ebc905d40e6cc9ffc4821075edb4d5bab94f29c0d7e8d7db0fcf",
+      "rank": 76
+    },
+    {
+      "source_id": "doc_41b64598497c3f43",
+      "title": "Announcement: Pydantic v2.7 Release",
+      "url": "https://pydantic.dev/articles/pydantic-v2-7-release",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:49.127168+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/articles/pydantic-v2-7-release. Mentions in-range versions 2.0. Candidate sections: 2 configuration_change, 1 deprecation, 1 security, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.0"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 1,
+      "content_sha256": "a26b2c8208821645d1c4f62c362ed8f6007732f729bf03173309263db066172a",
+      "rank": 77
+    },
+    {
+      "source_id": "doc_257a868b1899fdaf",
+      "title": "https://pydantic.dev/articles/pydantic-v2-7-release.md",
+      "url": "https://pydantic.dev/articles/pydantic-v2-7-release.md",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:49.282710+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/articles/pydantic-v2-7-release. Mentions in-range versions 2.0, 2.7.0. Candidate sections: 1 deprecation, 1 configuration_change, 1 migration_step, 1 security.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.0",
+        "2.7.0"
+      ],
+      "version_association_bases": [
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "aeb5ebe4a4c0652233a589c7b1d2676f7dea74b22ff4439e3bb26f75910bc160",
+      "rank": 78
+    },
+    {
+      "source_id": "doc_faebc00ac57f3471",
+      "title": "Announcement: Pydantic v2.8 Release",
+      "url": "https://pydantic.dev/articles/pydantic-v2-8-release",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:43.723545+00:00",
+      "why_relevant": "Linked from https://github.com/pydantic/pydantic/releases/tag/v2.8.0. Mentions in-range versions 2.8.0. Candidate sections: 3 configuration_change, 1 deprecation, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.8.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 1,
+      "content_sha256": "4d4d3575947359b64f1024409a085931c333cc1f27623efb638bb7c77839ba52",
+      "rank": 79
+    },
+    {
+      "source_id": "doc_d5b04b70bbddf549",
+      "title": "https://pydantic.dev/articles/pydantic-v2-8-release.md",
+      "url": "https://pydantic.dev/articles/pydantic-v2-8-release.md",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:44.952678+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/articles/pydantic-v2-8-release. Mentions in-range versions 2.8.0. Candidate sections: 1 deprecation, 1 removal, 1 dependency_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.0",
+        "2.8.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "cf2f141abe1d32ecd737a50c247ef6e6d2c75398c1940f5442c54586713b52cb",
+      "rank": 80
+    },
+    {
+      "source_id": "doc_59bc0da586307f97",
+      "title": "Announcement: Pydantic v2.9 Release",
+      "url": "https://pydantic.dev/articles/pydantic-v2-9-release",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:43.946314+00:00",
+      "why_relevant": "Linked from https://github.com/pydantic/pydantic/releases/tag/v2.9.0. Mentions in-range versions 2.9.0. Candidate sections: 1 configuration_change, 1 breaking_change, 1 migration_step, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.9.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "77e0a82324464fd718afe160145105c637311df630ab09f5a10e93d9bfdce0d9",
+      "rank": 81
+    },
+    {
+      "source_id": "doc_50a2151320684ec3",
+      "title": "https://pydantic.dev/articles/pydantic-v2-9-release.md",
+      "url": "https://pydantic.dev/articles/pydantic-v2-9-release.md",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:45.456261+00:00",
+      "why_relevant": "Linked from https://pydantic.dev/articles/pydantic-v2-9-release. Mentions in-range versions 2.9.0. Candidate sections: 1 breaking_change, 1 deprecation, 1 configuration_change, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.0",
+        "2.9.0"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "milestone_mention",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "d3d468071bf9e74e7dc06b69f013a462466d4e4b666cd80619f09c274e66370e",
+      "rank": 82
+    },
+    {
+      "source_id": "doc_f6f19f9bb46496c1",
+      "title": "Announcement: Pydantic V2 Release",
+      "url": "https://pydantic.dev/articles/pydantic-v2-final",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T14:09:23.142486+00:00",
+      "why_relevant": "Collected as supporting context. Candidate sections: 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site pydantic.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "2.0"
+      ],
+      "version_association_bases": [
+        "milestone_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "818ccd257880d4cb60dd13c0ca2d5aa74db4a7ec8f0bf5a5be368438b06a8ad0",
+      "rank": 83
+    }
+  ],
+  "excluded_sources": [
+    {
+      "source_id": "doc_ff1d7f482a6303d2",
+      "url": "https://pydantic.dev/changelog",
+      "title": "Pydantic Changelog: Product Updates & New Features",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_4eeb273540c109b1",
+      "url": "https://pydantic.dev/changelog/kubernetes-events-logs-findings",
+      "title": "Kubernetes Events, Logs, and Findings | Pydantic Changelog",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_299b65eaebfc0c53",
+      "url": "https://pydantic.dev/changelog/public-conversations",
+      "title": "Public Conversations in Early Access | Pydantic Changelog",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_6de797da2118e7b8",
+      "url": "https://pydantic.dev/changelog/rum",
+      "title": "Frontend observability in Early Access | Pydantic Changelog",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_0b6329a4ae62240c",
+      "url": "https://pydantic.dev/changelog/session-replay",
+      "title": "Session Replay in Early Access | Pydantic Changelog",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_8b22103456ac5f04",
+      "url": "https://pydantic.dev/changelog/realtime-audio",
+      "title": "Realtime audio through the AI Gateway | Pydantic Changelog",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_f70608770d5f2b29",
+      "url": "https://pydantic.dev/changelog/gateway-playground-redesign",
+      "title": "A redesigned Gateway Playground | Pydantic Changelog",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_67b5d2b44333c220",
+      "url": "https://pydantic.dev/changelog/infrastructure-integrations",
+      "title": "Infrastructure integrations in Beta | Pydantic Changelog",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_dd82b3cbcac96f6f",
+      "url": "https://pydantic.dev/changelog/evals-workbench",
+      "title": "The Evals Workbench | Pydantic Changelog",
+      "document_type": "release_notes",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_f814d3c46a30c0d8",
+      "url": "https://pydantic.dev/docs/ai/comparisons/migrate-from-other-frameworks/",
+      "title": "Migrate to Pydantic AI | Pydantic Docs",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_a20f3c6db0e29bf3",
+      "url": "https://pydantic.dev/docs/ai/project/changelog/",
+      "title": "Upgrade Guide | Pydantic Docs",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_f8b5cf3e598e76ca",
+      "url": "https://pydantic.dev/docs/httpx2/get-started/migration/",
+      "title": "Migrating from HTTPX | Pydantic Docs",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_64910c3581ed736a",
+      "url": "https://pydantic.dev/docs/logfire/deploy/self-hosted-deployment/bucket-migration/",
+      "title": "Logfire Self-Hosted: Object Storage Bucket Migration Guide | Pydantic Docs",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_1a6cd653e232a191",
+      "url": "https://pydantic.dev/docs/logfire/get-started/comparisons/migrate-from-braintrust/",
+      "title": "Move from Braintrust to Logfire | Pydantic Docs",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_6f985695f028a80d",
+      "url": "https://pydantic.dev/docs/logfire/migrate/aws/",
+      "title": "Migrate from AWS (CloudWatch / X-Ray) to Logfire | Pydantic Docs",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_807438323efa7d16",
+      "url": "https://pydantic.dev/docs/logfire/migrate/datadog/",
+      "title": "Migrate from Datadog to Logfire | Pydantic Docs",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_b429bc98ad037f18",
+      "url": "https://pydantic.dev/docs/logfire/migrate/dynatrace/",
+      "title": "Migrate from Dynatrace to Logfire | Pydantic Docs",
+      "document_type": "upgrade_guide",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    }
+  ],
+  "trust_policy": {
+    "official": "Project site, project repository or the selected package registry record.",
+    "probable_official": "Repository name matches but owner differs; not verified.",
+    "official_repository_discussion": "Issues/PRs in the project repository: context, not release statements.",
+    "third_party": "Supporting context only; never overrides official sources."
+  },
+  "notes": [
+    "source_id equals the evidence document id, so evidence.json and candidate_sections.json join on it.",
+    "Fetch-level request log (including robots.txt checks) remains in evidence.json source_inventory."
+  ]
+}

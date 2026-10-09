@@ -1,0 +1,2190 @@
+{
+  "project": "React",
+  "current_version": "17",
+  "target_version": "18",
+  "resolved_versions": [
+    "18.0.0",
+    "18.1.0",
+    "18.2.0",
+    "18.3.0",
+    "18.3.1"
+  ],
+  "documentation_milestones": [
+    "18"
+  ],
+  "collection_path": "deterministic",
+  "generated_at": "2026-10-09T09:16:41.733492+00:00",
+  "sources": [
+    {
+      "source_id": "doc_5d40be942f7a094f",
+      "title": "How to Upgrade to React 18 \u2013 React",
+      "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide",
+      "source_type": "official_migration_guide",
+      "retrieved_at": "2026-10-09T05:17:54.206413+00:00",
+      "why_relevant": "Linked from https://reactjs.org/blog/2022/03/29/react-v18.html. Candidate sections: 7 unclassified_change, 6 migration_step, 3 behavior_change, 2 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "upgrade_guide",
+      "roles": [
+        "upgrade_guide"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 18,
+      "out_of_range_sections": 0,
+      "content_sha256": "68e7c2d59c59eb9a68a380558192c5d64cd7a5167304ae558448b807914c7567",
+      "rank": 1
+    },
+    {
+      "source_id": "doc_2cfd26b9a91d3978",
+      "title": "CHANGELOG.md",
+      "url": "https://github.com/react/react/blob/main/CHANGELOG.md",
+      "source_type": "official_changelog",
+      "retrieved_at": "2026-10-09T05:17:08.953746+00:00",
+      "why_relevant": "Project repository document (CHANGELOG.md). Mentions in-range versions 18.0.0, 18.1.0, 18.2.0, 18.3.0, 18.3.1. Candidate sections: 12 unclassified_change, 6 deprecation, 6 migration_step, 3 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository react/react."
+      },
+      "document_type": "release_notes",
+      "roles": [
+        "release_notes"
+      ],
+      "versions": [
+        "18.0.0",
+        "18.1.0",
+        "18.2.0",
+        "18.3.0",
+        "18.3.1"
+      ],
+      "version_association_bases": [
+        "linked_context",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 27,
+      "out_of_range_sections": 349,
+      "content_sha256": "955b00cb0eb7571147f9f1fa6d53e5fa987e71effdc601e3424e510a94596075",
+      "rank": 2
+    },
+    {
+      "source_id": "doc_4ae4432386d06022",
+      "title": "18.0.0 (March 29, 2022)",
+      "url": "https://github.com/react/react/releases/tag/v18.0.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:03:13.199188+00:00",
+      "why_relevant": "Release record for 18.0.0 in the selected catalog. Mentions in-range versions 18.0.0. Candidate sections: 7 unclassified_change, 4 migration_step, 3 deprecation, 3 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository react/react."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 16,
+      "out_of_range_sections": 0,
+      "content_sha256": "0e6277187cc2b4cd2c0db65ee11e873c3f938c0dfaa63226d930f4bf65517549",
+      "rank": 3
+    },
+    {
+      "source_id": "doc_5316b43d24182e6e",
+      "title": "18.1.0 (April 26, 2022)",
+      "url": "https://github.com/react/react/releases/tag/v18.1.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:03:13.392699+00:00",
+      "why_relevant": "Release record for 18.1.0 in the selected catalog. Mentions in-range versions 18.1.0. Candidate sections: 2 unclassified_change, 1 dependency_requirement, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository react/react."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "18.1.0"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 4,
+      "out_of_range_sections": 0,
+      "content_sha256": "e361943d00f1d2840bd38815b6f3237bd36124783a4796fcc702c2ce2afb94de",
+      "rank": 4
+    },
+    {
+      "source_id": "doc_b831db4d68250091",
+      "title": "18.2.0 (June 14, 2022)",
+      "url": "https://github.com/react/react/releases/tag/v18.2.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:03:13.642075+00:00",
+      "why_relevant": "Release record for 18.2.0 in the selected catalog. Mentions in-range versions 18.2.0. Candidate sections: 2 unclassified_change, 1 configuration_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository react/react."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "18.2.0"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "e98ff69283baf99975849248a4150efc9b155225677000164b4ca826efbb8aae",
+      "rank": 5
+    },
+    {
+      "source_id": "doc_53446f36fe4fed2e",
+      "title": "18.3.0 (April 25, 2024)",
+      "url": "https://github.com/react/react/releases/tag/v18.3.0",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:03:13.912374+00:00",
+      "why_relevant": "Release record for 18.3.0 in the selected catalog. Mentions in-range versions 18.3.0. Candidate sections: 3 deprecation, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository react/react."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "18.3.0"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "a9b2ad94183154516b2fcdef98f08b9c8a461c959f323bf2865b9048a0cdba9a",
+      "rank": 6
+    },
+    {
+      "source_id": "doc_4a6043bc966b3c84",
+      "title": "18.3.1 (April 26, 2024)",
+      "url": "https://github.com/react/react/releases/tag/v18.3.1",
+      "source_type": "github_release",
+      "retrieved_at": "2026-10-09T05:03:14.154103+00:00",
+      "why_relevant": "Release record for 18.3.1 in the selected catalog. Mentions in-range versions 18.3.1. Candidate sections: 1 unclassified_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted in the project repository react/react."
+      },
+      "document_type": "github_release",
+      "roles": [
+        "github_release"
+      ],
+      "versions": [
+        "18.3.1"
+      ],
+      "version_association_bases": [
+        "resolver_release_record",
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "fd0d2d5deeb3cb21e070322c64db4a49e71d8fe35102608d779f6de0beb2c09c",
+      "rank": 7
+    },
+    {
+      "source_id": "doc_98997cf52379052f",
+      "title": "React v18.0 \u2013 React",
+      "url": "https://react.dev/blog/2022/03/29/react-v18",
+      "source_type": "maintainer_blog_post",
+      "retrieved_at": "2026-10-09T05:17:10.891687+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 8 api_change, 5 migration_step, 2 breaking_change, 1 removal.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "blog_post",
+      "roles": [
+        "blog_post"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 11,
+      "out_of_range_sections": 0,
+      "content_sha256": "bae6c8fee99e2c220800a7d240e5a1e7643bad9cdb757f8607c7215329dd94dc",
+      "rank": 8
+    },
+    {
+      "source_id": "doc_2d498f66722d1c09",
+      "title": "React Reference Overview \u2013 React",
+      "url": "https://react.dev/reference/react",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T05:18:26.968752+00:00",
+      "why_relevant": "Linked from https://api.github.com/repos/react/react/contents/README.md?ref=main. Candidate sections: 1 configuration_change, 1 api_change.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "258803d1f76fc0b4b992f94df521bea34dd8f9d3cda05b6669f882cf415389e0",
+      "rank": 9
+    },
+    {
+      "source_id": "doc_afb2ce2e2e178dc6",
+      "title": "Compiling Libraries \u2013 React",
+      "url": "https://react.dev/reference/react-compiler/compiling-libraries",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T05:17:14.521748+00:00",
+      "why_relevant": "Linked from https://18.react.dev/blog/2024/10/21/react-compiler-beta-release. Mentions in-range versions 18.0.0. Candidate sections: 3 configuration_change, 3 dependency_requirement.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "text_mention"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "acef00d277e8722b8895826cb6901655c1a5d72ec45b1c9dcae2e1dc860d3b22",
+      "rank": 10
+    },
+    {
+      "source_id": "doc_f3ea4786cd2ea25f",
+      "title": "Client React DOM APIs \u2013 React",
+      "url": "https://react.dev/reference/react-dom/client",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T09:16:21.965800+00:00",
+      "why_relevant": "Linked from https://reactjs.org/blog/2022/03/29/react-v18.html.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "26c392f46be6fb75613167a7f72240e75a60df59b4432a40e0f3102372c5b91b",
+      "rank": 11
+    },
+    {
+      "source_id": "doc_ccf7849cbb2e4201",
+      "title": "Server React DOM APIs \u2013 React",
+      "url": "https://react.dev/reference/react-dom/server",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T09:16:22.036797+00:00",
+      "why_relevant": "Linked from https://reactjs.org/blog/2022/03/29/react-v18.html.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "a5b862480efe085811f896ad4839dfeaae12ba2031768238683125cef3f3e4d4",
+      "rank": 12
+    },
+    {
+      "source_id": "doc_0728709814762e98",
+      "title": "<StrictMode> \u2013 React",
+      "url": "https://react.dev/reference/react/StrictMode",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T09:16:22.482956+00:00",
+      "why_relevant": "Linked from https://reactjs.org/blog/2022/03/29/react-v18.html. Candidate sections: 4 deprecation, 2 migration_step, 2 removal, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 9,
+      "out_of_range_sections": 0,
+      "content_sha256": "81c9db7497b6399325d564b142c911cd5b1ceb24c2859ed896f676334ddb61a5",
+      "rank": 13
+    },
+    {
+      "source_id": "doc_1c462c80f4daa775",
+      "title": "useDeferredValue \u2013 React",
+      "url": "https://react.dev/reference/react/useDeferredValue",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T09:16:22.915154+00:00",
+      "why_relevant": "Linked from https://reactjs.org/blog/2022/03/29/react-v18.html. Candidate sections: 1 known_issue, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "77cce3c8b9dcaa5a78cd7d4adee3f5754f82966afe8f8972fe65bb3e841487f7",
+      "rank": 14
+    },
+    {
+      "source_id": "doc_8cba5ec939af78c5",
+      "title": "useId \u2013 React",
+      "url": "https://react.dev/reference/react/useId",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T09:16:22.660386+00:00",
+      "why_relevant": "Linked from https://reactjs.org/blog/2022/03/29/react-v18.html. Candidate sections: 1 known_issue, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "ba5698ac65c0c5717cb4afbeda144b7da182c961b1eea7685f7b1b16b443cb22",
+      "rank": 15
+    },
+    {
+      "source_id": "doc_0eebca973173f3b7",
+      "title": "useInsertionEffect \u2013 React",
+      "url": "https://react.dev/reference/react/useInsertionEffect",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T09:16:23.632707+00:00",
+      "why_relevant": "Linked from https://reactjs.org/blog/2022/03/29/react-v18.html. Candidate sections: 3 dependency_requirement, 1 removal, 1 known_issue, 1 migration_step.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 5,
+      "out_of_range_sections": 0,
+      "content_sha256": "0c4717585457019610037b29d401ce195d527e4016b15689c527db9f965d430b",
+      "rank": 16
+    },
+    {
+      "source_id": "doc_7d08dbaf713df20f",
+      "title": "useSyncExternalStore \u2013 React",
+      "url": "https://react.dev/reference/react/useSyncExternalStore",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T09:16:23.510525+00:00",
+      "why_relevant": "Linked from https://reactjs.org/blog/2022/03/29/react-v18.html. Candidate sections: 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "ec7199694f4295876b18c3512c657e1a1493dd5c8ff3fe251bf4a0385ec0b11d",
+      "rank": 17
+    },
+    {
+      "source_id": "doc_a045255777f9e8c7",
+      "title": "useTransition \u2013 React",
+      "url": "https://react.dev/reference/react/useTransition",
+      "source_type": "official_documentation",
+      "retrieved_at": "2026-10-09T09:16:21.426690+00:00",
+      "why_relevant": "Linked from https://reactjs.org/blog/2022/03/29/react-v18.html. Candidate sections: 4 configuration_change, 2 removal, 1 dependency_requirement, 1 known_issue.",
+      "trust": {
+        "tier": "official",
+        "basis": "Hosted on the project site react.dev."
+      },
+      "document_type": "supporting_document",
+      "roles": [
+        "supporting_document"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 6,
+      "out_of_range_sections": 0,
+      "content_sha256": "c671bbf58edebacefc301dc309fc491f5f63910fc6bf62bc0bb44de007ba2a91",
+      "rank": 18
+    },
+    {
+      "source_id": "doc_59c07411d6cd7f7b",
+      "title": "Expiration times",
+      "url": "https://github.com/react/react/pull/10426",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:15.899828+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "dd5528f465611b3f8b90355d6e8d53ddc8507d5b3569fcd3c66d6bae8e63ed77",
+      "rank": 19
+    },
+    {
+      "source_id": "doc_4446d1ca55a8511c",
+      "title": "Deterministic updates",
+      "url": "https://github.com/react/react/pull/10715",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:16.283586+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "c3304831c62ba7e824d8ee0f1d40488b9f5d5ae0b29d7effe5c539c872e5c1ea",
+      "rank": 20
+    },
+    {
+      "source_id": "doc_6917127865b27e80",
+      "title": "useSubscription hook",
+      "url": "https://github.com/react/react/pull/15022",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:23.877157+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "453d6ed0844d2bf019ff14afa7738d820007ab3d50b63c0f22f2b0ece5d01e3e",
+      "rank": 21
+    },
+    {
+      "source_id": "doc_131b7bab47b8fa73",
+      "title": "Remove maxDuration",
+      "url": "https://github.com/react/react/pull/15272",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:17.113295+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "8147d7745427c36c8c9dd50591025dd3993f3b7041f7c860d26d415c2de9a7bb",
+      "rank": 22
+    },
+    {
+      "source_id": "doc_698e4758cb332a04",
+      "title": "Add Suspense Boundary Context (and unstable_avoidThisFallback)",
+      "url": "https://github.com/react/react/pull/15578",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:17.515546+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "f02739c3c430d96dbd3df40439ff04b89e9143519dd4984f1aff8d4d7dc00d99",
+      "rank": 23
+    },
+    {
+      "source_id": "doc_c5a70d54b4e2e27e",
+      "title": "Add withSuspenseConfig API",
+      "url": "https://github.com/react/react/pull/15593",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:16.697348+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "ac1b4864016f2c69baf10dc056f482aeed7b21ae560308c631218c0faa8f660d",
+      "rank": 24
+    },
+    {
+      "source_id": "doc_de9ad9c3096f9a03",
+      "title": "[Suspense] Change Suspending and Restarting Heuristics",
+      "url": "https://github.com/react/react/pull/15769",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:17.933743+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "a2efff2017451cf32bcdac9bbc02338126c2102c38dd932ac89a36d03c5ba996",
+      "rank": 25
+    },
+    {
+      "source_id": "doc_4c40d3030ffd0c98",
+      "title": "Migrate useDeferredValue and useTransition",
+      "url": "https://github.com/react/react/pull/17058",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:18.470604+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "8d01078bc0744c91a16ca2216a986b3871969c73ec4218ad91aa29976edd6d6a",
+      "rank": 26
+    },
+    {
+      "source_id": "doc_300f8623e73d0e12",
+      "title": "Add useOpaqueIdentifier Hook",
+      "url": "https://github.com/react/react/pull/17322",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:21.815421+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 api_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "864e3e6bc25f75bdc676c8c597d135cc34ce31be1116fabd682935d3eea917f9",
+      "rank": 27
+    },
+    {
+      "source_id": "doc_2840406e8322f9d1",
+      "title": "useMutableSource hook",
+      "url": "https://github.com/react/react/pull/18000",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:24.295807+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "a50a462c07f25c36f86b3b1a2d3c31eb7aa45aa78272ccf5e3fd061269954cd8",
+      "rank": 28
+    },
+    {
+      "source_id": "doc_09d898f6cfcdcd32",
+      "title": "Store unique ID counter on SSR request object and Add Prefix for separate renders",
+      "url": "https://github.com/react/react/pull/18576",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:22.224862+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "d91546d4903059dc95aeee6e7eb6bf54ea67565c1510e4214c94eca081e0cca9",
+      "rank": 29
+    },
+    {
+      "source_id": "doc_452aa87638db3979",
+      "title": "useMutableSource hydration support",
+      "url": "https://github.com/react/react/pull/18771",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:24.688414+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 api_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "ec74ef91da881bcaed8115060f0c90b74ed9373230dd3dd4a3aa39f81f31cf5e",
+      "rank": 30
+    },
+    {
+      "source_id": "doc_1cf16371e61fb247",
+      "title": "Initial Lanes implementation",
+      "url": "https://github.com/react/react/pull/18796",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:18.954473+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 2 configuration_change, 2 known_issue.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "12789870550ae1f5428fe19076fcd2cc0d2f1e620d3fa831f7c42d3032504ca4",
+      "rank": 31
+    },
+    {
+      "source_id": "doc_519ed30c19527d72",
+      "title": "Decouple update priority tracking from Scheduler package",
+      "url": "https://github.com/react/react/pull/19121",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:19.359035+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 dependency_requirement, 1 configuration_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "51156d6ef2af05cc89d4394ffd0eba808f0d1f18d2ca974fb160b68ea1088afe",
+      "rank": 32
+    },
+    {
+      "source_id": "doc_d1a8079a6804a1d9",
+      "title": "Effects list refactor continued: did-bailout flag",
+      "url": "https://github.com/react/react/pull/19322",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:13.874033+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "4c87012cff5fd7036325208a9c510a44f2780e456237386eeac4cd7f02e81f2c",
+      "rank": 33
+    },
+    {
+      "source_id": "doc_33af73894698d927",
+      "title": "Effects list refactor continued: passive effects traversal",
+      "url": "https://github.com/react/react/pull/19374",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:14.265090+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 removal, 1 configuration_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "a838b02e9ac15e9b314df02227db38972ab2dec6231a3c29092ec201295f28bc",
+      "rank": 34
+    },
+    {
+      "source_id": "doc_9b87870f6e405802",
+      "title": "Double Invoke Effects in __DEV__",
+      "url": "https://github.com/react/react/pull/19523",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:14.694356+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "8ce113803aa4e84d770bc12277895e8cb7a5b37c62116d7934f69dea27e6e4e9",
+      "rank": 35
+    },
+    {
+      "source_id": "doc_198c815161ce101c",
+      "title": "Add React.startTransition",
+      "url": "https://github.com/react/react/pull/19696",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:12.889262+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1db5893ce90d7e37858cd35c5374986d2bde9436a96cf4dba749b78b889015e8",
+      "rank": 36
+    },
+    {
+      "source_id": "doc_476faad1326c4c2d",
+      "title": "Disable timeoutMs argument",
+      "url": "https://github.com/react/react/pull/19703",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:19.770002+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "bb0c885905cc510f18c780e64f45c69b0d6b09f0a4b3be62e9d78ec5043726ca",
+      "rank": 37
+    },
+    {
+      "source_id": "doc_0575277c0ef205c8",
+      "title": "Remove config argument from useTransition",
+      "url": "https://github.com/react/react/pull/19719",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:20.177623+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 dependency_requirement.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "b865b903c9abf29b6d719b1503efa1eff51f678b56e01d3cec1596c1c823a624",
+      "rank": 38
+    },
+    {
+      "source_id": "doc_ab364685eb7bd7a4",
+      "title": "Remove withSuspenseConfig",
+      "url": "https://github.com/react/react/pull/19724",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:20.721127+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 removal, 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "0826c5c85e9dd6334d1020c786284aa293e43b970590ede6c5cddcbdda7aef06",
+      "rank": 39
+    },
+    {
+      "source_id": "doc_eb5404d539eb2e66",
+      "title": "Reconcile element types of lazy component yielding the same type",
+      "url": "https://github.com/react/react/pull/20357",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:19.016646+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "74d17ea65f270dfaef53cdc2524ea30605ef5b2e7d66db50dada11b987b646ee",
+      "rank": 40
+    },
+    {
+      "source_id": "doc_ef26f5ae00c9ad61",
+      "title": "Avoid .valueOf to close #20594",
+      "url": "https://github.com/react/react/pull/20617",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:22.632838+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "4b30fe067c132fefe144756193f69f28caba5cbee575766b7faa8b61884a8dbf",
+      "rank": 41
+    },
+    {
+      "source_id": "doc_39464086ed42309d",
+      "title": "Delete remaining references to effect list",
+      "url": "https://github.com/react/react/pull/20625",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:15.124513+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "90a46afba24befcadfa6e5ba8b06bddafb64c51b560cd0bed50b8d7c81b62862",
+      "rank": 42
+    },
+    {
+      "source_id": "doc_6702eec286592777",
+      "title": "Parallel transitions: Assign different lanes to consecutive transitions",
+      "url": "https://github.com/react/react/pull/20672",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:21.053667+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "1bc2bbd3eca5931208d828d939fe95caca4194d44de807d722217171ee58dad8",
+      "rank": 43
+    },
+    {
+      "source_id": "doc_07faa6b2bd587df6",
+      "title": "Use setImmediate when available over MessageChannel",
+      "url": "https://github.com/react/react/pull/20834",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:20.733775+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 configuration_change, 1 known_issue.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "55e09e2345d2370cb16ccb7f70c7c836d59020fde9b812b982931ac434d85079",
+      "rank": 44
+    },
+    {
+      "source_id": "doc_01771c78fbc495ab",
+      "title": "Remove unstable_changedBits",
+      "url": "https://github.com/react/react/pull/20953",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:17.158086+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "f4b700b14f936c42a26192432b8d847ceb1638ad6ee846754233dba97a76fe3c",
+      "rank": 45
+    },
+    {
+      "source_id": "doc_a90a24b401a79178",
+      "title": "Flip tuple order of useTransition",
+      "url": "https://github.com/react/react/pull/20976",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:21.427678+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "773cc19d86f9a94e1f4f2e93ee484e3a8c2c81ea72023c4a3a190a0396ade030",
+      "rank": 46
+    },
+    {
+      "source_id": "doc_2db661c92bc9efac",
+      "title": "[Experiment] Add feature flag for more aggressive memory clean-up of deleted fiber trees",
+      "url": "https://github.com/react/react/pull/21039",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:19.819586+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "db37ff2f409566305c7609306eb0c85b90f03c599003a30eacd84e0c4b780d83",
+      "rank": 47
+    },
+    {
+      "source_id": "doc_7ba964cb214184ff",
+      "title": "Proposed new Suspense layout effect semantics",
+      "url": "https://github.com/react/react/pull/21079",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:15.488962+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 3 configuration_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 3,
+      "out_of_range_sections": 0,
+      "content_sha256": "72b6688b3e7366f52f3e412f8b6358fc9c49b54ff35f45f5c0c14987c440366c",
+      "rank": 48
+    },
+    {
+      "source_id": "doc_b24f8e195e74c1cd",
+      "title": "Flush discrete passive effects before paint",
+      "url": "https://github.com/react/react/pull/21150",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:18.012796+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "645726c9307b64a89ea97d6bd458f54426c7b994ee45812a8df9a0d28f2145a5",
+      "rank": 49
+    },
+    {
+      "source_id": "doc_85b7777f6b3f1a5c",
+      "title": "[Fizz] Implement useOpaqueIdentifier",
+      "url": "https://github.com/react/react/pull/21260",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:23.457658+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "ccb94a793f6aab1bea066e4664f048d062e16de8847324175b9b1d72e1e791ff",
+      "rank": 50
+    },
+    {
+      "source_id": "doc_fbfc98cb00d78aa2",
+      "title": "StrictMode includes strict effects by default",
+      "url": "https://github.com/react/react/pull/21418",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:15.920495+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 removal.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "42111c092215377735b60b1ea7b8e3bae7e5dd260297c6237e0ff14c99e578ee",
+      "rank": 51
+    },
+    {
+      "source_id": "doc_a59ecb84779ca9b8",
+      "title": "Capture suspense boundaries with undefined fallbacks",
+      "url": "https://github.com/react/react/pull/21854",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:18.428774+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "918282cf50649dda9a8e9dda21018305be9961ed681b73976efaf094928fcfe8",
+      "rank": 52
+    },
+    {
+      "source_id": "doc_e57439380b5190aa",
+      "title": "Allow components to render undefined",
+      "url": "https://github.com/react/react/pull/21869",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:17.611050+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "e9db18b17a1ce176eb9bb650e18da498fc905bf74735ecf7f380b2b5d713c6b1",
+      "rank": 53
+    },
+    {
+      "source_id": "doc_42c0bc089f147970",
+      "title": "[Experimental] Add useInsertionEffect",
+      "url": "https://github.com/react/react/pull/21913",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:13.405340+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 dependency_requirement.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "72c094d120c11993602588e60cabc088d88f9b201543c8201f165aec0fe01db4",
+      "rank": 54
+    },
+    {
+      "source_id": "doc_8fa14271bb3a0d68",
+      "title": "Improve DEV errors if string coercion throws (Temporal.*, Symbol, etc.)",
+      "url": "https://github.com/react/react/pull/22064",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:20.329138+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 removal, 1 migration_step, 1 dependency_requirement.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "4fa5f19e784d07cfc0f4eb4b7690a43bbfd45c9f215990cf75740e1937af6703",
+      "rank": 55
+    },
+    {
+      "source_id": "doc_5a95dc6644ef67d5",
+      "title": "Remove the warning for setState on unmounted components",
+      "url": "https://github.com/react/react/pull/22114",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:14.924137+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 configuration_change, 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "50e6010b597e2561c765ca145369cdf655567622cab9bb5eb494f302bde0f2de",
+      "rank": 56
+    },
+    {
+      "source_id": "doc_83a4ebf8bb5b3c00",
+      "title": "Initial shim of useSyncExternalStore",
+      "url": "https://github.com/react/react/pull/22211",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:25.087102+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 configuration_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "6a7fb90072156eec0948019edabb3a262a9ebf4f78627673d07ea641b4d05338",
+      "rank": 57
+    },
+    {
+      "source_id": "doc_8ab52ea514df6552",
+      "title": "Implement useSyncExternalStore in Fiber",
+      "url": "https://github.com/react/react/pull/22239",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:26.019894+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "08bd0fa931e4078055d67b43d6ea33275dda0f5afd5bc344de69ee78106967ed",
+      "rank": 58
+    },
+    {
+      "source_id": "doc_04c4d430021ebc2f",
+      "title": "Delete useMutableSource implementation",
+      "url": "https://github.com/react/react/pull/22292",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:25.595113+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "d8a35075c6cd1b5511d07c86c470e671a66a58a0de49252577b29e7953809026",
+      "rank": 59
+    },
+    {
+      "source_id": "doc_7c080f5a97e57642",
+      "title": "[Draft] don't patch console during first render",
+      "url": "https://github.com/react/react/pull/22308",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:19.434432+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 breaking_change.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "f57fe08fef81abfeb4d9695e93c7f852d6c26e0c07295883fb0fcd4bf76d0687",
+      "rank": 60
+    },
+    {
+      "source_id": "doc_175b392afbd1743b",
+      "title": "Implement useSyncExternalStore on server",
+      "url": "https://github.com/react/react/pull/22347",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:11.913180+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "5a209bc8357eaf13ce418c2d521c1730ae6302bd070d6f1e2ffc3125a8c5fbd0",
+      "rank": 61
+    },
+    {
+      "source_id": "doc_95b5525995a719ea",
+      "title": "Remove usereducer eager bailout",
+      "url": "https://github.com/react/react/pull/22445",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:21.762212+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 removal.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "9f163aaab83aca50dc567a8d2be1f4298ab192f42fb415e3442067124bd95795",
+      "rank": 62
+    },
+    {
+      "source_id": "doc_b688e8a3fd890a98",
+      "title": "useId",
+      "url": "https://github.com/react/react/pull/22644",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:22.633238+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 api_change, 1 migration_step.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 2,
+      "out_of_range_sections": 0,
+      "content_sha256": "cf3bbb392de6dad90231576f445d006022d21183f71f20c8b54ad719b10a56b3",
+      "rank": 63
+    },
+    {
+      "source_id": "doc_1796c949accc0eed",
+      "title": "Remove experimental useOpaqueIdentifier API",
+      "url": "https://github.com/react/react/pull/22672",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T05:17:23.063988+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "f8b196980d98713ec4d8778fdaad6eb5f5796ed5b4efb712f3792118962ed1c6",
+      "rank": 64
+    },
+    {
+      "source_id": "doc_877376da7b967fdd",
+      "title": "fix: document can be `null`, not just `undefined`",
+      "url": "https://github.com/react/react/pull/22695",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:23.141690+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "9cfa559024bb664625a9fa4f9ba2d02064ee7dfa386066876ffbee2cea0751c0",
+      "rank": 65
+    },
+    {
+      "source_id": "doc_787549c61c1f2a96",
+      "title": "Fix context propagation for offscreen/fallback trees",
+      "url": "https://github.com/react/react/pull/23095",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:21.117114+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "7b190d184929a8463be8410171ec7c6633b58283742e1fe673837952a97b8672",
+      "rank": 66
+    },
+    {
+      "source_id": "doc_681441f8db45a49a",
+      "title": "Fix setState ignored in Safari when iframe is added to DOM in the same commit",
+      "url": "https://github.com/react/react/pull/23111",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:22.244148+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "c62b869b8811c53f22954af8ed7f3091e12845ed97f23325d1fc8b103c50e8a7",
+      "rank": 67
+    },
+    {
+      "source_id": "doc_8e27d7ac33740dd6",
+      "title": "Fix production-only updateSyncExternalStore() crash when doing setState in render",
+      "url": "https://github.com/react/react/pull/23150",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:12.487400+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "5c04d7af25e99fded78622524951dd3b9fa74b71fa69e9ba54890eb0ec595865",
+      "rank": 68
+    },
+    {
+      "source_id": "doc_49a32b2f1e319e3c",
+      "title": "Remove Numeric Fallback of Symbols",
+      "url": "https://github.com/react/react/pull/23348",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:16.283774+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0. Candidate sections: 1 security.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 1,
+      "out_of_range_sections": 0,
+      "content_sha256": "cc7543b3cd63905d3e4c59d9c7f811ae81d8ebb4854b78959b198cfa877d1fa3",
+      "rank": 69
+    },
+    {
+      "source_id": "doc_23dcfe496bd23d7f",
+      "title": "Remove object-assign polyfill",
+      "url": "https://github.com/react/react/pull/23351",
+      "source_type": "github_pull_request",
+      "retrieved_at": "2026-10-09T07:56:16.676771+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_pull_request",
+      "roles": [
+        "github_pull_request"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "4903d1c3c5fa59e27851a23b740e6b1ccc5007cedc5b5adedf982c6c5ef7b4e5",
+      "rank": 70
+    },
+    {
+      "source_id": "doc_d637b190e9164b69",
+      "title": "Community feedback on console silencing",
+      "url": "https://github.com/react/react/issues/21783",
+      "source_type": "github_issue",
+      "retrieved_at": "2026-10-09T05:17:15.448942+00:00",
+      "why_relevant": "Linked from https://github.com/react/react/releases/tag/v18.0.0.",
+      "trust": {
+        "tier": "official_repository_discussion",
+        "basis": "Issue/PR in the project repository react/react; discussion, not a release statement."
+      },
+      "document_type": "github_issue",
+      "roles": [
+        "github_issue"
+      ],
+      "versions": [
+        "18.0.0"
+      ],
+      "version_association_bases": [
+        "linked_context"
+      ],
+      "verified_quotes": 0,
+      "candidate_sections": 0,
+      "out_of_range_sections": 0,
+      "content_sha256": "28754022a1c72fed574d32b141f99e37bfbe5f2696e691bb3ba6a23819afbf83",
+      "rank": 71
+    }
+  ],
+  "excluded_sources": [
+    {
+      "source_id": "doc_db1fe39aac10bab1",
+      "url": "https://18.react.dev/",
+      "title": "React",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_b371b23b434cc3a4",
+      "url": "https://18.react.dev/reference/react",
+      "title": "React Reference Overview \u2013 React",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_626c81b8656f89df",
+      "url": "https://react.dev/blog/2024/10/21/react-compiler-beta-release",
+      "title": "React Compiler Beta Release \u2013 React",
+      "document_type": "blog_post",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_20c7bca2400f178d",
+      "url": "https://react.dev/blog/2025/10/07/react-compiler-1",
+      "title": "React Compiler v1.0 \u2013 React",
+      "document_type": "blog_post",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_d9a6de26c82ac707",
+      "url": "https://react.dev/reference/react-compiler/configuration",
+      "title": "Configuration \u2013 React",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_9fe5f64e10a43d94",
+      "url": "https://react.dev/reference/react/captureOwnerStack",
+      "title": "captureOwnerStack \u2013 React",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_4598115c47128228",
+      "url": "https://react.dev/reference/rsc/server-components",
+      "title": "Server Components \u2013 React",
+      "document_type": "supporting_document",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_e96924b63c2117ee",
+      "url": "https://github.com/react/react/blob/main/README.md",
+      "title": "README.md",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_0d9df87457a6dce9",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/reportError",
+      "title": "Window: reportError() method - Web APIs | MDN",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "Third-party page reached only by link-following; no version-specific statement."
+    },
+    {
+      "source_id": "doc_62004248d895e851",
+      "url": "https://www.youtube.com/watch?v=mneDaMYOKP8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=7",
+      "title": "React Docs Keynote - YouTube",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_d7712dedc1ef5ada",
+      "url": "https://www.youtube.com/watch?v=-7odLW_hG7s&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=8",
+      "title": "Things I learnt from the new React docs - YouTube",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_5333df3538c3320f",
+      "url": "https://testing-library.com/docs/react-testing-library/intro/",
+      "title": "React Testing Library | Testing Library",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_8ca6669623d6d489",
+      "url": "https://testing-library.com/docs/react-native-testing-library/intro/",
+      "title": "Introduction | Testing Library",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_08ead70465237ecc",
+      "url": "https://legacy.reactjs.org/docs/hooks-intro.html",
+      "title": "Introducing Hooks \u2013 React",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_110565b704097b92",
+      "url": "https://github.com/react/react/blob/main/packages/react-reconciler/README.md",
+      "title": "react/packages/react-reconciler/README.md at main \u00b7 react/react \u00b7 GitHub",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_c6ceb1b3cc7f5be3",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+      "title": "Map - JavaScript | MDN",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_3afad7684d5b78cb",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+      "title": "Set - JavaScript | MDN",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_61d9bfebd277d850",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+      "title": "Window: requestAnimationFrame() method - Web APIs | MDN",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_8983f894247621b3",
+      "url": "https://legacy.reactjs.org/docs/react-api.html",
+      "title": "React Top-Level API \u2013 React",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_fdac2e00e96319e9",
+      "url": "https://legacy.reactjs.org/docs/create-fragment.html",
+      "title": "Keyed Fragments \u2013 React",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_9bc81c388b60468f",
+      "url": "https://babeljs.io/docs/babel-polyfill/",
+      "title": "@babel/polyfill \u00b7 Babel",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_3a53b8ac87770c7a",
+      "url": "https://github.com/react/react/blob/48942b85/docs/docs/10.1-animation.md",
+      "title": "react/docs/docs/10.1-animation.md at 48942b85ea0db0adb6991ee9a845f98147ffa3bb \u00b7 react/react \u00b7 GitHub",
+      "document_type": "api_documentation",
+      "trust_tier": "official",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_ee61e9a1d14240fb",
+      "url": "https://legacy.reactjs.org/blog/2015/06/12/deprecating-jstransform-and-react-tools.html",
+      "title": "Deprecating JSTransform and react-tools \u2013 React Blog",
+      "document_type": "deprecation_notice",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_1ef95d2c1aacaddc",
+      "url": "https://legacy.reactjs.org/docs/update.html",
+      "title": "Immutability Helpers \u2013 React",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_85575c98a9a71334",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/CompositionEvent",
+      "title": "CompositionEvent - Web APIs | MDN",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_667cae19ad9c93fe",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+      "title": "Content Security Policy (CSP) - HTTP | MDN",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_d3256173db0295d2",
+      "url": "https://legacy.reactjs.org/docs/addons.html",
+      "title": "Add-Ons \u2013 React",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_955fc7297fb0deb8",
+      "url": "https://legacy.reactjs.org/docs/forms.html",
+      "title": "Forms \u2013 React",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    },
+    {
+      "source_id": "doc_ecb9c8e500442921",
+      "url": "https://legacy.reactjs.org/docs/how-to-contribute.html",
+      "title": "How to Contribute \u2013 React",
+      "document_type": "api_documentation",
+      "trust_tier": "third_party",
+      "reason": "No association with any resolved version."
+    }
+  ],
+  "trust_policy": {
+    "official": "Project site, project repository or the selected package registry record.",
+    "probable_official": "Repository name matches but owner differs; not verified.",
+    "official_repository_discussion": "Issues/PRs in the project repository: context, not release statements.",
+    "third_party": "Supporting context only; never overrides official sources."
+  },
+  "notes": [
+    "source_id equals the evidence document id, so evidence.json and candidate_sections.json join on it.",
+    "Fetch-level request log (including robots.txt checks) remains in evidence.json source_inventory."
+  ]
+}
